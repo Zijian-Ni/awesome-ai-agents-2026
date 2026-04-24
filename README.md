@@ -6,15 +6,15 @@
 [![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/awesome-ai-agents-2026?style=social)](https://github.com/Zijian-Ni/awesome-ai-agents-2026)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-230%2B-orange.svg)](#)
-[![Categories](https://img.shields.io/badge/Categories-17-purple.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%2024%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-270%2B-orange.svg)](#)
+[![Categories](https://img.shields.io/badge/Categories-19-purple.svg)](#)
 
 **The definitive curated list of AI models, agent frameworks, tools, protocols, and resources for 2026 — the year agents went mainstream and AI became infrastructure.**
 
 *Covering foundation models, multimodal AI, agent protocols (MCP/A2A), coding agents, computer use, generative AI, and more.*
 
-[Foundation Models](#-foundation-models-2026) · [Multimodal AI](#-multimodal--generative-ai) · [Protocols](#-agent-protocols--standards) · [Frameworks](#️-agent-frameworks) · [Memory](#-agent-memory) · [Tools](#-tool--api-integration) · [Security](#️-agent-security) · [RAG](#-rag--knowledge) · [Coding](#-coding-agents) · [Computer Use](#️-computer-use--desktop-agents) · [Voice](#️-voice--multimodal-agents) · [Personal](#-personal-ai-agents) · [Enterprise](#-enterprise-agent-platforms) · [Evaluation](#-agent-evaluation--observability) · [Research Tools](#-ai-research-tools) · [Learning](#-learning-resources) · [Notable 2026](#-notable-agent-projects-of-2026) · [Timeline](#-2026-ai-timeline)
+[Foundation Models](#-foundation-models-2026) · [Multimodal AI](#-multimodal--generative-ai) · [Protocols](#-agent-protocols--standards) · [Frameworks](#️-agent-frameworks) · [Memory](#-agent-memory) · [Tools](#-tool--api-integration) · [Security](#️-agent-security) · [RAG](#-rag--knowledge) · [Coding](#-coding-agents) · [Physical AI](#-physical-ai--embodied-agents) · [Benchmarks](#-benchmarks--leaderboards) · [Computer Use](#️-computer-use--desktop-agents) · [Voice](#️-voice--multimodal-agents) · [Personal](#-personal-ai-agents) · [Enterprise](#-enterprise-agent-platforms) · [Evaluation](#-agent-evaluation--observability) · [Research Tools](#-ai-research-tools) · [Learning](#-learning-resources) · [Notable 2026](#-notable-agent-projects-of-2026) · [Timeline](#-2026-ai-timeline)
 
 </div>
 
@@ -32,7 +32,9 @@
 | [🔌 Tool & API Integration](#-tool--api-integration) | Connecting agents to external services | 15+ |
 | [🛡️ Agent Security](#️-agent-security) | Prompt injection defense and guardrails | 10+ |
 | [🔍 RAG & Knowledge](#-rag--knowledge) | Retrieval-augmented generation systems | 12+ |
-| [💻 Coding Agents](#-coding-agents) | AI-powered software engineering | 20+ |
+| [💻 Coding Agents](#-coding-agents) | AI-powered software engineering | 22+ |
+| [🤖 Physical AI](#-physical-ai--embodied-agents) | Humanoid robots, embodied AI, industrial automation | 18+ |
+| [📊 Benchmarks](#-benchmarks--leaderboards) | Leaderboards tracking frontier capability | 11+ |
 | [🖥️ Computer Use](#️-computer-use--desktop-agents) | Desktop automation and computer control | 12+ |
 | [🗣️ Voice & Multimodal Agents](#️-voice--multimodal-agents) | Voice-enabled conversational AI | 10+ |
 | [📱 Personal AI Agents](#-personal-ai-agents) | Productivity and daily life assistants | 10+ |
@@ -54,6 +56,8 @@
 - [🛡️ Agent Security](#️-agent-security)
 - [🔍 RAG & Knowledge](#-rag--knowledge)
 - [💻 Coding Agents](#-coding-agents)
+- [🤖 Physical AI & Embodied Agents](#-physical-ai--embodied-agents)
+- [📊 Benchmarks & Leaderboards](#-benchmarks--leaderboards)
 - [🖥️ Computer Use & Desktop Agents](#️-computer-use--desktop-agents)
 - [🗣️ Voice & Multimodal Agents](#️-voice--multimodal-agents)
 - [📱 Personal AI Agents](#-personal-ai-agents)
@@ -82,21 +86,24 @@
 
 ### Anthropic
 
-- [Claude Opus 4.6](https://www.anthropic.com/) - 🆕 Released Feb 2026. 1M-token context, 14.5-hour task horizon, strongest sustained work capacity. Agent team capabilities.
-- [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) - 🆕 Released Feb 2026. Frontier coding and agentic performance, 1M token context window.
+- [Claude Opus 4.7](https://www.anthropic.com/) - 🆕 Released April 2026. Advanced software engineering (SWE-bench Verified 87.6%), enhanced vision, proactive code verification. Supports `/think xhigh` reasoning effort.
+- [Claude Opus 4.6](https://www.anthropic.com/) - Released Feb 2026. 1M-token context, 14.5-hour task horizon. Leads Arena chat leaderboard.
+- [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) - Released Feb 2026. Frontier coding and agentic performance, 1M token context window.
+- [Claude Mythos Preview](https://www.anthropic.com/) - 🆕 April 2026 gated research preview. BenchLM 99 (top of leaderboard), SWE-bench Verified 93.9%. Limited to Project Glasswing partners.
 - [Claude Opus 4](https://www.anthropic.com/news/claude-4) - Released May 2025. Advanced reasoning and complex task execution.
 - [Claude Sonnet 4](https://www.anthropic.com/news/claude-4) - Released May 2025. Balanced performance and cost for a wide range of tasks.
-- [Claude Mythos Preview](https://www.anthropic.com/) - 🆕 April 2026 gated research preview for defensive cybersecurity applications.
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic coding tool operating directly in your terminal with 80.9% SWE-bench score.
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic coding tool operating directly in your terminal. Powered by Opus 4.7 with `/think xhigh` support.
 
 ### Google DeepMind
 
-- [Gemini 3.1 Pro](https://deepmind.google/technologies/gemini/) - 🆕 Released Feb 2026. Google's most capable model with advanced reasoning, adaptive thinking, and 1M token context.
-- [Gemini 3.1 Flash](https://deepmind.google/technologies/gemini/) - 🆕 Fast and efficient model for high-throughput applications.
-- [Gemini 3.1 Flash Lite](https://deepmind.google/technologies/gemini/) - 🆕 Released March 2026. Optimized for speed and cost-efficiency in high-volume tasks.
-- [Gemini 2.5 Pro](https://deepmind.google/technologies/gemini/) - Thinking model with 1M context, excels at code and multimodal tasks. GA June 2025.
-- [Gemini 2.5 Flash](https://deepmind.google/technologies/gemini/) - Versatile model balancing intelligence and latency. GA June 2025.
-- [Gemma 3](https://github.com/google-deepmind/gemma) - Open model family for on-device and research use. ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/gemma?style=flat-square)
+- [Gemini 3.1 Pro](https://deepmind.google/technologies/gemini/) - Released Feb 2026. BenchLM 94, GPQA Diamond 94.3% (world-record), ARC AGI2 77.1%. Most capable Google model, `$2/1M tokens` flagship.
+- [Gemini 3.1 Flash Live](https://deepmind.google/technologies/gemini/) - 🆕 April 2026. Real-time multimodal streaming for voice assistants and interactive agents. Low latency, long context.
+- [Gemini 3.1 Flash / Flash Lite](https://deepmind.google/technologies/gemini/) - Fast, cost-efficient models for high-throughput applications.
+- [Gemini 4 (Open)](https://deepmind.google/technologies/gemini/) - 🆕 Released April 2026. Open model family: 2B / 4B / 26B / 31B variants. Strong science reasoning and document understanding, local deployment ready.
+- [Gemini 2.5 Pro / Flash](https://deepmind.google/technologies/gemini/) - GA June 2025. Thinking model with 1M context.
+- [Gemma 4 31B](https://github.com/google-deepmind/gemma) - 🆕 April 2026. GPQA Diamond 84.3%. Strong open-weight alternative for on-device reasoning. ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/gemma?style=flat-square)
+- [Gemma 3](https://github.com/google-deepmind/gemma) - Previous open model family for on-device and research use.
+- [Gemini Robotics ER-1.6](https://deepmind.google/) - 🆕 April 14, 2026. Upgraded robotics AI with improved spatial and physical reasoning. Partnership with Agile Robotics for real-world deployment.
 
 ### Meta
 
@@ -127,19 +134,21 @@
 
 ### Alibaba (Qwen)
 
-- [Qwen3.5-Omni](https://qwen.ai/) - 🆕 March 2026. Fully omni-modal LLM — language, vision, sound, motion. Speech recognition in 113 languages, 256K context.
-- [Qwen3.5 Plus](https://qwen.ai/) - 🆕 Feb 2026. Native vision-language model, hybrid architecture, 1M token context.
-- [Qwen3-Max-Thinking](https://qwen.ai/) - 🆕 Alibaba's strongest model. 1T+ parameters, enhanced agentic capabilities.
-- [Qwen3-Coder-Next](https://qwen.ai/) - 🆕 Feb 2026. Open-weight coding agent model, MoE with 80B total / 3B active parameters.
-- [Qwen3 235B-A22B](https://qwen.ai/) - MoE with dual-mode reasoning (thinking/non-thinking). Strong math, code, and commonsense reasoning.
-- [Qwen2.5 Coder 32B](https://github.com/QwenLM/Qwen2.5-Coder) - Top open-source model for coding tasks. ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Coder?style=flat-square)
+- [Qwen3.5 Max Pro](https://qwen.ai/) - 🆕 April 2026. High-performance flagship. Enhanced coding and math reasoning, long context. Challenges top closed models.
+- [Qwen3.5 Omni Plus](https://qwen.ai/) - 🆕 April 2026. Full-modal foundation model unifying text and image input. Document parsing, visual QA, Agent tasks.
+- [Qwen3.6-Plus](https://qwen.ai/) - 🆕 April 2026. High value-per-token general model. Strong long-context and tool-calling for enterprise use.
+- [Qwen3-Max-Thinking](https://qwen.ai/) - Alibaba's strongest model. 1T+ parameters, enhanced agentic capabilities.
+- [Qwen3.5-Omni](https://qwen.ai/) - March 2026. Fully omni-modal: language, vision, sound, motion. Speech recognition in 113 languages, 256K context.
+- [Qwen3-Coder-Next](https://qwen.ai/) - Feb 2026. Open-weight coding agent model, MoE 80B total / 3B active.
+- [Qwen3 235B-A22B](https://qwen.ai/) - MoE with dual-mode reasoning. Strong math, code, and commonsense reasoning.
+- [Qwen2.5 Coder 32B](https://github.com/QwenLM/Qwen2.5-Coder) - Top open-source coding model. ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Coder?style=flat-square)
 
 ### xAI (Grok)
 
-- [Grok 4.20](https://x.ai/) - 🆕 Feb 2026 beta. Multi-agent system (4 standard + 16 specialized agents in Heavy mode), 2M token context.
-- [Grok 4 / 4 Heavy](https://x.ai/) - Released July 2025. 3T parameters. xAI's frontier model outperforming rivals on key benchmarks.
-- [Grok 3](https://x.ai/) - Released Feb 2025. First dedicated reasoning model with "Think Mode" for step-by-step logic.
-- [Grok 3 Mini](https://x.ai/) - Lightweight reasoning model for faster inference.
+- [Grok 4.3 Beta](https://x.ai/) - 🆕 April 2026. Latest iteration with improved reasoning and coding benchmarks. See [`2026.4` benchmark snapshot](https://benchlm.ai/).
+- [Grok 4.20](https://x.ai/) - Feb 2026. Multi-agent system (4 standard + 16 specialized agents in Heavy mode), 2M token context.
+- [Grok 4 / 4 Heavy](https://x.ai/) - Released July 2025. 3T parameters. xAI's frontier model.
+- [Grok 3 / 3 Mini](https://x.ai/) - Feb 2025. First reasoning models with "Think Mode".
 
 ### Microsoft (Phi)
 
@@ -161,20 +170,24 @@
 
 ### Zhipu AI / Z.ai (GLM)
 
-- [GLM-5](https://z.ai/) - 🆕 Released Feb 2026. 744B parameters, advanced agentic intelligence. Trained on Huawei Ascend chips. Open-source MIT license.
-- [GLM-5V-Turbo](https://z.ai/) - 🆕 Released April 2026. Native multimodal agent — vision, video clips, text inputs.
-- [GLM-4.7](https://z.ai/) - Released late 2025. Matches Claude Opus 4 on SWE-Bench. Strong coding capabilities.
+- [GLM-5 Reasoning](https://z.ai/) - 🆕 April 2026. BenchLM 85 — **top open-source score**, closing the gap with commercial flagships. SWE-Bench Pro surpasses GPT-5.4 and Claude Opus 4.6.
+- [GLM-5.1](https://z.ai/) - 🆕 April 2026. Open-sourced under MIT license. Trained entirely on Huawei Ascend chips (no NVIDIA hardware).
+- [GLM-5V-Turbo](https://z.ai/) - 🆕 April 2026. Native multimodal agent — vision, video clips, text inputs. Cost-performance balanced.
+- [GLM-5](https://z.ai/) - Released Feb 2026. 744B parameters, advanced agentic intelligence. MIT license.
+- [GLM-4.7](https://z.ai/) - Released late 2025. Matches Claude Opus 4 on SWE-Bench.
 
 ### MiniMax
 
-- [MiniMax-M2.7](https://www.minimax.io/) - 🆕 2026 flagship intelligent model with strong reasoning and coding capabilities.
+- [MiniMax-M2.7 (Open Weights)](https://www.minimax.io/) - 🆕 April 2026. Ultra-long context (1M+ window). Top-tier performance on coding and Agent tasks.
 - [MiniMax-M1-80k](https://www.minimax.io/) - Open-weight hybrid-attention reasoning model. 456B parameters, 1M token context.
 - [Hailuo AI (Video)](https://hailuoai.video/) - Text/image-to-video generation with AI avatars, voiceovers, and character consistency.
+- [Kilo Code Integration](https://www.minimax.io/) - 🆕 MiniMax powers Kilo Code (new AI coding editor). Default model for its code-generation pipeline.
 
 ### Moonshot AI (Kimi)
 
-- [Kimi K2.5](https://kimi.ai/) - 🆕 Released Jan-Feb 2026. 1T total / 32B active MoE. Native multimodal, Agent Swarm (up to 100 parallel sub-agents). Open-source.
-- [Kimi Code](https://kimi.ai/) - 🆕 Premium coding tier powered by K2.5, terminal-based developer workflows.
+- [Kimi K2.6](https://kimi.ai/) - 🆕 April 2026. Latest flagship MoE. Supports `thinking.keep="all"` persistent reasoning mode. Integrated as default in OpenClaw v2026.4.20+.
+- [Kimi K2.5](https://kimi.ai/) - Jan-Feb 2026. 1T total / 32B active MoE. Native multimodal, Agent Swarm (up to 100 parallel sub-agents). Open-source.
+- [Kimi Code](https://kimi.ai/) - Premium coding tier powered by K2.5/K2.6, terminal-based developer workflows.
 
 ### ByteDance (Doubao / 豆包)
 
@@ -222,14 +235,16 @@
 
 ### Image Generation
 
+- [ChatGPT Images 2.0](https://openai.com/) - 🆕 April 2026. Free tier. Improved image detail, text understanding, and multi-turn editing for iterative refinement.
+- [gpt-image-2](https://openai.com/) - 🆕 OpenAI's latest image generation API. Supports 2K/4K resolution hints. Default in OpenClaw v2026.4.21.
 - [DALL·E 3](https://openai.com/dall-e-3) - OpenAI's text-to-image model integrated with ChatGPT for iterative refinement.
-- [GPT-Image-1](https://openai.com/) - 🆕 OpenAI's latest image generation model via API.
-- [Midjourney V7](https://www.midjourney.com/) - 🆕 Leading AI art generation with photorealistic and artistic capabilities.
+- [Midjourney V7](https://www.midjourney.com/) - Leading AI art generation with photorealistic and artistic capabilities.
 - [Stable Diffusion 3.5](https://stability.ai/) - Open-source image generation with improved coherence and prompt following.
-- [Flux](https://github.com/black-forest-labs/flux) - 🆕 Black Forest Labs' open-source image model with state-of-the-art quality. ![GitHub stars](https://img.shields.io/github/stars/black-forest-labs/flux?style=flat-square)
-- [Ideogram 3.0](https://ideogram.ai/) - 🆕 Excels at text rendering in images and design-oriented generation.
-- [Gemini 3 Pro Image](https://deepmind.google/technologies/gemini/) - 🆕 Google's native image generation within Gemini, supporting editing and creation.
-- [Recraft V3](https://www.recraft.ai/) - 🆕 Design-focused AI image generation for professional graphics.
+- [Flux](https://github.com/black-forest-labs/flux) - Black Forest Labs' open-source image model. ![GitHub stars](https://img.shields.io/github/stars/black-forest-labs/flux?style=flat-square)
+- [Ideogram 3.0](https://ideogram.ai/) - Excels at text rendering in images and design-oriented generation.
+- [Gemini 3 Pro Image](https://deepmind.google/technologies/gemini/) - Google's native image generation within Gemini.
+- [Recraft V3](https://www.recraft.ai/) - Design-focused AI image generation for professional graphics.
+- [Seedance 2.0](https://seed.bytedance.com/) - 🆕 ByteDance's next-gen image/animation generation API.
 
 ### Video Generation
 
@@ -296,7 +311,7 @@
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Integrate LLM technology into apps. C#, Python, Java support. ![GitHub stars](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=flat-square)
 - [Phidata (Agno)](https://github.com/phidatahq/phidata) - Build multi-modal agents with memory, knowledge, tools and reasoning. ![GitHub stars](https://img.shields.io/github/stars/phidatahq/phidata?style=flat-square)
 - [DSPy](https://github.com/stanfordnlp/dspy) - The framework for programming—not prompting—language models. ![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=flat-square)
-- [OpenClaw](https://github.com/nicobailon/openclaw) - Personal AI agent platform with skills, memory, and multi-channel support. ![GitHub stars](https://img.shields.io/github/stars/nicobailon/openclaw?style=flat-square)
+- [OpenClaw](https://github.com/openclaw/openclaw) - 🆕 Personal AI agent platform with skills, memory, multi-channel messaging, Dreaming (3-stage memory consolidation), Canvas/A2UI, ACP coding harness integration, and Standing Orders. v2026.4.21 with Claude Opus 4.7, Kimi K2.6, and `/think xhigh` support. Reportedly surpassed Linux in GitHub star count April 2026. ![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat-square)
 - [Dify](https://github.com/langgenius/dify) - Open-source LLM app development platform with visual agent builder. ![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=flat-square)
 - [Haystack Agents](https://github.com/deepset-ai/haystack) - End-to-end LLM framework for agentic pipelines. ![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat-square)
 - [Vellum AI](https://www.vellum.ai/) - 🆕 Production-grade agent framework with prompt-based building, evaluations, versioning, and observability.
@@ -385,13 +400,15 @@
 
 ### IDE-Based Agents
 
-- [Cursor](https://www.cursor.com/) - The AI code editor with Feb 2026 update supporting up to 8 parallel agents. 🆕
+- [Cursor 3.09](https://www.cursor.com/) - 🆕 April 3, 2026 update. Strengthened Agent mode for true Vibe Coding workflows. Core AI code editor in 2026 landscape.
+- [Kilo Code](https://www.kilocode.com/) - 🆕 April 2026 rising challenger to Cursor. Default model: MiniMax. Viral on Chinese developer communities (Bilibili).
+- [Cursor](https://www.cursor.com/) - The AI code editor with Feb 2026 update supporting up to 8 parallel agents.
 - [Windsurf](https://codeium.com/windsurf) - Agentic IDE by Codeium — AI-first code editing experience.
 - [Cline](https://github.com/cline/cline) - Autonomous coding agent in your IDE — VS Code extension. ![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=flat-square)
 - [Continue](https://github.com/continuedev/continue) - Open-source AI code assistant for VS Code and JetBrains. ![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=flat-square)
-- [GitHub Copilot](https://github.com/features/copilot) - 🆕 Agent mode with expanded model access and `gh copilot` shell integration in early 2026.
-- [Kiro](https://kiro.dev/) - 🆕 AWS autonomous agent. Spec-driven development, manages up to 10 simultaneous tasks, integrates with GitHub/Jira/Slack. Currently in preview.
-- [Amazon Q Developer](https://aws.amazon.com/q/developer/) - 🆕 AI coding companion deeply integrated with AWS ecosystem.
+- [GitHub Copilot](https://github.com/features/copilot) - Agent mode with expanded model access and `gh copilot` shell integration in early 2026.
+- [Kiro](https://kiro.dev/) - AWS autonomous agent. Spec-driven development, manages up to 10 simultaneous tasks.
+- [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AI coding companion deeply integrated with AWS ecosystem.
 
 ### Autonomous Software Engineers
 
@@ -402,6 +419,59 @@
 - [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) - Specify what you want built, AI asks for clarification, then builds it. ![GitHub stars](https://img.shields.io/github/stars/gpt-engineer-org/gpt-engineer?style=flat-square)
 - [Codegen](https://github.com/codegen-sh/codegen-sdk) - 🆕 Programmatic code manipulation and multi-file refactoring SDK. ![GitHub stars](https://img.shields.io/github/stars/codegen-sh/codegen-sdk?style=flat-square)
 - [Qodo](https://www.qodo.ai/) - 🆕 AI Code Review Platform focused on quality, security, and test generation.
+
+---
+
+## 🤖 Physical AI & Embodied Agents
+
+*AI systems that perceive, reason about, and act in the physical world — humanoid robots, factory automation, Physical AI infrastructure. The next wave after language agents.*
+
+### Foundational Models & Research
+
+- [Google Gemini Robotics ER-1.6](https://deepmind.google/) - 🆕 April 14, 2026. Robotics AI model with enhanced spatial and physical reasoning. Integrated into real robots via Agile Robotics partnership.
+- [Project Prometheus (Bezos)](https://www.reuters.com/) - 🆕 Jeff Bezos-led Physical AI venture. Raising $10B at $38B valuation to embed AI into physical systems and robotics.
+- [NVIDIA Isaac GR00T](https://developer.nvidia.com/isaac/gr00t) - NVIDIA's foundation model platform for humanoid robots. Unveiled at GTC, expanded at Hannover Messe 2026.
+- [NVIDIA Industrial AI Cloud](https://nvidianews.nvidia.com/) - 🆕 April 2026 (Hannover Messe). Deutsche Telekom-built AI factory infrastructure for industrial AI workloads.
+
+### Humanoid Robots
+
+- [Tesla Optimus Gen3](https://www.tesla.com/) - 🆕 Mass production summer 2026. Advanced humanoid for general-purpose tasks.
+- [Honour (荣耀) Humanoid](https://www.honor.com/) - 🆕 Set world record at 2026 half-marathon for humanoid robots.
+- [Zhiyuan (智元) AGIBOT](https://www.agibot.com/) - 🆕 April 2026. New humanoid body, foundation model, and solution suite. Calls 2026 "Deployment Year Zero."
+- [Unitree H-series](https://www.unitree.com/) - Boston Dynamics competitor from China. Ongoing 2026 iterations.
+- [Agile Robotics](https://www.agile-robots.com/) - 🆕 Gemini Robotics ER-1.6 deployment partner. German robotics company.
+- [Shenzhen Humanoid Pilot Line](https://www.sz.gov.cn/) - 🆕 First full production line for humanoid robots (Shenzhen, 2026).
+
+### Consumer Robotics & Wearables
+
+- [Doubao AI Glasses (ByteDance)](https://seed.bytedance.com/) - 🆕 Q2 2026 launch. Real-time translation, object recognition, Doubao LLM integration.
+- [Nothing AI Glasses/Earbuds](https://nothing.tech/) - 🆕 Announced April 2026. AI-integrated smart wearables.
+- [Samsung Galaxy S26 (Gauss 2.3)](https://www.samsung.com/) - On-device agentic AI. Gauss 2.3 Think and Gauss O Flash variants.
+- [Meta Ray-Ban Stories 3](https://www.meta.com/) - Continued iteration with deeper Llama integration.
+
+### Autonomous Driving
+
+- [Tesla FSD v13](https://www.tesla.com/) - Expanding L4-capable deployment across major markets.
+- [Waymo](https://waymo.com/) - Continuing commercial L4 rollout in US cities through 2026.
+- [WeRide / Pony.ai / Baidu Apollo](https://www.weride.ai/) - Chinese L4 fleets expanding operational zones.
+
+---
+
+## 📊 Benchmarks & Leaderboards
+
+*Standard evaluation suites and live leaderboards tracking frontier AI capability as of 2026.*
+
+- [BenchLM](https://benchlm.ai/) - 🆕 Composite leaderboard that aggregates multiple benchmark families. April 2026 top: Claude Mythos Preview 99, Gemini 3.1 Pro / GPT-5.4 tied at 94, Claude Opus 4.6 / GPT-5.4 Pro at 92, GLM-5 Reasoning 85 (top open).
+- [SWE-bench Verified](https://www.swebench.com/) - Real-world GitHub issue resolution benchmark. April 2026 top: Claude Mythos 93.9%, Claude Opus 4.7 87.6%.
+- [GPQA Diamond](https://github.com/idavidrein/gpqa) - Expert-level science reasoning. April 2026 top: Gemini 3.1 Pro 94.3% (world-record), Claude Opus 4.7 94.2%.
+- [ARC-AGI 2](https://arcprize.org/) - Abstract reasoning over novel tasks. Gemini 3.1 Pro 77.1%.
+- [OSWorld](https://os-world.github.io/) - Desktop GUI manipulation. GPT-5.4 at 75% (exceeded human baseline).
+- [LMArena (formerly Chatbot Arena)](https://lmarena.ai/) - Crowdsourced chat preference battles. Opus 4.6 currently leads.
+- [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro) - Multi-task language understanding, harder successor to MMLU. ![GitHub stars](https://img.shields.io/github/stars/TIGER-AI-Lab/MMLU-Pro?style=flat-square)
+- [LiveCodeBench](https://livecodebench.github.io/) - Contest-style coding benchmark, updated continuously to resist contamination.
+- [AIME 2025 / Humanity's Last Exam (HLE)](https://agi.safe.ai/) - Elite math / PhD-level general reasoning.
+- [Terminal-Bench](https://www.tbench.ai/) - CLI agent evaluation. Codex CLI 77.3%.
+- [Wolfram LLM Benchmark](https://www.wolfram.com/language/llm-benchmark/) - Symbolic + code-generation correctness.
 
 ---
 
