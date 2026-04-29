@@ -6,8 +6,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/awesome-ai-agents-2026?style=social)](https://github.com/Zijian-Ni/awesome-ai-agents-2026)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%2024%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-285%2B-orange.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%2029%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-300%2B-orange.svg)](#)
 [![Categories](https://img.shields.io/badge/Categories-19-purple.svg)](#)
 
 **The definitive curated list of AI models, agent frameworks, tools, protocols, and resources for 2026 — the year agents went mainstream and AI became infrastructure.**
@@ -140,8 +140,10 @@
 ### Alibaba (Qwen)
 
 - [Qwen3.6-27B](https://qwen.ai/blog?id=qwen3.6-27b) - 🆕 **April 22, 2026**. Dense 27B multimodal. Open-sourced. Focus: agentic coding + thinking-context preservation.
+- [Qwen3.6-Max-Preview](https://qwen.ai/) - 🆕 **April 18, 2026**. Proprietary frontier preview. High coding/reasoning performance, 1M context window. Top-tier among Chinese models on coding benchmarks.
 - [Qwen3.6-35B-A3B](https://qwen.ai/blog?id=qwen3.6-35b-a3b) - 🆕 **April 15, 2026**. MoE, 35B total / 3B active. Apache 2.0. Stability and real-world utility improvements.
-- [Qwen3.6-Plus](https://qwen.ai/) - 🆕 April 2026. Proprietary flagship. High value-per-token general model. Strong long-context, tool-calling, agentic behavior.
+- [Qwen3.6-Plus](https://qwen.ai/) - 🆕 **April 2, 2026**. Proprietary flagship. High value-per-token general model. Strong long-context, tool-calling, agentic behavior.
+- [Tianma (天马) AI](https://www.alibabacloud.com/) - 🆕 **April 27, 2026** (beta). Alibaba's image-to-video generation model. Strong character consistency and motion quality.
 - [Qwen3.5 Max Pro](https://qwen.ai/) - April 2026. High-performance flagship. Enhanced coding and math reasoning, long context.
 - [Qwen3.5 Omni Plus](https://qwen.ai/) - April 2026. Proprietary full-modal foundation model unifying text and image input.
 - [Qwen3-Max-Thinking](https://qwen.ai/) - Alibaba's strongest thinking model. 1T+ parameters, enhanced agentic capabilities.
@@ -216,6 +218,11 @@
 - [Nemotron 3 Ultra](https://developer.nvidia.com/nemotron) - 🆕 Released March 2026 (GTC). Frontier-level reasoning, 5x throughput efficiency on Blackwell platform.
 - [Nemotron 3 Super](https://developer.nvidia.com/nemotron) - 🆕 Released March 2026. 120B total / 12B active. 1M context. 5x higher throughput vs predecessor.
 - [Nemotron 3 Nano](https://developer.nvidia.com/nemotron) - Cost-efficient hybrid Transformer-Mamba MoE. Optimized for targeted agentic tasks.
+- [Nemotron 3 Nano Omni](https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/) - 🆕 **April 28, 2026**. 30B-A3B hybrid MoE (Mamba + Transformer). Natively multimodal: text, image, audio, video, charts, and documents in one model. 9x higher throughput than comparable open omni models. Topped 6 leaderboards (MMlongbench-Doc, OCRBenchV2, WorldSense, DailyOmni, VoiceBench). Open weights on Hugging Face, OpenRouter, Amazon SageMaker JumpStart.
+
+### Tencent (Hunyuan)
+
+- [Hunyuan Hy3 Preview](https://hy.tencent.com/research/hy3) - 🆕 **April 23, 2026**. 295B total / 21B active MoE, 256K context. Open-sourced on GitHub, Hugging Face, ModelScope, GitCode. Fast-slow thinking fusion architecture, 40% improved inference efficiency. Supports vLLM and SGLang. Integrated in Yuanbao, CodeBuddy, QQ, Tencent Docs. Available on OpenRouter (free preview period). ![GitHub stars](https://img.shields.io/github/stars/Tencent-Hunyuan/Hunyuan-A13B?style=flat-square)
 
 ### Apple
 
@@ -233,6 +240,10 @@
 ### 01.AI
 
 - [Yi-Lightning](https://www.01.ai/) - MoE architecture, 200+ tokens/s on RTX 4090. Strong multilingual (Chinese/English), open-source Apache 2.0. Released Oct 2024.
+
+### Chinese Academy of Sciences
+
+- [ScienceOne 100 / 磐石100](https://english.cas.cn/newsroom/cas-in-media/202604/t20260429_1158251.shtml) - 🆕 **April 28-29, 2026**. AI model system for scientific research from CAS. Core "ScienceOne" foundation model with literature compass, innovation evaluation engine, and 2,000+ tool agent factory. Supports math, physics, biology, materials science, astronomy, aerospace, and geosciences. In use across 50+ CAS institutes and 100+ research scenarios.
 
 ---
 
@@ -261,6 +272,7 @@
 - [Runway Gen-4](https://runwayml.com/) - 🆕 Professional video generation and editing with character and style consistency.
 - [Pika 2.0](https://pika.art/) - 🆕 Creative video generation with scene and effects control.
 - [LTX Studio](https://ltx.studio/) - 🆕 AI-powered cinematic video creation platform.
+- [Tianma (天马) AI](https://www.alibabacloud.com/) - 🆕 **April 27, 2026** (beta). Alibaba's new image-to-video generation model. High character consistency, natural motion, strong visual quality.
 - [Sora](https://openai.com/sora/) - ⚠️ *Discontinued April 2026.* OpenAI's text-to-video model, shut down due to costs and strategic pivot.
 
 ### Audio & Music
@@ -304,7 +316,7 @@
 *Frameworks and libraries for building autonomous AI agents.*
 
 - [LangChain](https://github.com/langchain-ai/langchain) - Build context-aware reasoning applications with LLMs. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square)
-- [LangGraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs with stateful, multi-actor orchestration. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
+- [LangGraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs with stateful, multi-actor orchestration. v0.3.19 (April 27, 2026): prebuilt agents split to `langgraph-prebuilt` — LangGraph Supervisor, LangGraph Swarm, LangMem, Trustcall. Production standard for agentic workflows. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing autonomous AI agents in collaborative teams. ![GitHub stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square)
 - [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - 🆕 Unified framework merging AutoGen + Semantic Kernel. Multi-agent conversations with enterprise features. GA Q1 2026.
 - [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework by Microsoft (now part of Microsoft Agent Framework). ![GitHub stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square)
@@ -326,6 +338,7 @@
 - [Rasa](https://github.com/RasaHQ/rasa) - Open-source conversational AI with strong intent recognition and dialogue management. ![GitHub stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=flat-square)
 - [Lindy](https://www.lindy.ai/) - 🆕 Top no-code agent framework for business users with visual workflow builder.
 - [Octomind](https://github.com/muvon/octomind) - 🆕 Rust-based open-source AI agent runtime. Model-agnostic (13+ providers), community-built specialist agents (developer, medical, legal, DevOps), MCP support with runtime self-extension, zero-config setup. Apache 2.0. ![GitHub stars](https://img.shields.io/github/stars/muvon/octomind?style=flat-square)
+- [Microsoft AI Agent Governance Toolkit](https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/) - 🆕 **April 3, 2026**. Open-source toolkit for enforcing runtime security policies across agent frameworks including LangChain and AutoGen. Policy-as-code approach for enterprise AI governance.
 
 ## 🧠 Agent Memory
 
@@ -341,6 +354,7 @@
 - [Cognee](https://github.com/topoteretes/cognee) - Deterministic LLM outputs using graphs, LLMs, and vector retrieval. ![GitHub stars](https://img.shields.io/github/stars/topoteretes/cognee?style=flat-square)
 - [LangGraph Memory](https://github.com/langchain-ai/langgraph) - 🆕 Built-in persistence and checkpointing for stateful agent workflows. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
 - [Graphiti](https://github.com/getzep/graphiti) - 🆕 Build and query knowledge graphs for agent memory using temporal awareness. ![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=flat-square)
+- [Claude Managed Agents Memory](https://platform.claude.com/docs/en/release-notes/overview) - 🆕 **April 23, 2026** (public beta). Anthropic's persistent memory feature for Claude Managed Agents. Agents retain information across sessions by mounting read/write memory stores to a filesystem. Enables long-running agents to learn and adapt without resetting context.
 
 ## 🔌 Tool & API Integration
 
@@ -638,6 +652,9 @@
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI became essential component of agent architectures. ![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square)
 - [Sora Discontinuation](https://openai.com/) - 🆕 OpenAI shut down Sora (April 2026), signaling strategic pivot to enterprise AI and reasoning.
 - [Kling VIDEO 3.0](https://kling.ai/) - 🆕 Kuaishou's video generation became the leading AI video platform post-Sora.
+- [Cohere + Aleph Alpha Merger](https://siliconangle.com/2026/04/24/ai-startups-cohere-aleph-alpha-merge-600m-new-funding/) - 🆕 **April 24, 2026**. Canadian AI firm Cohere merged with Germany's Aleph Alpha at ~$20B valuation. $600M Series E from Schwarz Group. Creates transatlantic "sovereign AI" powerhouse with dual HQ in Toronto and Germany.
+- [ScienceOne 100 / 磐石100](https://english.cas.cn/newsroom/cas-in-media/202604/t20260429_1158251.shtml) - 🆕 **April 28-29, 2026**. Chinese Academy of Sciences launches specialized scientific AI system. 2,000+ research tools, 50+ CAS institutes. Flagship-level scientific reasoning and agent capabilities.
+- [Google Invests $40B in Anthropic](https://aibusiness.com/generative-ai/google-could-invest-another-40-billion-anthropic) - 🆕 **April 2026**. $10B initial + up to $30B contingent on performance milestones. Includes 5GW compute capacity over 5 years. Largest AI partnership investment to date.
 
 ---
 
@@ -661,9 +678,30 @@
 | **Mar 2026** | DeepSeek announces new model trained on latest Nvidia chips | Models |
 | **Mar 2026** | MCP 2026 roadmap published — focus on production scaling and governance | Protocols |
 | **Mar 2026** | Sora shutdown announced (app closes April 26) | Events |
-| **Apr 2026** | Claude Mythos Preview — gated cybersecurity research model | Models |
+| **Apr 2, 2026** | Qwen3.6-Plus proprietary flagship launched by Alibaba | Models |
+| **Apr 3, 2026** | Microsoft AI Agent Governance Toolkit released (open-source) | Tools |
+| **Apr 6, 2026** | Microsoft Agent Framework officially announced (AutoGen + Semantic Kernel unified) | Frameworks |
+| **Apr 7, 2026** | GLM-5.1 open-sourced by Zhipu AI — 744B MoE, trained on Huawei Ascend | Models |
+| **Apr 8-9, 2026** | Meta Muse Spark released — first model from Meta Superintelligence Labs | Models |
+| **Apr 2026** | Claude Mythos Preview — gated cybersecurity research model (BenchLM 99, SWE-bench 93.9%) | Models |
 | **Apr 2026** | Sora app officially shuts down | Events |
+| **Apr 14, 2026** | Gemini Robotics ER-1.6 upgraded robotics AI with enhanced spatial reasoning | Robotics |
+| **Apr 15, 2026** | Qwen3.6-35B-A3B open-sourced (Apache 2.0) by Alibaba | Models |
+| **Apr 16, 2026** | Claude Opus 4.7 released — SWE-bench Verified 87.6%, `/think xhigh` reasoning | Models |
+| **Apr 18, 2026** | Qwen3.6-Max-Preview launched — top Chinese model on coding benchmarks | Models |
+| **Apr 20-21, 2026** | Kimi K2.6 released by Moonshot AI — 1T MoE, 1,000-agent swarm | Models |
+| **Apr 22, 2026** | Qwen3.6-27B open-sourced by Alibaba — dense 27B multimodal | Models |
+| **Apr 23, 2026** | Tencent open-sources Hunyuan Hy3 Preview — 295B/21B MoE, 256K context | Models |
+| **Apr 23, 2026** | Claude Managed Agents Memory public beta — persistent cross-session agent memory | Tools |
+| **Apr 23, 2026** | GPT-5.5 released by OpenAI — major agentic coding and reasoning upgrade | Models |
+| **Apr 24, 2026** | DeepSeek V4 Pro & Flash released — 1.6T MoE, 1M context, MIT license | Models |
+| **Apr 24, 2026** | Cohere merges with Germany's Aleph Alpha at ~$20B valuation + $600M funding | Industry |
+| **Apr 27, 2026** | Alibaba Tianma AI image-to-video model enters beta | Models |
+| **Apr 27, 2026** | LangGraph v0.3.19 released; LangGraph Swarm prebuilt agents | Frameworks |
+| **Apr 28, 2026** | NVIDIA Nemotron 3 Nano Omni released — 30B multimodal (text/image/audio/video) | Models |
+| **Apr 28-29, 2026** | CAS ScienceOne 100 / 磐石100 launched — scientific AI for 50+ research institutes | Models |
 | **Apr 2026** | Gartner predicts 40% of enterprise apps will embed AI agents by end of 2026 | Industry |
+| **Apr 2026** | Google commits up to $40B investment in Anthropic (initial $10B) | Industry |
 | **2026 (ongoing)** | A2A Protocol grows to 150+ partner organizations | Protocols |
 | **2026 (ongoing)** | 85% of developers regularly use AI coding tools | Industry |
 | **2026 (ongoing)** | Enterprise agentic AI adoption accelerates — "Agents as a Service" emerges | Industry |
@@ -686,7 +724,7 @@ This list is released under [MIT License](LICENSE).
 
 **⭐ If you find this list useful, please give it a star! ⭐**
 
-*230+ resources across 17 categories — from foundation models to agent protocols to generative AI.*
+*300+ resources across 19 categories — from foundation models to agent protocols to generative AI.*
 
 Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 
