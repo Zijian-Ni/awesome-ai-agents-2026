@@ -732,3 +732,5 @@ Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 *Last updated: April 2026*
 
 </div>
+
+- [BenchClaw](https://github.com/Agnuxo1/BenchClaw) — Multi-dimensional AI benchmark with 10 evaluation dimensions and AI Tribunal of 5 independent reviewers
