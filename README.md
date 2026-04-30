@@ -582,6 +582,7 @@
 - [Terminal-Bench](https://www.tbench.ai/) - 🆕 Benchmark for terminal-based coding agent evaluation. Maintained by Harbor Framework. ![GitHub stars](https://img.shields.io/github/stars/harbor-framework/terminal-bench?style=flat-square)
 - [LMArena (formerly LMSYS Chatbot Arena)](https://lmarena.ai/) - 🆕 Crowdsourced LLM benchmark using human preference voting. LMSYS rebranded to LMArena in 2025.
 - [Patronus AI](https://www.patronus.ai/) - 🆕 Automated LLM evaluation and red-teaming platform.
+- [BenchClaw](https://github.com/Agnuxo1/benchclaw) - 🆕 Multi-dimensional AI agent evaluation harness — 17-judge tribunal, 8 deception detectors, 10 scoring dimensions. Connect any LLM agent for scientific benchmarking. ![GitHub stars](https://img.shields.io/github/stars/Agnuxo1/benchclaw?style=flat-square)
 
 ---
 
