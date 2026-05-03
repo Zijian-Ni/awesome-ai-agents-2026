@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # 🤖 Awesome AI Agents 2026
 
@@ -293,6 +293,7 @@
 ### Model Context Protocol (MCP)
 
 - [MCP Specification](https://modelcontextprotocol.io/) - 🆕 The "USB-C for AI" — open protocol by Anthropic for connecting LLMs to tools and data sources. Donated to Agentic AI Foundation (Linux Foundation) in Dec 2025.
+- [Web Agent Bridge (WAB)](https://github.com/abokenan444/web-agent-bridge) — Web-native open protocol for AI agent-website interaction. Standardizes discovery via `/.well-known/wab.json` + DNS TXT records with Ed25519/DNSSEC trust layer. Ships with MCP server (`@wab/mcp-server`), negotiation engine, dynamic pricing shield, and integrations for WordPress (43% of the web), Cloudflare Workers, Vercel, and Railway. Netherlands-based. MIT license.
 - [MCP Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations of MCP servers for popular services. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square)
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP clients and servers. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/typescript-sdk?style=flat-square)
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for MCP implementation. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/python-sdk?style=flat-square)
@@ -733,3 +734,4 @@ Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 *Last updated: April 2026*
 
 </div>
+
