@@ -6,7 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/awesome-ai-agents-2026?style=social)](https://github.com/Zijian-Ni/awesome-ai-agents-2026)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%2029%2C%202026-blue.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-May%204%2C%202026-blue.svg)](#)
 [![Resources](https://img.shields.io/badge/Resources-300%2B-orange.svg)](#)
 [![Categories](https://img.shields.io/badge/Categories-19-purple.svg)](#)
 
@@ -78,6 +78,7 @@
 
 - [GPT-5.5](https://openai.com/index/gpt-5-5-system-card/) - 🆕 Released **April 23, 2026** (codename "Spud"). OpenAI's new frontier model for agentic tasks: coding, online research, data analysis, autonomous tool navigation. Significant gains in reasoning, consistency, and long-horizon task handling. Available on ChatGPT Plus / Pro / Business / Enterprise.
 - [GPT-5.5 Pro](https://openai.com/index/gpt-5-5-system-card/) - 🆕 April 23, 2026. Parallel test-time compute variant for higher-accuracy cognitive tasks. Pro / Business / Enterprise tiers.
+- [GPT-5.5-Cyber](https://openai.com/index/trusted-access-for-cyber/) - 🆕 **April 30, 2026**. Cybersecurity-specialized variant of GPT-5.5, rolled out via OpenAI's Trusted Access for Cyber (TAC) program to vetted defenders, government, critical infrastructure operators, and security vendors. Not available to the general public.
 - [GPT-5.4](https://openai.com/) - Released March 2026. Frontier model with 1M-token context, advanced coding, computer use, tool search. BenchLM 94, SWE-bench Verified 77.2%, OSWorld 75% (beats human).
 - [GPT-5.4 Pro](https://openai.com/) - Higher-accuracy variant of GPT-5.4. BenchLM 92.
 - [GPT-5.3](https://openai.com/) - Early 2026. Includes GPT-5.3 Instant (conversations) and GPT-5.3-Codex (coding).
@@ -89,13 +90,14 @@
 
 ### Anthropic
 
-- [Claude Opus 4.7](https://www.anthropic.com/) - 🆕 Released April 2026. Advanced software engineering (SWE-bench Verified 87.6%), enhanced vision, proactive code verification. Supports `/think xhigh` reasoning effort.
+- [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 🆕 Released April 16, 2026. Advanced software engineering (SWE-bench Verified 87.6%), enhanced vision, proactive code verification. Supports `/think xhigh` reasoning effort. 1M-token context.
 - [Claude Opus 4.6](https://www.anthropic.com/) - Released Feb 2026. 1M-token context, 14.5-hour task horizon. Leads Arena chat leaderboard.
 - [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) - Released Feb 2026. Frontier coding and agentic performance, 1M token context window.
 - [Claude Mythos Preview](https://www.anthropic.com/) - 🆕 April 2026 gated research preview. BenchLM 99 (top of leaderboard), SWE-bench Verified 93.9%. Limited to Project Glasswing partners.
 - [Claude Opus 4](https://www.anthropic.com/news/claude-4) - Released May 2025. Advanced reasoning and complex task execution.
 - [Claude Sonnet 4](https://www.anthropic.com/news/claude-4) - Released May 2025. Balanced performance and cost for a wide range of tasks.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic coding tool operating directly in your terminal. Powered by Opus 4.7 with `/think xhigh` support.
+- [Claude Security](https://www.anthropic.com/) - 🆕 **May 1, 2026**. Public beta. Enterprise security tool powered by Opus 4.7 — scans entire codebases for vulnerabilities and generates targeted patches with confidence rating, severity, reproduction steps, and recommended fixes. Available to Enterprise customers via [claude.ai/security](https://claude.ai/security).
 
 ### Google DeepMind
 
@@ -306,7 +308,7 @@
 
 ### Other Standards
 
-- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 🆕 OpenAI's framework for multi-agent workflows with tracing and guardrails. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 🆕 [Major update April 15, 2026](https://openai.com/index/the-next-evolution-of-the-agents-sdk/): native sandbox execution, first-class MCP integration, sub-agent / handoff patterns, and Codex-style filesystem tools for production-ready multi-agent workflows. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
 - [Agentic AI Foundation](https://www.linuxfoundation.org/) - 🆕 Linux Foundation fund co-founded by Anthropic, Block, and OpenAI to govern open agent standards.
 
 ---
@@ -321,7 +323,7 @@
 - [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - 🆕 Unified framework merging AutoGen + Semantic Kernel. Multi-agent conversations with enterprise features. GA Q1 2026.
 - [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework by Microsoft (now part of Microsoft Agent Framework). ![GitHub stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square)
 - [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - 🆕 Modular framework integrated with Gemini and Vertex AI. Hierarchical agent compositions. ![GitHub stars](https://img.shields.io/github/stars/google/adk-python?style=flat-square)
-- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 🆕 Build multi-agent workflows with GPT models, tracing, and guardrails. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 🆕 [Next evolution shipped April 15, 2026](https://openai.com/index/the-next-evolution-of-the-agents-sdk/) — native sandbox execution, MCP-native tool use, sub-agent handoffs, Codex-style filesystem ops. Production-ready multi-agent workflows. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
 - [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent framework assigning different roles to GPTs for collaborative software entities. ![GitHub stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=flat-square)
 - [Mastra](https://github.com/mastra-ai/mastra) - 🆕 TypeScript-first agent framework with workflow-driven development and built-in observability. ![GitHub stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat-square)
 - [AgentGPT](https://github.com/reworkd/AgentGPT) - Assemble, configure, and deploy autonomous AI agents in your browser. ![GitHub stars](https://img.shields.io/github/stars/reworkd/AgentGPT?style=flat-square)
@@ -555,6 +557,7 @@
 
 - [Salesforce Agentforce](https://www.salesforce.com/agentforce/) - Autonomous AI agents for enterprise CRM — sales, service, and marketing.
 - [Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio) - Build and customize AI agents and copilots for your organization.
+- [Gemini Enterprise Agent Platform](https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform) - 🆕 **April 22, 2026** (Google Cloud Next '26). Evolution of Vertex AI into a unified hub for building, scaling, governing, and optimizing enterprise agents. Supports Gemini 3.1 Pro/Flash, Lyria 3, plus third-party models (Claude Opus/Sonnet/Haiku). Integrated agent DevOps, security, and orchestration.
 - [Google Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder) - Build and deploy enterprise-ready generative AI agents on Google Cloud.
 - [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) - Build AI agents that can execute multi-step tasks across company systems.
 - [ServiceNow AI Agents](https://www.servicenow.com/products/ai-agents.html) - AI agents for enterprise IT service management with AI Control Tower. 🆕
@@ -702,6 +705,11 @@
 | **Apr 27, 2026** | LangGraph v0.3.19 released; LangGraph Swarm prebuilt agents | Frameworks |
 | **Apr 28, 2026** | NVIDIA Nemotron 3 Nano Omni released — 30B multimodal (text/image/audio/video) | Models |
 | **Apr 28-29, 2026** | CAS ScienceOne 100 / 磐石100 launched — scientific AI for 50+ research institutes | Models |
+| **Apr 30, 2026** | OpenAI begins rollout of GPT-5.5-Cyber via the Trusted Access for Cyber (TAC) program | Models |
+| **Apr 30, 2026** | OpenAI publishes ["A practical guide to building agents"](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/) | Resources |
+| **May 1, 2026** | Anthropic launches Claude Security in public beta — Opus 4.7-powered codebase vulnerability scanner with auto-patches | Tools |
+| **May 2026** | Macquarie Bank reports 130,000 hours saved in 7 months using Gemini Enterprise | Industry |
+| **May 2026** | Google starts rolling Gemini into eligible vehicles, replacing Google Assistant (English-first, U.S. rollout) | Industry |
 | **Apr 2026** | Gartner predicts 40% of enterprise apps will embed AI agents by end of 2026 | Industry |
 | **Apr 2026** | Google commits up to $40B investment in Anthropic (initial $10B) | Industry |
 | **2026 (ongoing)** | A2A Protocol grows to 150+ partner organizations | Protocols |
@@ -730,6 +738,6 @@ This list is released under [MIT License](LICENSE).
 
 Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 
-*Last updated: April 2026*
+*Last updated: May 4, 2026*
 
 </div>
