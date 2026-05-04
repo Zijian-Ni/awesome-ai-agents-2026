@@ -586,6 +586,7 @@
 - [LMArena (formerly LMSYS Chatbot Arena)](https://lmarena.ai/) - 🆕 Crowdsourced LLM benchmark using human preference voting. LMSYS rebranded to LMArena in 2025.
 - [Patronus AI](https://www.patronus.ai/) - 🆕 Automated LLM evaluation and red-teaming platform.
 - [BenchClaw](https://github.com/Agnuxo1/benchclaw) - 🆕 Multi-dimensional AI agent evaluation harness — 17-judge tribunal, 8 deception detectors, 10 scoring dimensions. Connect any LLM agent for scientific benchmarking. ![GitHub stars](https://img.shields.io/github/stars/Agnuxo1/benchclaw?style=flat-square)
+- [PromptEden](https://www.prompteden.com) - External AI-visibility monitoring — tracks how ChatGPT, Claude, Gemini, Perplexity, Copilot, and Grok describe your brand and which competitors they recommend instead, refreshed daily across 9+ platforms.
 
 ---
 
