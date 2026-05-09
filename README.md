@@ -473,6 +473,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [LightRAG](https://github.com/HKUDS/LightRAG) - 🆕 Simple and fast RAG engine with graph-based knowledge indexing. ![GitHub stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat-square)
 - [R2R](https://github.com/SciPhi-AI/R2R) - 🆕 Production-ready RAG engine with built-in auth, observability, and ingestion. ![GitHub stars](https://img.shields.io/github/stars/SciPhi-AI/R2R?style=flat-square)
 - [Vanna](https://github.com/vanna-ai/vanna) - 📦 **Archived** (2026-02). RAG for SQL — chat with your database using natural language. ![GitHub stars](https://img.shields.io/github/stars/vanna-ai/vanna?style=flat-square)
+- [AI for Database](https://aifordatabase.com) - ⚠️ Unverified. Agentic platform for natural language database queries — no SQL needed — plus self-refreshing dashboards and data-triggered workflows.
 
 ## 💻 Coding Agents
 
