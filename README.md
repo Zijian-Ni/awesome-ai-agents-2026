@@ -750,6 +750,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - 💤 **Stale** (last update 2025-02). Curated list of AI autonomous agents by E2B — pre-2026 reference. ![GitHub stars](https://img.shields.io/github/stars/e2b-dev/awesome-ai-agents?style=flat-square)
 - [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) - Curated list of LLM-powered agent resources. ![GitHub stars](https://img.shields.io/github/stars/kaushikb11/awesome-llm-agents?style=flat-square)
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - 🆕 Curated list of MCP server implementations. ![GitHub stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=flat-square)
+- [Awesome AI Startups — AI Agents & Assistants](https://github.com/nowork-studio/awesome-ai-startups#ai-agents-assistants) - 88 indie/bootstrapped AI agent products from independent founders. ![GitHub stars](https://img.shields.io/github/stars/nowork-studio/awesome-ai-startups?style=flat-square)
 
 ---
 
