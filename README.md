@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-May%2010%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-300%2B-orange.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-340%2B-orange.svg)](#)
 [![Categories](https://img.shields.io/badge/Categories-25-purple.svg)](#)
 [![Audited](https://img.shields.io/badge/Spam_Audited-2026--05--10-success.svg)](#️-status-legend)
 [![Chinese](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
@@ -106,6 +106,10 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [GPT-5.5](https://openai.com/index/gpt-5-5-system-card/) - 🆕 Released **April 23, 2026** (codename "Spud"). OpenAI's new frontier model for agentic tasks: coding, online research, data analysis, autonomous tool navigation. Significant gains in reasoning, consistency, and long-horizon task handling. Available on ChatGPT Plus / Pro / Business / Enterprise.
 - [GPT-5.5 Pro](https://openai.com/index/gpt-5-5-system-card/) - 🆕 April 23, 2026. Parallel test-time compute variant for higher-accuracy cognitive tasks. Pro / Business / Enterprise tiers.
 - [GPT-5.5-Cyber](https://openai.com/index/trusted-access-for-cyber/) - 🆕 **April 30, 2026**. Cybersecurity-specialized variant of GPT-5.5, rolled out via OpenAI's Trusted Access for Cyber (TAC) program to vetted defenders, government, critical infrastructure operators, and security vendors. Not available to the general public.
+- [GPT-5.5 Instant](https://openai.com/index/gpt-5-5-instant/) - 🆕 **May 5, 2026**. New ChatGPT default model. Efficiency-first upgrade with ~50% lower hallucination rate on high-stakes prompts; available on free tier.
+- [GPT-Realtime-2](https://openai.com/) - 🆕 **May 8, 2026**. GPT-5-class reasoning brought to the Realtime API, 128K context, parallel tool calls with audio feedback, adjustable reasoning effort.
+- [GPT-Realtime-Translate](https://openai.com/) - 🆕 **May 8, 2026**. Live speech-to-speech translation across 70+ input languages and 13 output languages.
+- [GPT-Realtime-Whisper](https://openai.com/) - 🆕 **May 8, 2026**. Streaming low-latency speech-to-text companion to GPT-Realtime-2.
 - [GPT-5.4](https://openai.com/) - Released March 2026. Frontier model with 1M-token context, advanced coding, computer use, tool search. BenchLM 94, SWE-bench Verified 77.2%, OSWorld 75% (beats human).
 - [GPT-5.4 Pro](https://openai.com/) - Higher-accuracy variant of GPT-5.4. BenchLM 92.
 - [GPT-5.3](https://openai.com/) - Early 2026. Includes GPT-5.3 Instant (conversations) and GPT-5.3-Codex (coding).
@@ -125,6 +129,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Claude Sonnet 4](https://www.anthropic.com/news/claude-4) - Released May 2025. Balanced performance and cost for a wide range of tasks.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic coding tool operating directly in your terminal. Powered by Opus 4.7 with `/think xhigh` support.
 - [Claude Security](https://www.anthropic.com/) - 🆕 **May 1, 2026**. Public beta. Enterprise security tool powered by Opus 4.7 — scans entire codebases for vulnerabilities and generates targeted patches with confidence rating, severity, reproduction steps, and recommended fixes. Available to Enterprise customers via [claude.ai/security](https://claude.ai/security).
+- [Claude Finance Agents](https://www.anthropic.com/news/finance-agents) - 🆕 **May 5, 2026**. Ten Opus-4.7-powered specialised agents for pitchbook authoring, KYC, month-end close, deal screening, etc. Deployable as Claude Cowork plugins, Claude Code skills, or Managed-Agents cookbooks.
+- [Claude Finance JV](https://www.anthropic.com/) - 🆕 **May 4, 2026**. $1.5B Claude deployment joint venture with Goldman Sachs and Blackstone embedding Anthropic engineers in mid-market Wall Street firms.
 
 ### Google DeepMind
 
@@ -156,6 +162,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Pixtral Large](https://mistral.ai/) - 124B multimodal model with 1B vision encoder, 128K context, processes 30+ high-res images.
 - [Ministral 3B/8B/14B](https://mistral.ai/) - Compact models optimized for edge deployment and efficiency.
 - [Mistral Forge](https://mistral.ai/) - 🆕 March 2026 platform for training custom LLMs on proprietary data.
+- [Mistral Medium 3.5](https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04) - 🆕 **April 29, 2026**. Dense 128B open-weight model, 256K context, Modified MIT license. Unifies instruction-following, reasoning, and coding.
+- [Voxtral TTS](https://www.forbes.com/sites/ronschmelzer/2026/03/26/mistral-releases-open-weight-voice-ai-built-for-speed/) - 🆕 **March 26, 2026**. 4B-parameter open-weight TTS built on Ministral 3B; multilingual, optimised for voice agents.
 
 ### DeepSeek
 
@@ -165,6 +173,12 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [DeepSeek-R2](https://www.deepseek.com/) - 2026 advanced reasoning model. Successor to R1, competes with GPT-5 and Gemini 3 Pro.
 - [DeepSeek-R1](https://www.deepseek.com/) - Reasoning-focused model with chain-of-thought capabilities. Released Jan 2025.
 - [DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2) - Code generation model competitive with GPT-4 on coding benchmarks. ![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-Coder-V2?style=flat-square)
+
+### Meta (Llama)
+
+- [Llama 5](https://ai.meta.com/llama/) - 🆕 **April 8, 2026**. 600B+ parameter open-source flagship from Meta Superintelligence Labs; "recursive self-improvement" research line. Marketed as exceeding leading proprietary models on reasoning, coding, autonomous agentic behaviour.
+- [Meta Muse Spark](https://ai.meta.com/) - 🆕 **April 8-9, 2026**. First public model from Meta Superintelligence Labs; long-context multimodal foundation.
+- [Llama 4 Scout / Maverick](https://ai.meta.com/llama/) - 10M-token context (Scout) MoE flagship line shipped April 2025; still the production fallback for many enterprise stacks.
 
 ### Alibaba (Qwen)
 
@@ -180,6 +194,26 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Qwen3-Coder-Next](https://qwen.ai/) - Feb 2026. Open-weight coding agent model, MoE 80B total / 3B active.
 - [Qwen3 235B-A22B](https://qwen.ai/) - MoE with dual-mode reasoning. Strong math, code, and commonsense reasoning.
 - [Qwen2.5 Coder 32B](https://github.com/QwenLM/Qwen2.5-Coder) - Top open-source coding model. ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Coder?style=flat-square)
+
+### MiniMax (extra)
+
+- [MiniMax M2.7](https://venturebeat.com/technology/new-minimax-m2-7-proprietary-ai-model-is-self-evolving-and-can-perform-30-50) - 🆇 🆕 **March 2026**. Proprietary self-evolving LLM tuned for agent harness construction, memory updates, iterative workflow improvement; major gains on SWE-bench-style tasks.
+- [MiniMax M2.5](https://www.codemotion.com/magazine/ai-ml/minimax-m2-5-low-costs-high-performance/) - 🆇 **February 2026**. 230B-parameter cost-efficient flagship for "real-world productivity".
+- [Hailuo 02](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🆇 🆕 **March 2026**. Native 1080p text/image-to-video with longer training corpus.
+- [MiniMax Music 2.6](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🆇 🆕 **April 2026**. Cover-generation focus with improved low-frequency reproduction; global beta.
+
+### ByteDance (Doubao / Seedance)
+
+- [Doubao 2.0](https://www.taipeitimes.com/News/biz/archives/2026/02/16/2003852382) - 🆇 🆕 **February 2026**. Agent-era upgrade focused on real-world task execution; powers ByteDance's consumer AI apps.
+- [Seedance 2.0](https://economictimes.indiatimes.com/us/news/seedance-2-0-goes-live-as-bytedances-ai-videos-ignite-china-market-rally/articleshow/128150649.cms) - 🆇 🆕 **February 2026**. Multi-modal cinematic video generation, 2K resolution, ~30% faster than Seedance 1.5.
+
+### StepFun
+
+- [Step 3.5 Flash](https://www.scmp.com/tech/article/3342222/punches-above-its-weight-compact-ai-model-chinas-stepfun-outshines-larger-rivals) - 🆇 🆕 **February 2026**. ~196B-parameter compact reasoning + agent model; punches above its weight against larger Chinese rivals.
+
+### Baichuan
+
+- [Baichuan-M3 Plus](https://pandaily.com/baichuan-ai-launches-low-hallucination-medical-model-m3-plus-announces-free-access-program) - 🆇 🆕 **January 2026**. Evidence-anchored medical LLM with low hallucination rate; free API for Chinese medical institutions.
 
 ### xAI (Grok)
 
@@ -282,34 +316,44 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Image Generation
 
+- [Midjourney V8.1](https://en.wikipedia.org/wiki/Midjourney) - 🆕 **April 30, 2026**. HD 2K image support, new Raw mode options. V8 (3D model generation) reportedly later in 2026.
+- [Flux 2 Pro / Flex / Dev / Klein](https://ropewalk.ai/blog/flux-2-ai-image-generation-2026) - 🆕 **November 2025**. Black Forest Labs' next-generation family. SOTA image quality, multi-reference consistency, dramatically improved text rendering.
+- [Recraft V4](https://en.wikipedia.org/wiki/Recraft) - 🆕 **February 17, 2026**. Ground-up rebuild; major prompt-accuracy improvements; editable SVG vector output.
+- [Stable Diffusion 3.5](https://stability.ai/) - Open-source image generation with improved coherence and prompt following.
+- [Ideogram 3.0](https://ideogram.ai/) - Excels at text rendering in images; March 2025 release with style references and in-platform canvas editor.
 - [ChatGPT Images 2.0](https://openai.com/) - 🆕 April 2026. Free tier. Improved image detail, text understanding, and multi-turn editing for iterative refinement.
 - [gpt-image-2](https://openai.com/) - 🆕 OpenAI's latest image generation API. Supports 2K/4K resolution hints. Default in OpenClaw v2026.4.21.
 - [DALL·E 3](https://openai.com/dall-e-3) - OpenAI's text-to-image model integrated with ChatGPT for iterative refinement.
-- [Midjourney V7](https://www.midjourney.com/) - Leading AI art generation with photorealistic and artistic capabilities.
-- [Stable Diffusion 3.5](https://stability.ai/) - Open-source image generation with improved coherence and prompt following.
-- [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale** (last update 2025-07). Black Forest Labs' open-source image model. ![GitHub stars](https://img.shields.io/github/stars/black-forest-labs/flux?style=flat-square)
-- [Ideogram 3.0](https://ideogram.ai/) - Excels at text rendering in images and design-oriented generation.
 - [Gemini 3 Pro Image](https://deepmind.google/technologies/gemini/) - Google's native image generation within Gemini.
-- [Recraft V3](https://www.recraft.ai/) - Design-focused AI image generation for professional graphics.
-- [Seedance 2.0](https://seed.bytedance.com/) - 🆕 ByteDance's next-gen image/animation generation API.
+- [Nano Banana 2 (Gemini 3 Pro Image)](https://deepmind.google/) - 🆕 Google's transparent-background-friendly image model exposed via OpenClaw image_generate.
+- [Kling IMAGE 3.0](https://klingaio.com/blogs/kling-3-release) - 🆇 🆕 **April 23, 2026**. Cinema-grade native 4K image generation from Kuaishou.
+- [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale** (last update 2025-07). Black Forest Labs' original open-source repo — superseded by Flux 2 family. ![GitHub stars](https://img.shields.io/github/stars/black-forest-labs/flux?style=flat-square)
+- [Seedance 2.0 (image side)](https://seed.bytedance.com/) - 🆇 🆕 ByteDance's next-gen image/animation generation API; pairs with the video model of the same name.
 
 ### Video Generation
 
-- [Kling VIDEO 3.0](https://kling.ai/) - 🆕 By Kuaishou. Realistic human motion, lip-sync, narrative production with audio sync. Up to 15s videos.
-- [Hailuo AI](https://hailuoai.video/) - 🆕 By Minimax. Text/image-to-video with AI avatars, voiceovers, and character consistency.
-- [Veo 2](https://deepmind.google/technologies/veo/) - 🆕 Google DeepMind's video generation model with high fidelity and coherence.
-- [Runway Gen-4](https://runwayml.com/) - 🆕 Professional video generation and editing with character and style consistency.
+- [Veo 3.1](https://deepmind.google/technologies/veo/) - 🆕 **October 2025**. Google DeepMind's flagship video model. **Veo 4** rumoured for late-April / late-May 2026.
+- [Runway Gen-4](https://runwayml.com/) - 🆕 Professional video generation and editing with character and style consistency. Now exposes Kling 3.0 / Sora 2 Pro inside the platform (April 2026).
+- [Kling VIDEO 3.0](https://kling.ai/) - 🆇 🆕 **February 4-7, 2026**. Kuaishou's new generation; realistic human motion, lip-sync, narrative production with audio sync.
+- [Sora 2 (via Runway)](https://runwayml.com/changelog) - 🆕 OpenAI's Sora app shut down 2026-04, but Sora 2 Pro is integrated into Runway as of April 7, 2026.
+- [Seedance 2.0](https://seed.bytedance.com/) - 🆇 🆕 **February 2026**. ByteDance multi-modal cinematic video generation, 2K resolution, ~30% faster than 1.5.
+- [Hailuo 02](https://hailuoai.video/) - 🆇 🆕 **March 2026**. MiniMax video model now native 1080p with expanded training data.
 - [Pika 2.0](https://pika.art/) - 🆕 Creative video generation with scene and effects control.
 - [LTX Studio](https://ltx.studio/) - 🆕 AI-powered cinematic video creation platform.
-- [Tianma (天马) AI](https://www.alibabacloud.com/) - 🆕 **April 27, 2026** (beta). Alibaba's new image-to-video generation model. High character consistency, natural motion, strong visual quality.
-- [Sora](https://openai.com/sora/) - ⚠️ *Discontinued April 2026.* OpenAI's text-to-video model, shut down due to costs and strategic pivot.
+- [Tianma (天马) AI](https://www.alibabacloud.com/) - 🆇 🆕 **April 27, 2026** (beta). Alibaba's image-to-video model.
+- [Sora](https://openai.com/sora/) - 📦 **Discontinued** (April 26, 2026). OpenAI's text-to-video app shut down; Sora 2 Pro lives on inside Runway.
 
 ### Audio & Music
 
-- [ElevenLabs](https://elevenlabs.io/) - Industry-leading AI voice synthesis, cloning, and conversational AI.
+- [ElevenLabs Eleven v3 + ElevenAgents](https://elevenlabs.io/voice-agents) - 🆕 2026 "audio layer of the internet" — 70+ language TTS with emotional Audio Tags, plus the AIUC-1-certified ElevenAgents voice-agent platform with multimodal messages, conversation topic discovery, and pre-tool speech controls.
+- [Eleven Music + Scribe v2 Realtime](https://elevenlabs.io/) - 🆕 ElevenLabs' music generation and live transcription stack.
+- [Cartesia Sonic 3 / 3.5](https://cartesia.ai/blog/introducing-line-for-voice-agents) - 🆕 **2026**. State-space-model TTS hitting ~40-90ms time-to-first-audio; powers the **Line Agents** voice-agent platform launched April 2026.
+- [Deepgram Nova-3 + Aura-2 + Flux Multilingual](https://deepgram.com/learn/best-voice-ai-agents-2026-buyers-guide) - 🆕 **April 2026**. Speech-to-text in 45+ languages, sub-200ms TTS, conversational STT with mid-call language switching across 10 languages.
+- [MiniMax Music 2.6](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🆇 🆕 **April 2026**. Cover generation focus with improved low-frequency reproduction.
+- [Voxtral TTS](https://www.forbes.com/sites/ronschmelzer/2026/03/26/mistral-releases-open-weight-voice-ai-built-for-speed/) - 🆕 **March 26, 2026**. Mistral's open-weight 4B TTS built for voice-agent latency.
 - [Suno V4](https://suno.com/) - 🆕 AI music generation from text prompts with high-quality vocals and instruments.
 - [Udio](https://www.udio.com/) - 🆕 Text-to-music generation with professional audio quality.
-- [OpenAI Audio Models](https://openai.com/) - Native audio understanding and generation within GPT-4o.
+- [OpenAI Audio Models](https://openai.com/) - Native audio understanding and generation within GPT-4o, GPT-Realtime-2 (May 8, 2026).
 - [Stability Audio](https://stability.ai/) - Open-source audio and music generation.
 - [Bark](https://github.com/suno-ai/bark) - 💤 **Stale** (no commits since 2024-08). Open-source text-to-audio model supporting speech, music, and sound effects. ![GitHub stars](https://img.shields.io/github/stars/suno-ai/bark?style=flat-square)
 
@@ -383,6 +427,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Restack](https://www.restack.io/) - Durable agent runtime + visual workflow editor (built on Temporal-style replay). Open-source examples in [restackio/examples-python](https://github.com/restackio/examples-python).
 - [Bisheng](https://github.com/dataelement/bisheng) - 🇨🇳 Open enterprise LLM DevOps platform: workflow editor, RAG, agent orchestration, fine-tuning, dataset management, observability. Apache-2.0. ![GitHub stars](https://img.shields.io/github/stars/dataelement/bisheng?style=flat-square)
 - [n8n](https://github.com/n8n-io/n8n) - General-purpose visual workflow automation that has become a popular agent canvas — 400+ integrations + native AI nodes. Fair-code license. ![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=flat-square)
+- [Mastra](https://github.com/mastra-ai/mastra) - 🆕 Opinionated TypeScript agent framework with RAG, observability, MCP, and visual workflow builder; 21K+ stars. ![GitHub stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat-square)
+- [VoltAgent](https://github.com/VoltAgent/voltagent) - 🆕 End-to-end TypeScript AI Agent Engineering Platform with memory, RAG, guardrails, MCP, voice, and workflow capabilities. ![GitHub stars](https://img.shields.io/github/stars/VoltAgent/voltagent?style=flat-square)
 
 ---
 
@@ -394,6 +440,10 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Mem0](https://github.com/mem0ai/mem0) - The Memory layer for your AI apps — self-improving memory for LLM applications. ![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square)
 - [Zep](https://github.com/getzep/zep) - Long-term memory for AI assistants and agents. ![GitHub stars](https://img.shields.io/github/stars/getzep/zep?style=flat-square)
 - [agent-memory](https://github.com/Zijian-Ni/agent-memory) - Lightweight agent memory framework for persistent context across sessions. ![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/agent-memory?style=flat-square)
+- [Mem0g (graph variant)](https://mem0.ai/blog/state-of-ai-agent-memory-2026) - 🆕 Graph-enhanced sibling of Mem0 for multi-hop questions; 21+ framework integrations as of early 2026.
+- [Graphiti](https://github.com/getzep/graphiti) - 🆕 Zep's open-source temporal knowledge graph engine; every fact is timestamped so agents can reason about "when" as well as "what". ![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=flat-square)
+- [LangMem](https://github.com/langchain-ai/langmem) - 🆕 Spun out of LangGraph 0.3.19 (April 2026). Long-term episodic + procedural memory primitive for agents. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=flat-square)
+- [Claude Managed Agents Memory](https://www.anthropic.com/) - 🆕 **April 23, 2026** public beta. Persistent cross-session memory baked into Anthropic's hosted agent runtime.
 - [LangMem](https://github.com/langchain-ai/langmem) - Long-term memory library for LangChain agents. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=flat-square)
 - [Motorhead](https://github.com/getmetal/motorhead) - 💤 **Stale** (no commits since 2025-07). Memory and context management server for LLMs. ![GitHub stars](https://img.shields.io/github/stars/getmetal/motorhead?style=flat-square)
 - [ChromaDB](https://github.com/chroma-core/chroma) - AI-native open-source embedding database for memory-augmented agents. ![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=flat-square)
@@ -473,6 +523,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [LightRAG](https://github.com/HKUDS/LightRAG) - 🆕 Simple and fast RAG engine with graph-based knowledge indexing. ![GitHub stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat-square)
 - [R2R](https://github.com/SciPhi-AI/R2R) - 🆕 Production-ready RAG engine with built-in auth, observability, and ingestion. ![GitHub stars](https://img.shields.io/github/stars/SciPhi-AI/R2R?style=flat-square)
 - [Vanna](https://github.com/vanna-ai/vanna) - 📦 **Archived** (2026-02). RAG for SQL — chat with your database using natural language. ![GitHub stars](https://img.shields.io/github/stars/vanna-ai/vanna?style=flat-square)
+- [Morphik](https://github.com/morphik-org/morphik-core) - 🆕 Multimodal RAG engine for documents containing tables, figures, and charts; rapidly-rising 2026 alternative to LlamaIndex for complex PDFs. ![GitHub stars](https://img.shields.io/github/stars/morphik-org/morphik-core?style=flat-square)
+- [Cognee](https://github.com/topoteretes/cognee) - 🆕 Memory + reasoning engine that builds a knowledge graph as agents ingest documents; 2026 darling for "long-running research agent" stacks. ![GitHub stars](https://img.shields.io/github/stars/topoteretes/cognee?style=flat-square)
 
 ## 💻 Coding Agents
 
@@ -481,8 +533,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 ### Terminal & CLI Agents
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's agentic coding tool. 80.9% SWE-bench score, handles complex multi-file bugs.
-- [Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal coding agent. 77.3% Terminal-Bench score. ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=flat-square)
-- [Aider](https://github.com/Aider-AI/aider) - AI pair programming in your terminal — works with any LLM. ![GitHub stars](https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square)
+- [Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal coding agent. 77.3% Terminal-Bench score. May 2026 update adds **Codex Chrome extension** for in-browser test/DevTools workflows. ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=flat-square)
+- [Codex Security](https://developers.openai.com/codex/changelog) - 🆕 **March 2026**. Application-security agent that finds and fixes software vulnerabilities; available to OSS maintainers via the Codex-for-OSS program.
+- [Aider](https://github.com/Aider-AI/aider) - AI pair programming in your terminal — works with any LLM, with first-class git commit handling. ![GitHub stars](https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square)
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - 🆕 Google's terminal-first coding agent for large-context refactors. ![GitHub stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat-square)
 
 ### IDE-Based Agents
@@ -492,14 +545,18 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Cursor](https://www.cursor.com/) - The AI code editor with Feb 2026 update supporting up to 8 parallel agents.
 - [Windsurf](https://codeium.com/windsurf) - Agentic IDE by Codeium — AI-first code editing experience.
 - [Cline](https://github.com/cline/cline) - Autonomous coding agent in your IDE — VS Code extension. ![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=flat-square)
+- [Roo Code](https://roocode.com/) - 🆕 Open-source VS Code extension that reads/writes across multiple files, runs commands, model-agnostic; free except for the LLM API you bring.
+- [Void](https://github.com/voideditor/void) - 🆕 Fork of VS Code positioned as the open-source Cursor alternative; data stays with you, BYO model. ![GitHub stars](https://img.shields.io/github/stars/voideditor/void?style=flat-square)
 - [Continue](https://github.com/continuedev/continue) - Open-source AI code assistant for VS Code and JetBrains. ![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=flat-square)
 - [GitHub Copilot](https://github.com/features/copilot) - Agent mode with expanded model access and `gh copilot` shell integration in early 2026.
+- [Cursor 3.3](https://cursor.com/changelog) - 🆕 **May 2026**. PR-review experience, parallel agents, enterprise model controls; previous 3.1 in April.
 - [Kiro](https://kiro.dev/) - AWS autonomous agent. Spec-driven development, manages up to 10 simultaneous tasks.
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AI coding companion deeply integrated with AWS ecosystem.
 
 ### Autonomous Software Engineers
 
 - [Devin 3.0](https://www.cognition.ai/) - 🆕 By Cognition. Dynamic re-planning, self-healing code, legacy codebase migration, multi-modal input (UI mockups, video recordings).
+- [Devin 2.2](https://cognition.ai/blog/introducing-devin-2-2) - 🆕 **February 2026**. Sandboxed terminal + editor + browser; commercial product (Core $20/mo, Team $500/mo).
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open-source platform for AI software developers as autonomous agents. ![GitHub stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square)
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - Turn LLMs into software engineering agents that fix real GitHub issues. ![GitHub stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent?style=flat-square)
 - [Devika](https://github.com/stitionai/devika) - 💤 **Stale** (no commits since 2025-09). Agentic AI software engineer — open-source alternative to Devin. ![GitHub stars](https://img.shields.io/github/stars/stitionai/devika?style=flat-square)
@@ -522,8 +579,13 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Humanoid Robots
 
-- [Tesla Optimus Gen3](https://www.tesla.com/) - 🆕 Mass production summer 2026. Advanced humanoid for general-purpose tasks.
-- [Honour (荣耀) Humanoid](https://www.honor.com/) - 🆕 Set world record at 2026 half-marathon for humanoid robots.
+- [Tesla Optimus Gen3 (V3)](https://www.teslarati.com/tesla-optimus-awe-2026-shanghai/) - 🆕 **AWE 2026 Shanghai debut**. First mass-produced Optimus; Fremont line started January 2026, 50K-100K units/year initial target, ~$30K USD initial price, late-2026 limited external sales. 37 joints, 1.2 m/s walking, 22-DoF hands.
+- [Figure 03 (Helix AI)](https://blog.robozaps.com/b/figure-03-review) - 🆕 **Late 2025 announcement, ramping in 2026**. First Figure model designed for the home: soft textile coverings, wireless charging, tactile sensors. May 2026 demo: two F.03 robots autonomously cleaning a room and making a bed in <2 minutes via visual coordination only.
+- [Figure 02 + Helix 02](https://en.wikipedia.org/wiki/Figure_AI) - 🆕 **January 2026**. Helix 02 expands whole-body autonomy (load/unload dishwashers, fold laundry); BotQ facility rated for 12K units/year.
+- [Unitree G1 + H1-2](https://community.robotshop.com/blog/show/unitree-robotics-at-ces-2026-a-clear-signal-of-whats-coming-next) - 🆕 **CES 2026**. G1 dance/boxing/skating demos, autonomous kung fu (February), 5'8" H1-2 industrial unit at 7.4 mph. 20K humanoid shipments targeted in 2026.
+- [Unitree R1 Air](https://www.eweek.com/news/chinese-unitree-g1-humanoid-robot-skates-spins-flips-apac/) - 🆕 Consumer humanoid at **$4,900** — runs, flips, walks on hands.
+- [Unitree Gen 2 (lifelike skin)](https://www.youtube.com/watch?v=Gmp82MuTFsM) - 🆕 Realistic human-like skin with embedded pressure / temperature / touch sensors.
+- [Honor (荣耀) Humanoid](https://www.honor.com/) - 🆕 Set world record at 2026 half-marathon for humanoid robots.
 - [Zhiyuan (智元) AGIBOT](https://www.agibot.com/) - 🆕 April 2026. New humanoid body, foundation model, and solution suite. Calls 2026 "Deployment Year Zero."
 - [Unitree H-series](https://www.unitree.com/) - Boston Dynamics competitor from China. Ongoing 2026 iterations.
 - [Agile Robotics](https://www.agile-robots.com/) - 🆕 Gemini Robotics ER-1.6 deployment partner. German robotics company.
@@ -573,6 +635,11 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [AIME 2025 / Humanity's Last Exam (HLE)](https://agi.safe.ai/) - Elite math / PhD-level general reasoning.
 - [Terminal-Bench](https://www.tbench.ai/) - CLI agent evaluation. Codex CLI 77.3%.
 - [Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/) - Code generation benchmark from English spec to Wolfram Language. Updated continuously.
+- [Terminal-Bench 2.0](https://www.tbench.ai/) - 🆕 **Late 2025 / early 2026**. 89 curated terminal tasks (compile, train, configure, debug). May 2026 leader: GPT-5.5 82.7%, Claude Opus 4.7 69.4%.
+- [GDPval / GDPval-MM](https://artificialanalysis.ai/evaluations/gdpval-aa) - 🆕 **Feb 2026**. OpenAI economic-value benchmark across 44 occupations / 9 industries; 1,320 expert-built tasks. May 2026 leader: GPT-5.5 84.9% on GDPval-MM.
+- [SWE-bench Pro](https://www.swebench.com/) - 🆕 Repository-level engineering successor to Verified. Claude Opus 4.7 64.3% > GPT-5.5 58.6% (Claude leads on long-horizon repo work).
+- [Hieroglyphic Benchmark](https://juliangoldie.com/google-gemini-3-5/) - 🆕 Lateral / abstract-reasoning benchmark; Gemini 3.5 "Snowbunny" 80% (leaked).
+- [LLM-Stats Live Leaderboard](https://llm-stats.com/llm-updates) - 🆕 Continuously-refreshed cross-benchmark dashboard for newly-released models.
 
 ---
 
@@ -623,6 +690,10 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Cartesia](https://www.cartesia.ai/) - 🆕 Ultra-low-latency voice AI for real-time conversational agents.
 - [Meta Voice AI](https://ai.meta.com/) - 🆕 Former PlayHT/Play.ai team's tech, integrated into Meta AI, AI Characters, and Meta wearables after July 2025 acquisition. Original Play.ai platform shut down Dec 31, 2025.
 - [Sesame](https://www.sesame.com/) - 🆕 Voice AI companion with emotional understanding and natural conversation.
+- [ElevenAgents](https://elevenlabs.io/voice-agents) - 🆕 ElevenLabs' full-stack voice-agent platform (April-May 2026 updates): MCP, multimodal messages, conversation topic discovery, knowledge-base search, pre-tool speech controls. First voice-agent platform to earn AIUC-1 certification.
+- [Cartesia Line](https://cartesia.ai/blog/introducing-line-for-voice-agents) - 🆕 **April 2026**. Code-first voice-agent platform built on Sonic 3 TTS + Ink STT; ~40-90ms time-to-first-audio.
+- [Deepgram Voice Agent API](https://deepgram.com/learn/best-voice-ai-agents-2026-buyers-guide) - 🆕 Single endpoint bundling STT (Nova-3) + LLM routing + TTS (Aura-2) + Flux conversational STT with mid-call language switching across 10 languages.
+- [OpenAI Realtime API (GPT-Realtime-2)](https://openai.com/) - 🆕 **May 8, 2026**. GPT-5-class reasoning over voice with parallel tool calls; supersedes the previous Realtime models for production voice agents.
 
 ## 📱 Personal AI Agents
 
