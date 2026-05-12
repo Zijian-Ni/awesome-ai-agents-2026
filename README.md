@@ -451,6 +451,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [LangGraph Memory](https://github.com/langchain-ai/langgraph) - 🆕 Built-in persistence and checkpointing for stateful agent workflows. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
 - [Graphiti](https://github.com/getzep/graphiti) - 🆕 Build and query knowledge graphs for agent memory using temporal awareness. ![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=flat-square)
 - [Claude Managed Agents Memory](https://platform.claude.com/docs/en/release-notes/overview) - 🆕 **April 23, 2026** (public beta). Anthropic's persistent memory feature for Claude Managed Agents. Agents retain information across sessions by mounting read/write memory stores to a filesystem. Enables long-running agents to learn and adapt without resetting context.
+- [Dakera](https://github.com/dakera-ai/dakera-mcp) - 🆕 Self-hosted, MCP-native agent memory server scoring **87.8% on the LoCoMo benchmark**. 83 MCP tools for store/recall/search/decay/graph operations. Built in Rust with RocksDB+HNSW — runs fully offline, no external LLM API required. ![GitHub stars](https://img.shields.io/github/stars/dakera-ai/dakera-mcp?style=flat-square)
 
 ## 🔌 Tool & API Integration
 
