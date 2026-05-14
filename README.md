@@ -412,6 +412,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Lindy](https://www.lindy.ai/) - 🆕 Top no-code agent framework for business users with visual workflow builder.
 - [Octomind](https://github.com/muvon/octomind) - 🆕 Rust-based open-source AI agent runtime. Model-agnostic (13+ providers), community-built specialist agents (developer, medical, legal, DevOps), MCP support with runtime self-extension, zero-config setup. Apache 2.0. ![GitHub stars](https://img.shields.io/github/stars/muvon/octomind?style=flat-square)
 - [Microsoft AI Agent Governance Toolkit](https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/) - 🆕 **April 3, 2026**. Open-source toolkit for enforcing runtime security policies across agent frameworks including LangChain and AutoGen. Policy-as-code approach for enterprise AI governance.
+- [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) - 🆕 Python orchestrator for 40+ CLI coding agents (Claude Code, Codex, Gemini CLI, Cursor, Aider). One LLM plan call up front; scheduling, git worktree isolation, quality gates, and HMAC-chained audit are deterministic. Apache-2.0. ![GitHub stars](https://img.shields.io/github/stars/sipyourdrink-ltd/bernstein?style=flat-square)
 
 ---
 
