@@ -1018,6 +1018,19 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ---
 
+
+## ✍️ Content & Blogging Agents
+
+*AI agents built on top of blogging and publishing platforms.*
+
+| Agent | Description | Pricing | Platform | Key Features |
+|-------|-------------|---------|----------|--------------|
+| [MisarBlog Writer Agent](https://www.misar.blog) | Autonomous blog content creation — researches topics, generates SEO titles, creates cover images, publishes articles | Free (API key) | Misar.Blog MCP | SEO-optimized, cover image gen, draft/publish |
+| [MisarBlog Growth Agent](https://www.misar.blog) | Data-driven analytics agent — analyzes blog performance, identifies content gaps, manages content series | Free (API key) | Misar.Blog MCP | Analytics, series management, growth strategy |
+| [MisarBlog Community Agent](https://www.misar.blog) | Community management — monitors comments, reactions, newsletter metrics | Free (API key) | Misar.Blog MCP | Newsletter, comments, engagement digest |
+
+MCP Server: [misarblog-mcp--misar.run.tools](https://misarblog-mcp--misar.run.tools) · [Smithery](https://smithery.ai/server/misar/misarblog-mcp) · [GitHub](https://github.com/mrgulshanyadav/misarblog-mcp)
+
 ## Contributing
 
 Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
