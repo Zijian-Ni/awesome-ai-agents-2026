@@ -3,6 +3,26 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+## 2026-05-15 — PR triage & May tail refresh
+
+### + Added
+
+- **Agent Frameworks** — [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) (PR #18, 358 stars, Apache-2.0, deterministic CLI agent orchestrator with HMAC-chained audit, git worktree isolation; flagged for parallel blast across 8 awesome lists 2026-05-14 but passes quality gate).
+- **Voice & Multimodal Agents** — [OpenYabby](https://github.com/OpenYabby/OpenYabby) (issue #10, 29 stars, MIT, macOS voice-driven multi-agent orchestrator on the Realtime API; third-party nomination by idovmamane).
+
+### ~ Changed
+
+- **OpenClaw** — description refreshed from v2026.4.21 to **v2026.5.12** (May 14, 2026): native model identity injection, isolated Telegram polling worker, MEMORY.md auto-compaction, protected config paths for owner/exec approvals.
+- **2026 AI Timeline** — added 2026-05-14 OpenClaw v2026.5.12 release entry under Tools.
+
+### ✕ Closed without merge / list (PR & issue triage)
+
+- **PR #19** MisarBlog — closed. Quality-gate fail: 0 GitHub stars on `mrgulshanyadav/misarblog-mcp`, single maintainer of an unknown project (sole-maintainer rule), proposed entry used a table format inconsistent with the surrounding bullet-list section. Same author has filed parallel submissions across 5+ awesome lists in the past two months (`punkpeye/awesome-mcp-servers`, `jaw9c/awesome-remote-mcp-servers`, `e2b-dev/awesome-ai-agents`, `caramaschiHG/awesome-ai-agents-2026`, etc.). Welcome to re-submit once third-party adoption is verifiable.
+- **Issue #16** Nobulex (Trust Capital) — closed as duplicate. Already listed in Agent Security at line #506 with the `⚠️ Unverified` caveat covering the Microsoft AGT merge + npm download discrepancy + 15+ awesome-list blast. No new evidence in this issue.
+- **Issue #20** Nobulex (Security & Governance) — closed as duplicate of #16; same submitter / project / claim already audited.
+
+---
+
 ## 2026-05-10 — Weekly refresh, PR audit & global model expansion
 
 ### + Added (model & tool expansion across 8 sections)

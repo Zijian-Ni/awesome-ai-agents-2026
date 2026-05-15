@@ -403,7 +403,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Integrate LLM technology into apps. C#, Python, Java support. ![GitHub stars](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=flat-square)
 - [Phidata (Agno)](https://github.com/phidatahq/phidata) - Build multi-modal agents with memory, knowledge, tools and reasoning. ![GitHub stars](https://img.shields.io/github/stars/phidatahq/phidata?style=flat-square)
 - [DSPy](https://github.com/stanfordnlp/dspy) - The framework for programming—not prompting—language models. ![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=flat-square)
-- [OpenClaw](https://github.com/openclaw/openclaw) - 🆕 Personal AI agent platform with skills, memory, multi-channel messaging, Dreaming (3-stage memory consolidation), Canvas/A2UI, ACP coding harness integration, and Standing Orders. v2026.4.21 with Claude Opus 4.7, Kimi K2.6, and `/think xhigh` support. Reportedly surpassed Linux in GitHub star count April 2026. ![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat-square)
+- [OpenClaw](https://github.com/openclaw/openclaw) - 🆕 Personal AI agent platform with skills, memory, multi-channel messaging, Dreaming (3-stage memory consolidation), Canvas/A2UI, ACP coding harness integration, and Standing Orders. **v2026.5.12** (May 14, 2026) with Claude Opus 4.7, Kimi K2.6, `/think xhigh` support, native model identity injection, isolated Telegram polling worker, and tightened protected-config paths. ![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat-square)
 - [Dify](https://github.com/langgenius/dify) - Open-source LLM app development platform with visual agent builder. ![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=flat-square)
 - [Haystack Agents](https://github.com/deepset-ai/haystack) - End-to-end LLM framework for agentic pipelines. ![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat-square)
 - [Vellum AI](https://www.vellum.ai/) - 🆕 Production-grade agent framework with prompt-based building, evaluations, versioning, and observability.
@@ -695,6 +695,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Cartesia Line](https://cartesia.ai/blog/introducing-line-for-voice-agents) - 🆕 **April 2026**. Code-first voice-agent platform built on Sonic 3 TTS + Ink STT; ~40-90ms time-to-first-audio.
 - [Deepgram Voice Agent API](https://deepgram.com/learn/best-voice-ai-agents-2026-buyers-guide) - 🆕 Single endpoint bundling STT (Nova-3) + LLM routing + TTS (Aura-2) + Flux conversational STT with mid-call language switching across 10 languages.
 - [OpenAI Realtime API (GPT-Realtime-2)](https://openai.com/) - 🆕 **May 8, 2026**. GPT-5-class reasoning over voice with parallel tool calls; supersedes the previous Realtime models for production voice agents.
+- [OpenYabby](https://github.com/OpenYabby/OpenYabby) - 🆕 Open-source macOS voice-driven multi-agent orchestrator — Realtime API + CLI runners + multi-channel orchestration. A lead agent plans the work and delegates to sub-agents for review and QA. MIT. ![GitHub stars](https://img.shields.io/github/stars/OpenYabby/OpenYabby?style=flat-square)
 
 ## 📱 Personal AI Agents
 
@@ -1011,6 +1012,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | **May 7, 2026** | Google preparing **Agent Mode for Flow** (Veo-based AI filmmaking) — automated video production pipeline | Tools |
 | **May 8, 2026** | OpenAI launches **GPT-Realtime-2 / Realtime-Translate / Realtime-Whisper** — voice agents, live translation, real-time transcription | Models |
 | **May 9, 2026** | OpenAI rolls out **Workspace Agents** in ChatGPT Enterprise — repeatable workflow automation across connected apps | Tools |
+| **May 14, 2026** | [OpenClaw v2026.5.12](https://github.com/openclaw/openclaw/releases) shipped — native model identity injected into system prompt, isolated Telegram polling worker, MEMORY.md auto-compaction, protected config paths for owner/exec approvals | Tools |
 | **Apr 2026** | Gartner predicts 40% of enterprise apps will embed AI agents by end of 2026 | Industry |
 | **Apr 2026** | Google commits up to $40B investment in Anthropic (initial $10B) | Industry |
 | **2026 (ongoing)** | A2A Protocol grows to 150+ partner organizations | Protocols |
