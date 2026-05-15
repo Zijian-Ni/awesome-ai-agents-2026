@@ -106,6 +106,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [GPT-5.5](https://openai.com/index/gpt-5-5-system-card/) - 🆕 Released **April 23, 2026** (codename "Spud"). OpenAI's new frontier model for agentic tasks: coding, online research, data analysis, autonomous tool navigation. Significant gains in reasoning, consistency, and long-horizon task handling. Available on ChatGPT Plus / Pro / Business / Enterprise.
 - [GPT-5.5 Pro](https://openai.com/index/gpt-5-5-system-card/) - 🆕 April 23, 2026. Parallel test-time compute variant for higher-accuracy cognitive tasks. Pro / Business / Enterprise tiers.
 - [GPT-5.5-Cyber](https://openai.com/index/trusted-access-for-cyber/) - 🆕 **April 30, 2026**. Cybersecurity-specialized variant of GPT-5.5, rolled out via OpenAI's Trusted Access for Cyber (TAC) program to vetted defenders, government, critical infrastructure operators, and security vendors. Not available to the general public.
+- [OpenAI Daybreak](https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html) - 🆕 **May 12, 2026**. Cyber-defense platform bundling GPT-5.5 + GPT-5.5-Cyber + Trusted-Access-for-Cyber for AI-powered vulnerability detection and patch validation; preview access extended to EU governments and security vendors.
 - [GPT-5.5 Instant](https://openai.com/index/gpt-5-5-instant/) - 🆕 **May 5, 2026**. New ChatGPT default model. Efficiency-first upgrade with ~50% lower hallucination rate on high-stakes prompts; available on free tier.
 - [GPT-Realtime-2](https://openai.com/) - 🆕 **May 8, 2026**. GPT-5-class reasoning brought to the Realtime API, 128K context, parallel tool calls with audio feedback, adjustable reasoning effort.
 - [GPT-Realtime-Translate](https://openai.com/) - 🆕 **May 8, 2026**. Live speech-to-speech translation across 70+ input languages and 13 output languages.
@@ -131,6 +132,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Claude Security](https://www.anthropic.com/) - 🆕 **May 1, 2026**. Public beta. Enterprise security tool powered by Opus 4.7 — scans entire codebases for vulnerabilities and generates targeted patches with confidence rating, severity, reproduction steps, and recommended fixes. Available to Enterprise customers via [claude.ai/security](https://claude.ai/security).
 - [Claude Finance Agents](https://www.anthropic.com/news/finance-agents) - 🆕 **May 5, 2026**. Ten Opus-4.7-powered specialised agents for pitchbook authoring, KYC, month-end close, deal screening, etc. Deployable as Claude Cowork plugins, Claude Code skills, or Managed-Agents cookbooks.
 - [Claude Finance JV](https://www.anthropic.com/) - 🆕 **May 4, 2026**. $1.5B Claude deployment joint venture with Goldman Sachs and Blackstone embedding Anthropic engineers in mid-market Wall Street firms.
+- [Claude Add-ins / Dreaming / Outcomes / Multi-agent orchestration](https://www.anthropic.com/news/code-with-claude-2026) - 🆕 **May 8, 2026 (Code with Claude 2026)**. Anthropic introduces Add-ins, scheduled memory review between sessions ("Dreaming"), rubric-driven "Outcomes", and a lead-agent + sub-agent orchestration model with shared filesystem and auditable trace.
 
 ### Google DeepMind
 
@@ -218,6 +220,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 ### xAI (Grok)
 
 - [Grok 4.3 Beta](https://x.ai/) - 🆕 April 2026. Latest iteration with improved reasoning and coding benchmarks. See [`2026.4` benchmark snapshot](https://benchlm.ai/).
+- [Grok 4.3 GA](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) - 🆕 **May 2026**. Grok 4.3 reached general availability on Microsoft Foundry and OCI Generative AI; xAI's flagship for agentic workloads with improved tool-calling and long-horizon reasoning.
 - [Grok 4.20](https://x.ai/) - Feb 2026. Multi-agent system (4 standard + 16 specialized agents in Heavy mode), 2M token context.
 - [Grok 4 / 4 Heavy](https://x.ai/) - Released July 2025. 3T parameters. xAI's frontier model.
 - [Grok 3 / 3 Mini](https://x.ai/) - Feb 2025. First reasoning models with "Think Mode".
@@ -389,9 +392,10 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 *Frameworks and libraries for building autonomous AI agents.*
 
 - [LangChain](https://github.com/langchain-ai/langchain) - Build context-aware reasoning applications with LLMs. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square)
-- [LangGraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs with stateful, multi-actor orchestration. v0.3.19 (April 27, 2026): prebuilt agents split to `langgraph-prebuilt` — LangGraph Supervisor, LangGraph Swarm, LangMem, Trustcall. Production standard for agentic workflows. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
+- [LangGraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs with stateful, multi-actor orchestration. v0.3.19 (April 27, 2026) split prebuilt agents into `langgraph-prebuilt` (Supervisor, Swarm, LangMem, Trustcall). **v1.2 (May 2026)** adds per-node timeouts / error recovery / graceful shutdown, a new `DeltaChannel` to cut checkpoint overhead on long threads, and a content-block-centric streaming API v3. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing autonomous AI agents in collaborative teams. ![GitHub stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square)
 - [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - 🆕 Unified framework merging AutoGen + Semantic Kernel. Multi-agent conversations with enterprise features. GA Q1 2026.
+- [Microsoft Agent 365](https://techcommunity.microsoft.com/blog/agent-365-blog/what%E2%80%99s-new-in-agent-365-may-2026/4516340) - 🆕 **GA May 1, 2026**. Enterprise observability + governance + security for AI agents across environments; May 2026 update adds Secure Access Service Edge (SASE) for agents, threat detection / blocking, and agent-threat-hunting workflows.
 - [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework by Microsoft (now part of Microsoft Agent Framework). ![GitHub stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square)
 - [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - 🆕 Modular framework integrated with Gemini and Vertex AI. Hierarchical agent compositions. ![GitHub stars](https://img.shields.io/github/stars/google/adk-python?style=flat-square)
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 🆕 [Next evolution shipped April 15, 2026](https://openai.com/index/the-next-evolution-of-the-agents-sdk/) — native sandbox execution, MCP-native tool use, sub-agent handoffs, Codex-style filesystem ops. Production-ready multi-agent workflows. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
@@ -438,7 +442,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 *Systems for giving agents persistent memory and context management.*
 
 - [Letta (MemGPT)](https://github.com/letta-ai/letta) - Create LLM services with long-term memory and custom tools. ![GitHub stars](https://img.shields.io/github/stars/letta-ai/letta?style=flat-square)
-- [Mem0](https://github.com/mem0ai/mem0) - The Memory layer for your AI apps — self-improving memory for LLM applications. ![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square)
+- [Mem0](https://github.com/mem0ai/mem0) - The Memory layer for your AI apps — self-improving memory for LLM applications. **April 2026 algorithm upgrade**: single-pass add-only extraction, entity linking, multi-signal retrieval; benchmark wins on LoCoMo, LongMemEval, BEAM. 55K+ stars, 21+ official framework integrations. ![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square)
 - [Zep](https://github.com/getzep/zep) - Long-term memory for AI assistants and agents. ![GitHub stars](https://img.shields.io/github/stars/getzep/zep?style=flat-square)
 - [agent-memory](https://github.com/Zijian-Ni/agent-memory) - Lightweight agent memory framework for persistent context across sessions. ![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/agent-memory?style=flat-square)
 - [Mem0g (graph variant)](https://mem0.ai/blog/state-of-ai-agent-memory-2026) - 🆕 Graph-enhanced sibling of Mem0 for multi-hop questions; 21+ framework integrations as of early 2026.
@@ -533,8 +537,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Terminal & CLI Agents
 
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's agentic coding tool. 80.9% SWE-bench score, handles complex multi-file bugs.
-- [Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal coding agent. 77.3% Terminal-Bench score. May 2026 update adds **Codex Chrome extension** for in-browser test/DevTools workflows. ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=flat-square)
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's agentic coding tool. 80.9% SWE-bench score, handles complex multi-file bugs. May 2026 (v2.1.128–2.1.141): new `/goal` command for cross-turn completion conditions, agent view, plugin loading from `.zip` archives + URLs, `Ctrl+R` global history search, broader MCP/hook handling, enterprise feedback surveys.
+- [Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal coding agent (Rust, Apache-2.0, 82K+ stars). 77.3% Terminal-Bench score. May 2026 adds **Codex Chrome extension** for in-browser DevTools workflows, `codex remote-control` headless app-server, plugin-detail bundled-hook display, and **Codex on Mobile** preview (May 14) that lets ChatGPT iOS/Android remote-control the macOS Codex app. ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=flat-square)
 - [Codex Security](https://developers.openai.com/codex/changelog) - 🆕 **March 2026**. Application-security agent that finds and fixes software vulnerabilities; available to OSS maintainers via the Codex-for-OSS program.
 - [Aider](https://github.com/Aider-AI/aider) - AI pair programming in your terminal — works with any LLM, with first-class git commit handling. ![GitHub stars](https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square)
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - 🆕 Google's terminal-first coding agent for large-context refactors. ![GitHub stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat-square)
@@ -551,6 +555,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Continue](https://github.com/continuedev/continue) - Open-source AI code assistant for VS Code and JetBrains. ![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=flat-square)
 - [GitHub Copilot](https://github.com/features/copilot) - Agent mode with expanded model access and `gh copilot` shell integration in early 2026.
 - [Cursor 3.3](https://cursor.com/changelog) - 🆕 **May 2026**. PR-review experience, parallel agents, enterprise model controls; previous 3.1 in April.
+- [Cursor SDK](https://cursor.com/changelog) - 🆕 **May 4, 2026**. TypeScript SDK exposing Cursor's runtime, harness, and models so developers can build programmatic agents on top of the Cursor stack; ships with the v2.5 security patch fixing an arbitrary-code-execution vulnerability via malicious git repos.
+- [Cursor 3.4 (Teams + PR review)](https://cursor.com/changelog) - 🆕 **May 11–13, 2026**. Microsoft Teams integration (`@Cursor` in Teams delegates to cloud agents), faster parallel-agent plan execution, multi-repo / Dockerfile-based dev-environment configs for agents, `/multitask` async sub-agents, Vulnerability Scanner, granular per-model access controls.
 - [Kiro](https://kiro.dev/) - AWS autonomous agent. Spec-driven development, manages up to 10 simultaneous tasks.
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AI coding companion deeply integrated with AWS ecosystem.
 
@@ -582,10 +588,12 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 - [Tesla Optimus Gen3 (V3)](https://www.teslarati.com/tesla-optimus-awe-2026-shanghai/) - 🆕 **AWE 2026 Shanghai debut**. First mass-produced Optimus; Fremont line started January 2026, 50K-100K units/year initial target, ~$30K USD initial price, late-2026 limited external sales. 37 joints, 1.2 m/s walking, 22-DoF hands.
 - [Figure 03 (Helix AI)](https://blog.robozaps.com/b/figure-03-review) - 🆕 **Late 2025 announcement, ramping in 2026**. First Figure model designed for the home: soft textile coverings, wireless charging, tactile sensors. May 2026 demo: two F.03 robots autonomously cleaning a room and making a bed in <2 minutes via visual coordination only.
+- [Figure 04](https://autonews.gasgoo.com/articles/news/figure-founder-f04-robot-initiates-component-delivery-process-2054560059634376705) - 🆕 **May 13, 2026**. Founder Brett Adcock announces Figure 04 design finalized; component deliveries underway. Successor to F.03 with the Helix VLA model and a separate package-sorting demo (8-hour autonomous shift, ~22K packages).
 - [Figure 02 + Helix 02](https://en.wikipedia.org/wiki/Figure_AI) - 🆕 **January 2026**. Helix 02 expands whole-body autonomy (load/unload dishwashers, fold laundry); BotQ facility rated for 12K units/year.
 - [Unitree G1 + H1-2](https://community.robotshop.com/blog/show/unitree-robotics-at-ces-2026-a-clear-signal-of-whats-coming-next) - 🆕 **CES 2026**. G1 dance/boxing/skating demos, autonomous kung fu (February), 5'8" H1-2 industrial unit at 7.4 mph. 20K humanoid shipments targeted in 2026.
 - [Unitree R1 Air](https://www.eweek.com/news/chinese-unitree-g1-humanoid-robot-skates-spins-flips-apac/) - 🆕 Consumer humanoid at **$4,900** — runs, flips, walks on hands.
 - [Unitree Gen 2 (lifelike skin)](https://www.youtube.com/watch?v=Gmp82MuTFsM) - 🆕 Realistic human-like skin with embedded pressure / temperature / touch sensors.
+- [Unitree GD01](https://www.extremetech.com/computing/unitree-will-sell-you-a-personal-mecha-robot-for-650000) - 🆕 **May 2026**. Nearly 10-foot manned mecha; pilot-driven, switches between bipedal and quadrupedal modes. Priced from ¥3.9M (~$650K). Tracks how the embodied-agent stack is starting to fork into operator-piloted form factors.
 - [Honor (荣耀) Humanoid](https://www.honor.com/) - 🆕 Set world record at 2026 half-marathon for humanoid robots.
 - [Zhiyuan (智元) AGIBOT](https://www.agibot.com/) - 🆕 April 2026. New humanoid body, foundation model, and solution suite. Calls 2026 "Deployment Year Zero."
 - [Unitree H-series](https://www.unitree.com/) - Boston Dynamics competitor from China. Ongoing 2026 iterations.
@@ -681,7 +689,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 *Voice-enabled and multimodal AI agent platforms.*
 
 - [ElevenLabs](https://elevenlabs.io/) - AI voice platform with conversational AI agents and realistic speech synthesis.
-- [Vapi](https://github.com/VapiAI/server-sdk-python) - Platform for building voice AI agents — build, test, and deploy voice assistants. ![GitHub stars](https://img.shields.io/github/stars/VapiAI/server-sdk-python?style=flat-square)
+- [Vapi](https://github.com/VapiAI/server-sdk-python) - Enterprise voice AI platform — build, test, and deploy voice agents. **$50M Series B announced May 12, 2026** after crossing 1B platform calls; May 2026 updates ship Squads v2 (multi-assistant orchestration), Composer alpha (prompt-built agents), Simulations alpha (systematic AI-powered testing), and GA of the Soniox low-latency multilingual transcriber. ![GitHub stars](https://img.shields.io/github/stars/VapiAI/server-sdk-python?style=flat-square)
 - [Retell AI](https://www.retellai.com/) - Build production-ready conversational voice AI agents.
 - [Bland AI](https://www.bland.ai/) - AI phone calling platform — enterprise-grade conversational AI.
 - [LiveKit Agents](https://github.com/livekit/agents) - Build real-time multimodal AI agents with voice, video, and data. ![GitHub stars](https://img.shields.io/github/stars/livekit/agents?style=flat-square)
@@ -712,6 +720,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Arahi AI](https://arahi.ai/) - 🆕 Personal productivity and business automation assistant.
 - [Lindy AI](https://www.lindy.ai/) - 🆕 No-code AI agent for email, calendar, and workflow automation.
 - [MuleRun](https://www.mulerun.ai/) - 🆕 Always-on agents for recurring tasks and background automation.
+- [Gemini Intelligence](https://blog.google/products-and-platforms/products/chrome/bringing-chrome-ai-to-android/) - 🆕 **May 12, 2026** (Android Show: I/O Edition). Proactive agentic AI features integrated into Googlebooks laptops, Wear OS, Android Auto, Android XR, and starting on the latest Samsung Galaxy + Pixel devices. Auto-creates shopping carts from grocery lists, books spin classes, filler-word removal via the Rambler speech-to-text.
+- [Gemini Spark](https://9to5google.com/2026/05/14/gemini-spark-insight/) - 🆕 **May 14, 2026** (pre-I/O leak / insight). Upcoming branded agent capability inside the Gemini app for autonomously running multi-step processes; sits above Gemini 3.1 Pro reasoning stack.
 
 ---
 
@@ -755,7 +765,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability platform — logs, metrics, and traces. ![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=flat-square)
 - [Braintrust](https://github.com/braintrustdata/braintrust-sdk) - Enterprise-grade stack for building AI products — eval, prompt playground, logging. ![GitHub stars](https://img.shields.io/github/stars/braintrustdata/braintrust-sdk?style=flat-square)
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) - AI observability & evaluation — traces, evals, and datasets. ![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=flat-square)
-- [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform — traces, evals, prompt management. ![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=flat-square)
+- [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform — traces, evals, prompt management. **Acquired by ClickHouse Jan 2026**; March 2026 shift to an observations-centric data model, April 2026 added Langfuse Cloud Japan + Experiments + Langfuse Academy + LLM-as-a-Judge API; v4 self-host release queued. ![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=flat-square)
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for LLM applications based on OpenTelemetry. ![GitHub stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=flat-square)
 - [Weights & Biases Weave](https://github.com/wandb/weave) - Toolkit for developing, evaluating, and monitoring AI applications. ![GitHub stars](https://img.shields.io/github/stars/wandb/weave?style=flat-square)
 - [SWE-bench](https://github.com/princeton-nlp/SWE-bench) - Benchmark for evaluating LLMs on real-world software engineering problems. ![GitHub stars](https://img.shields.io/github/stars/princeton-nlp/SWE-bench?style=flat-square)
@@ -1012,7 +1022,20 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | **May 7, 2026** | Google preparing **Agent Mode for Flow** (Veo-based AI filmmaking) — automated video production pipeline | Tools |
 | **May 8, 2026** | OpenAI launches **GPT-Realtime-2 / Realtime-Translate / Realtime-Whisper** — voice agents, live translation, real-time transcription | Models |
 | **May 9, 2026** | OpenAI rolls out **Workspace Agents** in ChatGPT Enterprise — repeatable workflow automation across connected apps | Tools |
+| **May 11–13, 2026** | [Cursor 3.4 + SDK](https://cursor.com/changelog) — Microsoft Teams integration, parallel-agent plan execution, multi-repo / Dockerfile dev environments, async sub-agents (`/multitask`), Vulnerability Scanner, granular model controls; Cursor SDK ships v2.5 security patch | Tools |
+| **May 12, 2026** | [OpenAI Daybreak](https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html) — cyber-defense platform bundling GPT-5.5 + GPT-5.5-Cyber + Trusted Access for Cyber for AI-powered vuln detection / patch validation; EU preview to governments and security vendors | Tools |
+| **May 12, 2026** | [Gemini Intelligence](https://blog.google/products-and-platforms/products/chrome/bringing-chrome-ai-to-android/) revealed at Android Show: I/O Edition — proactive agentic AI across Googlebooks, Wear OS, Android Auto, Android XR; first on Samsung Galaxy + Pixel | Industry |
+| **May 12, 2026** | [Vapi raises $50M Series B](https://www.globenewswire.com/news-release/2026/05/12/3292882/0/en/vapi-raises-50m-series-b-as-it-reaches-1-billion-calls-powering-the-next-generation-of-enterprise-voice-ai.html) after crossing 1B platform calls; Squads v2 + Composer + Simulations + Soniox transcriber GA | Industry |
+| **May 13, 2026** | [Figure 04 design finalized](https://autonews.gasgoo.com/articles/news/figure-founder-f04-robot-initiates-component-delivery-process-2054560059634376705); component deliveries underway. Helix VLA-powered, follows F.03 home-focused build | Robotics |
+| **May 14, 2026** | [Claude Code v2.1.141](https://github.com/anthropics/claude-code/releases) — `/goal` cross-turn completion conditions, agent view, plugin loading from .zip / URL, `Ctrl+R` global history search, enterprise feedback surveys | Tools |
+| **May 14, 2026** | [Codex on Mobile (preview)](https://9to5mac.com/2026/05/14/openai-brings-codex-control-to-chatgpt-for-iphone-and-android/) — ChatGPT iOS/Android can remote-control the macOS Codex app; OpenAI also issues TanStack supply-chain security patch | Tools |
+| **May 14, 2026** | [Gemini Spark](https://9to5google.com/2026/05/14/gemini-spark-insight/) pre-I/O leak — upcoming branded agent capability inside the Gemini app for autonomous multi-step processes | Tools |
 | **May 14, 2026** | [OpenClaw v2026.5.12](https://github.com/openclaw/openclaw/releases) shipped — native model identity injected into system prompt, isolated Telegram polling worker, MEMORY.md auto-compaction, protected config paths for owner/exec approvals | Tools |
+| **May 2026** | [LangGraph v1.2](https://docs.langchain.com/oss/python/releases/changelog) — per-node timeouts/error-recovery/graceful shutdown, `DeltaChannel` checkpoint optimisation, content-block streaming API v3 | Frameworks |
+| **May 2026** | [Grok 4.3 GA](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) on Microsoft Foundry + Oracle OCI Generative AI; xAI flagship for agentic workloads | Models |
+| **May 1, 2026** | [Microsoft Agent 365 GA](https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/) — enterprise observability + governance + security for AI agents across environments; May adds SASE for agents + threat detection | Industry |
+| **May 8, 2026** | [Code with Claude 2026](https://www.mindstudio.ai/blog/code-with-claude-2026-new-agent-features) — Anthropic introduces Add-ins, Dreaming (scheduled memory review), Outcomes (rubric-driven generation), lead+sub-agent orchestration with shared filesystem audit | Tools |
+| **May 19, 2026** | Google I/O 2026 starts — expect deeper Gemini Agent / Project Astra updates and possible Gemini 3.2 / 4 reveal | Events |
 | **Apr 2026** | Gartner predicts 40% of enterprise apps will embed AI agents by end of 2026 | Industry |
 | **Apr 2026** | Google commits up to $40B investment in Anthropic (initial $10B) | Industry |
 | **2026 (ongoing)** | A2A Protocol grows to 150+ partner organizations | Protocols |

@@ -3,12 +3,34 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
-## 2026-05-15 — PR triage & May tail refresh
+## 2026-05-15 — PR triage + May 11–14 expansion across 8 sections
 
 ### + Added
 
 - **Agent Frameworks** — [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) (PR #18, 358 stars, Apache-2.0, deterministic CLI agent orchestrator with HMAC-chained audit, git worktree isolation; flagged for parallel blast across 8 awesome lists 2026-05-14 but passes quality gate).
 - **Voice & Multimodal Agents** — [OpenYabby](https://github.com/OpenYabby/OpenYabby) (issue #10, 29 stars, MIT, macOS voice-driven multi-agent orchestrator on the Realtime API; third-party nomination by idovmamane).
+
+**Foundation Models** — OpenAI Daybreak (May 12 cyber-defense platform), Grok 4.3 GA on Foundry/OCI, Claude Code with Claude 2026 (Add-ins/Dreaming/Outcomes/multi-agent orchestration).
+
+**Coding Agents** — Cursor SDK (May 4, TypeScript SDK + v2.5 security patch), Cursor 3.4 (May 11–13, Teams + parallel agents + Vulnerability Scanner + `/multitask`), Claude Code May 2026 update line (v2.1.128–2.1.141, `/goal`, agent view, plugin .zip/URL loading, Ctrl+R global history search), Codex CLI May 2026 update (Chrome extension, `codex remote-control`, **Codex on Mobile preview May 14**).
+
+**Agent Frameworks** — LangGraph v1.2 May 2026 changelog (`DeltaChannel`, per-node timeouts, content-block streaming v3); Microsoft Agent 365 GA May 1.
+
+**Agent Memory** — Mem0 April 2026 algorithm upgrade (single-pass add-only extraction, entity linking, multi-signal retrieval; 55K+ stars, 21+ integrations).
+
+**Agent Evaluation & Observability** — Langfuse acquired by ClickHouse Jan 2026 + observations-centric data model + Cloud Japan + LLM-as-a-Judge API.
+
+**Voice & Multimodal Agents** — Vapi $50M Series B + 1B platform calls (May 12) + Squads v2 / Composer / Simulations / Soniox transcriber.
+
+**Physical AI / Embodied** — Figure 04 design finalized (May 13), Unitree GD01 (May 2026 manned mecha, ~$650K).
+
+**Personal AI Agents** — Gemini Intelligence (May 12 Android Show: I/O Edition), Gemini Spark (May 14 pre-I/O insight).
+
+### ~ Changed
+
+- **OpenClaw** — refreshed from v2026.4.21 → v2026.5.12.
+- **Mem0 / Langfuse / Vapi / LangGraph / Codex / Cursor / Claude Code** — updated existing entries to reflect May 2026 release lines instead of stale April-only snapshots.
+- **2026 AI Timeline** — added 13 new May 1–19 rows covering the above plus Google I/O 2026 kickoff.
 
 ### ~ Changed
 
