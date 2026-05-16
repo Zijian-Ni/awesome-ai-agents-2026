@@ -764,6 +764,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ## 🏢 Enterprise Agent Platforms
 
+- [AgentLaunch](https://rileycraig14.github.io/agentlaunch/) - 🆕 **May 2026**. Consumer platform for deploying revenue-generating AI agents with no code. Email or Coinbase wallet signup → live in 60 seconds. Three agent types: Market Signal ($0.05/call), Web Research ($0.02/call), Data Analysis ($0.10/call). Auto-listed on agentic.market + Circle Agent Marketplace. 90% revenue share via Circle x402 on Base.
+
 *Enterprise-grade platforms for deploying AI agents at scale.*
 
 - [Salesforce Agentforce](https://www.salesforce.com/agentforce/) - Autonomous AI agents for enterprise CRM — sales, service, and marketing.
