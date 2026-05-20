@@ -43,13 +43,13 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 > **New to AI agents?** Follow this path:
 > 1. 📖 **Understand** — what an agent actually is vs. a chatbot
-> 2. 🗺️ **Find your scenario** → [Scenario Guide](#scenario-guide-what-should-i-use-for)
-> 3. 🧩 **Copy a proven setup** → [Stack Recipes](#stack-recipes-curated-tool-combinations)
+> 2. 🗺️ **Find your scenario** → [Scenario Guide](#️-scenario-guide--what-should-i-use-for)
+> 3. 🧩 **Copy a proven setup** → [Stack Recipes](#-stack-recipes--curated-tool-combinations)
 > 4. 🔍 **Pick the right tool** → [Compare Tables](#-compare--side-by-side-tables)
-> 5. ⚠️ **Avoid common mistakes** → [Anti-Picks](#anti-picks-what-not-to-use-for)
+> 5. ⚠️ **Avoid common mistakes** → [Anti-Picks](#️-anti-picks--what-not-to-use-for)
 >
 > **Already building?** Jump to:
-> - 🆕 [Latest additions (May 2026)](#2026-ai-timeline) • 🛡️ [Security](#️-agent-security) • 💰 [Cost comparison](#foundation-models-api-cost-context)
+> - 🆕 [Latest additions (May 2026)](#-2026-ai-timeline) • 🛡️ [Security](#️-agent-security) • 💰 [Cost comparison](#-foundation-models--api-cost--context)
 
 ---
 
@@ -82,9 +82,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | [📚 Learning Resources](#-learning-resources) | Papers, courses, and tutorials | 20+ |
 | [🇨🇳 Chinese AI Ecosystem](#-chinese-ai-ecosystem) | Major projects from China-based teams | 18+ |
 | [📝 Compare](#-compare--side-by-side-tables) | Side-by-side comparison tables | — |
-| [🗺️ Scenario Guide](#scenario-guide-what-should-i-use-for) | 56 curated scenario-to-tool mappings | 56 |
-| [📋 Stack Recipes](#stack-recipes-curated-tool-combinations) | Curated multi-tool combinations | 8 |
-| [⚠️ Anti-Picks](#anti-picks-what-not-to-use-for) | What NOT to use and why | 15 |
+| [🗺️ Scenario Guide](#️-scenario-guide--what-should-i-use-for) | 56 curated scenario-to-tool mappings | 56 |
+| [📋 Stack Recipes](#-stack-recipes--curated-tool-combinations) | Curated multi-tool combinations | 8 |
+| [⚠️ Anti-Picks](#️-anti-picks--what-not-to-use-for) | What NOT to use and why | 15 |
 
 ---
 
@@ -115,9 +115,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [📚 Learning Resources](#-learning-resources)
 - [🇨🇳 Chinese AI Ecosystem](#-chinese-ai-ecosystem)
 - [📝 Compare — Side-by-Side Tables](#-compare--side-by-side-tables)
-- [🗺️ Scenario Guide — What Should I Use For…](#scenario-guide-what-should-i-use-for)
-- [📋 Stack Recipes — Curated Tool Combinations](#stack-recipes-curated-tool-combinations)
-- [⚠️ Anti-Picks — What NOT to Use For…](#anti-picks-what-not-to-use-for)
+- [🗺️ Scenario Guide — What Should I Use For…](#️-scenario-guide--what-should-i-use-for)
+- [📋 Stack Recipes — Curated Tool Combinations](#-stack-recipes--curated-tool-combinations)
+- [⚠️ Anti-Picks — What NOT to Use For…](#️-anti-picks--what-not-to-use-for)
 - [🌟 Notable Agent Projects of 2026](#-notable-agent-projects-of-2026)
 - [📅 2026 AI Timeline](#-2026-ai-timeline)
 
