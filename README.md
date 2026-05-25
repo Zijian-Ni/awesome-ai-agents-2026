@@ -429,6 +429,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Model Context Protocol (MCP)
 
+- [CorpusIQ](https://mcp2.corpusiq.io/mcp) - 🆕 **Official MCP Registry** — Multi-source business data connector with 25+ integrations (GA4, Google Ads, TikTok, YouTube, Shopify, Stripe, Airtable, Slack, HubSpot, Calendly, Klaviyo, and more). Intelligent query routing, cross-source attribution, unified business intelligence. Live as `io.corpusiq/multi-source-mcp`. HTTP transport with Ed25519 signature auth.
 - [MCP Specification](https://modelcontextprotocol.io/) - 🆕 The "USB-C for AI" — open protocol by Anthropic for connecting LLMs to tools and data sources. Donated to Agentic AI Foundation (Linux Foundation) in Dec 2025.
 - [MCP Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations of MCP servers for popular services. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square)
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP clients and servers. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/typescript-sdk?style=flat-square)
