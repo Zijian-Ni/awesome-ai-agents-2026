@@ -560,6 +560,10 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ## 🛡️ Agent Security
 
+*   [AgentGate](https://github.com/ElamOlame31/agentgate-public) - Pre-execution authorization PDP for autonomous AI agents. Scores trust across 4 dimensions per request, detects 24h kill chain patterns (BULK_READ_THEN_EXFIL, SENSITIVITY_RAMP), Merkle-chained audit trail. MIT license, drop-in with LangGraph, LangChain, AutoGen.
+
+https://www.tryagentgate.com/
+
 *Tools and frameworks for securing AI agents against prompt injection, data leaks, and misuse.*
 
 - [prompt-firewall](https://github.com/Zijian-Ni/prompt-firewall) - Firewall for LLM prompts — detect and block prompt injection attacks. ![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/prompt-firewall?style=flat-square)
@@ -579,6 +583,10 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [RAMPART](https://github.com/microsoft/RAMPART) - 🆕 **May 20, 2026**. Microsoft's pytest-native safety + security testing framework for agentic AI. Developer-facing white-box counterpart to PyRIT — cross-prompt-injection probes, benign-failure asserts, harm-category coverage, statistical thresholds (e.g. safe in 80%+ runs). Integrates straight into CI/CD. MIT. ![GitHub stars](https://img.shields.io/github/stars/microsoft/RAMPART?style=flat-square)
 - [Clarity (Microsoft)](https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/) - 🆕 **May 20, 2026**. Companion to RAMPART. Structured design-review tool for AI agents — "living artifacts" documenting intent, risks, and behavior before code is written. Open-sourced from Microsoft AI Red Team's internal practice.
 - [Nobulex](https://github.com/arian-gogani/nobulex) - ⚠️ **Unverified.** Cryptographic receipts for AI agent actions (Ed25519 dual signatures, hash-chained audit logs). MIT. Bilateral-receipt primitive [merged](https://github.com/microsoft/agent-governance-toolkit/pull/1333) into Microsoft's Agent Governance Toolkit (PRs #1302, #1333). Same submission sent to 15+ awesome lists in parallel; submitter's claim of "4,500 npm downloads" doesn't match registry data (`@nobulex/mcp-server` ~19/month at audit time). Listed for visibility on the strength of the Microsoft adoption. ![GitHub stars](https://img.shields.io/github/stars/arian-gogani/nobulex?style=flat-square)
+
+*   [AgentGate](https://github.com/ElamOlame31/agentgate-public) - Pre-execution authorization PDP for autonomous AI agents. Scores trust across 4 dimensions per request, detects 24h kill chain patterns (BULK_READ_THEN_EXFIL, SENSITIVITY_RAMP), Merkle-chained audit trail. MIT license, drop-in with LangGraph, LangChain, AutoGen.
+
+https://www.tryagentgate.com/
 
 ## 🔍 RAG & Knowledge
 
