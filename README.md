@@ -86,6 +86,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | [📋 Stack Recipes](#-stack-recipes--curated-tool-combinations) | Curated multi-tool combinations | 8 |
 | [⚠️ Anti-Picks](#️-anti-picks--what-not-to-use-for) | What NOT to use and why | 15 |
 
+
 ---
 
 ## Contents
@@ -843,6 +844,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Bristol Myers Squibb ↔ Claude Enterprise](https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx) - 🆕 **May 20, 2026**. BMS standardises on Claude Enterprise as its shared intelligence platform for **30,000+ employees**, embedding agentic Claude into drug-discovery / development / delivery pipelines. First top-5 pharma to make a public, company-wide Claude commitment.
 - [Kore.ai Artemis Agent Platform](https://venturebeat.com/technology/kore-ai-launches-artemis-ai-agent-platform-expands-challenge-to-microsoft-and-salesforce) - 🆕 **May 22, 2026** (launched on Azure). AI-native enterprise agent platform built around the new YAML-style **Agent Blueprint Language (ABL)** for declarative multi-agent workflows. Kore.ai's structural challenge to Copilot Studio and Agentforce.
 - [FPT Flezi Foundry™](https://lasvegassun.com/news/2026/may/22/fpt-launches-flezi-foundry-advancing-ai-augmented-/) - 🆕 **May 22, 2026**. AI-augmented delivery platform with two governed Service-as-a-Software modes — **Agentic Development Lifecycle (ADLC)** for full SDLC agent crews and **Agentic Managed Services (AMS)** for incident-resolution agents on top of existing ITOps.
+- - [GreenOps Agent](https://github.com/raghu-putta/greenops-agent) - 4-agent GCP cost & carbon optimization pipeline. Detects idle VMs, unattached disks, unused reserved IPs, calculates CO₂ footprint, and executes cleanups with human approval. Built on Google ADK + Gemini Flash + Cloud Run.
 
 ## 📊 Agent Evaluation & Observability
 
