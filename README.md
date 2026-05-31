@@ -54,7 +54,6 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 ---
 
 ## Quick Navigation
-
 | Category | Description | Count |
 |----------|-------------|-------|
 | [🧠 Foundation Models](#-foundation-models-2026) | Latest LLMs from OpenAI, Anthropic, Google, Meta, and 22+ providers | 80+ |
@@ -85,12 +84,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | [🗺️ Scenario Guide](#️-scenario-guide--what-should-i-use-for) | 56 curated scenario-to-tool mappings | 56 |
 | [📋 Stack Recipes](#-stack-recipes--curated-tool-combinations) | Curated multi-tool combinations | 8 |
 | [⚠️ Anti-Picks](#️-anti-picks--what-not-to-use-for) | What NOT to use and why | 15 |
-
-
----
-
 ## Contents
-
 - [🧠 Foundation Models 2026](#-foundation-models-2026)
 - [🎨 Multimodal & Generative AI](#-multimodal--generative-ai)
 - [🔗 Agent Protocols & Standards](#-agent-protocols--standards)
