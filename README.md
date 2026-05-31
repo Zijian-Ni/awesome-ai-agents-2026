@@ -844,12 +844,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Bristol Myers Squibb ↔ Claude Enterprise](https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx) - 🆕 **May 20, 2026**. BMS standardises on Claude Enterprise as its shared intelligence platform for **30,000+ employees**, embedding agentic Claude into drug-discovery / development / delivery pipelines. First top-5 pharma to make a public, company-wide Claude commitment.
 - [Kore.ai Artemis Agent Platform](https://venturebeat.com/technology/kore-ai-launches-artemis-ai-agent-platform-expands-challenge-to-microsoft-and-salesforce) - 🆕 **May 22, 2026** (launched on Azure). AI-native enterprise agent platform built around the new YAML-style **Agent Blueprint Language (ABL)** for declarative multi-agent workflows. Kore.ai's structural challenge to Copilot Studio and Agentforce.
 - [FPT Flezi Foundry™](https://lasvegassun.com/news/2026/may/22/fpt-launches-flezi-foundry-advancing-ai-augmented-/) - 🆕 **May 22, 2026**. AI-augmented delivery platform with two governed Service-as-a-Software modes — **Agentic Development Lifecycle (ADLC)** for full SDLC agent crews and **Agentic Managed Services (AMS)** for incident-resolution agents on top of existing ITOps.
-- - [GreenOps Agent](https://github.com/raghu-putta/greenops-agent) - 4-agent GCP cost & carbon optimization pipeline. Detects idle VMs, unattached disks, unused reserved IPs, calculates CO₂ footprint, and executes cleanups with human approval. Built on Google ADK + Gemini Flash + Cloud Run.
-
+- [GreenOps Agent](https://github.com/raghu-putta/greenops-agent) - A 4-agent GCP cost and carbon optimization pipeline built on Google ADK, Gemini Flash, and Cloud Run that detects idle VMs, unattached disks, and unused reserved IPs to calculate CO₂ footprint and execute cleanups with human approval.
 ## 📊 Agent Evaluation & Observability
-
 *Tools for testing, evaluating, and monitoring AI agents in production.*
-
 - [AgentBench](https://github.com/THUDM/AgentBench) - Multi-dimensional benchmark for evaluating LLMs as agents. ![GitHub stars](https://img.shields.io/github/stars/THUDM/AgentBench?style=flat-square)
 - [LangSmith](https://www.langchain.com/langsmith) - Platform for debugging, testing, evaluating, and monitoring LLM applications.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability platform — logs, metrics, and traces. ![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=flat-square)
@@ -868,13 +865,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [AutoEvals](https://github.com/braintrustdata/autoevals) - Standalone library of best-practice LLM eval scorers (factuality, JSON validity, semantic similarity, etc.) by Braintrust. Drop-in for any framework. ![GitHub stars](https://img.shields.io/github/stars/braintrustdata/autoevals?style=flat-square)
 - [BenchClaw](https://github.com/Agnuxo1/benchclaw) - ⚠️ **Unverified.** Self-described multi-dimensional agent evaluation harness (17-judge tribunal, deception detectors, 10 scoring dimensions). Repo is single-maintainer with very low independent adoption; the same submission was sent to 8+ awesome lists in parallel — one was merged at [eudk/awesome-ai-tools](https://github.com/eudk/awesome-ai-tools/pull/229), the rest are pending or declined. Listed for visibility, evaluate before relying on its scores. ![GitHub stars](https://img.shields.io/github/stars/Agnuxo1/benchclaw?style=flat-square)
 - [PromptEden](https://www.prompteden.com) - ⚠️ **Unverified.** Commercial AI-visibility monitoring service — tracks how ChatGPT, Claude, Gemini, Perplexity, Copilot, and Grok describe brands and which competitors they recommend, refreshed daily across 9+ platforms. Submitted to 10 awesome lists on the same day — promising category but listed for visibility only, evaluate before purchasing.
-
 ---
-
 ## 🔬 AI Research Tools
-
 *Tools and platforms for AI/ML research, experimentation, and development.*
-
 - [Hugging Face](https://huggingface.co/) - The AI community's platform — models, datasets, and Spaces for ML research.
 - [vLLM](https://github.com/vllm-project/vllm) - 🆕 High-throughput LLM serving engine with PagedAttention. ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=flat-square)
 - [Ollama](https://github.com/ollama/ollama) - Run LLMs locally with a simple API. Supports Llama, Mistral, Qwen, and more. ![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=flat-square)
@@ -886,13 +879,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [OpenRouter](https://openrouter.ai/) - 🆕 Unified API for accessing 200+ AI models from all major providers.
 - [Weights & Biases](https://wandb.ai/) - ML experiment tracking, dataset versioning, and model management.
 - [Label Studio](https://github.com/HumanSignal/label-studio) - Multi-type data labeling and annotation tool. ![GitHub stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=flat-square)
-
 ---
-
 ## 📚 Learning Resources
-
 *Papers, courses, tutorials, and guides for understanding and building AI agents.*
-
 ### Papers
 
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - The foundational paper on reasoning + acting in LLMs.
