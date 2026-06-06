@@ -780,6 +780,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 *Voice-enabled and multimodal AI agent platforms.*
 
+- [AgentLine](https://agentline.cloud/) - Telephony infrastructure for AI agents — provision phone numbers, make/receive calls, and manage voice pipelines via API.
 - [ElevenLabs](https://elevenlabs.io/) - AI voice platform with conversational AI agents and realistic speech synthesis.
 - [Vapi](https://github.com/VapiAI/server-sdk-python) - Enterprise voice AI platform — build, test, and deploy voice agents. **$50M Series B announced May 12, 2026** after crossing 1B platform calls; May 2026 updates ship Squads v2 (multi-assistant orchestration), Composer alpha (prompt-built agents), Simulations alpha (systematic AI-powered testing), and GA of the Soniox low-latency multilingual transcriber. ![GitHub stars](https://img.shields.io/github/stars/VapiAI/server-sdk-python?style=flat-square)
 - [Retell AI](https://www.retellai.com/) - Build production-ready conversational voice AI agents.
