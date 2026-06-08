@@ -1374,6 +1374,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 **I want a data analysis / BI agent**
 - **Julius AI** / **Code Interpreter (ChatGPT)** — Managed, no setup. → best for analysts without eng support
+- **[AI for Database](https://aifordatabase.com)** — Connect any database, query in plain English, self-refreshing dashboards + automated workflows. → best for non-technical teams needing direct DB access without SQL
 - **LangChain** + **Pandas Agent** + **Langfuse** — Fully custom, code-gen for queries. → best for eng teams with custom data
 - **Metabase AI** / **Tableau Pulse** — Embedded BI copilot. → best inside existing BI stack
 
