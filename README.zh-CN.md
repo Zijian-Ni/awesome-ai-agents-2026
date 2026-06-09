@@ -41,9 +41,9 @@
 ## 🚀 从这里开始
 
 > **初次接触 AI Agent？** 按这个路径走：
-> 1. 📖 **損清概念** — Agent 和普通聊天機器人到底有什么区别
+> 1. 📖 **梳清概念** — Agent 和普通聊天机器人到底有什么区别
 > 2. 🗺️ **找到你的场景** → [场景指南](#️-场景指南--我应该用什么)
-> 3. 🧩 **复制经过验证的技术栈** → [技术栈免调](#-技术栈免调--经过验证的工具组合)
+> 3. 🧩 **复制经过验证的技术栈** → [技术栈食谱](#-技术栈食谱--经过验证的工具组合)
 > 4. 🔍 **选对工具** → [对比表](#-横向对比表)
 > 5. ⚠️ **避开常见陷阱** → [反推荐清单](#️-反推荐--不应该用在哪里)
 >
@@ -80,7 +80,7 @@
 - [🇨🇳 中国 AI 生态](#-中国-ai-生态)
 - [📝 横向对比表](#-横向对比表)
 - [🗺️ 场景指南 — 我应该用什么…](#️-场景指南--我应该用什么)
-- [📋 技术栈免调 — 经过验证的工具组合](#-技术栈免调--经过验证的工具组合)
+- [📋 技术栈食谱 — 经过验证的工具组合](#-技术栈食谱--经过验证的工具组合)
 - [⚠️ 反推荐 — 不应该用在哪里…](#️-反推荐--不应该用在哪里)
 - [🌟 2026 年值得关注的 Agent 项目](#-2026-年值得关注的-agent-项目)
 - [📅 2026 AI 时间线](#-2026-ai-时间线)
@@ -460,7 +460,7 @@
 - [Mem0](https://github.com/mem0ai/mem0) - LLM 应用的自我提升记忆层。![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square)
 - [Zep](https://github.com/getzep/zep) - AI 助理与 Agent 的长期记忆。![GitHub stars](https://img.shields.io/github/stars/getzep/zep?style=flat-square)
 - [agent-memory](https://github.com/Zijian-Ni/agent-memory) - 跨会话上下文持久化的轻量 Agent 记忆框架。![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/agent-memory?style=flat-square)
-- [LangMem](https://github.com/langchain-ai/langmem) - LangChain Agent 的长期记忆库。![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=flat-square)
+- [LangMem](https://github.com/langchain-ai/langmem) - 🆕 从 LangGraph 0.3.19（2026 年 4 月）拆出的独立库；为 Agent 提供长期情景记忆 + 程序性记忆原语。![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=flat-square)
 - [Motorhead](https://github.com/getmetal/motorhead) - 💤 **Stale**（2025-07 起无更新）。LLM 的记忆 + 上下文管理服务。![GitHub stars](https://img.shields.io/github/stars/getmetal/motorhead?style=flat-square)
 - [ChromaDB](https://github.com/chroma-core/chroma) - AI 原生开源向量数据库。![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=flat-square)
 - [Cognee](https://github.com/topoteretes/cognee) - 用图 + LLM + 向量检索得到确定性输出。![GitHub stars](https://img.shields.io/github/stars/topoteretes/cognee?style=flat-square)
@@ -468,7 +468,6 @@
 - [Graphiti](https://github.com/getzep/graphiti) - 🆕 时序感知的知识图记忆。![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=flat-square)
 - [Claude Managed Agents Memory](https://platform.claude.com/docs/en/release-notes/overview) - 🆕 **2026-04-23** 公测。把读写记忆挂载到 Agent 文件系统，实现跨会话学习。
 - [Mem0g (graph variant)](https://mem0.ai/blog/state-of-ai-agent-memory-2026) - 🆕 Mem0 的图增强姊妹版，擅长多跳问答；截至 2026 年初已有 21+ 框架集成。
-- [Claude Managed Agents Memory](https://www.anthropic.com/) - 🆕 **2026 年 4 月 23 日** 公测。Anthropic 托管 Agent 运行时内置的跨会话持久记忆能力。
 - [taOSmd](https://github.com/jaylfc/taosmd) - 🆕 ⚠️ **Unverified.** 本地优先、基于追加式转录的 Agent 记忆：类型化时序知识图（修正后的新事实自动覆盖旧事实）+ 向量与 BM25 混合检索。面向小型本地模型调优，完全离线（8 GB 单板机即可运行）。作者声称 LongMemEval-S 端到端 Judge 97%；单作者维护，审核时 44 stars，基准可按 `docs/benchmarks.md` 复现。MIT。![GitHub stars](https://img.shields.io/github/stars/jaylfc/taosmd?style=flat-square)
 
 ---
@@ -1422,7 +1421,7 @@
 
 ---
 
-## 📋 技术栈免调 — 经过验证的工具组合
+## 📋 技术栈食谱 — 经过验证的工具组合
 
 | # | 配方名 | 技术栈 | 适合对象 |
 |---|------------|-------|----------|

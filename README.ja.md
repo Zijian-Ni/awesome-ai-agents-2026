@@ -460,7 +460,7 @@
 - [Mem0](https://github.com/mem0ai/mem0) - LLM アプリ用の自己改善型メモリ層。![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square)
 - [Zep](https://github.com/getzep/zep) - AI アシスタント・エージェント向け長期メモリ。![GitHub stars](https://img.shields.io/github/stars/getzep/zep?style=flat-square)
 - [agent-memory](https://github.com/Zijian-Ni/agent-memory) - セッション横断の文脈永続化を実現する軽量エージェントメモリフレームワーク。![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/agent-memory?style=flat-square)
-- [LangMem](https://github.com/langchain-ai/langmem) - LangChain エージェント用長期メモリライブラリ。![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=flat-square)
+- [LangMem](https://github.com/langchain-ai/langmem) - 🆕 LangGraph 0.3.19（2026 年 4 月）からスピンアウト。エージェント向けの長期エピソード記憶＋手続き記憶プリミティブ。![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=flat-square)
 - [Motorhead](https://github.com/getmetal/motorhead) - 💤 **Stale**（2025-07 以降更新なし）。LLM 用メモリ・文脈管理サーバー。![GitHub stars](https://img.shields.io/github/stars/getmetal/motorhead?style=flat-square)
 - [ChromaDB](https://github.com/chroma-core/chroma) - AI ネイティブのオープンソース埋め込みデータベース。![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=flat-square)
 - [Cognee](https://github.com/topoteretes/cognee) - グラフ + LLM + ベクトル検索による決定論的 LLM 出力。![GitHub stars](https://img.shields.io/github/stars/topoteretes/cognee?style=flat-square)
@@ -468,7 +468,6 @@
 - [Graphiti](https://github.com/getzep/graphiti) - 🆕 時間意識を備えたエージェントメモリ用知識グラフ。![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=flat-square)
 - [Claude Managed Agents Memory](https://platform.claude.com/docs/en/release-notes/overview) - 🆕 **2026-04-23**（パブリックベータ）。Claude Managed Agents 用 Anthropic 永続メモリ機能。読み書きメモリストアをエージェントのファイルシステムにマウントしてセッション間で情報を保持。
 - [Mem0g (graph variant)](https://mem0.ai/blog/state-of-ai-agent-memory-2026) - 🆕 Mem0 のグラフ強化派生で、マルチホップ質問に強い。2026 年初時点で 21+ のフレームワーク統合あり。
-- [Claude Managed Agents Memory](https://www.anthropic.com/) - 🆕 **2026 年 4 月 23 日** パブリックベータ。Anthropic ホスト型エージェントランタイムに組み込まれた、セッションをまたいだ永続メモリ。
 - [taOSmd](https://github.com/jaylfc/taosmd) - 🆕 ⚠️ **Unverified.** ローカル優先・追記型トランスクリプトに基づくエージェントメモリ。型付きの時系列ナレッジグラフ（修正後の新事実が旧事実を上書き）と、ベクトル + BM25 のハイブリッド検索を組み合わせる。小型ローカルモデル向けにチューニングされ、完全オフライン（8 GB の SBC で動作）。作者報告で LongMemEval-S の end-to-end Judge 97%。単独メンテナで監査時点 44 stars、ベンチマークは `docs/benchmarks.md` から再現可能。MIT。![GitHub stars](https://img.shields.io/github/stars/jaylfc/taosmd?style=flat-square)
 
 ---
