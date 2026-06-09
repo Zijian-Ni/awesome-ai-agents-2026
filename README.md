@@ -6,10 +6,10 @@
 [![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/awesome-ai-agents-2026?style=social)](https://github.com/Zijian-Ni/awesome-ai-agents-2026)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%204%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-460%2B-orange.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%209%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-465%2B-orange.svg)](#)
 [![Categories](https://img.shields.io/badge/Categories-25-purple.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--04-success.svg)](#️-status-legend)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--09-success.svg)](#️-status-legend)
 [![Chinese](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
 [![Japanese](https://img.shields.io/badge/Lang-日本語-purple.svg)](README.ja.md)
 
@@ -355,7 +355,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Apple
 
-- [Apple Foundation Models (AFM)](https://machinelearning.apple.com/research/introducing-apple-foundation-models) - On-device (~3B) and server-based models powering Apple Intelligence. Privacy-first, offline capable.
+- [Apple Foundation Models (AFM)](https://machinelearning.apple.com/research/introducing-apple-foundation-models) - On-device (~3B) and server-based models powering Apple Intelligence. Privacy-first, offline capable. **WWDC 2026 (June 8)**: next-generation AFM + the more personal Siri are co-developed with Google's Gemini models; the existing third-party ChatGPT handoff inside Siri is being phased out in favor of a Gemini-backed Apple Intelligence stack.
 - [OpenELM](https://machinelearning.apple.com/research/openelm) - Open-source efficient language models (270M–3B). Designed for on-device processing on Apple silicon.
 
 ### Samsung
@@ -527,6 +527,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [LangGraph Memory](https://github.com/langchain-ai/langgraph) - 🆕 Built-in persistence and checkpointing for stateful agent workflows. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
 - [Graphiti](https://github.com/getzep/graphiti) - 🆕 Build and query knowledge graphs for agent memory using temporal awareness. ![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=flat-square)
 - [Claude Managed Agents Memory](https://platform.claude.com/docs/en/release-notes/overview) - 🆕 **April 23, 2026** (public beta). Anthropic's persistent memory feature for Claude Managed Agents. Agents retain information across sessions by mounting read/write memory stores to a filesystem. Enables long-running agents to learn and adapt without resetting context.
+- [taOSmd](https://github.com/jaylfc/taosmd) - 🆕 ⚠️ **Unverified.** Local-first, append-only-transcript agent memory: typed temporal knowledge graph where corrected facts supersede old ones, plus hybrid vector + BM25 retrieval. Tuned for small local models, fully offline (runs on an 8 GB SBC). Author-reported 97% end-to-end Judge on LongMemEval-S; single-maintainer, 44 stars at audit time — benchmarks are reproducible per `docs/benchmarks.md`. MIT. ![GitHub stars](https://img.shields.io/github/stars/jaylfc/taosmd?style=flat-square)
 
 ## 🔌 Tool & API Integration
 
@@ -780,6 +781,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 *Voice-enabled and multimodal AI agent platforms.*
 
+- [AgentLine](https://agentline.cloud/) - 🆕 ⚠️ **Unverified.** Telephony infrastructure for AI agents — provision phone numbers, make/receive calls, real-time transcription to JSON webhooks. Pitched as a thinner alternative to Twilio for agent voice pipelines; submitter claims 30+ paid users, no third-party adoption signal yet.
 - [ElevenLabs](https://elevenlabs.io/) - AI voice platform with conversational AI agents and realistic speech synthesis.
 - [Vapi](https://github.com/VapiAI/server-sdk-python) - Enterprise voice AI platform — build, test, and deploy voice agents. **$50M Series B announced May 12, 2026** after crossing 1B platform calls; May 2026 updates ship Squads v2 (multi-assistant orchestration), Composer alpha (prompt-built agents), Simulations alpha (systematic AI-powered testing), and GA of the Soniox low-latency multilingual transcriber. ![GitHub stars](https://img.shields.io/github/stars/VapiAI/server-sdk-python?style=flat-square)
 - [Retell AI](https://www.retellai.com/) - Build production-ready conversational voice AI agents.
@@ -1374,6 +1376,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 **I want a data analysis / BI agent**
 - **Julius AI** / **Code Interpreter (ChatGPT)** — Managed, no setup. → best for analysts without eng support
+- **[AI for Database](https://aifordatabase.com)** — ⚠️ Unverified. Plain-English queries over Postgres / MySQL / MongoDB / SQL Server / SQLite + Sheets, with self-refreshing dashboards and Slack/webhook/email triggers; SOC 2 + GDPR, self-host option, $19/mo Pro. → best for non-technical teams that need direct DB access without SQL
 - **LangChain** + **Pandas Agent** + **Langfuse** — Fully custom, code-gen for queries. → best for eng teams with custom data
 - **Metabase AI** / **Tableau Pulse** — Embedded BI copilot. → best inside existing BI stack
 
@@ -1772,6 +1775,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | **May 28, 2026** | [Koog 1.0](https://blog.jetbrains.com/ai/2026/05/koog-1-0-is-out-stable-core-better-interop-and-multiplatform-observability/) released at KotlinConf 2026 — JetBrains' open-source Kotlin/Java AI-agent framework hits stable, Kotlin Multiplatform deployment, OpenTelemetry across targets | Frameworks |
 | **May 28, 2026** | [Gemini Omni Flash conversational video editing](https://www.techtimes.com/articles/317309/20260528/google-gemini-omni-flash-brings-voice-controlled-ai-video-editing-future-conversational-ai.htm) starts rolling out via Gemini app / Google Flow / YouTube Shorts — voice-and-text-driven cinematic edits replace NLEs | Tools |
 | **May 29, 2026** | [MCP 2026-07 Release Candidate](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) published — stateless protocol core, extensions framework, MCP Apps server-rendered UI, hardened OAuth/OIDC alignment; final spec target July 28, 2026 | Protocols |
+| **Apr 17–20, 2026** | [Apple CEO succession announced](https://www.sec.gov/Archives/edgar/data/0000320193/000114036126015711/ef20071035_8k.htm) — Tim Cook transitions to Executive Chair on **Sept 1, 2026** after 15 years; SVP Hardware Engineering **John Ternus** becomes CEO. First top-3-by-cap-table frontier-platform CEO change of the AI era | Industry |
+| **Jun 8, 2026** | **[WWDC 2026](https://www.techradar.com/news/live/apple-wwdc-2026-live)** — Apple unveils Gemini-powered Apple Intelligence + a redesigned, more conversational Siri (third-party ChatGPT handoff retired). iOS 27, iPadOS 27, macOS 27 "Golden Gate", watchOS 27, tvOS 27, visionOS 27 with deeper on-device AI; ~30% faster app launches, 70% faster Photos previews, 5× faster iPadOS file transfers; ships fall 2026 | Industry |
 | **Apr 2026** | Gartner predicts 40% of enterprise apps will embed AI agents by end of 2026 | Industry |
 | **Apr 2026** | Google commits up to $40B investment in Anthropic (initial $10B) | Industry |
 | **2026 (ongoing)** | A2A Protocol grows to 150+ partner organizations | Protocols |
@@ -1796,10 +1801,10 @@ This list is released under [MIT License](LICENSE).
 
 **⭐ If you find this list useful, please give it a star! ⭐**
 
-*460+ resources across 25 categories — from foundation models to agent protocols to generative AI.*
+*465+ resources across 25 categories — from foundation models to agent protocols to generative AI.*
 
 Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 
-*Last updated: June 4, 2026*
+*Last updated: June 9, 2026*
 
 </div>

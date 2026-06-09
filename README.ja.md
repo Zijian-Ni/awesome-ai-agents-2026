@@ -6,9 +6,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/awesome-ai-agents-2026?style=social)](https://github.com/Zijian-Ni/awesome-ai-agents-2026)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%204%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-460%2B-orange.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--04-success.svg)](#️-ステータス凡例)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%209%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-465%2B-orange.svg)](#)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--09-success.svg)](#️-ステータス凡例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![中文](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
 
@@ -282,7 +282,7 @@
 
 ### Apple
 
-- [Apple Foundation Models (AFM)](https://machinelearning.apple.com/research/introducing-apple-foundation-models) - Apple Intelligence の中核となるオンデバイス（~3B）+ サーバーモデル。プライバシー優先、オフライン対応。
+- [Apple Foundation Models (AFM)](https://machinelearning.apple.com/research/introducing-apple-foundation-models) - Apple Intelligence の中核となるオンデバイス（~3B）+ サーバーモデル。プライバシー優先、オフライン対応。**WWDC 2026（6 月 8 日）**: 次世代 AFM とよりパーソナルな新 Siri は Google Gemini と共同開発。Siri からサードパーティ ChatGPT へ転送する従来動作は段階的に廃止され、Gemini ベースの Apple Intelligence スタックに置き換わる。
 - [OpenELM](https://machinelearning.apple.com/research/openelm) - Apple Silicon オンデバイス向けオープンソース効率言語モデル（270M~3B）。
 
 ### Samsung
@@ -469,6 +469,7 @@
 - [Claude Managed Agents Memory](https://platform.claude.com/docs/en/release-notes/overview) - 🆕 **2026-04-23**（パブリックベータ）。Claude Managed Agents 用 Anthropic 永続メモリ機能。読み書きメモリストアをエージェントのファイルシステムにマウントしてセッション間で情報を保持。
 - [Mem0g (graph variant)](https://mem0.ai/blog/state-of-ai-agent-memory-2026) - 🆕 Mem0 のグラフ強化派生で、マルチホップ質問に強い。2026 年初時点で 21+ のフレームワーク統合あり。
 - [Claude Managed Agents Memory](https://www.anthropic.com/) - 🆕 **2026 年 4 月 23 日** パブリックベータ。Anthropic ホスト型エージェントランタイムに組み込まれた、セッションをまたいだ永続メモリ。
+- [taOSmd](https://github.com/jaylfc/taosmd) - 🆕 ⚠️ **Unverified.** ローカル優先・追記型トランスクリプトに基づくエージェントメモリ。型付きの時系列ナレッジグラフ（修正後の新事実が旧事実を上書き）と、ベクトル + BM25 のハイブリッド検索を組み合わせる。小型ローカルモデル向けにチューニングされ、完全オフライン（8 GB の SBC で動作）。作者報告で LongMemEval-S の end-to-end Judge 97%。単独メンテナで監査時点 44 stars、ベンチマークは `docs/benchmarks.md` から再現可能。MIT。![GitHub stars](https://img.shields.io/github/stars/jaylfc/taosmd?style=flat-square)
 
 ---
 
@@ -724,6 +725,7 @@
 
 *音声対応 ・ マルチモーダル AI エージェントプラットフォーム。*
 
+- [AgentLine](https://agentline.cloud/) - 🆕 ⚠️ **Unverified.** AI エージェント向けテレフォニー基盤 —— 電話番号の発行、発信／着信、リアルタイム文字起こしを JSON で webhook に流す。エージェント音声パイプライン用途に絞った Twilio の軽量代替を標榜。提出者は有料ユーザー 30+ と主張するが、第三者の採用事実は未確認。
 - [ElevenLabs](https://elevenlabs.io/) - 業界トップの AI 音声合成、クローン、会話 AI。
 - [Vapi](https://github.com/VapiAI/server-sdk-python) - 音声 AI エージェントを構築・テスト・展開するプラットフォーム。![GitHub stars](https://img.shields.io/github/stars/VapiAI/server-sdk-python?style=flat-square)
 - [Retell AI](https://www.retellai.com/) - プロダクション対応の会話型音声 AI エージェント。
@@ -1282,6 +1284,7 @@
 
 **データ分析 / BI エージェント**
 - **Julius AI** — エンジニア不要、マネージド。
+- **[AI for Database](https://aifordatabase.com)** — ⚠️ Unverified。自然言語で Postgres / MySQL / MongoDB / SQL Server / SQLite + Sheets を直接クエリ、自己更新ダッシュボードと Slack / Webhook / メールトリガー。SOC 2 + GDPR、セルフホスト可、Pro $19/月。→ SQL を書けない非エンジニアチーム向け。
 - **LangChain + Pandas Agent** — 完全カスタム。
 
 **コンピュータ使用 / デスクトップエージェント**
@@ -1533,6 +1536,8 @@
 | **2026-05-28** | [Koog 1.0](https://blog.jetbrains.com/ai/2026/05/koog-1-0-is-out-stable-core-better-interop-and-multiplatform-observability/) KotlinConf 2026 でリリース — JetBrains の OSS Kotlin/Java エージェントフレームワークが安定 1.0、Kotlin Multiplatform デプロイ、全ターゲット OpenTelemetry | フレームワーク |
 | **2026-05-28** | [Gemini Omni Flash 会話型ビデオ編集](https://www.techtimes.com/articles/317309/20260528/google-gemini-omni-flash-brings-voice-controlled-ai-video-editing-future-conversational-ai.htm) が Gemini App / Google Flow / YouTube Shorts へロールアウト — 音声・テキスト騆動のシネマ風編集が従来の NLE を置換 | ツール |
 | **2026-05-29** | [MCP 2026-07 Release Candidate](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) 公開 — ステートレスコア、拡張フレームワーク、MCP Apps サーバレンダリング UI、OAuth/OIDC 強化。正式版は 7 月 28 日予定 | プロトコル |
+| **2026-04-17～20** | [Apple CEO 交代を発表](https://www.sec.gov/Archives/edgar/data/0000320193/000114036126015711/ef20071035_8k.htm) — Tim Cook は 15 年を経て **2026-09-01** に Executive Chair へ移行、ハードウェアエンジニアリング担当 SVP の **John Ternus** が CEO に就任。AI 時代における最初の時価総額トップクラスのフロンティアプラットフォーム企業 CEO 交代 | 業界 |
+| **2026-06-08** | **[WWDC 2026](https://www.techradar.com/news/live/apple-wwdc-2026-live)** — Apple が Google Gemini 駆動の Apple Intelligence と、よりパーソナル化された新 Siri を発表（Siri からサードパーティ ChatGPT へ転送する動作は廃止）。iOS 27、iPadOS 27、macOS 27 "Golden Gate"、watchOS 27、tvOS 27、visionOS 27 でオンデバイス AI を強化。アプリ起動 約 30% 高速化、写真プレビュー 70% 高速化、iPadOS のファイル転送 5 倍高速化、2026 年秋にリリース | 業界 |
 | **2026-04** | Gartner は 2026 年末までに企業アプリの 40% が AI エージェントを組み込むと予測 | 業界 |
 | **2026-04** | Google が Anthropic へ最大 $40B の投資をコミット（初期 $10B） | 業界 |
 | **2026 進行中** | A2A Protocol のパートナー組織が 150+ に増加 | プロトコル |

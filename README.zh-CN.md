@@ -6,9 +6,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/awesome-ai-agents-2026?style=social)](https://github.com/Zijian-Ni/awesome-ai-agents-2026)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%204%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-460%2B-orange.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--04-success.svg)](#️-状态图例)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%209%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-465%2B-orange.svg)](#)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--09-success.svg)](#️-状态图例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![日本語](https://img.shields.io/badge/Lang-日本語-red.svg)](README.ja.md)
 
@@ -282,7 +282,7 @@
 
 ### Apple
 
-- [Apple Foundation Models (AFM)](https://machinelearning.apple.com/research/introducing-apple-foundation-models) - 端侧（~3B）+ 服务器版本，Apple Intelligence 内核。隐私优先，离线可用。
+- [Apple Foundation Models (AFM)](https://machinelearning.apple.com/research/introducing-apple-foundation-models) - 端侧（~3B）+ 服务器版本，Apple Intelligence 内核。隐私优先，离线可用。**WWDC 2026（6 月 8 日）**：下一代 AFM 与全新个性化 Siri 改由与 Google Gemini 联合开发；原本 Siri 中的第三方 ChatGPT 转发逐步退役，让位给 Gemini 驱动的 Apple Intelligence 栈。
 - [OpenELM](https://machinelearning.apple.com/research/openelm) - 开源高效语言模型（270M~3B），Apple Silicon 端侧。
 
 ### Samsung
@@ -469,6 +469,7 @@
 - [Claude Managed Agents Memory](https://platform.claude.com/docs/en/release-notes/overview) - 🆕 **2026-04-23** 公测。把读写记忆挂载到 Agent 文件系统，实现跨会话学习。
 - [Mem0g (graph variant)](https://mem0.ai/blog/state-of-ai-agent-memory-2026) - 🆕 Mem0 的图增强姊妹版，擅长多跳问答；截至 2026 年初已有 21+ 框架集成。
 - [Claude Managed Agents Memory](https://www.anthropic.com/) - 🆕 **2026 年 4 月 23 日** 公测。Anthropic 托管 Agent 运行时内置的跨会话持久记忆能力。
+- [taOSmd](https://github.com/jaylfc/taosmd) - 🆕 ⚠️ **Unverified.** 本地优先、基于追加式转录的 Agent 记忆：类型化时序知识图（修正后的新事实自动覆盖旧事实）+ 向量与 BM25 混合检索。面向小型本地模型调优，完全离线（8 GB 单板机即可运行）。作者声称 LongMemEval-S 端到端 Judge 97%；单作者维护，审核时 44 stars，基准可按 `docs/benchmarks.md` 复现。MIT。![GitHub stars](https://img.shields.io/github/stars/jaylfc/taosmd?style=flat-square)
 
 ---
 
@@ -722,6 +723,7 @@
 
 ## 🗣️ 语音与多模态 Agent
 
+- [AgentLine](https://agentline.cloud/) - 🆕 ⚠️ **Unverified.** 面向 AI Agent 的电话基础设施 —— 申请号码、外呼/接听、实时转录为 JSON 推到 webhook。定位为 Twilio 在 Agent 语音管线场景下的更轻替代；提交者自称 30+ 付费用户，暂无第三方采用证据。
 - [ElevenLabs](https://elevenlabs.io/) - AI 语音合成 + 对话 Agent。
 - [Vapi](https://github.com/VapiAI/server-sdk-python) - 语音 AI Agent 平台。![GitHub stars](https://img.shields.io/github/stars/VapiAI/server-sdk-python?style=flat-square)
 - [Retell AI](https://www.retellai.com/) - 生产级对话语音 AI。
@@ -1291,6 +1293,7 @@
 
 **数据分析 / BI Agent**
 - **Julius AI** — 无需工程师，托管。
+- **[AI for Database](https://aifordatabase.com)** — ⚠️ Unverified。用自然语言查 Postgres / MySQL / MongoDB / SQL Server / SQLite + Sheets，自动刷新仪表盘 + Slack/Webhook/邮件触发；SOC 2 + GDPR，支持自托管，Pro $19/月。→ 适合不会 SQL 的业务团队直连数据库。
 - **LangChain + Pandas Agent** — 完全自定义。
 
 **Computer Use / 桌面 Agent**
@@ -1586,6 +1589,8 @@
 | **2026-05-28** | [Koog 1.0](https://blog.jetbrains.com/ai/2026/05/koog-1-0-is-out-stable-core-better-interop-and-multiplatform-observability/) KotlinConf 2026 发布 — JetBrains 的开源 Kotlin / Java AI Agent 框架达到稳定 1.0，Kotlin Multiplatform 部署、跨端 OpenTelemetry | 框架 |
 | **2026-05-28** | [Gemini Omni Flash 对话式视频编辑](https://www.techtimes.com/articles/317309/20260528/google-gemini-omni-flash-brings-voice-controlled-ai-video-editing-future-conversational-ai.htm) 在 Gemini App / Google Flow / YouTube Shorts 上线 — 语音 + 文字驱动的电影式编辑取代传统 NLE | 工具 |
 | **2026-05-29** | [MCP 2026-07 Release Candidate](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) 发布 — 无状态协议核心、扩展机制、MCP Apps 服务端渲染 UI、OAuth/OIDC 加固，正式版目标7月 28 日 | 协议 |
+| **2026-04-17 – 20** | [苹果 CEO 交接公告](https://www.sec.gov/Archives/edgar/data/0000320193/000114036126015711/ef20071035_8k.htm) — 蒂姆·库克在 15 年后于 **2026-09-01** 转任执行董事长；硬件工程高级副总裁 **John Ternus** 出任 CEO。AI 时代首次发生在万亿美元级平台公司的 CEO 更替 | 产业 |
+| **2026-06-08** | **[WWDC 2026](https://www.techradar.com/news/live/apple-wwdc-2026-live)** — 苹果发布由 Google Gemini 驱动的 Apple Intelligence 与全面重做的新 Siri（Siri 中原本转发给 ChatGPT 的逻辑被淘汰）；iOS 27、iPadOS 27、macOS 27 "Golden Gate"、watchOS 27、tvOS 27、visionOS 27，端侧 AI 更深；App 启动快约 30%，照片预览快 70%，iPadOS 文件传输快 5 倍；2026 秋季发布 | 产业 |
 | **2026-04** | Gartner 预计 2026 年底 40% 企业应用嵌入 AI Agent | 产业 |
 | **2026-04** | Google 承诺对 Anthropic 跟进最高 $40B 投资（首期 $10B） | 产业 |
 | **2026 持续** | A2A Protocol 合作伙伴增至 150+ | 协议 |
