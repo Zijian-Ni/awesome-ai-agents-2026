@@ -26,6 +26,8 @@ Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
 **Header badges** — `Last Updated` → **June 12, 2026**, `Spam_Audited` → **2026-06-12** (all three READMEs).
 
+**Follow-up sync pass (same day)** — added the three May-2026 Cursor entries (3.4 Teams + PR review / 3.3 / SDK) to the zh-CN and ja IDE sections (now 642 / 639 entries); fixed a ja typo in the Kiro entry (「最大3だ 10 タスク」→「最大 10 タスク」, plus 驅動→駆動); realigned zh-CN / ja ordering in 图像生成・视频生成・音频与音乐 / 画像生成・動画生成・音声・音楽 to match README.md.
+
 ---
 
 ## 2026-05-30 — Weekly refresh: May 25–30 · Claude Opus 4.8 / Koog 1.0 / Gemini Omni Flash rollout / MCP 2026-07 RC

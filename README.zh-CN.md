@@ -338,27 +338,27 @@
 - [Midjourney V8.1](https://en.wikipedia.org/wiki/Midjourney) - 🆕 **2026-04-30**。新增 2K 高清出图与新版 Raw 模式选项；V8（含 3D 生成）据传将于 2026 年晚些时候发布。
 - [Flux 2 Pro / Flex / Dev / Klein](https://ropewalk.ai/blog/flux-2-ai-image-generation-2026) - 🆕 **2025-11**。Black Forest Labs 的下一代家族；SOTA 画质、多参考一致性，文本渲染显著提升。
 - [Recraft V4](https://en.wikipedia.org/wiki/Recraft) - 🆕 **2026-02-17**。从零重构；提示准确度大幅改进；支持可编辑 SVG 矢量输出。
-- [Kling IMAGE 3.0](https://klingaio.com/blogs/kling-3-release) - 🇨🇳 🆕 **2026-04-23**。快手出品的院线级原生 4K 图像生成。
-- [Nano Banana 2 (Gemini 3 Pro Image)](https://deepmind.google/) - 🆕 Google 的透明背景友好图像模型；通过 OpenClaw image_generate 暴露使用。
+- [Stable Diffusion 3.5](https://stability.ai/) - 开源图像生成，连贯性与提示跟随增强。
+- [Ideogram 3.0](https://ideogram.ai/) - 文字渲染与设计向特别强。
 - [ChatGPT Images 2.0](https://openai.com/) - 🆕 2026-04。免费层。细节、文字理解、迭代编辑增强。
 - [gpt-image-2](https://openai.com/) - 🆕 OpenAI 最新图像 API。支持 2K/4K 提示。OpenClaw v2026.4.21 默认。
 - [DALL·E 3](https://openai.com/dall-e-3) - 集成在 ChatGPT 中迭代生成。
-- [Midjourney V7](https://www.midjourney.com/) - 仍是艺术风格生成第一梯队。
-- [Stable Diffusion 3.5](https://stability.ai/) - 开源图像生成，连贯性与提示跟随增强。
-- [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale**（2025-07 起无更新）。Black Forest Labs 开源模型。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblack-forest-labs%2Fflux&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [Ideogram 3.0](https://ideogram.ai/) - 文字渲染与设计向特别强。
 - [Gemini 3 Pro Image](https://deepmind.google/technologies/gemini/) - Gemini 内原生图像生成。
+- [Nano Banana 2 (Gemini 3 Pro Image)](https://deepmind.google/) - 🆕 Google 的透明背景友好图像模型；通过 OpenClaw image_generate 暴露使用。
+- [Kling IMAGE 3.0](https://klingaio.com/blogs/kling-3-release) - 🇨🇳 🆕 **2026-04-23**。快手出品的院线级原生 4K 图像生成。
+- [Midjourney V7](https://www.midjourney.com/) - 仍是艺术风格生成第一梯队。
+- [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale**（2025-07 起无更新）。Black Forest Labs 开源模型。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblack-forest-labs%2Fflux&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Recraft V3](https://www.recraft.ai/) - 设计师向专业图像生成。
 - [Seedance 2.0](https://seed.bytedance.com/) - 🇨🇳 🆕 字节下一代图像 / 动画生成 API。
 
 ### 视频生成
 
 - [Runway Agent](https://chatlyai.app/news/runway-agent-launch-may-2026) - 🆕 **2026-05-13**。对话式 Agent，接过写好的脚本为你递交一段**多镜头完成品视频**：分镜脚本→生成→剪接→配音全路贯通，底层调用 Gen-4 / Gen-4 Turbo / Aleph 编辑。首个可用的「提示词到粗剪」产业级 Agent。
-- [Sora 2 (via Runway)](https://runwayml.com/changelog) - 🆕 OpenAI 的 Sora 应用于 2026 年 4 月关停，但 Sora 2 Pro 已自 2026 年 4 月 7 日起集成进 Runway。
+- [Runway Gen-4](https://runwayml.com/) - 🆕 专业视频生成与编辑，角色风格一致。
 - [Kling VIDEO 3.0](https://kling.ai/) - 🇨🇳 🆕 快手出品。真人动作 + 嘴型 + 音画同步，最长 15 秒。
+- [Sora 2 (via Runway)](https://runwayml.com/changelog) - 🆕 OpenAI 的 Sora 应用于 2026 年 4 月关停，但 Sora 2 Pro 已自 2026 年 4 月 7 日起集成进 Runway。
 - [Hailuo AI](https://hailuoai.video/) - 🇨🇳 🆕 MiniMax 出品。文生 / 图生视频 + AI 主播 + 配音 + 角色一致性。
 - [Veo 2](https://deepmind.google/technologies/veo/) - 🆕 Google DeepMind 高保真视频生成。
-- [Runway Gen-4](https://runwayml.com/) - 🆕 专业视频生成与编辑，角色风格一致。
 - [Pika 2.0](https://pika.art/) - 🆕 创意短视频，场景与特效控制。
 - [LTX Studio](https://ltx.studio/) - 🆕 AI 电影化视频创作平台。
 - [Tianma (天马) AI](https://www.alibabacloud.com/) - 🇨🇳 🆕 **2026-04-27** 公测。阿里图生视频。
@@ -366,20 +366,18 @@
 
 ### 音频与音乐
 
+- [ElevenLabs Eleven v3 + ElevenAgents](https://elevenlabs.io/voice-agents) - 🆕 2026 年定位为 "互联网的音频层"——支持 70+ 语言、带情绪 Audio Tag 的 TTS，加上首个通过 AIUC-1 认证的 ElevenAgents 语音 Agent 平台，含多模态消息、会话主题发现、工具调用前的语音控制。
+- [Cartesia Sonic 3 / 3.5](https://cartesia.ai/blog/introducing-line-for-voice-agents) - 🆕 **2026**。基于状态空间模型的 TTS，首音延迟约 40-90ms；驱动 2026 年 4 月发布的 **Line Agents** 语音 Agent 平台。
+- [Deepgram Nova-3 + Aura-2 + Flux Multilingual](https://deepgram.com/learn/best-voice-ai-agents-2026-buyers-guide) - 🆕 **2026 年 4 月**。45+ 语言的 STT，TTS 延迟低于 200ms，会话式 STT 支持通话中 10 种语言的实时切换。
+- [MiniMax Music 2.6](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🇨🇳 🆕 **2026 年 4 月**。主打翻唱生成方向，低频还原显著改进。
+- [Voxtral TTS](https://www.forbes.com/sites/ronschmelzer/2026/03/26/mistral-releases-open-weight-voice-ai-built-for-speed/) - 🆕 **2026 年 3 月 26 日**。Mistral 开放权重的 4B TTS，专为语音 Agent 的低延迟而生。
 - [ElevenLabs](https://elevenlabs.io/) - AI 语音合成 + 克隆 + 对话 AI 头部。
 - [Suno V4](https://suno.com/) - 🆕 文本到音乐，高保真人声 + 配器。
 - [Udio](https://www.udio.com/) - 🆕 商用级音乐生成。
 - [OpenAI Audio Models](https://openai.com/) - GPT-4o 内的原生音频理解 + 生成。
 - [Stability Audio](https://stability.ai/) - 开源音频音乐生成。
 - [Bark](https://github.com/suno-ai/bark) - 💤 **Stale**（2024-08 起无更新）。开源文本到音频。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fsuno-ai%2Fbark&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [ElevenLabs Eleven v3 + ElevenAgents](https://elevenlabs.io/voice-agents) - 🆕 2026 年定位为 "互联网的音频层"——支持 70+ 语言、带情绪 Audio Tag 的 TTS，加上首个通过 AIUC-1 认证的 ElevenAgents 语音 Agent 平台，含多模态消息、会话主题发现、工具调用前的语音控制。
-- [Cartesia Sonic 3 / 3.5](https://cartesia.ai/blog/introducing-line-for-voice-agents) - 🆕 **2026**。基于状态空间模型的 TTS，首音延迟约 40-90ms；驱动 2026 年 4 月发布的 **Line Agents** 语音 Agent 平台。
-- [Deepgram Nova-3 + Aura-2 + Flux Multilingual](https://deepgram.com/learn/best-voice-ai-agents-2026-buyers-guide) - 🆕 **2026 年 4 月**。45+ 语言的 STT，TTS 延迟低于 200ms，会话式 STT 支持通话中 10 种语言的实时切换。
-- [MiniMax Music 2.6](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🇨🇳 🆕 **2026 年 4 月**。主打翻唱生成方向，低频还原显著改进。
-- [Voxtral TTS](https://www.forbes.com/sites/ronschmelzer/2026/03/26/mistral-releases-open-weight-voice-ai-built-for-speed/) - 🆕 **2026 年 3 月 26 日**。Mistral 开放权重的 4B TTS，专为语音 Agent 的低延迟而生。
 - [Hume TADA](https://github.com/HumeAI/tada) - 🆕 **2026 年 3 月 10 日**。Hume AI 首个开源 TTS，MIT 许可。Text-Acoustic Dual Alignment 架构把文本 token 直接对齐到音频 token —— 测试中零转录错误，比同类快约 5×，支持 8 种语言，能在手机上跑。基于 Llama。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FHumeAI%2Ftada&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-
----
 
 ## 🔗 Agent 协议与标准
 
@@ -598,6 +596,9 @@
 
 ### IDE Agent
 
+- [Cursor 3.4（Teams + PR 审查）](https://cursor.com/changelog) - 🆕 **2026-05-11~13**。Microsoft Teams 集成（在 Teams 中 `@Cursor` 即可委派云端 Agent）、并行 Agent 计划执行提速、多仓库 / 基于 Dockerfile 的 Agent 开发环境配置、`/multitask` 异步子 Agent、漏洞扫描器、按模型粒度的访问控制。
+- [Cursor 3.3](https://cursor.com/changelog) - 🆕 **2026-05**。PR 审查体验、并行 Agent、企业级模型管控；上一版 3.1 发布于 4 月。
+- [Cursor SDK](https://cursor.com/changelog) - 🆕 **2026-05-04**。TypeScript SDK 开放 Cursor 的运行时、harness 和模型，开发者可在 Cursor 栈上构建程序化 Agent；随附 v2.5 安全补丁，修复恶意 git 仓库导致任意代码执行的漏洞。
 - [Cursor 3.09](https://www.cursor.com/) - 🆕 2026-04-03 更新。Agent 模式增强，支持 Vibe Coding。
 - [Kilo Code](https://www.kilocode.com/) - 🇨🇳 🆕 2026-04 中文社区流行的 Cursor 替代。默认 MiniMax 模型。
 - [Cursor](https://www.cursor.com/) - 2026-02 更新支持 8 个并行 Agent。

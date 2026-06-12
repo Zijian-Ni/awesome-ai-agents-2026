@@ -338,27 +338,27 @@
 - [Midjourney V8.1](https://en.wikipedia.org/wiki/Midjourney) - 🆕 **2026-04-30**。2K HD 出力対応、新 Raw モードのオプション追加。V8（3D 生成含む）は 2026 年後半とされている。
 - [Flux 2 Pro / Flex / Dev / Klein](https://ropewalk.ai/blog/flux-2-ai-image-generation-2026) - 🆕 **2025-11**。Black Forest Labs の次世代ファミリー。SOTA 画質、マルチリファレンスの一貫性、文字描画の大幅改善。
 - [Recraft V4](https://en.wikipedia.org/wiki/Recraft) - 🆕 **2026-02-17**。フルリビルド。プロンプト追従性が大幅改善、編集可能な SVG ベクター出力に対応。
-- [Kling IMAGE 3.0](https://klingaio.com/blogs/kling-3-release) - 🇨🇳 🆕 **2026-04-23**。快手のシネマグレード・ネイティブ 4K 画像生成。
-- [Nano Banana 2 (Gemini 3 Pro Image)](https://deepmind.google/) - 🆕 Google の透過背景対応に強い画像モデル。OpenClaw image_generate 経由で利用可能。
+- [Stable Diffusion 3.5](https://stability.ai/) - 一貫性・プロンプト追従が改善されたオープンソース画像生成。
+- [Ideogram 3.0](https://ideogram.ai/) - 画像内のテキスト描画とデザイン志向の生成に強い。
 - [ChatGPT Images 2.0](https://openai.com/) - 🆕 2026-04。無料層対応。ディテール・テキスト理解・反復編集が向上。
 - [gpt-image-2](https://openai.com/) - 🆕 OpenAI 最新の画像生成 API。2K/4K 解像度ヒント対応。OpenClaw v2026.4.21 のデフォルト。
 - [DALL·E 3](https://openai.com/dall-e-3) - ChatGPT に統合された OpenAI のテキスト → 画像モデル。
-- [Midjourney V7](https://www.midjourney.com/) - フォトリアル・芸術風スタイルの第一線。
-- [Stable Diffusion 3.5](https://stability.ai/) - 一貫性・プロンプト追従が改善されたオープンソース画像生成。
-- [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale**（2025-07 以降更新なし）。Black Forest Labs のオープンソースモデル。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblack-forest-labs%2Fflux&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [Ideogram 3.0](https://ideogram.ai/) - 画像内のテキスト描画とデザイン志向の生成に強い。
 - [Gemini 3 Pro Image](https://deepmind.google/technologies/gemini/) - Gemini 内のネイティブ画像生成。
+- [Nano Banana 2 (Gemini 3 Pro Image)](https://deepmind.google/) - 🆕 Google の透過背景対応に強い画像モデル。OpenClaw image_generate 経由で利用可能。
+- [Kling IMAGE 3.0](https://klingaio.com/blogs/kling-3-release) - 🇨🇳 🆕 **2026-04-23**。快手のシネマグレード・ネイティブ 4K 画像生成。
+- [Midjourney V7](https://www.midjourney.com/) - フォトリアル・芸術風スタイルの第一線。
+- [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale**（2025-07 以降更新なし）。Black Forest Labs のオープンソースモデル。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblack-forest-labs%2Fflux&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Recraft V3](https://www.recraft.ai/) - プロのデザイナー向け AI 画像生成。
 - [Seedance 2.0](https://seed.bytedance.com/) - 🇨🇳 🆕 ByteDance の次世代画像/アニメーション生成 API。
 
 ### 動画生成
 
 - [Runway Agent](https://chatlyai.app/news/runway-agent-launch-may-2026) - 🆕 **2026-05-13**。テキストブリーフから完成動画までを一気通貫で仕上げる会話型エージェント。Gen-4 / Aleph を基盤とする。
-- [Sora 2 (via Runway)](https://runwayml.com/changelog) - 🆕 OpenAI の Sora アプリは 2026 年 4 月に終了したが、Sora 2 Pro は 2026 年 4 月 7 日以降 Runway に統合済み。
+- [Runway Gen-4](https://runwayml.com/) - 🆕 プロ向け動画生成・編集、キャラクター・スタイル一貫性。
 - [Kling VIDEO 3.0](https://kling.ai/) - 🇨🇳 🆕 快手製。リアルな動き・リップシンク・音声同期付きナラティブ。最大 15 秒。
+- [Sora 2 (via Runway)](https://runwayml.com/changelog) - 🆕 OpenAI の Sora アプリは 2026 年 4 月に終了したが、Sora 2 Pro は 2026 年 4 月 7 日以降 Runway に統合済み。
 - [Hailuo AI](https://hailuoai.video/) - 🇨🇳 🆕 MiniMax 製。テキスト/画像から動画、AI アバター・ナレーション・キャラクター一貫性。
 - [Veo 2](https://deepmind.google/technologies/veo/) - 🆕 Google DeepMind の高忠実度動画生成。
-- [Runway Gen-4](https://runwayml.com/) - 🆕 プロ向け動画生成・編集、キャラクター・スタイル一貫性。
 - [Pika 2.0](https://pika.art/) - 🆕 シーン・エフェクト制御付きクリエイティブ動画生成。
 - [LTX Studio](https://ltx.studio/) - 🆕 AI 駆動シネマティック動画作成プラットフォーム。
 - [Tianma (天馬) AI](https://www.alibabacloud.com/) - 🇨🇳 🆕 **2026-04-27** ベータ。アリババの画像→動画モデル。
@@ -366,20 +366,18 @@
 
 ### 音声・音楽
 
+- [ElevenLabs Eleven v3 + ElevenAgents](https://elevenlabs.io/voice-agents) - 🆕 2026 年に "インターネットのオーディオレイヤー" を標榜——70+ 言語対応で感情 Audio Tag を備えた TTS と、AIUC-1 認証を取得した ElevenAgents 音声エージェントプラットフォーム（マルチモーダルメッセージ、会話トピック発見、ツール呼び出し前の音声制御）を提供。
+- [Cartesia Sonic 3 / 3.5](https://cartesia.ai/blog/introducing-line-for-voice-agents) - 🆕 **2026**。状態空間モデル系の TTS。first audio 到達まで約 40〜90ms。2026 年 4 月公開の **Line Agents** 音声エージェント基盤を支える。
+- [Deepgram Nova-3 + Aura-2 + Flux Multilingual](https://deepgram.com/learn/best-voice-ai-agents-2026-buyers-guide) - 🆕 **2026 年 4 月**。45+ 言語の STT、200ms 未満の TTS、通話中に 10 言語を切り替えできる会話型 STT。
+- [MiniMax Music 2.6](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🇨🇳 🆕 **2026 年 4 月**。カバー生成に特化し、低音域の再現性が向上。
+- [Voxtral TTS](https://www.forbes.com/sites/ronschmelzer/2026/03/26/mistral-releases-open-weight-voice-ai-built-for-speed/) - 🆕 **2026 年 3 月 26 日**。Mistral の音声エージェント向け、4B オープンウェイト TTS。
 - [ElevenLabs](https://elevenlabs.io/) - AI 音声合成・クローン・対話 AI のリーダー。
 - [Suno V4](https://suno.com/) - 🆕 高品質ボーカル・楽器付きの AI 音楽生成。
 - [Udio](https://www.udio.com/) - 🆕 商用品質の音楽生成。
 - [OpenAI Audio Models](https://openai.com/) - GPT-4o 内のネイティブ音声理解・生成。
 - [Stability Audio](https://stability.ai/) - オープンソース音声・音楽生成。
 - [Bark](https://github.com/suno-ai/bark) - 💤 **Stale**（2024-08 以降更新なし）。オープンソースのテキスト→音声モデル。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fsuno-ai%2Fbark&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [ElevenLabs Eleven v3 + ElevenAgents](https://elevenlabs.io/voice-agents) - 🆕 2026 年に "インターネットのオーディオレイヤー" を標榜——70+ 言語対応で感情 Audio Tag を備えた TTS と、AIUC-1 認証を取得した ElevenAgents 音声エージェントプラットフォーム（マルチモーダルメッセージ、会話トピック発見、ツール呼び出し前の音声制御）を提供。
-- [Cartesia Sonic 3 / 3.5](https://cartesia.ai/blog/introducing-line-for-voice-agents) - 🆕 **2026**。状態空間モデル系の TTS。first audio 到達まで約 40〜90ms。2026 年 4 月公開の **Line Agents** 音声エージェント基盤を支える。
-- [Deepgram Nova-3 + Aura-2 + Flux Multilingual](https://deepgram.com/learn/best-voice-ai-agents-2026-buyers-guide) - 🆕 **2026 年 4 月**。45+ 言語の STT、200ms 未満の TTS、通話中に 10 言語を切り替えできる会話型 STT。
-- [MiniMax Music 2.6](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🇨🇳 🆕 **2026 年 4 月**。カバー生成に特化し、低音域の再現性が向上。
-- [Voxtral TTS](https://www.forbes.com/sites/ronschmelzer/2026/03/26/mistral-releases-open-weight-voice-ai-built-for-speed/) - 🆕 **2026 年 3 月 26 日**。Mistral の音声エージェント向け、4B オープンウェイト TTS。
 - [Hume TADA](https://github.com/HumeAI/tada) - 🆕 **2026 年 3 月 10 日**。Hume AI 初のオープンソース TTS、MIT ライセンス。Text-Acoustic Dual Alignment アーキテクチャでテキストトークンと音声トークンを直接アライン——テストで転記エラーゼロ、同種より約 5× 高速、8 言語対応、スマートフォンで動作。Llama ベース。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FHumeAI%2Ftada&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-
----
 
 ## 🔗 エージェントプロトコルと標準
 
@@ -598,6 +596,9 @@
 
 ### IDE エージェント
 
+- [Cursor 3.4（Teams + PR レビュー）](https://cursor.com/changelog) - 🆕 **2026-05-11~13**。Microsoft Teams 統合（Teams 内で `@Cursor` するとクラウドエージェントに委任）、並列エージェントのプラン実行高速化、マルチリポジトリ / Dockerfile ベースのエージェント開発環境設定、`/multitask` 非同期サブエージェント、脆弱性スキャナー、モデル単位のきめ細かなアクセス制御。
+- [Cursor 3.3](https://cursor.com/changelog) - 🆕 **2026-05**。PR レビュー体験、並列エージェント、エンタープライズ向けモデル管理。前バージョン 3.1 は 4 月リリース。
+- [Cursor SDK](https://cursor.com/changelog) - 🆕 **2026-05-04**。Cursor のランタイム・ハーネス・モデルを公開する TypeScript SDK で、Cursor スタック上にプログラマブルなエージェントを構築可能。悪意ある git リポジトリ経由の任意コード実行脆弱性を修正する v2.5 セキュリティパッチを同梱。
 - [Cursor 3.09](https://www.cursor.com/) - 🆕 2026-04-03 アップデート。Vibe Coding ワークフロー向けにエージェントモードを強化。
 - [Kilo Code](https://www.kilocode.com/) - 🇨🇳 🆕 2026-04 中国コミュニティで人気の Cursor 代替。デフォルトモデル: MiniMax。
 - [Cursor](https://www.cursor.com/) - 2026-02 アップデートで 8 並列エージェント対応。
@@ -607,7 +608,7 @@
 - [Roo Code](https://roocode.com/) - 🆕 オープンソースの VS Code 拡張。複数ファイルを跨いで読み書きし、コマンド実行が可能、model-agnostic。自前の LLM API 以外は無料。
 - [Void](https://github.com/voideditor/void) - 🆕 VS Code のオープンソース fork。"オープンソース版 Cursor" として位置付け、データはローカルに残り、モデルは持ち込み。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [GitHub Copilot](https://github.com/features/copilot) - 2026 年初頭よりエージェントモードと `gh copilot` シェル統合。
-- [Kiro](https://kiro.dev/) - AWS の自律エージェント。スペック驅動開発、最大3だ 10 タスクを同時管理。
+- [Kiro](https://kiro.dev/) - AWS の自律エージェント。スペック駆動開発、最大 10 タスクを同時管理。
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AWS エコシステムと深く統合された AI コーディングコンパニオン。
 - [Visual Studio 2026 Agent Mode + Skills](https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio/) - 🆕 **VS 2026 Insiders 2026-05-12～15**。Copilot Chat「Agent Mode」が Visual Studio 2026 内で再利用可能な Copilot Skill を探し・管理・作成できるようになり、ソリューション全体のコンテキストを見つつ、端末コマンド実行や外部ツール呼び出しもサポート。
 - [JetBrains Rider AI Test-Writing Skill](https://blog.jetbrains.com/dotnet/2026/05/22/claude-codex-ai-agent-skill-for-writing-tests/) - 🆕 **2026 年 5 月 22 日**。JetBrains Rider に追加された AI Assistant skill。.NET のコードカバレッジ情報を Claude Code / Codex に渡し、未カバー分岐に絞ってテスト生成させることで AI コストを削減。
@@ -765,7 +766,7 @@
 - [Cartesia](https://www.cartesia.ai/) - 🆕 超低遅延のリアルタイム会話型音声 AI。
 - [Meta Voice AI](https://ai.meta.com/) - 🆕 旧 PlayHT/Play.ai チームの技術を Meta AI ・ AI キャラクター、ウェアラブルに統合。Play.ai は 2025-12-31 にサービス終了。
 - [Sesame](https://www.sesame.com/) - 🆕 感情理解と自然会話を備えた音声 AI コンパニオン。
-- [OpenYabby](https://github.com/OpenYabby/OpenYabby) - 🆕 macOS 向けオープンソースの音声驅動型マルチエージェントオーケストレーター — Realtime API + CLI ランナー + マルチチャネル連携。リードエージェントが計画を立て、レビューと QA をサブエージェントに委任します。MIT。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FOpenYabby%2FOpenYabby&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [OpenYabby](https://github.com/OpenYabby/OpenYabby) - 🆕 macOS 向けオープンソースの音声駆動型マルチエージェントオーケストレーター — Realtime API + CLI ランナー + マルチチャネル連携。リードエージェントが計画を立て、レビューと QA をサブエージェントに委任します。MIT。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FOpenYabby%2FOpenYabby&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [ElevenAgents](https://elevenlabs.io/voice-agents) - 🆕 ElevenLabs のフルスタック音声エージェント基盤（2026 年 4〜5 月更新）。MCP 対応、マルチモーダルメッセージ、会話トピック発見、ナレッジベース検索、ツール呼び出し前の音声制御を提供。音声エージェント基盤として初めて AIUC-1 認証を取得。
 - [Cartesia Line](https://cartesia.ai/blog/introducing-line-for-voice-agents) - 🆕 **2026 年 4 月**。Sonic 3 TTS + Ink STT 上に構築されたコードファースト音声エージェント基盤。first audio まで約 40〜90ms。
 - [Deepgram Voice Agent API](https://deepgram.com/learn/best-voice-ai-agents-2026-buyers-guide) - 🆕 STT（Nova-3）+ LLM ルーティング + TTS（Aura-2）+ 通話中 10 言語切り替え対応の Flux 会話型 STT を 1 エンドポイントで束ねた。
