@@ -3,6 +3,31 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+## 2026-06-12 — Re-rank by strength / recency / popularity + readability polish (en/zh/ja sync)
+
+### ~ Changed (no entries removed; ordering, placement, and sync fixes only)
+
+**Category re-ranking — newest/strongest first** (verified against June 2026 coverage: the frontier race is GPT-5.5 vs Claude Opus 4.8 vs Gemini 3.5):
+- **Anthropic** — [Claude Opus 4.8](https://www.anthropic.com/claude/opus) (May 28, flagship, leads SWE-bench-class coding) moved from bottom of section to **#1**, ahead of Opus 4.7.
+- **Google DeepMind** — [Gemini 3.5 Flash](https://blog.google/innovation-and-ai/sundar-pichai-io-2026/) + Gemini Omni / Omni Flash (I/O 2026) moved to top, ahead of Gemini 3.1 Pro.
+- **OpenAI** — GPT-5.5 Instant (new ChatGPT default) promoted directly under the GPT-5.5 flagship trio.
+- **xAI** — Grok 4.3 **GA** now leads the section ahead of the April beta entry.
+- **DeepSeek** — V4-Pro / V4-Flash (the models) lead; the Agent-Harness hiring news follows.
+- **IDE-Based Agents** — Cursor 3.4 / 3.3 / SDK (May 2026) moved above the older 3.09 entry.
+- **Video Generation** — Runway Agent (May 13, first prompt-to-rough-cut production agent) leads the section.
+- **MCP** — spec + 2026-07 RC restored to the top; the CorpusIQ community connector moved below official SDKs.
+
+**Sync-drift repairs (zh-CN / ja, with README.md as source of truth):**
+- De-duplicated **Claude Opus 4.8** (was listed twice in both zh-CN and ja Anthropic sections).
+- Relocated ~18 entries that had piled up at the end of the 中国科学院/中国科学院 section (GPT-5.5 Instant, OpenAI Daybreak, Claude Finance Agents, Claude Add-ins/Dreaming, Mistral Medium 3.5, Voxtral TTS, Llama 5, MiniMax M2.5/M2.7/Hailuo 02/Music 2.6, Doubao 2.0, Seedance 2.0, Step 3.5 Flash, Baichuan-M3 Plus, Grok 4.3 GA) into their proper provider sections; added missing **StepFun** and **Baichuan** headings to zh-CN / ja to match README.md.
+- Moved image-generation entries (Midjourney V8.1, Flux 2, Recraft V4, Kling IMAGE 3.0, Nano Banana 2, Sora 2 via Runway) that had drifted into the **Audio & Music** section of zh-CN / ja back into 图像生成 / 画像生成 and 视频生成 / 動画生成.
+- Synced Coding Agents subsection placement: CLI tools (Codex Security, Gemini CLI, OpenCode, Grok Build, Antigravity CLI, Kimi Code CLI, MAI-Code-1-Flash) now live under **Terminal / CLI**, IDE tools (Roo Code, Void, JetBrains Rider skill) under **IDE**, Devin 2.2 under **Autonomous SWE** — consistent across all three languages.
+- Added **Goose** (Block) to README.md Terminal & CLI Agents — it existed only in zh-CN / ja.
+
+**Header badges** — `Last Updated` → **June 12, 2026**, `Spam_Audited` → **2026-06-12** (all three READMEs).
+
+---
+
 ## 2026-05-30 — Weekly refresh: May 25–30 · Claude Opus 4.8 / Koog 1.0 / Gemini Omni Flash rollout / MCP 2026-07 RC
 
 ### + Added (5 new entries across 4 sections, mirrored to zh-CN / ja)

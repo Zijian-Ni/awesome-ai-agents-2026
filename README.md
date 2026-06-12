@@ -6,10 +6,10 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%209%2C%202026-blue.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2012%2C%202026-blue.svg)](#)
 [![Resources](https://img.shields.io/badge/Resources-500%2B-orange.svg)](#)
 [![Categories](https://img.shields.io/badge/Categories-25-purple.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--09-success.svg)](#️-status-legend)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--12-success.svg)](#️-status-legend)
 [![Chinese](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
 [![Japanese](https://img.shields.io/badge/Lang-日本語-purple.svg)](README.ja.md)
 
@@ -131,9 +131,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 - [GPT-5.5](https://openai.com/index/gpt-5-5-system-card/) - 🆕 Released **April 23, 2026** (codename "Spud"). OpenAI's new frontier model for agentic tasks: coding, online research, data analysis, autonomous tool navigation. Significant gains in reasoning, consistency, and long-horizon task handling. Available on ChatGPT Plus / Pro / Business / Enterprise.
 - [GPT-5.5 Pro](https://openai.com/index/gpt-5-5-system-card/) - 🆕 April 23, 2026. Parallel test-time compute variant for higher-accuracy cognitive tasks. Pro / Business / Enterprise tiers.
+- [GPT-5.5 Instant](https://openai.com/index/gpt-5-5-instant/) - 🆕 **May 5, 2026**. New ChatGPT default model. Efficiency-first upgrade with ~50% lower hallucination rate on high-stakes prompts; available on free tier.
 - [GPT-5.5-Cyber](https://openai.com/index/trusted-access-for-cyber/) - 🆕 **April 30, 2026**. Cybersecurity-specialized variant of GPT-5.5, rolled out via OpenAI's Trusted Access for Cyber (TAC) program to vetted defenders, government, critical infrastructure operators, and security vendors. Not available to the general public.
 - [OpenAI Daybreak](https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html) - 🆕 **May 12, 2026**. Cyber-defense platform bundling GPT-5.5 + GPT-5.5-Cyber + Trusted-Access-for-Cyber for AI-powered vulnerability detection and patch validation; preview access extended to EU governments and security vendors.
-- [GPT-5.5 Instant](https://openai.com/index/gpt-5-5-instant/) - 🆕 **May 5, 2026**. New ChatGPT default model. Efficiency-first upgrade with ~50% lower hallucination rate on high-stakes prompts; available on free tier.
 - [GPT-Realtime-2](https://openai.com/) - 🆕 **May 8, 2026**. GPT-5-class reasoning brought to the Realtime API, 128K context, parallel tool calls with audio feedback, adjustable reasoning effort.
 - [GPT-Realtime-Translate](https://openai.com/) - 🆕 **May 8, 2026**. Live speech-to-speech translation across 70+ input languages and 13 output languages.
 - [GPT-Realtime-Whisper](https://openai.com/) - 🆕 **May 8, 2026**. Streaming low-latency speech-to-text companion to GPT-Realtime-2.
@@ -156,6 +156,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Anthropic
 
+- [Claude Opus 4.8](https://www.anthropic.com/claude/opus) - 🆕 **May 28, 2026**. Major Opus refresh: codebase-scale migrations, sharper agentic judgment, **dynamic workflows** research preview with hundreds of parallel sub-agents in a single session, manual **effort-control** panel, **3× cheaper Fast mode** at the same $5 / $25 per million in/out. Available on Anthropic native + Amazon Bedrock + AWS Claude Platform + Google Cloud + Microsoft Foundry. Teases an upcoming **Mythos-class** model series for limited orgs.
 - [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 🆕 Released April 16, 2026. Advanced software engineering (SWE-bench Verified 87.6%), enhanced vision, proactive code verification. Supports `/think xhigh` reasoning effort. 1M-token context.
 - [Claude Opus 4.6](https://www.anthropic.com/) - Released Feb 2026. 1M-token context, 14.5-hour task horizon. Leads Arena chat leaderboard.
 - [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) - Released Feb 2026. Frontier coding and agentic performance, 1M token context window.
@@ -176,15 +177,14 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Code with Claude 2026 sessions on YouTube](https://www.infoq.com/news/2026/05/code-with-claude/) - 🆕 **May 18, 2026 (sessions published)**. Full developer-conference recordings (May 6 event) go public: Claude Code roadmap, Claude Developer Platform updates, Managed Agents dreaming + multi-agent orchestration, and partner deployments.
 - [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai) - 🆕 **May 19, 2026**. Anthropic publishes its framework for engaging diverse traditions (religious, philosophical, indigenous) in frontier-AI safety dialogue. Companion to ongoing public-engagement work.
 - [Bristol Myers Squibb ↔ Anthropic Claude Enterprise](https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx) - 🆕 **May 20, 2026**. BMS adopts Claude Enterprise as its shared intelligence platform for 30,000+ employees globally, embedding agentic Claude into drug-discovery / development / delivery workflows. First top-5 pharma enterprise-wide Claude deployment.
-- [Claude Opus 4.8](https://www.anthropic.com/claude/opus) - 🆕 **May 28, 2026**. Major Opus refresh: codebase-scale migrations, sharper agentic judgment, **dynamic workflows** research preview with hundreds of parallel sub-agents in a single session, manual **effort-control** panel, **3× cheaper Fast mode** at the same $5 / $25 per million in/out. Available on Anthropic native + Amazon Bedrock + AWS Claude Platform + Google Cloud + Microsoft Foundry. Teases an upcoming **Mythos-class** model series for limited orgs.
 
 ### Google DeepMind
 
-- [Gemini 3.1 Pro](https://deepmind.google/technologies/gemini/) - Released Feb 2026. BenchLM 94, GPQA Diamond 94.3% (world-record), ARC AGI2 77.1%. Most capable Google model, `$2/1M tokens` flagship.
-- [Gemini 3.1 Flash Live](https://deepmind.google/technologies/gemini/) - 🆕 April 2026. Real-time multimodal streaming for voice assistants and interactive agents. Low latency, long context.
-- [Gemini 3.1 Flash-Lite (GA)](https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-lite-is-now-generally-available) - 🆕 **May 8, 2026**. Generally available on Gemini API / AI Studio / Vertex AI. Fastest and most cost-efficient model in the Gemini 3 family — built for low-latency code completion, real-time UX, and agentic developer tools; matches Gemini 2.5 Flash quality at significantly lower cost.
 - [Gemini 3.5 Flash](https://blog.google/innovation-and-ai/sundar-pichai-io-2026/) - 🆕 **May 19, 2026 — Google I/O 2026**. Default model powering the Gemini app and Google Search AI Mode. Marketed as **~4× faster** than other frontier models in output tokens/sec while outperforming Gemini 3.1 Pro on key benchmarks. Gemini 3.5 Pro slated for June 2026.
 - [Gemini Omni / Omni Flash](https://blog.google/innovation-and-ai/sundar-pichai-io-2026/) - 🆕 **May 19, 2026 — Google I/O 2026**. New Google DeepMind multimodal **world-model** family aimed at AGI. Omni Flash, the first shipped variant, can take any input modality and generate any output (starting with video; image and text generation following). Direct lineage to Gemini Robotics / Genie line of work.
+- [Gemini 3.1 Pro](https://deepmind.google/technologies/gemini/) - Released Feb 2026. BenchLM 94, GPQA Diamond 94.3% (world-record), ARC AGI2 77.1%. `$2/1M tokens` flagship.
+- [Gemini 3.1 Flash Live](https://deepmind.google/technologies/gemini/) - 🆕 April 2026. Real-time multimodal streaming for voice assistants and interactive agents. Low latency, long context.
+- [Gemini 3.1 Flash-Lite (GA)](https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-lite-is-now-generally-available) - 🆕 **May 8, 2026**. Generally available on Gemini API / AI Studio / Vertex AI. Fastest and most cost-efficient model in the Gemini 3 family — built for low-latency code completion, real-time UX, and agentic developer tools; matches Gemini 2.5 Flash quality at significantly lower cost.
 - [Gemini Omni Flash — voice-controlled video editing rollout](https://www.techtimes.com/articles/317309/20260528/google-gemini-omni-flash-brings-voice-controlled-ai-video-editing-future-conversational-ai.htm) - 🆕 **May 28, 2026**. Omni Flash starts rolling out to consumers via the Gemini app, **Google Flow**, and **YouTube Shorts** as the editing engine — conversational cinematic zooms / background swaps / weather edits driven by text, voice, image, or audio prompts; no traditional NLE required.
 - [Gemini Spark (24/7 personal AI agent)](https://blog.google/innovation-and-ai/sundar-pichai-io-2026/) - 🆕 **May 19, 2026 — Google I/O 2026**. Cloud-resident personal AI agent that runs **24/7** on user intent, integrates Gmail / Chat first, then ~30+ third-party tools via MCP (Adobe / Dropbox / Uber). Available to Google AI Ultra subscribers in the US within the I/O week.
 - [Google AI Ultra ($100/month tier)](https://blog.google/innovation-and-ai/sundar-pichai-io-2026/) - 🆕 **May 19, 2026 — Google I/O 2026**. New top consumer subscription targeted at developers / creators / power users. Gates Gemini Spark, highest Gemini 3.5 quotas, and the upcoming Gemini 3.5 Pro.
@@ -229,9 +229,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### DeepSeek
 
-- [DeepSeek Agent Harness team](https://www.scmp.com/tech/big-tech/article/3354113/deepseek-recruits-former-jane-street-engineer-catch-ai-agents-revenue-race) - 🆕 **May 19, 2026**. DeepSeek hires a former Jane Street engineer to lead a new "AI harness" team building the deterministic scaffolding that turns DeepSeek V4 into autonomous, revenue-generating agents — first major signal DeepSeek is moving past raw-model R&D into agentic productisation.
 - [DeepSeek-V4-Pro](https://api-docs.deepseek.com/news/news260424) - 🆕 **April 24, 2026**. 1.6T total / 49B active MoE, 1M-token context. MIT license. Leadership in agent capabilities, world knowledge, reasoning. Tops open-source benchmarks.
 - [DeepSeek-V4-Flash](https://api-docs.deepseek.com/news/news260424) - 🆕 April 24, 2026. 284B total / 13B active MoE, 1M context. MIT. Cost-efficient tier.
+- [DeepSeek Agent Harness team](https://www.scmp.com/tech/big-tech/article/3354113/deepseek-recruits-former-jane-street-engineer-catch-ai-agents-revenue-race) - 🆕 **May 19, 2026**. DeepSeek hires a former Jane Street engineer to lead a new "AI harness" team building the deterministic scaffolding that turns DeepSeek V4 into autonomous, revenue-generating agents — first major signal DeepSeek is moving past raw-model R&D into agentic productisation.
 - [DeepSeek-V3.2](https://www.deepseek.com/) - Released Dec 2025. Advanced MoE architecture with 671B total parameters. V3.2 Speciale variant for enhanced reasoning.
 - [DeepSeek-R2](https://www.deepseek.com/) - 2026 advanced reasoning model. Successor to R1, competes with GPT-5 and Gemini 3 Pro.
 - [DeepSeek-R1](https://www.deepseek.com/) - Reasoning-focused model with chain-of-thought capabilities. Released Jan 2025.
@@ -282,8 +282,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### xAI (Grok)
 
-- [Grok 4.3 Beta](https://x.ai/) - 🆕 April 2026. Latest iteration with improved reasoning and coding benchmarks. See [`2026.4` benchmark snapshot](https://benchlm.ai/).
 - [Grok 4.3 GA](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) - 🆕 **May 2026**. Grok 4.3 reached general availability on Microsoft Foundry and OCI Generative AI; xAI's flagship for agentic workloads with improved tool-calling and long-horizon reasoning.
+- [Grok 4.3 Beta](https://x.ai/) - 🆕 April 2026. Latest iteration with improved reasoning and coding benchmarks. See [`2026.4` benchmark snapshot](https://benchlm.ai/).
 - [Grok 4.20](https://x.ai/) - Feb 2026. Multi-agent system (4 standard + 16 specialized agents in Heavy mode), 2M token context.
 - [Grok 4 / 4 Heavy](https://x.ai/) - Released July 2025. 3T parameters. xAI's frontier model.
 - [Grok 3 / 3 Mini](https://x.ai/) - Feb 2025. First reasoning models with "Think Mode".
@@ -403,6 +403,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Video Generation
 
+- [Runway Agent](https://chatlyai.app/news/runway-agent-launch-may-2026) - 🆕 **May 13, 2026**. Conversational agent that takes a written brief and ships a complete **multi-shot finished video**: storyboard → generation → cut → voiceover. Pipes through Gen-4 / Gen-4 Turbo / Aleph editing under the hood; first credible end-to-end "prompt-to-rough-cut" production agent.
 - [Veo 3.1](https://deepmind.google/technologies/veo/) - 🆕 **October 2025**. Google DeepMind's flagship video model. **Veo 4** rumoured for late-April / late-May 2026.
 - [Runway Gen-4](https://runwayml.com/) - 🆕 Professional video generation and editing with character and style consistency. Now exposes Kling 3.0 / Sora 2 Pro inside the platform (April 2026).
 - [Kling VIDEO 3.0](https://kling.ai/) - 🆇 🆕 **February 4-7, 2026**. Kuaishou's new generation; realistic human motion, lip-sync, narrative production with audio sync.
@@ -413,7 +414,6 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [LTX Studio](https://ltx.studio/) - 🆕 AI-powered cinematic video creation platform.
 - [Tianma (天马) AI](https://www.alibabacloud.com/) - 🆇 🆕 **April 27, 2026** (beta). Alibaba's image-to-video model.
 - [Sora](https://openai.com/sora/) - 📦 **Discontinued** (April 26, 2026). OpenAI's text-to-video app shut down; Sora 2 Pro lives on inside Runway.
-- [Runway Agent](https://chatlyai.app/news/runway-agent-launch-may-2026) - 🆕 **May 13, 2026**. Conversational agent that takes a written brief and ships a complete **multi-shot finished video**: storyboard → generation → cut → voiceover. Pipes through Gen-4 / Gen-4 Turbo / Aleph editing under the hood; first credible end-to-end "prompt-to-rough-cut" production agent.
 
 ### Audio & Music
 
@@ -438,13 +438,13 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Model Context Protocol (MCP)
 
-- [CorpusIQ](https://mcp2.corpusiq.io/mcp) - 🆕 **Official MCP Registry** — Multi-source business data connector with 25+ integrations (GA4, Google Ads, TikTok, YouTube, Shopify, Stripe, Airtable, Slack, HubSpot, Calendly, Klaviyo, and more). Intelligent query routing, cross-source attribution, unified business intelligence. Live as `io.corpusiq/multi-source-mcp`. HTTP transport with Ed25519 signature auth.
 - [MCP Specification](https://modelcontextprotocol.io/) - 🆕 The "USB-C for AI" — open protocol by Anthropic for connecting LLMs to tools and data sources. Donated to Agentic AI Foundation (Linux Foundation) in Dec 2025.
 - [MCP 2026-07 Release Candidate](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) - 🆕 **May 2026 (final July 28, 2026)**. Release candidate for the next major MCP spec revision: **stateless protocol core** (scalability + simpler servers), an **extensions framework**, the new **MCP Apps** capability for server-rendered UI, Tasks graduated to an extension, and hardened authorization aligned with OAuth / OpenID Connect.
 - [MCP Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations of MCP servers for popular services. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmodelcontextprotocol%2Fservers&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP clients and servers. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmodelcontextprotocol%2Ftypescript-sdk&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for MCP implementation. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmodelcontextprotocol%2Fpython-sdk&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [mcp.so](https://mcp.so/) - 🆕 Community directory of MCP servers and tools.
+- [CorpusIQ](https://mcp2.corpusiq.io/mcp) - 🆕 **Official MCP Registry** — Multi-source business data connector with 25+ integrations (GA4, Google Ads, TikTok, YouTube, Shopify, Stripe, Airtable, Slack, HubSpot, Calendly, Klaviyo, and more). Intelligent query routing, cross-source attribution, unified business intelligence. Live as `io.corpusiq/multi-source-mcp`. HTTP transport with Ed25519 signature auth.
 - [mcp-gateway](https://github.com/Zijian-Ni/mcp-gateway) - Gateway server for routing and managing MCP connections. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fmcp-gateway&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 
 ### Agent-to-Agent Protocol (A2A)
@@ -636,6 +636,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal coding agent (Rust, Apache-2.0, 82K+ stars). 77.3% Terminal-Bench score. May 2026 adds **Codex Chrome extension** for in-browser DevTools workflows, `codex remote-control` headless app-server, plugin-detail bundled-hook display, and **Codex on Mobile** preview (May 14) that lets ChatGPT iOS/Android remote-control the macOS Codex app. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fopenai%2Fcodex&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Codex Security](https://developers.openai.com/codex/changelog) - 🆕 **March 2026**. Application-security agent that finds and fixes software vulnerabilities; available to OSS maintainers via the Codex-for-OSS program.
 - [Aider](https://github.com/Aider-AI/aider) - AI pair programming in your terminal — works with any LLM, with first-class git commit handling. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FAider-AI%2Faider&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Goose](https://github.com/block/goose) - Open-source agentic coding CLI from Block — extensible, MCP-native, works with any LLM. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblock%2Fgoose&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - 🆕 Google's terminal-first coding agent for large-context refactors. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgoogle-gemini%2Fgemini-cli&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [OpenCode](https://github.com/opencode-ai/opencode) - 🆕 Open-source terminal-first coding agent with a native TUI, Supports OpenAI, Claude, Gemini, Ollama (local models), and LSP for code intelligence. Multi-session, model-agnostic, Go-based. MIT. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fopencode-ai%2Fopencode&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Grok Build](https://x.ai/news/grok-build-cli) - 🆕 **May 14, 2026** (early beta). xAI's agentic CLI coding agent powered by **grok-code-fast-1**. Parallel sub-agents in isolated environments, daily release notes, available to SuperGrok Heavy subscribers ($99/mo intro for 6 months, then $300/mo). xAI's reply to Claude Code and Codex CLI.
@@ -645,6 +646,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### IDE-Based Agents
 
+- [Cursor 3.4 (Teams + PR review)](https://cursor.com/changelog) - 🆕 **May 11–13, 2026**. Microsoft Teams integration (`@Cursor` in Teams delegates to cloud agents), faster parallel-agent plan execution, multi-repo / Dockerfile-based dev-environment configs for agents, `/multitask` async sub-agents, Vulnerability Scanner, granular per-model access controls.
+- [Cursor 3.3](https://cursor.com/changelog) - 🆕 **May 2026**. PR-review experience, parallel agents, enterprise model controls; previous 3.1 in April.
+- [Cursor SDK](https://cursor.com/changelog) - 🆕 **May 4, 2026**. TypeScript SDK exposing Cursor's runtime, harness, and models so developers can build programmatic agents on top of the Cursor stack; ships with the v2.5 security patch fixing an arbitrary-code-execution vulnerability via malicious git repos.
 - [Cursor 3.09](https://www.cursor.com/) - 🆕 April 3, 2026 update. Strengthened Agent mode for true Vibe Coding workflows. Core AI code editor in 2026 landscape.
 - [Kilo Code](https://www.kilocode.com/) - 🆕 April 2026 rising challenger to Cursor. Default model: MiniMax. Viral on Chinese developer communities (Bilibili).
 - [Cursor](https://www.cursor.com/) - The AI code editor with Feb 2026 update supporting up to 8 parallel agents.
@@ -654,9 +658,6 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Void](https://github.com/voideditor/void) - 🆕 Fork of VS Code positioned as the open-source Cursor alternative; data stays with you, BYO model. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Continue](https://github.com/continuedev/continue) - Open-source AI code assistant for VS Code and JetBrains. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcontinuedev%2Fcontinue&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [GitHub Copilot](https://github.com/features/copilot) - Agent mode with expanded model access and `gh copilot` shell integration in early 2026.
-- [Cursor 3.3](https://cursor.com/changelog) - 🆕 **May 2026**. PR-review experience, parallel agents, enterprise model controls; previous 3.1 in April.
-- [Cursor SDK](https://cursor.com/changelog) - 🆕 **May 4, 2026**. TypeScript SDK exposing Cursor's runtime, harness, and models so developers can build programmatic agents on top of the Cursor stack; ships with the v2.5 security patch fixing an arbitrary-code-execution vulnerability via malicious git repos.
-- [Cursor 3.4 (Teams + PR review)](https://cursor.com/changelog) - 🆕 **May 11–13, 2026**. Microsoft Teams integration (`@Cursor` in Teams delegates to cloud agents), faster parallel-agent plan execution, multi-repo / Dockerfile-based dev-environment configs for agents, `/multitask` async sub-agents, Vulnerability Scanner, granular per-model access controls.
 - [Kiro](https://kiro.dev/) - AWS autonomous agent. Spec-driven development, manages up to 10 simultaneous tasks.
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AI coding companion deeply integrated with AWS ecosystem.
 - [Visual Studio 2026 Agent Mode + Skills](https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio/) - 🆕 **VS 2026 Insiders May 12-15, 2026**. Copilot Chat "Agent Mode" now ships a guided Skills workflow inside Visual Studio 2026: discover, manage, and author reusable Copilot Skills with whole-solution context, plus terminal command execution and tool invocation.
