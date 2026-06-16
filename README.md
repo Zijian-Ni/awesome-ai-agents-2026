@@ -410,6 +410,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Nano Banana 2 (Gemini 3 Pro Image)](https://deepmind.google/) - 🆕 Google's transparent-background-friendly image model exposed via OpenClaw image_generate.
 - [Kling IMAGE 3.0](https://klingaio.com/blogs/kling-3-release) - 🆇 🆕 **April 23, 2026**. Cinema-grade native 4K image generation from Kuaishou.
 - [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale** (last update 2025-07). Black Forest Labs' original open-source repo — superseded by Flux 2 family. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblack-forest-labs%2Fflux&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Seedream AI Studio](https://seedream4.video/) - Multi-model AI image generation platform by ByteDance using Seedream 5.0/4.5/4.0 with one-click image-to-video animation via Kling 2.1. Free tier available.
 - [Seedance 2.0 (image side)](https://seed.bytedance.com/) - 🆇 🆕 ByteDance's next-gen image/animation generation API; pairs with the video model of the same name.
 
 ### Video Generation
