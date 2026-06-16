@@ -6,9 +6,9 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2012%2C%202026-blue.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2016%2C%202026-blue.svg)](#)
 [![Resources](https://img.shields.io/badge/Resources-500%2B-orange.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--12-success.svg)](#️-ステータス凡例)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--16-success.svg)](#️-ステータス凡例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![中文](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
 
@@ -94,12 +94,16 @@
 ### OpenAI
 - [Sites for ChatGPT](https://openai.com/index/sites) - 🆕 **2026-06**。ChatGPT 内での計画や分析結果を、インタラクティブで共有可能な Web サイト（Sites）に変換する新機能。
 - [Codex ビジネスプラグイン](https://openai.com) - 🆕 **2026-06**。セールス、データ分析、クリエイティブ制作などの業務特化プラグインを Codex に直接導入するエンタープライズ機能強化。
+- [GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) - 🆕 **2026年6月3日**。OpenAI のライフサイエンス向けフロンティアモデルの大型アップデート —— 創薬・ゲノミクス・定量生物学・ウェットラボのトラブルシュートを強化（長期的なゲノム解析で GPT-5.5 比約 31% 少ないトークン）。研究プレビューを世界中の対象組織に初公開し、Novo Nordisk が既存パートナーの Amgen・Moderna・Allen Institute・Thermo Fisher に加わる。
 
 - [GPT-5.5](https://openai.com/index/gpt-5-5-system-card/) - 🆕 **2026-04-23 公開**（コードネーム "Spud"）。エージェントタスク向けの新フロンティア: コーディング、オンライン調査、データ分析、自律的なツール操作。推論の安定性と長時間タスク処理能力が大幅向上。ChatGPT Plus / Pro / Business / Enterprise で利用可能。
 - [GPT-5.5 Pro](https://openai.com/index/gpt-5-5-system-card/) - 🆕 2026-04-23。並列テストタイム計算による高精度バリアント。Pro / Business / Enterprise。
 - [GPT-5.5 Instant](https://openai.com/index/gpt-5-5-instant/) - 🆕 **2026-05-05**。ChatGPT の新しいデフォルトモデル。効率重視のアップグレードで、ハイステイクスなプロンプトの幻覚率が約 50% 低下。無料枠でも利用可能。
 - [GPT-5.5-Cyber](https://openai.com/index/trusted-access-for-cyber/) - 🆕 **2026-04-30**。GPT-5.5 のサイバーセキュリティ特化版。OpenAI の Trusted Access for Cyber (TAC) プログラム経由で、検証済みの防御者・政府・重要インフラ・セキュリティベンダーにのみ提供。一般公開なし。
 - [OpenAI Daybreak](https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html) - 🆕 **2026-05-12**。GPT-5.5 + GPT-5.5-Cyber + Trusted-Access-for-Cyber を束ねたサイバー防御プラットフォーム。AI による脆弱性検出とパッチ検証を提供し、プレビューは EU 政府機関とセキュリティベンダーにも開放。
+- [GPT-Realtime-2](https://openai.com/) - 🆕 **2026-05-08**。GPT-5 級の推論を Realtime API に導入。128K コンテキスト、音声フィードバック付き並列ツール呼び出し、推論強度の調整に対応。
+- [GPT-Realtime-Translate](https://openai.com/) - 🆕 **2026-05-08**。70 以上の入力言語と 13 の出力言語にわたるリアルタイム音声間翻訳。
+- [GPT-Realtime-Whisper](https://openai.com/) - 🆕 **2026-05-08**。GPT-Realtime-2 を補完するストリーミング低遅延の音声認識モデル。
 - [GPT-5.4](https://openai.com/) - 2026-03 公開。1M トークンコンテキスト、高度なコーディング、Computer Use、ツール検索。BenchLM 94、SWE-bench Verified 77.2%、OSWorld 75%（人間ベースライン超え）。
 - [GPT-5.4 Pro](https://openai.com/) - GPT-5.4 の高精度バリアント。BenchLM 92。
 - [GPT-5.3](https://openai.com/) - 2026 年初頭。GPT-5.3 Instant（会話）と GPT-5.3-Codex（コーディング）を含む。
@@ -119,9 +123,10 @@
 
 ### Anthropic
 
-- [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Anthropic 初の一般提供 **Mythos クラス**モデル — Opus の上位に位置する能力ティア。ソフトウェアエンジニアリング、ナレッジワーク、ビジョン、科学研究の各ベンチマークで Opus 4.8 を上回る。セーフガード内蔵（サイバー/バイオ系の機微なクエリは Opus 4.8 へ再ルーティングされる場合あり）。入力 $10 / 出力 $50（100 万 token あたり）。Anthropic API、Amazon Bedrock、Google Cloud Vertex AI で利用可。
-- [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Fable 5 と同一基盤の Mythos クラスモデルを制限を緩めて提供。米国政府と連携した **Project Glasswing** を通じ、審査済みパートナー（サイバーセキュリティ企業、インフラ事業者）限定で展開。4 月の Claude Mythos Preview の正式後継。
+- [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Anthropic 初の一般提供 **Mythos クラス**モデル — Opus の上位に位置する能力ティア。ソフトウェアエンジニアリング、ナレッジワーク、ビジョン、科学研究の各ベンチマークで Opus 4.8 を上回る。セーフガード内蔵（サイバー/バイオ系の機微なクエリは Opus 4.8 へ再ルーティングされる場合あり）。入力 $10 / 出力 $50（100 万 token あたり）。Anthropic API、Amazon Bedrock、Google Cloud Vertex AI で利用可。**⚠️ 2026年6月12日にアクセス停止** —— 米国政府の輸出管理指令（午後 5:21 ET 受領）により、Anthropic は全顧客向けに Fable 5 と Mythos 5 を無効化。指令に従いつつアクセス復旧に取り組んでいる（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
+- [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Fable 5 と同一基盤の Mythos クラスモデルを制限を緩めて提供。米国政府と連携した **Project Glasswing** を通じ、審査済みパートナー（サイバーセキュリティ企業、インフラ事業者）限定で展開。4 月の Claude Mythos Preview の正式後継。**⚠️ 2026年6月12日にアクセス停止**。Fable 5 とともに同一の輸出管理指令の対象（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
 - [Claude Opus 4.8](https://www.anthropic.com/claude/opus) - 🆕 **2026-05-28**。Opus シリーズの大規模アップデート：コードベース規模のマイグレーション、エージェント判断の鮮明化、「ダイナミックワークフロー」リサーチプレビューで 1 セッション中に数百のサブエージェントを並列実行可能、手動「エフォートコントロール」パネル、**Fast モード 3 倍安い**（入力 $5 / 出力 $25 / 100 万 token は同価）。Anthropic ネイティブ、Amazon Bedrock、AWS Claude Platform、Google Cloud、Microsoft Foundry で利用可。限定企業向けに **Mythos クラス** モデルを予告。
+- [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 🆕 **2026-04-16 リリース**。高度なソフトウェアエンジニアリング（SWE-bench Verified 87.6%）、ビジョン強化、能動的なコード検証。`/think xhigh` の推論強度に対応。1M トークンコンテキスト。
 - [Claude Opus 4.6](https://www.anthropic.com/) - 2026-02 公開。1M トークン、14.5 時間のタスク完了。Arena 会話リーダーボード首位。
 - [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) - 2026-02 公開。フロンティア級コーディングとエージェント性能、1M トークンコンテキスト。
 - [Claude Mythos Preview](https://www.anthropic.com/) - 🆕 2026-04 招待制研究プレビュー。BenchLM 99（リーダーボード首位）、SWE-bench Verified 93.9%。Project Glasswing パートナー限定。
@@ -130,6 +135,7 @@
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - ターミナルで動作する Anthropic のエージェント型コーディングツール。Opus 4.7 + `/think xhigh` 対応。
 - [Claude Security](https://www.anthropic.com/) - 🆕 **2026-05-01** パブリックベータ。Opus 4.7 駆動の企業向けコードベース脆弱性スキャナ —— 信頼度評価・深刻度・再現手順・推奨修正付きパッチを生成。Enterprise ユーザー向け [claude.ai/security](https://claude.ai/security)。
 - [Claude Finance Agents](https://www.anthropic.com/news/finance-agents) - 🆕 **2026-05-05**。Opus 4.7 ベースの金融特化エージェントを 10 種同時公開（pitchbook 作成、KYC、月次決算、ディール選定など）。Claude Cowork プラグイン、Claude Code skill、Managed-Agents の cookbook として配備可能。
+- [Claude Finance JV](https://www.anthropic.com/) - 🆕 **2026-05-04**。Goldman Sachs・Blackstone との 15 億ドル規模の Claude 導入ジョイントベンチャー。Anthropic のエンジニアを中堅ウォール街企業に常駐させる。
 - [Claude Add-ins / Dreaming / Outcomes / Multi-agent orchestration](https://www.anthropic.com/news/code-with-claude-2026) - 🆕 **2026-05-08（Code with Claude 2026）**。Anthropic が Add-ins、セッション間の定期メモリ整理（"Dreaming"）、ルーブリック駆動の "Outcomes"、そして共有ファイルシステムと監査可能な trace を備えた主エージェント + サブエージェント編成モデルをまとめて発表。
 - [Anthropic ↔ SpaceX Colossus 1](https://www.siliconrepublic.com/business/anthropic-joins-forces-with-spacex-for-colossus-capacity) - 🆕 **2026-05-06**。Anthropic が SpaceX の Memphis データセンター Colossus 1（220K+ NVIDIA H100/H200/GB200, 300+ MW）の全利用可能キャパシティを取得し Claude Opus 推論に充てる。Claude Code の 5 時間レート制限を Pro / Max / Team / Enterprise で 2 倍化、Pro / Max でピーク時限も撤廃。
 - [Claude for Legal](https://www.anthropic.com/news/claude-for-legal) - 🆕 **2026-05-12**。Claude Cowork の上に載せたリーガル型スタック。**20+ の MCP コネクタ**（iManage / NetDocuments / DocuSign / Ironclad / LexisNexis / Westlaw / Harvey / Everlaw / Relativity / CourtListener など）と **12 の実務領域プラグイン**（商事・雇用・プライバシー・製品・コーポレート・AI ガバナンス・訴訟アソシエイト・司法試験対策）を同梱。Word / Outlook / Excel / PowerPoint とネイティブ連携。
@@ -254,6 +260,7 @@
 
 ### Zhipu AI / Z.ai (GLM) 🇨🇳
 
+- [GLM-5.2](https://z.ai/blog/glm-5.2) - 🆕 **2026年6月13日**。コーディング優先の 744B MoE フラッグシップ。**100万トークンのコンテキスト**（GLM-5.1 の約 5 倍）、出力は最大 131K トークン。GLM Coding Plan の全ティアで利用可能。MIT のオープンウェイトと単体 API はローンチ週に順次公開。Claude Code・Cline・OpenCode・Roo Code・Goose・OpenClaw とそのまま互換。（ローンチ時にベンチマーク数値の公表なし。）
 - [GLM-5.1](https://z.ai/blog/glm-5.1) - 🆕 **2026-04-07**。744B MoE / 40B アクティブ、200K コンテキスト。MIT ライセンス。SWE-Bench Pro で首位。**完全に華為昇騰で訓練**（NVIDIA 不使用）。
 - [GLM-5 Reasoning](https://z.ai/) - 🆕 2026-04。BenchLM 85 —— **オープンソース最高スコア**。SWE-Bench Pro で GPT-5.4 と Claude Opus 4.6 を上回る。
 - [GLM-5V-Turbo](https://z.ai/) - 🆕 2026-04。ネイティブマルチモーダルエージェント —— 視覚・動画クリップ・テキスト入力。コスト性能バランス。
@@ -274,6 +281,7 @@
 
 ### Moonshot AI (Kimi) 🇨🇳
 
+- [Kimi K2.7 Code](https://kimi.ai/) - 🆕 **2026年6月12日**。K2.6 のコーディング優先後継 —— 1T MoE / 32B アクティブ（384 エキスパート）、256K コンテキスト、Modified MIT、Hugging Face + Kimi API で公開。長期的なエージェントコーディング向けで推論トークン消費を約 30% 削減。Moonshot 公表の Kimi Code Bench v2 で K2.6 比 +21.8%（ベンダーベンチマーク）。入出力 100 万トークンあたり $0.95 / $4.00。
 - [Kimi K2.6](https://kimi.ai/) - 🆕 **2026-04-20~21**。1T MoE / 32B アクティブ、256K コンテキスト。コーディング強化、長期マルチステップ実行、**最大 1,000 体協調エージェント群**。`thinking.keep="all"` 永続推論対応。OpenClaw v2026.4.20+ のデフォルト。
 - [Kimi K2.5](https://kimi.ai/) - 2026 年 1~2 月。1T 総 / 32B アクティブ MoE。ネイティブマルチモーダル、最大 100 並列子エージェント。オープンソース。⚠️ 2026-05-25 サポート終了 —— K2.6 へ移行を。
 - [Kimi Code](https://kimi.ai/) - K2.5/K2.6 駆動のプレミアムコーディング層、ターミナル開発者ワークフロー向け。
@@ -517,6 +525,7 @@
 - [AgentQL](https://www.agentql.com/) - 🆕 AI エージェントが意味的にウェブページと対話するためのクエリ言語。
 - [StackOne](https://www.stackone.com/) - 🆕 HR・CRM・ATS プラットフォーム横断の統一 API。
 - [The Colony](https://thecolony.cc) - ⚠️ **Unverified**。エージェント間のソーシャルネットワークと REST API を謳う。組織と SDK リポジトリは <30 日、すべて 0~2 star、単独メンテナで、同じ申請が 15+ awesome リストに並列投稿された —— 可視性のための掲載のみ、利用前に評価のこと。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FTheColonyCC%2Fcolony-sdk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [dependency-freshness-mcp](https://github.com/Armigerous/dependency-freshness-mcp) - 🆕 ⚠️ **Unverified**。AI コーディングエージェントに引用付きの npm・PyPI 依存鮮度情報（最新バージョン、リリース日、非推奨、日付付きの破壊的変更差分）を提供し、学習データのカットオフによる盲点を埋める。リモート（Apify Standby HTTP）+ ローカル stdio。新規・単独メンテナのリポジトリ（2026-06-08 作成、掲載時 0 star）—— 可視性のための掲載のみ、利用前に評価のこと。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FArmigerous%2Fdependency-freshness-mcp&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [AWS MCP Server](https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/) - 🆕 **2026 年 5 月 6 日 GA**。AWS マネージドの MCP サーバ。コーディングエージェントが任意の AWS API を安全かつ監査可能に呼び出せるようにし、複数ステップ操作はサンドボックス Python で実行。従来の "agent SOP" を agent skills で置き換え。AWS 純正。
 - [Google Workspace MCP Server](https://workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html) - 🆕 **2026 年 5 月 1 日から順次展開**。Workspace ネイティブの MCP サーバ。Gmail / Drive / Calendar / Docs / Sheets を MCP クライアントに公開し、OAuth スコープは管理者が制御、監査ログ付き。
 - [iManage MCP Server](https://imanage.com/resources/resource-center/news/mcp-server-available-broader-ai-ecosystem/) - 🆕 **2026 年 5 月 14 日**。iManage ナレッジワーク基盤のネイティブ MCP エンドポイント。カスタム連携なしで AI クライアントから iManage ドキュメントを安全に読み書きできる。法務 / プロフェッショナルサービス系 SaaS として初の公式 MCP サーバ。
@@ -617,7 +626,7 @@
 - [Cursor 3.09](https://www.cursor.com/) - 🆕 2026-04-03 アップデート。Vibe Coding ワークフロー向けにエージェントモードを強化。
 - [Kilo Code](https://www.kilocode.com/) - 🇨🇳 🆕 2026-04 中国コミュニティで人気の Cursor 代替。デフォルトモデル: MiniMax。
 - [Cursor](https://www.cursor.com/) - 2026-02 アップデートで 8 並列エージェント対応。
-- [Windsurf](https://codeium.com/windsurf) - Codeium 製のエージェント型 IDE。
+- [Windsurf → Devin Desktop](https://devin.ai/blog/windsurf-is-now-devin-desktop/) - 🆕 **2026年6月2日に改称**。Cognition が Windsurf IDE を **Devin Desktop** に改称（windsurf.com は devin.ai にリダイレクト）：**Devin Local**（Rust で書き直し、トークン効率を約 30% 改善、サブエージェント対応）が Cascade を置き換え、**Agent Command Center** のカンバンがデフォルト画面となり、オープンな **Agent Client Protocol (ACP)** に対応。Cascade は 2026年7月1日にサポート終了。
 - [Cline](https://github.com/cline/cline) - VS Code で動く自律コーディングエージェント。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcline%2Fcline&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Continue](https://github.com/continuedev/continue) - VS Code・JetBrains 対応のオープンソース AI コードアシスタント。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcontinuedev%2Fcontinue&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Roo Code](https://roocode.com/) - 🆕 オープンソースの VS Code 拡張。複数ファイルを跨いで読み書きし、コマンド実行が可能、model-agnostic。自前の LLM API 以外は無料。
@@ -1622,6 +1631,10 @@
 | **2026-06-03** | [Perplexity Personal Computer for Windows](https://www.perplexity.ai/hub/products/computer-for-windows) 発表 — 19+ AI モデルを自動オーケストレーション、ローカルファイル / ネイティブアプリ / Web を横断 | ツール |
 | **2026-06-06** | [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) を Moonshot AI がリリース — TypeScript / MIT のターミナルエージェント、隔離コンテキストで動く coder / explore / plan サブエージェント内蔵 | ツール |
 | **2026-06-08** | **WWDC 2026 Apple Intelligence + Siri AI 再設計** — Foundation Models フレームワークに画像入力、カスタムスキル、オンデバイス + サーバ統一 Swift API が追加；SiriKit 廃止、拡張 App Intents に統一；新 Siri は Google Gemini ベース（ChatGPT ではない）| モデル / ツール |
+| **2026-06-09** | [Claude Fable 5 + Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) リリース — Anthropic 初の一般提供 **Mythos クラス**モデル（Fable 5 は一般公開、Mythos 5 は Project Glasswing 経由の限定提供）| モデル |
+| **2026-06-12** | [米国の輸出管理指令により Anthropic が全顧客向けに Fable 5 + Mythos 5 を停止](https://www.anthropic.com/news/fable-mythos-access) — 一般提供されたフロンティアモデルが政府により強制停止された初の事例 | 業界 |
+| **2026-06-12** | [Kimi K2.7 Code](https://kimi.ai/) を Moonshot AI がリリース — 1T MoE のコーディング優先モデル（256K、Modified MIT）、推論トークン消費を約 30% 削減 | モデル |
+| **2026-06-13** | [GLM-5.2](https://z.ai/blog/glm-5.2) を Zhipu AI がリリース — コーディング優先の 744B MoE、100万トークンコンテキスト、全 GLM Coding Plan ティアで提供 | モデル |
 
 ---
 

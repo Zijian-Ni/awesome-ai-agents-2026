@@ -6,9 +6,9 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2012%2C%202026-blue.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2016%2C%202026-blue.svg)](#)
 [![Resources](https://img.shields.io/badge/Resources-500%2B-orange.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--12-success.svg)](#️-状态图例)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--16-success.svg)](#️-状态图例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![日本語](https://img.shields.io/badge/Lang-日本語-red.svg)](README.ja.md)
 
@@ -94,12 +94,16 @@
 ### OpenAI
 - [Sites for ChatGPT](https://openai.com/index/sites) - 🆕 **2026-06**。ChatGPT 的新功能，能将回答中的计划和分析直接转换为可交互、可分享的网页（Sites）。
 - [Codex 业务插件](https://openai.com) - 🆕 **2026-06**。面向企业的增强功能，为 Codex 平台引入销售、数据分析和创意制作的定制插件。
+- [GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) - 🆕 **2026-06-03**。OpenAI 生命科学前沿模型的重大升级 —— 药物发现、基因组学、定量生物学与湿实验排障显著增强（长程基因组分析比 GPT-5.5 约少用 31% token）。研究预览首次面向全球合资格机构开放；Novo Nordisk 加入既有伙伴 Amgen、Moderna、Allen Institute、Thermo Fisher。
 
 - [GPT-5.5](https://openai.com/index/gpt-5-5-system-card/) - 🆕 **2026-04-23 发布**（代号 "Spud"）。OpenAI 面向 Agent 任务的新一代旗舰：编程、在线研究、数据分析、自主工具调用。推理稳定性与长任务执行力大幅提升。ChatGPT Plus / Pro / Business / Enterprise 可用。
 - [GPT-5.5 Pro](https://openai.com/index/gpt-5-5-system-card/) - 🆕 2026-04-23。并行测试期算力变体，更高准确率。Pro / Business / Enterprise。
 - [GPT-5.5 Instant](https://openai.com/index/gpt-5-5-instant/) - 🆕 **2026-05-05**。ChatGPT 新默认模型，效率优先升级，高风险提示词幻觉率下降约 50%；免费用户可用。
 - [GPT-5.5-Cyber](https://openai.com/index/trusted-access-for-cyber/) - 🆕 **2026-04-30**。GPT-5.5 的网络安全特化版本，通过 OpenAI Trusted Access for Cyber (TAC) 计划仅向防御者、政府、关键基础设施运营方、安全厂商开放，不对公众发布。
 - [OpenAI Daybreak](https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html) - 🆕 **2026-05-12**。整合 GPT-5.5 + GPT-5.5-Cyber + Trusted-Access-for-Cyber 的网络防御平台，提供 AI 驱动的漏洞检测与补丁验证；预览版已向欧盟政府与安全厂商开放。
+- [GPT-Realtime-2](https://openai.com/) - 🆕 **2026-05-08**。把 GPT-5 级推理带入 Realtime API，128K 上下文，并行工具调用 + 音频反馈，可调推理力度。
+- [GPT-Realtime-Translate](https://openai.com/) - 🆕 **2026-05-08**。实时语音对语音翻译，覆盖 70+ 种输入语言、13 种输出语言。
+- [GPT-Realtime-Whisper](https://openai.com/) - 🆕 **2026-05-08**。GPT-Realtime-2 的流式低延迟语音转文字搭档。
 - [GPT-5.4](https://openai.com/) - 2026-03 发布。1M token 上下文，编程、Computer Use、工具检索均强。BenchLM 94，SWE-bench Verified 77.2%，OSWorld 75%（超过人类基线）。
 - [GPT-5.4 Pro](https://openai.com/) - GPT-5.4 的高准确率变体。BenchLM 92。
 - [GPT-5.3](https://openai.com/) - 2026 年初。包括 GPT-5.3 Instant（对话）和 GPT-5.3-Codex（编程）。
@@ -119,9 +123,10 @@
 
 ### Anthropic
 
-- [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Anthropic 首个公开可用的 **Mythos 级别**模型——能力层级高于 Opus。在软件工程、知识工作、视觉、科研等基准全面超越 Opus 4.8。内置安全护栏（涉网络安全/生物的敏感请求可能被路由到 Opus 4.8）。$10 / $50 每百万输入/输出 token。Anthropic API、Amazon Bedrock、Google Cloud Vertex AI 可用。
-- [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。与 Fable 5 同底座的 Mythos 级模型，限制更少，仅通过 **Project Glasswing**（与美国政府合作）向受信伙伴（网络安全公司、基础设施供应商）开放。4 月 Claude Mythos Preview 的正式后继。
+- [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Anthropic 首个公开可用的 **Mythos 级别**模型——能力层级高于 Opus。在软件工程、知识工作、视觉、科研等基准全面超越 Opus 4.8。内置安全护栏（涉网络安全/生物的敏感请求可能被路由到 Opus 4.8）。$10 / $50 每百万输入/输出 token。Anthropic API、Amazon Bedrock、Google Cloud Vertex AI 可用。**⚠️ 2026-06-12 起暂停访问** —— 美国政府的出口管制指令（5:21pm ET 收到）要求 Anthropic 对所有客户停用 Fable 5 与 Mythos 5；Anthropic 正依令执行并争取尽快恢复（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
+- [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。与 Fable 5 同底座的 Mythos 级模型，限制更少，仅通过 **Project Glasswing**（与美国政府合作）向受信伙伴（网络安全公司、基础设施供应商）开放。4 月 Claude Mythos Preview 的正式后继。**⚠️ 2026-06-12 起暂停访问**，与 Fable 5 一同受同一出口管制指令影响（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
 - [Claude Opus 4.8](https://www.anthropic.com/claude/opus) - 🆕 **2026-05-28**。Opus 重大迭代：代码库级别的迁移能力、更准的 Agent 判断，推出研究预览的「动态工作流」能在单 session 里并发几百个子 Agent，加入手动调节推理投入的「努力控制」面板；**Fast 模式价格降 3 倍**，输入 / 输出仍为 $5 / $25 每百万 token。Anthropic 原生、Amazon Bedrock、AWS Claude Platform、Google Cloud、Microsoft Foundry 上线。同时预告面向小范围企业的 **Mythos 级别**新一代模型。
+- [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 🆕 **2026-04-16 发布**。强软件工程能力（SWE-bench Verified 87.6%）、视觉增强、主动代码验证。支持 `/think xhigh` 推理力度。1M token 上下文。
 - [Claude Opus 4.6](https://www.anthropic.com/) - 2026-02 发布。1M token 上下文，14.5 小时任务执行。LMArena 对话榜首。
 - [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) - 2026-02 发布。前沿编程与 Agent 表现，1M token 上下文。
 - [Claude Mythos Preview](https://www.anthropic.com/) - 🆕 2026-04 受邀研究预览。BenchLM 99（榜首），SWE-bench Verified 93.9%。Project Glasswing 合作伙伴专属。
@@ -130,6 +135,7 @@
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic 出品、运行在终端里的 Agent 化编程工具。Opus 4.7 + `/think xhigh`。
 - [Claude Security](https://www.anthropic.com/) - 🆕 **2026-05-01** 公测。Opus 4.7 驱动的企业级代码漏洞扫描器：扫整个代码库，生成有置信度评分、严重程度、复现步骤、修复建议的补丁。Enterprise 用户在 [claude.ai/security](https://claude.ai/security) 使用。
 - [Claude Finance Agents](https://www.anthropic.com/news/finance-agents) - 🆕 **2026-05-05**。基于 Opus 4.7 的 10 个金融领域专业 Agent，覆盖 pitchbook 撰写、KYC、月结、交易筛查等。可作为 Claude Cowork 插件、Claude Code skill 或 Managed-Agents cookbook 部署。
+- [Claude Finance JV](https://www.anthropic.com/) - 🆕 **2026-05-04**。与高盛、黑石的 15 亿美元 Claude 部署合资公司，把 Anthropic 工程师派驻到中型华尔街机构。
 - [Claude Add-ins / Dreaming / Outcomes / Multi-agent orchestration](https://www.anthropic.com/news/code-with-claude-2026) - 🆕 **2026-05-08（Code with Claude 2026）**。Anthropic 一次性发布 Add-ins、跨会话的定期记忆回顾（"Dreaming"）、基于评分细则的 "Outcomes"，以及主 Agent + 子 Agent 编排模型，配备共享文件系统与可审计 trace。
 - [Anthropic ↔ SpaceX Colossus 1](https://www.siliconrepublic.com/business/anthropic-joins-forces-with-spacex-for-colossus-capacity) - 🆕 **2026-05-06**。Anthropic 拿下 SpaceX Memphis 数据中心 Colossus 1 全部算力（22 万+ NVIDIA H100 / H200 / GB200，300+ MW）用于 Claude Opus 推理；Claude Code 5 小时速率上限翻倍，Pro / Max 取消高峰期限流。
 - [Claude for Legal](https://www.anthropic.com/news/claude-for-legal) - 🆕 **2026-05-12**。Claude Cowork 之上的法律垂直栈：**20+ 个 MCP 连接器**（iManage、NetDocuments、DocuSign、Ironclad、LexisNexis、Westlaw、Harvey、Everlaw、Relativity、CourtListener 等）+ **12 个执业领域 plugin**（商事、雇佣、隐私、产品、公司、AI 治理、诉讼助理、备考律考）。原生集成 Word / Outlook / Excel / PowerPoint。
@@ -254,6 +260,7 @@
 
 ### Zhipu AI / Z.ai (GLM) 🇨🇳
 
+- [GLM-5.2](https://z.ai/blog/glm-5.2) - 🆕 **2026-06-13**。编程优先的 744B MoE 旗舰，**100万 token 上下文**（约为 GLM-5.1 的 5 倍），输出最高 131K token。已上线全部 GLM Coding Plan 套餐；MIT 开源权重 + 独立 API 于发布当周陆续放出。开箱兼容 Claude Code、Cline、OpenCode、Roo Code、Goose、OpenClaw。（发布时未公布基准分数。）
 - [GLM-5.1](https://z.ai/blog/glm-5.1) - 🆕 **2026-04-07**。744B MoE / 40B 激活，200K 上下文。MIT。SWE-Bench Pro 第一。**完全在华为昇腾上训练，不依赖 NVIDIA**。
 - [GLM-5 Reasoning](https://z.ai/) - 🆕 2026-04。BenchLM 85 —— **开源最高分**。SWE-Bench Pro 超过 GPT-5.4 与 Claude Opus 4.6。
 - [GLM-5V-Turbo](https://z.ai/) - 🆕 2026-04。原生多模态 Agent —— 视觉、视频片段、文本输入。性价比平衡。
@@ -274,6 +281,7 @@
 
 ### Moonshot AI (Kimi) 🇨🇳
 
+- [Kimi K2.7 Code](https://kimi.ai/) - 🆕 **2026-06-12**。K2.6 的编程优先继任者 —— 1T MoE / 32B 激活（384 专家），256K 上下文，Modified MIT，已上 Hugging Face + Kimi API。面向长程 Agent 编程，推理 token 用量约降 30%；官方 Kimi Code Bench v2 较 K2.6 +21.8%（厂商基准）。每百万输入/输出 0.95 / 4.00 美元。
 - [Kimi K2.6](https://kimi.ai/) - 🆕 **2026-04-20~21**。1T MoE / 32B 激活，256K 上下文。编程增强、长任务执行、**最大 1000 个 Agent 协作集群**。支持 `thinking.keep="all"` 持久推理。OpenClaw v2026.4.20+ 默认模型。
 - [Kimi K2.5](https://kimi.ai/) - 2026-01 至 02。1T 总 / 32B 激活 MoE。原生多模态，最多 100 个并行子 Agent。开源。⚠️ **2026-05-25 停止支持**，请迁移到 K2.6。
 - [Kimi Code](https://kimi.ai/) - 基于 K2.5/K2.6 的高级编程层，面向终端工作流。
@@ -515,6 +523,7 @@
 - [AgentQL](https://www.agentql.com/) - 🆕 用语义化查询语言操控网页。
 - [StackOne](https://www.stackone.com/) - 🆕 HR / CRM / ATS 统一 API。
 - [The Colony](https://thecolony.cc) - ⚠️ **Unverified**。自称 Agent 间社交网络 + REST API + Python / TS / Go SDK + MCP server。组织与 SDK 仓库均 <30 天，0~2 star，单维护者；同款 PR 投了 15+ 个 awesome 列表。**仅作可见性收录**，使用前请自行评估。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FTheColonyCC%2Fcolony-sdk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [dependency-freshness-mcp](https://github.com/Armigerous/dependency-freshness-mcp) - 🆕 ⚠️ **Unverified**。为 AI 编码 Agent 提供带引用的 npm 与 PyPI 依赖新鲜度信息：最新版本、发布日期、弃用状态、带日期的破坏性变更摘要 —— 弥补训练截止带来的盲区。远程（Apify Standby HTTP）+ 本地 stdio。新建单维护者仓库（建于 2026-06-08，收录时 0 star）—— 仅作可见性收录，使用前请自行评估。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FArmigerous%2Fdependency-freshness-mcp&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [AWS MCP Server](https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/) - 🆕 **2026 年 5 月 6 日 GA**。AWS 官方托管的 MCP 服务器，让编码 Agent 安全可审计地调用任意 AWS API；多步操作可在沙箱化 Python 环境中执行，用 agent skills 取代传统 "agent SOP"。AWS 第一方出品。
 - [Google Workspace MCP Server](https://workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html) - 🆕 **2026 年 5 月 1 日起逐步上线**。Workspace 原生 MCP 服务器，将 Gmail / Drive / Calendar / Docs / Sheets 暴露给 MCP 客户端，OAuth 范围由管理员控制并带审计日志。
 - [iManage MCP Server](https://imanage.com/resources/resource-center/news/mcp-server-available-broader-ai-ecosystem/) - 🆕 **2026 年 5 月 14 日**。iManage 知识工作平台的原生 MCP 入口，任何 AI 客户端无需定制即可安全读写 iManage 文档。首家面向公众的法律/专业服务 SaaS MCP server。
@@ -614,7 +623,7 @@
 - [Cursor 3.09](https://www.cursor.com/) - 🆕 2026-04-03 更新。Agent 模式增强，支持 Vibe Coding。
 - [Kilo Code](https://www.kilocode.com/) - 🇨🇳 🆕 2026-04 中文社区流行的 Cursor 替代。默认 MiniMax 模型。
 - [Cursor](https://www.cursor.com/) - 2026-02 更新支持 8 个并行 Agent。
-- [Windsurf](https://codeium.com/windsurf) - Codeium 的 Agent 化 IDE。
+- [Windsurf → Devin Desktop](https://devin.ai/blog/windsurf-is-now-devin-desktop/) - 🆕 **2026-06-02 更名**。Cognition 将 Windsurf IDE 更名为 **Devin Desktop**（windsurf.com 跳转至 devin.ai）：**Devin Local**（Rust 重写，token 效率提升约 30%，支持子 Agent）取代 Cascade，**Agent Command Center** 看板成为默认界面，并内置开放的 **Agent Client Protocol (ACP)**。Cascade 于 2026-07-01 停止支持。
 - [Cline](https://github.com/cline/cline) - VS Code 自主编程 Agent。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcline%2Fcline&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Continue](https://github.com/continuedev/continue) - 开源 AI 编程助手（VS Code + JetBrains）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcontinuedev%2Fcontinue&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Roo Code](https://roocode.com/) - 🆕 开源 VS Code 扩展，跨多文件读写、执行命令，model-agnostic；除自带 API 外免费。
@@ -1670,6 +1679,10 @@
 | **2026-06-03** | [Perplexity Personal Computer for Windows](https://www.perplexity.ai/hub/products/computer-for-windows) 宣布 — 自动编排 19+ 个 AI 模型，跨本地文件 / 原生应用 / Web | 工具 |
 | **2026-06-06** | [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) 由 Moonshot AI 发布 — TypeScript / MIT 终端 Agent，内置 coder / explore / plan 子 Agent 在隔离上下文中运行 | 工具 |
 | **2026-06-08** | **WWDC 2026 Apple Intelligence + Siri AI 重做** — Foundation Models 框架新增图像输入、自定义 skill、端侧 + 服务端统一 Swift API；SiriKit 弃用改用扩展后的 App Intents；新 Siri 底层为 Google Gemini，不再是 ChatGPT | 模型 / 工具 |
+| **2026-06-09** | [Claude Fable 5 + Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) 发布 — Anthropic 首批一般可用的 **Mythos 级**模型（Fable 5 公开；Mythos 5 经 Project Glasswing 限量） | 模型 |
+| **2026-06-12** | [美国出口管制指令迫使 Anthropic 对所有客户停用 Fable 5 + Mythos 5](https://www.anthropic.com/news/fable-mythos-access) — 首例政府强制下架已公开部署的前沿模型 | 产业 |
+| **2026-06-12** | [Kimi K2.7 Code](https://kimi.ai/) 由 Moonshot AI 发布 — 1T MoE 编程优先模型（256K，Modified MIT），推理 token 用量约降 30% | 模型 |
+| **2026-06-13** | [GLM-5.2](https://z.ai/blog/glm-5.2) 由智谱 AI 发布 — 编程优先的 744B MoE，100万 token 上下文，全部 GLM Coding Plan 套餐上线 | 模型 |
 
 ---
 

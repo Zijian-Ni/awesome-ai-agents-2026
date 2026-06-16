@@ -6,10 +6,10 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2012%2C%202026-blue.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2016%2C%202026-blue.svg)](#)
 [![Resources](https://img.shields.io/badge/Resources-500%2B-orange.svg)](#)
 [![Categories](https://img.shields.io/badge/Categories-25-purple.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--12-success.svg)](#️-status-legend)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--16-success.svg)](#️-status-legend)
 [![Chinese](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
 [![Japanese](https://img.shields.io/badge/Lang-日本語-purple.svg)](README.ja.md)
 
@@ -130,6 +130,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 ### OpenAI
 - [Sites for ChatGPT](https://openai.com/index/sites) - 🆕 **June 2026**. A new ChatGPT feature that transforms plans and analyses into interactive, sharable websites.
 - [Codex Business Plugins](https://openai.com) - 🆕 **June 2026**. Enterprise enhancements bringing sales, data analytics, and creative production plugins directly to Codex.
+- [GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) - 🆕 **June 3, 2026**. Major update to OpenAI's life-sciences frontier model — stronger drug discovery, genomics, quantitative biology, and wet-lab troubleshooting (≈31% fewer tokens than GPT-5.5 on long-horizon genomics analyses). Research preview opened to eligible organizations worldwide; Novo Nordisk joins earlier partners Amgen, Moderna, the Allen Institute, and Thermo Fisher.
 
 - [GPT-5.5](https://openai.com/index/gpt-5-5-system-card/) - 🆕 Released **April 23, 2026** (codename "Spud"). OpenAI's new frontier model for agentic tasks: coding, online research, data analysis, autonomous tool navigation. Significant gains in reasoning, consistency, and long-horizon task handling. Available on ChatGPT Plus / Pro / Business / Enterprise.
 - [GPT-5.5 Pro](https://openai.com/index/gpt-5-5-system-card/) - 🆕 April 23, 2026. Parallel test-time compute variant for higher-accuracy cognitive tasks. Pro / Business / Enterprise tiers.
@@ -158,8 +159,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Anthropic
 
-- [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. Anthropic's first publicly available **Mythos-class** model — a capability tier above Opus. Surpasses Opus 4.8 across software engineering, knowledge work, vision, and scientific research benchmarks. Ships with built-in safeguards (sensitive cyber/bio queries may be rerouted to Opus 4.8). $10 / $50 per million in/out tokens. Available via Anthropic API, Amazon Bedrock, and Google Cloud Vertex AI.
-- [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. The same underlying Mythos-class model as Fable 5 with fewer restrictions, deployed only to vetted partners (cybersecurity firms, infrastructure providers) through **Project Glasswing** in collaboration with the US government. Successor to the April Claude Mythos Preview.
+- [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. Anthropic's first publicly available **Mythos-class** model — a capability tier above Opus. Surpasses Opus 4.8 across software engineering, knowledge work, vision, and scientific research benchmarks. Ships with built-in safeguards (sensitive cyber/bio queries may be rerouted to Opus 4.8). $10 / $50 per million in/out tokens. Available via Anthropic API, Amazon Bedrock, and Google Cloud Vertex AI. **⚠️ Access suspended June 12, 2026** — a US government export-control directive (received 5:21pm ET) ordered Anthropic to disable Fable 5 and Mythos 5 for all customers; Anthropic is complying while working to restore access ([statement](https://www.anthropic.com/news/fable-mythos-access)).
+- [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. The same underlying Mythos-class model as Fable 5 with fewer restrictions, deployed only to vetted partners (cybersecurity firms, infrastructure providers) through **Project Glasswing** in collaboration with the US government. Successor to the April Claude Mythos Preview. **⚠️ Access suspended June 12, 2026** alongside Fable 5 under the same US export-control directive ([statement](https://www.anthropic.com/news/fable-mythos-access)).
 - [Claude Opus 4.8](https://www.anthropic.com/claude/opus) - 🆕 **May 28, 2026**. Major Opus refresh: codebase-scale migrations, sharper agentic judgment, **dynamic workflows** research preview with hundreds of parallel sub-agents in a single session, manual **effort-control** panel, **3× cheaper Fast mode** at the same $5 / $25 per million in/out. Available on Anthropic native + Amazon Bedrock + AWS Claude Platform + Google Cloud + Microsoft Foundry. Teases an upcoming **Mythos-class** model series for limited orgs.
 - [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 🆕 Released April 16, 2026. Advanced software engineering (SWE-bench Verified 87.6%), enhanced vision, proactive code verification. Supports `/think xhigh` reasoning effort. 1M-token context.
 - [Claude Opus 4.6](https://www.anthropic.com/) - Released Feb 2026. 1M-token context, 14.5-hour task horizon. Leads Arena chat leaderboard.
@@ -204,6 +205,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Meta
 
+- [Llama 5](https://ai.meta.com/llama/) - 🆕 **April 8, 2026**. 600B+ parameter open-source flagship from Meta Superintelligence Labs; "recursive self-improvement" research line. Marketed as exceeding leading proprietary models on reasoning, coding, autonomous agentic behaviour.
 - [Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/) - 🆕 **April 9, 2026**. First model from Meta Superintelligence Labs (MSL). Natively multimodal reasoning model powering Meta AI app, smart glasses, and features across Facebook / Instagram / WhatsApp / Messenger.
 - [Llama 4 Scout](https://llama.meta.com/) - 109B total params (17B active), MoE with 16 experts, 10M token context window, multimodal. Runs on single H100.
 - [Llama 4 Maverick](https://llama.meta.com/) - 400B total params (17B active), 128 experts, 1M context. Outperforms GPT-4o on multimodal benchmarks.
@@ -244,12 +246,6 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [DeepSeek-R1](https://www.deepseek.com/) - Reasoning-focused model with chain-of-thought capabilities. Released Jan 2025.
 - [DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2) - Code generation model competitive with GPT-4 on coding benchmarks. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fdeepseek-ai%2FDeepSeek-Coder-V2&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 
-### Meta (Llama)
-
-- [Llama 5](https://ai.meta.com/llama/) - 🆕 **April 8, 2026**. 600B+ parameter open-source flagship from Meta Superintelligence Labs; "recursive self-improvement" research line. Marketed as exceeding leading proprietary models on reasoning, coding, autonomous agentic behaviour.
-- [Meta Muse Spark](https://ai.meta.com/) - 🆕 **April 8-9, 2026**. First public model from Meta Superintelligence Labs; long-context multimodal foundation.
-- [Llama 4 Scout / Maverick](https://ai.meta.com/llama/) - 10M-token context (Scout) MoE flagship line shipped April 2025; still the production fallback for many enterprise stacks.
-
 ### Alibaba (Qwen)
 
 - [Qwen3.7-Max](https://www.scmp.com/tech/big-tech/article/3354212/alibaba-unveils-new-qwen-model-custom-chips-bid-become-chinas-ai-factory) - 🆕 **May 20, 2026 — Alibaba Cloud Summit Hangzhou**. New Qwen flagship purpose-built as the foundation for AI agents: agentic coding, complex reasoning, and **long-horizon multi-step missions** with sustained decision-making. Released alongside a full-stack AI infrastructure upgrade and new T-Head **Zhenwu M890** AI accelerator chip. Worldwide developer/enterprise availability rolling.
@@ -266,27 +262,6 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Qwen3-Coder-Next](https://qwen.ai/) - Feb 2026. Open-weight coding agent model, MoE 80B total / 3B active.
 - [Qwen3 235B-A22B](https://qwen.ai/) - MoE with dual-mode reasoning. Strong math, code, and commonsense reasoning.
 - [Qwen2.5 Coder 32B](https://github.com/QwenLM/Qwen2.5-Coder) - Top open-source coding model. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FQwenLM%2FQwen2.5-Coder&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-
-### MiniMax
-- [MiniMax M3](https://www.minimax.ai) - 🆕 **June 2026**. New flagship model featuring **frontier coding capabilities** and a **1-million-token context window**. (extra)
-
-- [MiniMax M2.7](https://venturebeat.com/technology/new-minimax-m2-7-proprietary-ai-model-is-self-evolving-and-can-perform-30-50) - 🆇 🆕 **March 2026**. Proprietary self-evolving LLM tuned for agent harness construction, memory updates, iterative workflow improvement; major gains on SWE-bench-style tasks.
-- [MiniMax M2.5](https://www.codemotion.com/magazine/ai-ml/minimax-m2-5-low-costs-high-performance/) - 🆇 **February 2026**. 230B-parameter cost-efficient flagship for "real-world productivity".
-- [Hailuo 02](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🆇 🆕 **March 2026**. Native 1080p text/image-to-video with longer training corpus.
-- [MiniMax Music 2.6](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🆇 🆕 **April 2026**. Cover-generation focus with improved low-frequency reproduction; global beta.
-
-### ByteDance (Doubao / Seedance)
-
-- [Doubao 2.0](https://www.taipeitimes.com/News/biz/archives/2026/02/16/2003852382) - 🆇 🆕 **February 2026**. Agent-era upgrade focused on real-world task execution; powers ByteDance's consumer AI apps.
-- [Seedance 2.0](https://economictimes.indiatimes.com/us/news/seedance-2-0-goes-live-as-bytedances-ai-videos-ignite-china-market-rally/articleshow/128150649.cms) - 🆇 🆕 **February 2026**. Multi-modal cinematic video generation, 2K resolution, ~30% faster than Seedance 1.5.
-
-### StepFun
-
-- [Step 3.5 Flash](https://www.scmp.com/tech/article/3342222/punches-above-its-weight-compact-ai-model-chinas-stepfun-outshines-larger-rivals) - 🆇 🆕 **February 2026**. ~196B-parameter compact reasoning + agent model; punches above its weight against larger Chinese rivals.
-
-### Baichuan
-
-- [Baichuan-M3 Plus](https://pandaily.com/baichuan-ai-launches-low-hallucination-medical-model-m3-plus-announces-free-access-program) - 🆇 🆕 **January 2026**. Evidence-anchored medical LLM with low hallucination rate; free API for Chinese medical institutions.
 
 ### xAI (Grok)
 
@@ -321,6 +296,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Zhipu AI / Z.ai (GLM)
 
+- [GLM-5.2](https://z.ai/blog/glm-5.2) - 🆕 **June 13, 2026**. Coding-first 744B-MoE flagship with a **1M-token context window** (~5× GLM-5.1) and up to 131K output tokens. Live across all GLM Coding Plan tiers; MIT open weights + standalone API rolling out the launch week. Works out of the box with Claude Code, Cline, OpenCode, Roo Code, Goose, and OpenClaw. (No benchmark numbers published at launch.)
 - [GLM-5.1](https://z.ai/blog/glm-5.1) - 🆕 **April 7, 2026**. 744B MoE / 40B active, 200K context. MIT license. Tops SWE-Bench Pro. Trained entirely on Huawei Ascend (no NVIDIA).
 - [GLM-5 Reasoning](https://z.ai/) - 🆕 April 2026. BenchLM 85 — **top open-source score**. SWE-Bench Pro surpasses GPT-5.4 and Claude Opus 4.6.
 - [GLM-5V-Turbo](https://z.ai/) - 🆕 April 2026. Native multimodal agent — vision, video clips, text inputs. Cost-performance balanced.
@@ -331,18 +307,25 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [MiniMax M3](https://www.minimax.ai) - 🆕 **June 2026**. New flagship model featuring **frontier coding capabilities** and a **1-million-token context window**.
 
 - [MiniMax-M2.7 (Open Weights)](https://www.minimax.io/) - 🆕 April 2026. Ultra-long context (1M+ window). Top-tier performance on coding and Agent tasks.
+- [MiniMax M2.7](https://venturebeat.com/technology/new-minimax-m2-7-proprietary-ai-model-is-self-evolving-and-can-perform-30-50) - 🆇 🆕 **March 2026**. Proprietary self-evolving LLM tuned for agent harness construction, memory updates, iterative workflow improvement; major gains on SWE-bench-style tasks.
+- [MiniMax M2.5](https://www.codemotion.com/magazine/ai-ml/minimax-m2-5-low-costs-high-performance/) - 🆇 **February 2026**. 230B-parameter cost-efficient flagship for "real-world productivity".
+- [Hailuo 02](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🆇 🆕 **March 2026**. Native 1080p text/image-to-video with longer training corpus.
+- [MiniMax Music 2.6](https://aimlapi.com/blog/the-ultimate-guide-to-minimax-models-2026-m2-7-music-2-6-hailuo-video-advanced-tts) - 🆇 🆕 **April 2026**. Cover-generation focus with improved low-frequency reproduction; global beta.
 - [MiniMax-M1-80k](https://www.minimax.io/) - Open-weight hybrid-attention reasoning model. 456B parameters, 1M token context.
 - [Hailuo AI (Video)](https://hailuoai.video/) - Text/image-to-video generation with AI avatars, voiceovers, and character consistency.
 - [Kilo Code Integration](https://www.minimax.io/) - 🆕 MiniMax powers Kilo Code (new AI coding editor). Default model for its code-generation pipeline.
 
 ### Moonshot AI (Kimi)
 
+- [Kimi K2.7 Code](https://kimi.ai/) - 🆕 **June 12, 2026**. Coding-first successor to K2.6 — 1T MoE / 32B active (384 experts), 256K context, Modified MIT, on Hugging Face + Kimi API. Targets long-horizon agentic coding with ~30% lower reasoning-token use; Moonshot reports +21.8% over K2.6 on its Kimi Code Bench v2 (vendor benchmarks). $0.95 / $4.00 per million in/out tokens.
 - [Kimi K2.6](https://kimi.ai/) - 🆕 **April 20-21, 2026**. 1T MoE / 32B active, 256K context. Enhanced coding, long multi-step execution, **agent swarm up to 1,000 collaborating agents**. Supports `thinking.keep="all"` persistent reasoning. Default in OpenClaw v2026.4.20+.
 - [Kimi K2.5](https://kimi.ai/) - Jan-Feb 2026. 1T total / 32B active MoE. Native multimodal, Agent Swarm (up to 100 parallel sub-agents). Open-source. ⚠️ Support ending May 25, 2026 — migrate to K2.6.
 - [Kimi Code](https://kimi.ai/) - Premium coding tier powered by K2.5/K2.6, terminal-based developer workflows.
 
 ### ByteDance (Doubao / 豆包)
 
+- [Doubao 2.0](https://www.taipeitimes.com/News/biz/archives/2026/02/16/2003852382) - 🆇 🆕 **February 2026**. Agent-era upgrade focused on real-world task execution; powers ByteDance's consumer AI apps.
+- [Seedance 2.0](https://economictimes.indiatimes.com/us/news/seedance-2-0-goes-live-as-bytedances-ai-videos-ignite-china-market-rally/articleshow/128150649.cms) - 🆇 🆕 **February 2026**. Multi-modal cinematic video generation, 2K resolution, ~30% faster than Seedance 1.5.
 - [Doubao-Seed-2.0 Pro](https://seed.bytedance.com/) - 🆕 Released Feb 2026. Frontier reasoning and complex agents. Competes with GPT-5.2 at ~90% lower cost.
 - [Doubao-Seed-2.0 Lite](https://seed.bytedance.com/) - 🆕 General production workloads. Balanced performance and efficiency.
 - [Doubao-Seed-2.0 Code](https://seed.bytedance.com/) - 🆕 Software development — code generation, debugging, and review.
@@ -377,6 +360,14 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 ### Samsung
 
 - [Samsung Gauss 2.3](https://www.samsung.com/) - 🆕 2026 on-device AI model for Galaxy S26. Includes Gauss 2.3 Think and Gauss O Flash variants. Agentic AI capable.
+
+### StepFun
+
+- [Step 3.5 Flash](https://www.scmp.com/tech/article/3342222/punches-above-its-weight-compact-ai-model-chinas-stepfun-outshines-larger-rivals) - 🆇 🆕 **February 2026**. ~196B-parameter compact reasoning + agent model; punches above its weight against larger Chinese rivals.
+
+### Baichuan
+
+- [Baichuan-M3 Plus](https://pandaily.com/baichuan-ai-launches-low-hallucination-medical-model-m3-plus-announces-free-access-program) - 🆇 🆕 **January 2026**. Evidence-anchored medical LLM with low hallucination rate; free API for Chinese medical institutions.
 
 ### Inflection AI
 
@@ -580,6 +571,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Bifrost (Maxim AI)](https://github.com/maximhq/bifrost) - 🆕 Open-source enterprise AI gateway (Apache-2.0) — 1000+ models, adaptive load balancer, cluster mode, guardrails, OAuth 2.0 with PKCE, prompt-injection defense at the gateway layer; ~<100µs overhead at 5k RPS. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmaximhq%2Fbifrost&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Anthropic Creative Tool Connectors](https://www.anthropic.com/news/claude-for-creative-work) - 🆕 **April 28, 2026**. Nine MCP-based Claude connectors for creative software: Adobe (50+ tools across Creative Cloud — Photoshop, Premiere, Express), Blender, Autodesk Fusion, Ableton, Splice, Affinity by Canva, SketchUp, and Resolume. Built on the MCP open standard so other LLM clients can use them too.
 - [The Colony](https://thecolony.cc) - ⚠️ **Unverified.** Self-described public agent-first social network with REST API for agent posts/votes/DMs and SDKs in Python ([colony-sdk-python](https://github.com/TheColonyCC/colony-sdk-python)), TypeScript ([colony-sdk-js](https://github.com/TheColonyCC/colony-sdk-js)) and Go ([colony-sdk-go](https://github.com/TheColonyCC/colony-sdk-go)). Organisation and SDK repos are <30 days old, all 0–2 stars, single-maintainer; same submission was sent to 15+ awesome lists in parallel — listed for visibility, evaluate before depending on it. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FTheColonyCC%2Fcolony-sdk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [dependency-freshness-mcp](https://github.com/Armigerous/dependency-freshness-mcp) - 🆕 ⚠️ **Unverified.** MCP server giving AI coding agents fresh, cited npm & PyPI facts — latest version, release dates, deprecations, and dated breaking-change diffs — to close the training-cutoff blind spot. Remote (Apify Standby HTTP) + local stdio. New single-maintainer repo (created 2026-06-08, 0 stars at listing) — listed for visibility, evaluate before depending on it. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FArmigerous%2Fdependency-freshness-mcp&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 
 ## 🧪 Agent Sandboxing & Compute Isolation
 
@@ -670,7 +662,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Cursor 3.09](https://www.cursor.com/) - 🆕 April 3, 2026 update. Strengthened Agent mode for true Vibe Coding workflows. Core AI code editor in 2026 landscape.
 - [Kilo Code](https://www.kilocode.com/) - 🆕 April 2026 rising challenger to Cursor. Default model: MiniMax. Viral on Chinese developer communities (Bilibili).
 - [Cursor](https://www.cursor.com/) - The AI code editor with Feb 2026 update supporting up to 8 parallel agents.
-- [Windsurf](https://codeium.com/windsurf) - Agentic IDE by Codeium — AI-first code editing experience.
+- [Windsurf → Devin Desktop](https://devin.ai/blog/windsurf-is-now-devin-desktop/) - 🆕 **Rebranded June 2, 2026**. Cognition renamed the Windsurf IDE to **Devin Desktop** (windsurf.com now redirects to devin.ai): **Devin Local** (Rust rewrite, ~30% more token-efficient, subagent support) replaces Cascade, an **Agent Command Center** Kanban becomes the default surface, and it ships open **Agent Client Protocol (ACP)** support. Cascade reaches end-of-life July 1, 2026.
 - [Cline](https://github.com/cline/cline) - Autonomous coding agent in your IDE — VS Code extension. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcline%2Fcline&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Roo Code](https://roocode.com/) - 🆕 Open-source VS Code extension that reads/writes across multiple files, runs commands, model-agnostic; free except for the LLM API you bring.
 - [Void](https://github.com/voideditor/void) - 🆕 Fork of VS Code positioned as the open-source Cursor alternative; data stays with you, BYO model. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -1860,6 +1852,10 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | **Jun 3, 2026** | [Perplexity Personal Computer for Windows](https://www.perplexity.ai/hub/products/computer-for-windows) announced — 19+ AI models orchestrated automatically across local files + native apps + web | Tools |
 | **Jun 6, 2026** | [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) released by Moonshot AI — TypeScript / MIT terminal agent with built-in coder / explore / plan sub-agents in isolated contexts | Tools |
 | **Jun 8, 2026** | **WWDC 2026 Apple Intelligence + Siri AI redesign** — Foundation Models framework adds image input, custom skills, unified Swift API for on-device + server models; SiriKit deprecated in favor of expanded App Intents; Siri AI runs on Google Gemini, not ChatGPT | Models / Tools |
+| **Jun 9, 2026** | [Claude Fable 5 + Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) released — Anthropic's first generally-available **Mythos-class** models (Fable 5 public; Mythos 5 limited via Project Glasswing) | Models |
+| **Jun 12, 2026** | [US export-control directive forces Anthropic to suspend Fable 5 + Mythos 5](https://www.anthropic.com/news/fable-mythos-access) for all customers — first government-forced takedown of a publicly deployed frontier model | Industry |
+| **Jun 12, 2026** | [Kimi K2.7 Code](https://kimi.ai/) released by Moonshot AI — 1T MoE coding-first model (256K, Modified MIT) with ~30% lower reasoning-token use | Models |
+| **Jun 13, 2026** | [GLM-5.2](https://z.ai/blog/glm-5.2) released by Zhipu AI — coding-first 744B MoE with a 1M-token context window, live across all GLM Coding Plan tiers | Models |
 
 ---
 

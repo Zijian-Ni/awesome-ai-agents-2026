@@ -3,6 +3,30 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+## 2026-06-16 — Weekly maintenance: PR triage + June 12–13 updates + Foundation Models de-drift (en/zh/ja sync)
+
+### PR triage
+- **PR #41 — dependency-freshness-mcp** — **merged by maintainer with en/zh/ja sync** (contributor edited English only). MCP server giving AI coding agents fresh, cited npm/PyPI facts (latest version, deprecations, dated breaking-change diffs); remote via Apify Standby + local stdio. Spam-guard: ✅ no red flags. Added to **Tool & API Integration** in all three languages tagged 🆕 ⚠️ **Unverified** (brand-new single-maintainer repo, created 2026-06-08, 0 stars at listing) — consistent with The Colony's handling. Closed with a credit/thank-you comment.
+- **PR #42 — Seedream AI Studio** — **closed as out-of-scope / SEO-blast spam**. `seedream4.video` is a third-party wrapper site whose own footer states it is "not affiliated with, endorsed by, or sponsored by ByteDance" (the PR mis-described it as "by ByteDance"). Spam-guard flagged 100 PRs / 14 days, 60 to awesome-* lists, identical title to 37 repos, plus a parallel "LLC Class" affiliate-link blast; submitter disclosed an automated outreach workflow. Closed politely (no merge).
+
+### + Added (real, web-verified June 2026 developments; mirrored en/zh/ja)
+- **OpenAI — [GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/)** (June 3, 2026): major update to OpenAI's life-sciences frontier model (drug discovery / genomics / quantitative biology / wet-lab; ≈31% fewer tokens than GPT-5.5 on long-horizon genomics); research preview opened worldwide, Novo Nordisk joins Amgen / Moderna / Allen Institute / Thermo Fisher.
+- **Zhipu — [GLM-5.2](https://z.ai/blog/glm-5.2)** (June 13, 2026): coding-first 744B-MoE flagship, 1M-token context (~5× GLM-5.1), live across all GLM Coding Plan tiers; MIT open weights + API rolling out launch week (no benchmarks published at launch).
+- **Moonshot — [Kimi K2.7 Code](https://kimi.ai/)** (June 12, 2026): coding-first successor to K2.6 — 1T MoE / 32B active, 256K context, Modified MIT, on Hugging Face + Kimi API; ~30% lower reasoning-token use, +21.8% on vendor Kimi Code Bench v2.
+- **IDE — Windsurf → [Devin Desktop](https://devin.ai/blog/windsurf-is-now-devin-desktop/)** (June 2, 2026): Cognition rebranded the Windsurf IDE to Devin Desktop (windsurf.com → devin.ai); Devin Local (Rust rewrite) replaces Cascade, Agent Command Center default surface, open Agent Client Protocol; Cascade EOL July 1, 2026.
+
+### ~ Changed
+- **Anthropic — [Claude Fable 5 + Mythos 5](https://www.anthropic.com/news/fable-mythos-access)** marked **⚠️ Access suspended June 12, 2026** in all three languages: a US-government export-control directive (received 5:21pm ET) ordered Anthropic to disable both models for all customers — the first government-forced takedown of a publicly deployed frontier model.
+- **Header badges** — `Last Updated` → **June 16, 2026**, `Spam_Audited` → **2026-06-16** (all three READMEs).
+- **2026 AI Timeline** — 4 new rows (Fable 5/Mythos 5 launch Jun 9, the Jun 12 suspension, Kimi K2.7 Code Jun 12, GLM-5.2 Jun 13) across all three files.
+
+### ~ Sync / de-drift (README.md was internally inconsistent vs the zh/ja canonical structure)
+- **Foundation Models de-duplicated (README.md)** — collapsed two duplicate `### MiniMax` sections into one (9 entries, M3 deduped, stray "(extra)" editing marker removed), merged the two `### ByteDance` sections, merged the split `### Meta` / `### Meta (Llama)` (kept Llama 5), and relocated StepFun + Baichuan to after Samsung — matching the zh/ja order. EN now has the same **28 provider sub-sections in the same order** as zh-CN / ja.
+- **zh-CN / ja backfill for parity** — added the three **GPT-Realtime-2 / Translate / Whisper** model entries to the OpenAI section and **Claude Opus 4.7** + **Claude Finance JV** to the Anthropic section (were present in EN only). Every Foundation Models provider now has matching entry counts across all three languages.
+
+### ✓ Verified
+- `python3 scripts/check_links.py` — 764 URLs; the 170 flagged are all pre-existing third-party bot-blockers / anti-scrape hosts (x.ai, microsoft.ai, llama.meta.com, perplexity, news.bms.com, tesla, servicenow, reuters, …). **No newly introduced broken links.**
+
 ## 2026-06-12 — Re-rank by strength / recency / popularity + readability polish (en/zh/ja sync)
 
 ### + Added (same day, third pass)
