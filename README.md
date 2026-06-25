@@ -1892,3 +1892,5 @@ Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 *Last updated: June 9, 2026*
 
 </div>
+
+- [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) — Spec-driven delivery framework for product managers — 4 delivery tiers, 0D triage, prototype testability, AI runtime governance, 5 domain modules
