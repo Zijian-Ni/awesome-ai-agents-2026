@@ -129,6 +129,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### OpenAI
 - [Sites for ChatGPT](https://openai.com/index/sites) - 🆕 **June 2026**. A new ChatGPT feature that transforms plans and analyses into interactive, sharable websites.
+[Auferet](https://auferet.com) - AI game master with persistent memory for your characters and uploaded lore; solo or multiplayer, with 5e and Pathfinder 2e modes.
 - [Codex Business Plugins](https://openai.com) - 🆕 **June 2026**. Enterprise enhancements bringing sales, data analytics, and creative production plugins directly to Codex.
 - [GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) - 🆕 **June 3, 2026**. Major update to OpenAI's life-sciences frontier model — stronger drug discovery, genomics, quantitative biology, and wet-lab troubleshooting (≈31% fewer tokens than GPT-5.5 on long-horizon genomics analyses). Research preview opened to eligible organizations worldwide; Novo Nordisk joins earlier partners Amgen, Moderna, the Allen Institute, and Thermo Fisher.
 
