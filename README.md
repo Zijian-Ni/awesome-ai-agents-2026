@@ -6,7 +6,7 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2016%2C%202026-blue.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2030%2C%202026-blue.svg)](#)
 [![Resources](https://img.shields.io/badge/Resources-500%2B-orange.svg)](#)
 [![Categories](https://img.shields.io/badge/Categories-25-purple.svg)](#)
 [![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--16-success.svg)](#️-status-legend)
@@ -159,8 +159,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Anthropic
 
-- [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. Anthropic's first publicly available **Mythos-class** model — a capability tier above Opus. Surpasses Opus 4.8 across software engineering, knowledge work, vision, and scientific research benchmarks. Ships with built-in safeguards (sensitive cyber/bio queries may be rerouted to Opus 4.8). $10 / $50 per million in/out tokens. Available via Anthropic API, Amazon Bedrock, and Google Cloud Vertex AI. **⚠️ Access suspended June 12, 2026** — a US government export-control directive (received 5:21pm ET) ordered Anthropic to disable Fable 5 and Mythos 5 for all customers; Anthropic is complying while working to restore access ([statement](https://www.anthropic.com/news/fable-mythos-access)).
-- [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. The same underlying Mythos-class model as Fable 5 with fewer restrictions, deployed only to vetted partners (cybersecurity firms, infrastructure providers) through **Project Glasswing** in collaboration with the US government. Successor to the April Claude Mythos Preview. **⚠️ Access suspended June 12, 2026** alongside Fable 5 under the same US export-control directive ([statement](https://www.anthropic.com/news/fable-mythos-access)).
+- [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. Anthropic's first publicly available **Mythos-class** model — a capability tier above Opus. Surpasses Opus 4.8 across software engineering, knowledge work, vision, and scientific research benchmarks. Ships with built-in safeguards (sensitive cyber/bio queries may be rerouted to Opus 4.8). $10 / $50 per million in/out tokens. Available via Anthropic API, Amazon Bedrock, and Google Cloud Vertex AI. **⚠️ Access suspended June 12, 2026** — a US government export-control directive ordered Anthropic to disable Fable 5 and Mythos 5 for all customers pending security review. **⚠️ Still offline as of June 30, 2026** — Anthropic continues to work with the government toward reinstatement ([statement](https://www.anthropic.com/news/fable-mythos-access)).
+- [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. The same underlying Mythos-class model as Fable 5 with fewer restrictions, deployed only to vetted partners (cybersecurity firms, infrastructure providers) through **Project Glasswing** in collaboration with the US government. Successor to the April Claude Mythos Preview. **⚠️ Suspended June 12, 2026** alongside Fable 5 under a US export-control directive. **✅ Partially reinstated June 26, 2026** — US Commerce Secretary Lutnick restored access to 100+ approved US companies and federal agencies; broader reinstatement ongoing ([statement](https://www.anthropic.com/news/fable-mythos-access)).
 - [Claude Opus 4.8](https://www.anthropic.com/claude/opus) - 🆕 **May 28, 2026**. Major Opus refresh: codebase-scale migrations, sharper agentic judgment, **dynamic workflows** research preview with hundreds of parallel sub-agents in a single session, manual **effort-control** panel, **3× cheaper Fast mode** at the same $5 / $25 per million in/out. Available on Anthropic native + Amazon Bedrock + AWS Claude Platform + Google Cloud + Microsoft Foundry. Teases an upcoming **Mythos-class** model series for limited orgs.
 - [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 🆕 Released April 16, 2026. Advanced software engineering (SWE-bench Verified 87.6%), enhanced vision, proactive code verification. Supports `/think xhigh` reasoning effort. 1M-token context.
 - [Claude Opus 4.6](https://www.anthropic.com/) - Released Feb 2026. 1M-token context, 14.5-hour task horizon. Leads Arena chat leaderboard.
@@ -1901,6 +1901,13 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | **Jun 12, 2026** | [US export-control directive forces Anthropic to suspend Fable 5 + Mythos 5](https://www.anthropic.com/news/fable-mythos-access) for all customers — first government-forced takedown of a publicly deployed frontier model | Industry |
 | **Jun 12, 2026** | [Kimi K2.7 Code](https://kimi.ai/) released by Moonshot AI — 1T MoE coding-first model (256K, Modified MIT) with ~30% lower reasoning-token use | Models |
 | **Jun 13, 2026** | [GLM-5.2](https://z.ai/blog/glm-5.2) released by Zhipu AI — coding-first 744B MoE with a 1M-token context window, live across all GLM Coding Plan tiers | Models |
+| **Jun 14, 2026** | [OpenAI Partner Network](https://openai.com/business/partner-network) launched with **$150M investment** — tiered (Select / Advanced / Elite) global partner ecosystem; targets 300K certified consultants by end-2026; founding partners include Accenture, BCG, Bain, McKinsey, PwC; fully live July 2026 | Industry |
+| **Jun 16–18, 2026** | [ByteDance Seed 2.1 Pro / Turbo](https://seed.bytedance.com) released — ByteDance's latest flagship LLM family with strong multilingual and coding capabilities | Models |
+| **Jun 22, 2026** | [Gemini 2.5 Pro + Deep Think](https://blog.google/products/gemini/gemini-2-5-pro-deep-think/) launched — Google's most capable model to date; **2M-token context window**, native multimodality (text/code/image/audio/video), new "Deep Think" extended-inference mode (15–25% accuracy gain on complex problems, 3–5× slower); MMLU-Pro 89.8% / GPQA Diamond 82.4%; available via Gemini API, AI Studio, and Vertex AI | Models |
+| **Jun 25–26, 2026** | [GPT-5.6 series (Sol / Terra / Luna)](https://openai.com/blog/gpt-5-6) announced — OpenAI's next-generation model family in **limited US-only trusted-partner preview** following a phased US-government safety review. **Sol** (flagship): frontier reasoning, coding, biology, cybersecurity, "max" reasoning + "ultra" sub-agent mode. **Terra**: GPT-5.5-parity at 2× lower cost. **Luna**: fastest and cheapest for high-volume tasks. Wider API + ChatGPT rollout planned weeks later | Models |
+| **Jun 26, 2026** | [Claude Mythos 5 partial reinstatement](https://www.anthropic.com/news/fable-mythos-access) — US Commerce Secretary Lutnick partially lifts June 12 export-control block; Mythos 5 restored to **100+ approved US companies and federal agencies** (Project Glasswing partners). Claude Fable 5 remains offline pending continued government review | Industry |
+| **Jun 27, 2026** | GPT-4.5 retired from ChatGPT — API access continues; OpenAI focuses consumer products on GPT-5.5 / GPT-5.6 families | Models |
+| **Jun 29, 2026** | [Accenture + ServiceNow AI-powered managed security services](https://www.accenture.com/us-en/services/intelligent-security) announced — joint agentic AI offering for cybersecurity risk management and legacy SIEM migration, built on the ServiceNow AI Platform | Industry |
 
 ---
 
@@ -1924,7 +1931,7 @@ This list is released under [MIT License](LICENSE).
 
 Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 
-*Last updated: June 9, 2026*
+*Last updated: June 30, 2026*
 
 </div>
 
