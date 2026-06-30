@@ -411,6 +411,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Kling VIDEO 3.0](https://kling.ai/) - 🆇 🆕 **February 4-7, 2026**. Kuaishou's new generation; realistic human motion, lip-sync, narrative production with audio sync.
 - [Sora 2 (via Runway)](https://runwayml.com/changelog) - 🆕 OpenAI's Sora app shut down 2026-04, but Sora 2 Pro is integrated into Runway as of April 7, 2026.
 - [Seedance 2.0](https://seed.bytedance.com/) - 🆇 🆕 **February 2026**. ByteDance multi-modal cinematic video generation, 2K resolution, ~30% faster than 1.5.
+- [cv.cm/v](https://cv.cm/v) - Web AI studio providing **queue-free, full-power Seedance 2.0** text-to-video / image-to-video plus image generation, a node-graph canvas, a drama agent, and a REST API. 100 free credits, no signup required.
 - [Hailuo 02](https://hailuoai.video/) - 🆇 🆕 **March 2026**. MiniMax video model now native 1080p with expanded training data.
 - [Pika 2.0](https://pika.art/) - 🆕 Creative video generation with scene and effects control.
 - [LTX Studio](https://ltx.studio/) - 🆕 AI-powered cinematic video creation platform.
