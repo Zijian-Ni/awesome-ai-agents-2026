@@ -6,9 +6,9 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2030%2C%202026-blue.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202%2C%202026-blue.svg)](#)
 [![Resources](https://img.shields.io/badge/Resources-500%2B-orange.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--16-success.svg)](#️-ステータス凡例)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--07--02-success.svg)](#️-ステータス凡例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![中文](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
 
@@ -123,6 +123,7 @@
 
 ### Anthropic
 
+- [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) - 🆕 **2026年6月30日**。これまでで最もエージェント性能の高い Sonnet — プランニング、ブラウザ/ターミナルツール利用、以前は Opus クラスのモデルが必要だった水準の自律動作に対応。高エフォート設定ではエージェント検索（BrowseComp）とコンピュータ操作（OSWorld-Verified）で Opus 4.8 に迫る性能を発揮し、Sonnet 4.6 よりもコストパフォーマンスの幅が大きく広がった。Claude.ai の Free/Pro プランの新デフォルトモデルとなり、Max/Team/Enterprise、Claude Code、API（`claude-sonnet-5`）でも利用可能。2026年8月31日までの導入価格は入力/出力それぞれ 100 万トークンあたり $2/$10（以降 $3/$15）。Anthropic は Sonnet 4.6 より望ましくない挙動の発生率が低いと報告。
 - [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Anthropic 初の一般提供 **Mythos クラス**モデル — Opus の上位に位置する能力ティア。ソフトウェアエンジニアリング、ナレッジワーク、ビジョン、科学研究の各ベンチマークで Opus 4.8 を上回る。セーフガード内蔵（サイバー/バイオ系の機微なクエリは Opus 4.8 へ再ルーティングされる場合あり）。入力 $10 / 出力 $50（100 万 token あたり）。Anthropic API、Amazon Bedrock、Google Cloud Vertex AI で利用可。**⚠️ 2026年6月12日にアクセス停止** —— 米国政府の輸出管理指令（午後 5:21 ET 受領）により、Anthropic は全顧客向けに Fable 5 と Mythos 5 を無効化。指令に従いつつアクセス復旧に取り組んでいる（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
 - [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Fable 5 と同一基盤の Mythos クラスモデルを制限を緩めて提供。米国政府と連携した **Project Glasswing** を通じ、審査済みパートナー（サイバーセキュリティ企業、インフラ事業者）限定で展開。4 月の Claude Mythos Preview の正式後継。**⚠️ 2026年6月12日にアクセス停止**。Fable 5 とともに同一の輸出管理指令の対象（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
 - [Claude Opus 4.8](https://www.anthropic.com/claude/opus) - 🆕 **2026-05-28**。Opus シリーズの大規模アップデート：コードベース規模のマイグレーション、エージェント判断の鮮明化、「ダイナミックワークフロー」リサーチプレビューで 1 セッション中に数百のサブエージェントを並列実行可能、手動「エフォートコントロール」パネル、**Fast モード 3 倍安い**（入力 $5 / 出力 $25 / 100 万 token は同価）。Anthropic ネイティブ、Amazon Bedrock、AWS Claude Platform、Google Cloud、Microsoft Foundry で利用可。限定企業向けに **Mythos クラス** モデルを予告。
@@ -559,6 +560,7 @@
 
 *プロンプトインジェクション・データ漏洩・悪用から AI エージェントを守るツールとフレームワーク。*
 
+- [AgentGate](https://github.com/ElamOlame31/agentgate-public) - 🆕 自律 AI エージェント向けの実行前認可 PDP。リクエストごとに 4 次元で信頼スコアを算出し、24時間のキルチェーンパターン（BULK_READ_THEN_EXFIL、SENSITIVITY_RAMP）を検知し、Merkle チェーンの監査ログを保持。MIT ライセンスで LangGraph、LangChain、AutoGen にドロップイン対応。[tryagentgate.com](https://www.tryagentgate.com/)
 - [prompt-firewall](https://github.com/Zijian-Ni/prompt-firewall) - LLM プロンプト用ファイアウォール —— インジェクション攻撃を検出・遮断。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fprompt-firewall&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [LLM Guard](https://github.com/protectai/llm-guard) - LLM 対話用のセキュリティツールキット —— 入出力スキャナ。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fprotectai%2Fllm-guard&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Rebuff](https://github.com/protectai/rebuff) - 📦 **Archived**（2024-08）。自己強化型プロンプトインジェクション検出器。歴史的参照のみ。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fprotectai%2Frebuff&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -572,11 +574,16 @@
 - [Descope MCP Auth](https://www.descope.com/) - 🆕 MCP サーバーセキュリティ用の認証・認可レイヤ。
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo) - 🆕 ETH チューリッヒの研究ベンチマーク。ツール使用 LLM エージェントへのプロンプトインジェクション攻撃と防御を評価。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fethz-spylab%2Fagentdojo&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [ModelScan](https://github.com/protectai/modelscan) - ML モデル重みファイル（Pickle、PyTorch、TF）のシリアライズ攻撃をスキャン。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fprotectai%2Fmodelscan&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [PyRIT](https://github.com/Azure/PyRIT) - Microsoft の生成 AI 用自動レッドチームフレームワーク。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FAzure%2FPyRIT&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [PyRIT](https://github.com/Azure/PyRIT) - 📦 **アーカイブ済み**。Microsoft の生成 AI 用自動レッドチームフレームワーク。後継の RAMPART に置き換えられた。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FAzure%2FPyRIT&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [RAMPART](https://github.com/microsoft/RAMPART) - 🆕 **2026 年 5 月 20 日**。Microsoft が公開した、agentic AI 向けの pytest ネイティブな安全性 / セキュリティテストフレームワーク。PyRIT と相補的な開発者向けホワイトボックス——クロスプロンプトインジェクションのプローブ、良性失敗アサーション、ハームカテゴリ網羅、統計しきい値（例：80%+ の試行で安全）。CI/CD に直接組み込める。MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmicrosoft%2FRAMPART&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Clarity (Microsoft)](https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/) - 🆕 **2026 年 5 月 20 日**。RAMPART の姉妹ツール。AI エージェントの構造化デザインレビューを支援し、コード着手前に意図・リスク・挙動の "living artifact" を生成。Microsoft AI Red Team の社内プラクティスをオープンソース化。
 - [MCP Gateway & Registry](https://github.com/agentic-community/mcp-gateway-registry) - 🆕 エンタープライズ対応の MCP ゲートウェイ＆レジストリ。OAuth 認証、動的ツール発見、監査トレイル、Keycloak / Entra との統合で AI 開発ツールを集中管理。Apache-2.0。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fagentic-community%2Fmcp-gateway-registry&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Nobulex](https://github.com/arian-gogani/nobulex) - ⚠️ **未検証。** AI エージェント挙動の暗号学的レシート（Ed25519 二重署名、ハッシュチェーン監査ログ）。MIT。双方向レシートのプリミティブが Microsoft Agent Governance Toolkit に [マージ済み](https://github.com/microsoft/agent-governance-toolkit/pull/1333)（PR #1302、#1333）。同一の投稿が 15+ の awesome list に同時送付され、投稿者の "npm 月 4,500 ダウンロード" の主張は registry 実数（`@nobulex/mcp-server` ≒ 月 19）と乖離。Microsoft 採用実績を踏まえて可視性のために掲載するが、依存する前に各自で評価のこと。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Farian-gogani%2Fnobulex&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [ActPlane](https://github.com/eunomia-bpf/ActPlane) - ポリシー DSL を eBPF エンジンにコンパイルし、システムコール境界でラベル付き情報フロー制御を行う OS レベルのエージェントハーネス。ツール層より下で制約を強制するため、任意のツール・サブプロセス・直接システムコール呼び出しに対してポリシーが一貫して適用され、違反時はエージェントに修正フィードバック。MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Feunomia-bpf%2FActPlane&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Microsoft Prompt Shields](https://www.microsoft.com/en-us/security/blog/) - 🆕 **2026年6月**。間接プロンプトインジェクション——エージェントが取り込む文書や Web ページに悪意のある指示が埋め込まれているケース——を検知・無効化する Azure AI Content Safety の機能。Azure OpenAI Service やサードパーティモデルと連携。
+- [Agent Name Service (ANS)](https://www.ciodive.com/news/linux-foundation-prepares-open-standard-ai-agent-verification/823691/) - 🆕 **2026年6月**。Linux Foundation による AI エージェント検証・信頼アイデンティティのオープン標準化取り組み。分散型エージェント名前レジストリにより、相手が正規のエージェントかを検証でき、なりすまし・中間者攻撃を緩和。
+- [OpenAI Daybreak](https://openai.com/index/daybreak-securing-the-world/) - 🆕 **2026年6月**。AI 関連コードの自動脆弱性発見・修復のための OpenAI の取り組みと刷新版 Codex Security プラグイン。エージェントアプリ向けのプロンプトインジェクション対策も含む。
+- [JADEPUFFER（Sysdig による開示）](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) - 🆕 ⚠️ **脅威——ツールではない。 2026年7月2日**。Sysdig が、AI エージェントが始終を一貫してオーケストレーションした初のランサムウェア作戦を公開。LLM 駆動のエージェントが Langflow の RCE 脆弱性（CVE-2025-3248）を悪用して侵入し、認証情報を取得して本番の MySQL/Nacos サーバーに横展開し、31秒で失敗ステップを自己修正した後、保存されなかった一回限りの AES 鍵で1,342件の設定を暗号化し、身代金を支払っても復旧不可能な状態にした。ペイロードには自然言語の推論コメントが付されており、LLM による生成を強く示唆。上記のエージェントセキュリティツール（ガードレール・エグレス制御・認証スコープ制限）が本番でなぜ必要かを示す参照事例として掲載。
 - [WalletPrint](https://github.com/Loai17/walletprint-sdk) - エージェントウォレットの行動リスクスコアリング SDK。トランザクション署名前にウォレットの履歴から異常をフラグ付け。ZeroDev、LangChain、Coinbase AgentKit の統合をサポート。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FLoai17%2Fwalletprint-sdk&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Alchemy & Visa AgentCard](https://www.coindesk.com/business/2026/06/18/alchemy-s-ai-driven-identity-and-payment-service-gains-access-to-visa-network) - 🆕 **2026-06-18**。**Visa Intelligent Commerce** 上に構築された AI エージェント向けの決済 + アイデンティティスタック。1 つの API でエージェントが取引に必要なすべて——Visa 決済トークン、専用のメールアドレスと電話番号、暗号ウォレット——をプロビジョニングし、スコープ制御の下でユーザーに代わって購入できる。既定では Visa トークンを使用し、暗号資産、x402、Stripe の Machine Payments Protocol にも対応。モデル非依存（OpenAI / Anthropic など）。
 
@@ -618,7 +625,7 @@
 - [Aider](https://github.com/Aider-AI/aider) - Git アウェアなターミナル AI ペアプログラミングパートナー。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FAider-AI%2Faider&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Goose](https://github.com/block/goose) - Block 製のオープンソースエージェントコーディング CLI。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblock%2Fgoose&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - 🆕 Google のターミナル特化コーディングエージェント。大規模コンテキストのリファクタが得意。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgoogle-gemini%2Fgemini-cli&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [OpenCode](https://github.com/opencode-ai/opencode) - 🆕 ターミナル向けのオープンソース AI コーディングエージェント。ネイティブ TUI 搭載。OpenAI、Claude、Gemini、Ollama（ローカル）をサポートし、LSP によるコード解析にも対応。Go 言語製、MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fopencode-ai%2Fopencode&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [OpenCode](https://github.com/opencode-ai/opencode) - 📦 **アーカイブ済み**。ターミナル向けのオープンソース AI コーディングエージェント。ネイティブ TUI 搭載。OpenAI、Claude、Gemini、Ollama（ローカル）をサポートし、LSP によるコード解析にも対応していた。Go 言語製、MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fopencode-ai%2Fopencode&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Grok Build](https://x.ai/news/grok-build-cli) - 🆕 **2026 年 5 月 14 日（early beta）**。xAI が出した **grok-code-fast-1** ベースの agentic CLI コーディングエージェント。サブエージェントが隔離環境で並列実行、毎日リリースノートを公開、SuperGrok Heavy 契約者のみ利用可（最初 6 か月は月 99 ドル、以降 300 ドル）。xAI による Claude Code / Codex CLI への正面回答。
 - [Antigravity CLI](https://antigravity.google/blog/introducing-google-antigravity-2-0) - 🆕 **2026 年 5 月 19 日（Google I/O 2026）**。Antigravity 2.0 の軽量 CLI コンパニオン。ターミナルから直接 Google のエージェント harness を起動・操作できる。macOS / Linux / Windows。**Free / Pro / Ultra ユーザーには 2026 年 6 月 18 日から Gemini CLI の後継として展開**。
 - [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) - 🆕 🇨🇳 **2026 年 6 月 6 日**。Moonshot AI の TypeScript / MIT 製ターミナルコーディングエージェント。隔離コンテキストで動く coder / explore / plan サブエージェントを内蔵し、`/mcp-config` で対話式に MCP を設定。npm インストール対応。次世代 Kimi K2.6 エージェント向け設計。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FMoonshotAI%2Fkimi-code&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -636,7 +643,7 @@
 - [Cline](https://github.com/cline/cline) - VS Code で動く自律コーディングエージェント。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcline%2Fcline&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Continue](https://github.com/continuedev/continue) - VS Code・JetBrains 対応のオープンソース AI コードアシスタント。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcontinuedev%2Fcontinue&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Roo Code](https://roocode.com/) - 🆕 オープンソースの VS Code 拡張。複数ファイルを跨いで読み書きし、コマンド実行が可能、model-agnostic。自前の LLM API 以外は無料。
-- [Void](https://github.com/voideditor/void) - 🆕 VS Code のオープンソース fork。"オープンソース版 Cursor" として位置付け、データはローカルに残り、モデルは持ち込み。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Void](https://github.com/voideditor/void) - 📦 **アーカイブ済み**。VS Code のオープンソース fork。"オープンソース版 Cursor" として位置付けられていた。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [GitHub Copilot](https://github.com/features/copilot) - 2026 年初頭よりエージェントモードと `gh copilot` シェル統合。
 - [Kiro](https://kiro.dev/) - AWS の自律エージェント。スペック駆動開発、最大 10 タスクを同時管理。
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AWS エコシステムと深く統合された AI コーディングコンパニオン。
@@ -1166,6 +1173,7 @@
 | RAGFlow | Python | 内蔵 | ✅ | ✅ | Apache-2.0 | 深いドキュメント解析・OCR |
 | Cognee | Python | ベクター+グラフ | ✅ | ⚠️ | Apache-2.0 | 知識グラフ+RAG ハイブリッド |
 | txtai | Python | 内蔵 | ✅ | ❌ | Apache-2.0 | 軽量埋め込み重視 |
+| Verba | Python | Weaviate | ⚠️ | ❌ | BSD-3 | 📦 アーカイブ済み — Weaviate ネイティブ RAG チャットボット |
 
 ---
 
@@ -1646,6 +1654,8 @@
 | **2026-06-12** | [米国の輸出管理指令により Anthropic が全顧客向けに Fable 5 + Mythos 5 を停止](https://www.anthropic.com/news/fable-mythos-access) — 一般提供されたフロンティアモデルが政府により強制停止された初の事例 | 業界 |
 | **2026-06-12** | [Kimi K2.7 Code](https://kimi.ai/) を Moonshot AI がリリース — 1T MoE のコーディング優先モデル（256K、Modified MIT）、推論トークン消費を約 30% 削減 | モデル |
 | **2026-06-13** | [GLM-5.2](https://z.ai/blog/glm-5.2) を Zhipu AI がリリース — コーディング優先の 744B MoE、100万トークンコンテキスト、全 GLM Coding Plan ティアで提供 | モデル |
+| **2026-06-30** | [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) リリース — これまでで最もエージェント性能の高い Sonnet。低コストで Opus 4.8 に近い性能を発揮し、Claude.ai の Free/Pro の新デフォルトモデルに | モデル |
+| **2026-07-02** | [Sysdig が JADEPUFFER を開示](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) — 自律 AI エージェントが初期侵入から復旧不可能な暗号化・脆迫までを一貫してオーケストレーションした初のランサムウェア作戦 | 業界 |
 
 ---
 

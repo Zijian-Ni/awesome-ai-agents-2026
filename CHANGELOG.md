@@ -3,6 +3,31 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+## 2026-07-02 — PR/issue triage, badges-refresh workflow merge, archived-repo flags, Claude Sonnet 5 + JADEPUFFER additions (en/zh/ja sync)
+
+### PR / issue triage
+- **PR #57 — automated badges-refresh workflow (`.github/workflows/refresh-badges.yml`)** — **merged**. Legitimate maintenance automation (cron-based star-count badge refresh), no spam flags, single-purpose diff.
+- **PR #55 — cv.cm/v listing** — **closed**. Spam-guard flagged the identical `cv.cm/v` submission opened across 8 awesome-* lists within 14 days — self-promotional blast pattern per [contributing guidelines](CONTRIBUTING.md#-quality-gate--what-gets-in), independent of the product's own legitimacy.
+- **PR #54 — AgentsCoin MCP listing** — **closed**. Spam-guard found 24 near-identical AgentsCoin PRs opened to awesome-* lists in the last 14 days (this repo included) — same blast pattern.
+- **PR #52 — Hermes voice-agent listing** — **closed**. Spam-guard found 12 near-identical Hermes PRs opened to awesome-* / voice-agent lists within 14 days — same blast pattern.
+- **Issue #56 — codex-profiles scope-check** — **closed**. Same "Scope check" issue text opened across dozens of other awesome-* / coding-agent lists within days — blast pattern, despite codex-profiles itself looking like a solid small tool (38 stars, active).
+- All four closures used the standard courteous decline-with-reason template and left the door open for a single, unsolicited third-party nomination later if organic traction develops.
+
+### + Added (real, web-verified developments; mirrored en/zh/ja)
+- **Anthropic — [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)** (June 30, 2026): most agentic Sonnet release yet — approaches Opus 4.8 on agentic search (BrowseComp) and computer use (OSWorld-Verified) at higher effort settings, wider cost-performance range than Sonnet 4.6; now default for Claude.ai Free/Pro, also on Max/Team/Enterprise/Claude Code/API (`claude-sonnet-5`); intro pricing $2/$10 per million input/output tokens through Aug 31, 2026 (then $3/$15).
+- **Security — [JADEPUFFER (Sysdig disclosure)](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/)** (July 2, 2026): first documented ransomware operation executed end-to-end by an autonomous AI agent — Langflow RCE (CVE-2025-3248) → credential harvesting → lateral movement to production MySQL/Nacos → self-corrected failure in 31s → ephemeral-AES-key encryption of 1,342 config items, rendering the ransom unpayable-but-unrecoverable. Added to **Agent Security** (flagged as a threat writeup, not a tool) and the **2026 AI Timeline**.
+- **Agent Security de-drift**: found and fixed a zh-CN/ja drift vs. English — **AgentGate, ActPlane, Microsoft Prompt Shields, Agent Name Service (ANS), OpenAI Daybreak (June 2026 entry)** existed in README.md but were missing from README.zh-CN.md and README.ja.md. Backfilled all five into both localized files in the same order as English.
+
+### ~ Changed
+- **Archived-upstream flags** added across all three languages: **[PyRIT](https://github.com/Azure/PyRIT)**, **[OpenCode](https://github.com/opencode-ai/opencode)**, **[Void](https://github.com/voideditor/void)**, **[Verba](https://github.com/weaviate/Verba)** are all now GitHub-archived; each entry marked 📦 **Archived** with tense adjusted (Verba backfilled into the zh-CN/ja RAG tables where it was previously missing).
+- **2026 AI Timeline** — 2 new rows (Claude Sonnet 5 Jun 30, JADEPUFFER disclosure Jul 2) across all three files.
+
+### ✓ Verified
+- Claude Sonnet 5 pricing/positioning confirmed directly from `anthropic.com/news/claude-sonnet-5`.
+- JADEPUFFER details confirmed via `hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/` (HTTP 200, live).
+- PyRIT/OpenCode/Void/Verba archived status confirmed via GitHub API (`archived: true`).
+- All 4 closed PRs/issues cross-checked against GitHub search API for repeat-submission counts before closing.
+
 ## 2026-06-19 — June 2026 trend backfill into README.md (en) + en/zh/ja re-sync & broken-link fixes
 
 ### Context

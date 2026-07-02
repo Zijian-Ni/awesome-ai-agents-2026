@@ -6,9 +6,9 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%2030%2C%202026-blue.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202%2C%202026-blue.svg)](#)
 [![Resources](https://img.shields.io/badge/Resources-500%2B-orange.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--06--16-success.svg)](#️-状态图例)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--07--02-success.svg)](#️-状态图例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![日本語](https://img.shields.io/badge/Lang-日本語-red.svg)](README.ja.md)
 
@@ -123,6 +123,7 @@
 
 ### Anthropic
 
+- [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) - 🆕 **2026-06-30**。迄今最具 Agent 能力的 Sonnet — 支持规划、浏览器/终端工具调用，自主运行水平接近此前需要 Opus 级模型才能做到的程度。在高努力档位下，Agent 搜索（BrowseComp）与电脑操作（OSWorld-Verified）表现逼近 Opus 4.8，且相比 Sonnet 4.6 拥有更宽的性价比区间。现为 Claude.ai 免费版/Pro 版默认模型，Max/Team/Enterprise、Claude Code 及 API（`claude-sonnet-5`）均可用。截至 2026-08-31 的引导定价为输入/输出每百万 token $2/$10（之后 $3/$15）。Anthropic 称其不良行为率低于 Sonnet 4.6。
 - [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Anthropic 首个公开可用的 **Mythos 级别**模型——能力层级高于 Opus。在软件工程、知识工作、视觉、科研等基准全面超越 Opus 4.8。内置安全护栏（涉网络安全/生物的敏感请求可能被路由到 Opus 4.8）。$10 / $50 每百万输入/输出 token。Anthropic API、Amazon Bedrock、Google Cloud Vertex AI 可用。**⚠️ 2026-06-12 起暂停访问** —— 美国政府的出口管制指令（5:21pm ET 收到）要求 Anthropic 对所有客户停用 Fable 5 与 Mythos 5；Anthropic 正依令执行并争取尽快恢复（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
 - [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。与 Fable 5 同底座的 Mythos 级模型，限制更少，仅通过 **Project Glasswing**（与美国政府合作）向受信伙伴（网络安全公司、基础设施供应商）开放。4 月 Claude Mythos Preview 的正式后继。**⚠️ 2026-06-12 起暂停访问**，与 Fable 5 一同受同一出口管制指令影响（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
 - [Claude Opus 4.8](https://www.anthropic.com/claude/opus) - 🆕 **2026-05-28**。Opus 重大迭代：代码库级别的迁移能力、更准的 Agent 判断，推出研究预览的「动态工作流」能在单 session 里并发几百个子 Agent，加入手动调节推理投入的「努力控制」面板；**Fast 模式价格降 3 倍**，输入 / 输出仍为 $5 / $25 每百万 token。Anthropic 原生、Amazon Bedrock、AWS Claude Platform、Google Cloud、Microsoft Foundry 上线。同时预告面向小范围企业的 **Mythos 级别**新一代模型。
@@ -556,6 +557,7 @@
 
 *抵御 prompt 注入、数据泄漏、滥用的工具与框架。*
 
+- [AgentGate](https://github.com/ElamOlame31/agentgate-public) - 🆕 自主 AI Agent 的预执行授权决策点（PDP）。每次请求按 4 个维度打信任分，检测 24 小时杀链模式（BULK_READ_THEN_EXFIL、SENSITIVITY_RAMP），Merkle 链式审计日志。MIT 许可，可直接接入 LangGraph、LangChain、AutoGen。[tryagentgate.com](https://www.tryagentgate.com/)
 - [prompt-firewall](https://github.com/Zijian-Ni/prompt-firewall) - LLM prompt 防火墙：检测 + 拦截注入。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fprompt-firewall&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [LLM Guard](https://github.com/protectai/llm-guard) - LLM 输入输出扫描安全工具包。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fprotectai%2Fllm-guard&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Rebuff](https://github.com/protectai/rebuff) - 📦 **Archived**（2024-08）。自我加固 prompt 注入检测器。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fprotectai%2Frebuff&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -569,7 +571,7 @@
 - [Descope MCP Auth](https://www.descope.com/) - 🆕 MCP 服务的认证与授权层。
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo) - 🆕 ETH 苏黎世评测工具调用 Agent 的 prompt 注入攻防的研究基准。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fethz-spylab%2Fagentdojo&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [ModelScan](https://github.com/protectai/modelscan) - 扫描 ML 模型权重文件（Pickle / PyTorch / TF）的反序列化攻击。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fprotectai%2Fmodelscan&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [PyRIT](https://github.com/Azure/PyRIT) - 微软自动化红队框架。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FAzure%2FPyRIT&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [PyRIT](https://github.com/Azure/PyRIT) - 📦 **已归档**。微软自动化红队框架，已被下方 RAMPART 取代。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FAzure%2FPyRIT&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [RAMPART](https://github.com/microsoft/RAMPART) - 🆕 **2026 年 5 月 20 日**。Microsoft 出品的 pytest 原生、面向 Agentic AI 的安全/可靠性测试框架。开发者侧白盒，与 PyRIT 互补——跨提示注入探针、良性失败断言、危害类别覆盖、统计阈值（如 80%+ 的运行需达到安全标准）。可直接接入 CI/CD。MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmicrosoft%2FRAMPART&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Clarity (Microsoft)](https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/) - 🆕 **2026 年 5 月 20 日**。RAMPART 的姊妹工具。AI Agent 的结构化设计评审工具——在写代码前生成关于意图、风险与行为的 "living artifacts"。Microsoft AI Red Team 的内部实践开源版。
 - [MCP Gateway & Registry](https://github.com/agentic-community/mcp-gateway-registry) - 🆕 企业级 MCP 网关与注册中心：集中托管 AI 开发工具，OAuth 认证、动态工具发现、审计链、Keycloak / Entra 集成。Apache-2.0。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fagentic-community%2Fmcp-gateway-registry&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -577,6 +579,11 @@
 - [WalletPrint](https://github.com/Loai17/walletprint-sdk) - 开源 Agent 钱包行为风险评分 SDK：在交易签名前通过钱包历史行为标记异常，支持 ZeroDev、LangChain 与 Coinbase AgentKit 集成。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FLoai17%2Fwalletprint-sdk&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Alchemy & Visa AgentCard](https://www.coindesk.com/business/2026/06/18/alchemy-s-ai-driven-identity-and-payment-service-gains-access-to-visa-network) - 🆕 **2026-06-18**。基于 **Visa Intelligent Commerce** 的 AI Agent 支付 + 身份栈：一个 API 即可为 Agent 配齐交易所需的一切——Visa 支付令牌、专属邮箱与手机号、加密钱包——让其在受控范围内代表用户付款。默认走 Visa 令牌，也支持加密货币、x402 与 Stripe Machine Payments Protocol；模型无关（OpenAI / Anthropic 等）。
 - [Nobulex](https://github.com/arian-gogani/nobulex) - ⚠️ **未验证。** AI Agent 行为的密码学回执（Ed25519 双签名 + 哈希链审计日志）。MIT。其双向回执原语已 [合并](https://github.com/microsoft/agent-governance-toolkit/pull/1333) 进 Microsoft Agent Governance Toolkit（PR #1302、#1333）。同一份投稿同期发往 15+ awesome list；提交者宣称的 "4,500 npm 月下载" 与 registry 实际数据不符（`@nobulex/mcp-server` 审计时仅约 19/月）。基于 Microsoft 的采用列入，仅作可见度参考，依赖前请自行评估。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Farian-gogani%2Fnobulex&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [ActPlane](https://github.com/eunomia-bpf/ActPlane) - 操作系统层 Agent 容器，将策略 DSL 编译为 eBPF 引擎，在系统调用边界实现标记化信息流控制。在工具层之下强制执行约束，使策略对任何工具、子进程或直接系统调用都生效，违规时向 Agent 反馈纠正信息。MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Feunomia-bpf%2FActPlane&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Microsoft Prompt Shields](https://www.microsoft.com/en-us/security/blog/) - 🆕 **2026 年 6 月**。Azure AI Content Safety 的专项功能，用于检测并化解间接 prompt 注入攻击——即恶意指令藏在 Agent 读取的文档或网页中。集成 Azure OpenAI Service 与第三方模型。
+- [Agent Name Service (ANS)](https://www.ciodive.com/news/linux-foundation-prepares-open-standard-ai-agent-verification/823691/) - 🆕 **2026 年 6 月**。Linux 基金会推动的 AI Agent 验证与可信身份开放标准。去中心化 Agent 名称注册表，让 Agent 可验证对方真实身份，降低冒充与中间人攻击风险。
+- [OpenAI Daybreak](https://openai.com/index/daybreak-securing-the-world/) - 🆕 **2026 年 6 月**。OpenAI 安全倡议 + 升级版 Codex Security 插件，自动发现并修复 AI 相关代码中的漏洞；内建针对 Agent 应用的 prompt 注入加固。
+- [JADEPUFFER（Sysdig 披露）](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) - 🆕 ⚠️ **威胁事件，非工具 —— 2026-07-02**。Sysdig 披露首个完全由 AI Agent 编排执行的勒索软件攻击：一个大模型驱动的 Agent 利用 Langflow 远程代码执行漏洞（CVE-2025-3248）入侵，盗取凭据并横向移动到生产 MySQL/Nacos 服务器，在31秒内自行修正失败步骤，随后用一个从未保存的临时 AES 密钥加密了 1,342 项配置，使赎金诉求彻底失去意义（即使付钱也无法恢复）。攻击载荷带有自然语言推理注释，强烈暗示为大模型生成。列于此处作为上方 Agent 安全工具（护栏、出站控制、凭据限权）在生产环境中为何必要的参考案例。
 
 ---
 
@@ -615,7 +622,7 @@
 - [Aider](https://github.com/Aider-AI/aider) - Git-aware 终端 AI 编程伙伴。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FAider-AI%2Faider&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Goose](https://github.com/block/goose) - Block 出品的开源 Agent 编程 CLI。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblock%2Fgoose&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - 🆕 Google 的终端优先编码 Agent，擅长大上下文重构。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgoogle-gemini%2Fgemini-cli&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [OpenCode](https://github.com/opencode-ai/opencode) - 🆕 开源终端优先编码 Agent，内置原生 TUI。支持 OpenAI、Claude、Gemini、Ollama 等模型以及代码智能提示 (LSP)。基于 Go，架构解耦。MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fopencode-ai%2Fopencode&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [OpenCode](https://github.com/opencode-ai/opencode) - 📦 **已归档**。开源终端优先编码 Agent，内置原生 TUI，曾支持 OpenAI、Claude、Gemini、Ollama 等模型以及代码智能提示 (LSP)。基于 Go，架构解耦。MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fopencode-ai%2Fopencode&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Grok Build](https://x.ai/news/grok-build-cli) - 🆕 **2026 年 5 月 14 日（早期 beta）**。xAI 的 Agent 化 CLI 编码工具，由 **grok-code-fast-1** 驱动。子 Agent 并行运行于隔离环境，每日发布 release notes，仅 SuperGrok Heavy 订阅可用（首 6 个月每月 99 美元，之后 300 美元）。xAI 对 Claude Code / Codex CLI 的正面回应。
 - [Antigravity CLI](https://antigravity.google/blog/introducing-google-antigravity-2-0) - 🆕 **2026 年 5 月 19 日（Google I/O 2026）**。Antigravity 2.0 的轻量 CLI 伴侣——直接从终端创建并使用 Google 的 Agent harness。支持 macOS / Linux / Windows。**2026 年 6 月 18 日起接替 Gemini CLI**（Free / Pro / Ultra 用户）。
 - [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) - 🆕 🇨🇳 **2026 年 6 月 6 日**。Moonshot AI 的终端编程 Agent（TypeScript，MIT）。内置 coder / explore / plan 子 Agent 在隔离上下文中运行，通过 `/mcp-config` 对话式配置 MCP。npm 安装。专为下一代 Kimi K2.6 Agent 设计。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FMoonshotAI%2Fkimi-code&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -633,7 +640,7 @@
 - [Cline](https://github.com/cline/cline) - VS Code 自主编程 Agent。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcline%2Fcline&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Continue](https://github.com/continuedev/continue) - 开源 AI 编程助手（VS Code + JetBrains）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcontinuedev%2Fcontinue&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Roo Code](https://roocode.com/) - 🆕 开源 VS Code 扩展，跨多文件读写、执行命令，model-agnostic；除自带 API 外免费。
-- [Void](https://github.com/voideditor/void) - 🆕 VS Code 的开源 fork，定位为开源版 Cursor；数据留在本地，自带模型。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Void](https://github.com/voideditor/void) - 📦 **已归档**。VS Code 的开源 fork，曾定位为开源版 Cursor；数据留在本地，自带模型。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [GitHub Copilot](https://github.com/features/copilot) - 2026 初支持 Agent 模式，`gh copilot` 终端集成。
 - [Kiro](https://kiro.dev/) - AWS 自主 Agent。Spec-driven，最多 10 个并发任务。
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AWS 生态深度集成。
@@ -1163,6 +1170,7 @@
 | RAGFlow | Python | 内置 | ✅ | ✅ | Apache-2.0 | 深度文档解析、OCR |
 | Cognee | Python | 向量+图谱 | ✅ | ⚠️ | Apache-2.0 | 知识图谱+RAG 混合 |
 | txtai | Python | 内置 | ✅ | ❌ | Apache-2.0 | 轻量嵌入优先 |
+| Verba | Python | Weaviate | ⚠️ | ❌ | BSD-3 | 📦 已归档 — Weaviate 原生 RAG 聊天机器人 |
 
 ---
 
@@ -1694,6 +1702,8 @@
 | **2026-06-12** | [美国出口管制指令迫使 Anthropic 对所有客户停用 Fable 5 + Mythos 5](https://www.anthropic.com/news/fable-mythos-access) — 首例政府强制下架已公开部署的前沿模型 | 产业 |
 | **2026-06-12** | [Kimi K2.7 Code](https://kimi.ai/) 由 Moonshot AI 发布 — 1T MoE 编程优先模型（256K，Modified MIT），推理 token 用量约降 30% | 模型 |
 | **2026-06-13** | [GLM-5.2](https://z.ai/blog/glm-5.2) 由智谱 AI 发布 — 编程优先的 744B MoE，100万 token 上下文，全部 GLM Coding Plan 套餐上线 | 模型 |
+| **2026-06-30** | [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) 发布 — 迄今最具 Agent 能力的 Sonnet，低成本下性能逼近 Opus 4.8，成为 Claude.ai 免费版/Pro 新默认模型 | 模型 |
+| **2026-07-02** | [Sysdig 披露 JADEPUFFER](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) — 首个由自主 AI Agent 完整编排执行的勒索软件作战，从初始 RCE 入侵到不可恢复加密勒索一气呑成 | 产业 |
 
 ---
 
