@@ -527,6 +527,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Mastra](https://github.com/mastra-ai/mastra) - 🆕 Opinionated TypeScript agent framework with RAG, observability, MCP, and visual workflow builder; 21K+ stars. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmastra-ai%2Fmastra&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [VoltAgent](https://github.com/VoltAgent/voltagent) - 🆕 End-to-end TypeScript AI Agent Engineering Platform with memory, RAG, guardrails, MCP, voice, and workflow capabilities. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FVoltAgent%2Fvoltagent&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Coze Studio](https://github.com/coze-dev/coze-studio) - 🆕 🇨🇳 Open-source agent IDE / visual builder from ByteDance's Coze team. Drag-and-drop workflows, plugin marketplace, debugging panel, multi-LLM provider support. Apache-2.0. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcoze-dev%2Fcoze-studio&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [LLMGraph](https://llmgraph.ai) - 🆕 Visual no-code builder for LLM workflows and AI agents — drag-and-drop canvas or build-by-chat, one-click deploy to a REST API and embeddable chat widget; closed-source SaaS.
 
 ---
 
