@@ -600,6 +600,8 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 - [mcp-agent](https://github.com/lastmile-ai/mcp-agent) - 🆕 Open-source Python framework designed with Model Context Protocol (MCP) as its core communication primitive for building agents natively interoperable with the MCP tool ecosystem. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Flastmile-ai%2Fmcp-agent&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 
+- [AgentServices](https://agentservices.to) - 🆕 Paid data APIs for AI agents with x402 on-chain payments — 54 services covering crypto market data, financial intelligence, onchain analytics, and inference. MCP server with 37 tools. Agents pay per-call in USDC on Base via HTTP 402.
+
 ## 🧪 Agent Sandboxing & Compute Isolation
 
 *Secure runtimes that let agents execute generated code and shell commands without compromising the host. Critical infrastructure once you let an agent off the leash.*
