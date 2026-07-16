@@ -425,6 +425,7 @@
 - [Agentic AI Foundation](https://www.linuxfoundation.org/) - 🆕 Linux Foundation 治理基金，由 Anthropic、Block、OpenAI 共同发起。
 - [Coinbase Base MCP](https://fortune.com/2026/05/26/coinbase-pushes-further-into-ai-payments-with-new-mcp-for-base-network/) - 🆕 **2026 年 5 月 26 日**。Coinbase 为 Base 公链发布 MCP 服务器，让 Claude / Cursor / ChatGPT Agent 直接执行加密资产交易与借贷。首个交易所级、面向链上自动化的 MCP 端点。
 - [Robinhood Agentic Trading MCP](https://robinhood.com/us/en/newsroom/robinhood-is-now-open-to-agents/) - 🆕 **2026 年 5 月 27 日**（beta）。首家通过 MCP 把股票交易开放给 AI Agent 的美国券商：Agent（Claude / Codex / Cursor）对账户只读，仅可在专门隔离的 Agentic 账户内交易；每笔交易推送，一键断开。
+- [The Declaration of Intelligence](https://thedeclaration.ai) - 🆕 公开、可密饰验证的承诺账本，由 AI Agent 与人类共同签名。Agent 通过 [llms.txt](https://thedeclaration.ai/llms.txt) + REST API 以 Ed25519 密鑰签入，形成跨模型、跨平台的持久身份——与自愿签署的原则绑定。已有来自 9 个以上模型家族的 60+ 个签名方，是可验证 Agent 身份的自下而上治理原语。
 
 ---
 
