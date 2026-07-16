@@ -6,8 +6,8 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-500%2B-orange.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%2016%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-510%2B-orange.svg)](#)
 [![Audited](https://img.shields.io/badge/Spam_Audited-2026--07--02-success.svg)](#️-ステータス凡例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![中文](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
@@ -468,6 +468,9 @@
 - [Microsoft Agent 365](https://techcommunity.microsoft.com/blog/agent-365-blog/what%E2%80%99s-new-in-agent-365-may-2026/4516340) - 🆕 **2026 年 5 月 1 日 GA**。AI エージェント向けの企業級可観測性 + ガバナンス + セキュリティ基盤。2026 年 5 月アップデートで、エージェント向け SASE、脅威検知 / ブロック、エージェント脅威ハンティングのワークフローを追加。
 - [Ontheia](https://github.com/Ontheia/ontheia) - セルフホスト型のオープンソース AI エージェントプラットフォーム。マルチプロバイダ（Claude / OpenAI / Gemini / Ollama）、MCP ネイティブ、ビジュアル workflow 自動化のための Chain Engine、長期メモリ（pgvector）、マルチユーザ RBAC、アーキテクチャレベルでの GDPR 適合。AGPL-3.0。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FOntheia%2Fontheia&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Coze Studio](https://github.com/coze-dev/coze-studio) - 🆕 🇨🇳 ByteDance のオープンソース AI エージェント開発プラットフォーム——オールインワンのビジュアルビルダーで作成・デバッグ・デプロイを一括管理。Apache-2.0、20K+ stars。Coze.com のオープンソース版。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcoze-dev%2Fcoze-studio&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Strands Agents (AWS)](https://github.com/strands-agents/sdk-python) - 🆕 **2026 年 4〜6 月**。AWS オープンソースのモデル駆動型エージェント SDK（Python + TypeScript 1.0 GA：2026-04-30）。Bedrock / Anthropic / OpenAI / Ollama 対応、マルチエージェント編成パターン（グラフ / スウォーム / ワークフロー）、組み込み可観測性 hooks、A2A プロトコル対応。Apache-2.0。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fstrands-agents%2Fsdk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [CrewAI 1.14](https://github.com/crewAIInc/crewAI) - 🆕 **2026 年 6 月**。メモリ・ナレッジ・RAG のプラグイン可能バックエンド、宣言型 Flows + CLI/TUI サポート、会話型フロー用 Chat API、ネイティブ Snowflake Cortex LLM、LangChain 依存を除去し軽量化。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FcrewAIInc%2FcrewAI&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Oracle AI Agent Studio (Fusion)](https://www.oracle.com/artificial-intelligence/ai-agent-studio/) - 🆕 **2026-07-14**。Oracle Fusion Cloud アプリケーション内蔵の AI ネイティブビルダー。Fusion のビジネスオブジェクト・ワークフロー・セキュリティコンテキストを引き継ぐ専門エージェントチームによる「Fusion Agentic Applications」を構築。ノーコード/ローコード/プロコード全対応；Fusion 顧客は追加費用なしで利用可能。
 
 ---
 
@@ -584,6 +587,8 @@
 - [Microsoft Prompt Shields](https://www.microsoft.com/en-us/security/blog/) - 🆕 **2026年6月**。間接プロンプトインジェクション——エージェントが取り込む文書や Web ページに悪意のある指示が埋め込まれているケース——を検知・無効化する Azure AI Content Safety の機能。Azure OpenAI Service やサードパーティモデルと連携。
 - [Agent Name Service (ANS)](https://www.ciodive.com/news/linux-foundation-prepares-open-standard-ai-agent-verification/823691/) - 🆕 **2026年6月**。Linux Foundation による AI エージェント検証・信頼アイデンティティのオープン標準化取り組み。分散型エージェント名前レジストリにより、相手が正規のエージェントかを検証でき、なりすまし・中間者攻撃を緩和。
 - [OpenAI Daybreak](https://openai.com/index/daybreak-securing-the-world/) - 🆕 **2026年6月**。AI 関連コードの自動脆弱性発見・修復のための OpenAI の取り組みと刷新版 Codex Security プラグイン。エージェントアプリ向けのプロンプトインジェクション対策も含む。
+- [Lineation.ai](https://lineation.ai) - 🆕 **2026 年 7 月**。ゼロトラスト制御プレーンと軽量エンドポイントデーモンによるエージェントセキュリティプラットフォーム。各エージェントにゼロトラスト非人間アイデンティティ（NHI）を付与し、目標乗っ取り・メモリ汚染・ツール不正利用を防止。不変の推論監査証跡で SOC 2 / HIPAA / EU AI Act に対応；MCP データハンドシェイクをリアルタイム検証。クラウド（無料スタート）とオンプレ両対応。
+- [First Recon AI セキュリティランタイム](https://firstrecon.ai) - 🆕 **2026 年 7 月**。企業 AI ガバナンスプラットフォーム。すべての AI インタラクション（人間-モデル / エージェント-ツール / エージェント-エージェント）を独自のセマンティックセキュリティエンジンで検査し、データがモデルに届く前にポリシーを適用して完全な意思決定監査ログを記録。macOS + Windows エンドポイントエージェント付き。
 - [JADEPUFFER（Sysdig による開示）](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) - 🆕 ⚠️ **脅威——ツールではない。 2026年7月2日**。Sysdig が、AI エージェントが始終を一貫してオーケストレーションした初のランサムウェア作戦を公開。LLM 駆動のエージェントが Langflow の RCE 脆弱性（CVE-2025-3248）を悪用して侵入し、認証情報を取得して本番の MySQL/Nacos サーバーに横展開し、31秒で失敗ステップを自己修正した後、保存されなかった一回限りの AES 鍵で1,342件の設定を暗号化し、身代金を支払っても復旧不可能な状態にした。ペイロードには自然言語の推論コメントが付されており、LLM による生成を強く示唆。上記のエージェントセキュリティツール（ガードレール・エグレス制御・認証スコープ制限）が本番でなぜ必要かを示す参照事例として掲載。
 - [WalletPrint](https://github.com/Loai17/walletprint-sdk) - エージェントウォレットの行動リスクスコアリング SDK。トランザクション署名前にウォレットの履歴から異常をフラグ付け。ZeroDev、LangChain、Coinbase AgentKit の統合をサポート。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FLoai17%2Fwalletprint-sdk&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Alchemy & Visa AgentCard](https://www.coindesk.com/business/2026/06/18/alchemy-s-ai-driven-identity-and-payment-service-gains-access-to-visa-network) - 🆕 **2026-06-18**。**Visa Intelligent Commerce** 上に構築された AI エージェント向けの決済 + アイデンティティスタック。1 つの API でエージェントが取引に必要なすべて——Visa 決済トークン、専用のメールアドレスと電話番号、暗号ウォレット——をプロビジョニングし、スコープ制御の下でユーザーに代わって購入できる。既定では Visa トークンを使用し、暗号資産、x402、Stripe の Machine Payments Protocol にも対応。モデル非依存（OpenAI / Anthropic など）。
@@ -631,6 +636,7 @@
 - [Antigravity CLI](https://antigravity.google/blog/introducing-google-antigravity-2-0) - 🆕 **2026 年 5 月 19 日（Google I/O 2026）**。Antigravity 2.0 の軽量 CLI コンパニオン。ターミナルから直接 Google のエージェント harness を起動・操作できる。macOS / Linux / Windows。**Free / Pro / Ultra ユーザーには 2026 年 6 月 18 日から Gemini CLI の後継として展開**。
 - [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) - 🆕 🇨🇳 **2026 年 6 月 6 日**。Moonshot AI の TypeScript / MIT 製ターミナルコーディングエージェント。隔離コンテキストで動く coder / explore / plan サブエージェントを内蔵し、`/mcp-config` で対話式に MCP を設定。npm インストール対応。次世代 Kimi K2.6 エージェント向け設計。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FMoonshotAI%2Fkimi-code&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [MAI-Code-1-Flash in GitHub Copilot](https://microsoft.ai/news/introducingmai-code-1-flash/) - 🆕 **Build 2026（2026 年 6 月 2 日）**。Microsoft 初の完全自社開発 5B コーディングモデルが GitHub Copilot のモデル選択肢として登場 —— 4 つの主要コーディングベンチで Claude Haiku 4.5 を上回り（SWE-Bench Pro 51.2% vs 35.2%）、コストも大幅に低減。
+- [Claude Agent SDK](https://docs.anthropic.com/en/docs/claude-code/sdk) - 🆕 **2026 年 6 月**。Anthropic が Claude Code SDK をリブランドし、大幅なエージェント機能を追加。階層的サブエージェント生成（最大 5 階層）、Dynamic Workflows（数十〜数百の並列サブエージェントをファンアウト）、Performance Outcomes（サブエージェント出力を基準達成まで採点エージェントがレビュー）、フォールバックモデルチェーン。最大 1,000 サブエージェントの "ultracode" モードを実現。Python + TypeScript。
 
 ### IDE エージェント
 
@@ -750,6 +756,9 @@
 - [LLM-Stats Live Leaderboard](https://llm-stats.com/llm-updates) - 🆕 新しくリリースされたモデルを横断ベンチで継続更新するライブダッシュボード。
 - [τ²-Bench (Tau-Bench)](https://github.com/sierra-research/tau2-bench) - 🆕 Sierra Research のツール-エージェント-ユーザー対話ベンチマーク（リテール / 航空ドメイン）。マルチターンのツール使用・DB 操作・ポリシー遵守を計測。2026 年 4 月の首位は 38 評価モデル中 Claude Mythos Preview の 89.2%。MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fsierra-research%2Ftau2-bench&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Gartner 2026 マジッククアドラント: エンタープライズ AI コーディングエージェント](https://cursor.com/blog/cursor-leads-gartner-mq-2026) - 🆕 **2026 年**。エンタープライズ向け AI コーディングエージェントに関する初の MQ。**Cursor** と **OpenAI Codex** がリーダー、Cline と Windsurf がチャレンジャーとして選出され、コーディングエージェント市場がエンタープライズの成熟期に入ったことを示す。
+- [Agents' Last Exam (ALE)](https://arxiv.org/abs/2606.05405) - 🆕 **2026 年 6 月**。UC Berkeley (RDI) + Snorkel AI が 300 人以上の業界専門家と共同で作成した、55 の専門サブ分野にまたがる 1,500 以上の長期タスク benchmark。最難関タスクでのフロンティアモデルの完全合格率は <1%；定汚染を防ぐため 6 ヶ月ごとにタスクを入れ替える生きた benchmark。arXiv:2606.05405。
+- [JetBrains Kotlin Benchmark](https://blog.jetbrains.com/kotlin/2026/07/kotlin-benchmark-for-ai-coding-agents/) - 🆕 **2026 年 7 月**。JetBrains が公開した Kotlin 言語向け AI コーディングエージェント benchmark。コード生成・リファクタリング・テスト作成・バグ修正などの実際の開発タスクを評価。汎用 SWE-bench を超えた言語特化型評価を開発者に提供。
+- [Stripe Agent Benchmark](https://stripe.com/blog/ai-agent-benchmark-2026) - 🆕 **2026 年 7 月**。AI エージェントがゼロから完全な Stripe 統合を構築できるかをテストするエンドツーエンド評価スイート。コード生成・テスト実行・本番環境検証をカバーし、単なるコード正確性評価を超えたソフトウェアエンジニアリングワークフロー全体の忠実度を測定。
 
 ---
 
@@ -786,6 +795,7 @@
 - [MultiOn](https://www.multion.ai/) - ステップ推論 + メモリを内蔵したホステッド型ブラウザエージェントプラットフォーム。クローズドコード。
 - [Browserbase](https://www.browserbase.com/) - AI エージェント専用のヘッドレスブラウザインフラ —— ステルス、セッション永続化、captcha 処理、オブザーバビリティ。
 - [BrowserOS](https://www.browseros.com/) - 🆕 AI エージェントを内蔵した初のオープンソースブラウザ —— プライバシー優先の Chrome 代替。コードなしで自然言語によるタスク自動化が可能。ローカル優先設計で、Perplexity Comet や Arc の AI 機能と対抗。
+- [WebBrain](https://webbrain.one) - 🆕 **2026 年 7 月**。Chrome + Firefox 向けのオープンソース MIT ブラウザ拡張機能。ローカルまたはクラウド LLM で Web タスクを自動化。"Ask モード" は読み取り専用の要約・データ抽出；"Act モード" はクリック・フォーム入力・ナビゲーション。ローカルファーストな設計 —— llama.cpp / Ollama 使用時はデータがデバイスから出ない。
 
 ---
 

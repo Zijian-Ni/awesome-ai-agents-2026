@@ -6,8 +6,8 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-500%2B-orange.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%2016%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-510%2B-orange.svg)](#)
 [![Audited](https://img.shields.io/badge/Spam_Audited-2026--07--02-success.svg)](#️-状态图例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![日本語](https://img.shields.io/badge/Lang-日本語-red.svg)](README.ja.md)
@@ -466,6 +466,9 @@
 - [Microsoft Agent 365](https://techcommunity.microsoft.com/blog/agent-365-blog/what%E2%80%99s-new-in-agent-365-may-2026/4516340) - 🆕 **2026 年 5 月 1 日 GA**。面向 AI Agent 的企业级可观测、治理与安全平台；2026 年 5 月更新加入面向 Agent 的 SASE、威胁检测/阻断与 Agent 威胁狩猎工作流。
 - [Ontheia](https://github.com/Ontheia/ontheia) - 自托管开源 AI Agent 平台。多模型供应商（Claude / OpenAI / Gemini / Ollama），原生支持 MCP，Chain Engine 可视化工作流编排，长期记忆（pgvector），多用户 RBAC，架构层面合规 GDPR。AGPL-3.0。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FOntheia%2Fontheia&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Coze Studio](https://github.com/coze-dev/coze-studio) - 🆕 🇨🇳 字节跳动开源的 AI Agent 开发平台——一体化可视化工具，简化 Agent 的创建、调试、部署。Apache-2.0，20K+ stars；Coze.com 的开源对照版。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcoze-dev%2Fcoze-studio&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Strands Agents (AWS)](https://github.com/strands-agents/sdk-python) - 🆕 **2026 年4–6月**。AWS 开源模型驱动 Agent SDK（Python + TypeScript 1.0 GA 2026-04-30）。支持 Bedrock / Anthropic / OpenAI / Ollama，多种多智能体编排模式（图波/群舍/工作流），内置可观测性 hooks，A2A 协议支持。Apache-2.0，2500万+下载。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fstrands-agents%2Fsdk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [CrewAI 1.14](https://github.com/crewAIInc/crewAI) - 🆕 **2026 年6月**。大更新：内存 / 知识 / RAG 可插戢4后端，声明式 Flows + CLI/TUI 支持，Chat API 会话式流，原生 Snowflake Cortex LLM，移除 LangChain 依赖使核心更轻量。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FcrewAIInc%2FcrewAI&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Oracle AI Agent Studio (Fusion)](https://www.oracle.com/artificial-intelligence/ai-agent-studio/) - 🆕 **2026-07-14**。Oracle Fusion Cloud 应用内置的 AI 原生构建器，打造“Fusion Agentic Applications”——在 Fusion 业务对象、工作流和安全上下文中脚本与执行的多 Agent 团队。无代码/低代码/专业代码全支持；Fusion 客户免费使用。
 
 ---
 
@@ -584,6 +587,8 @@
 - [Microsoft Prompt Shields](https://www.microsoft.com/en-us/security/blog/) - 🆕 **2026 年 6 月**。Azure AI Content Safety 的专项功能，用于检测并化解间接 prompt 注入攻击——即恶意指令藏在 Agent 读取的文档或网页中。集成 Azure OpenAI Service 与第三方模型。
 - [Agent Name Service (ANS)](https://www.ciodive.com/news/linux-foundation-prepares-open-standard-ai-agent-verification/823691/) - 🆕 **2026 年 6 月**。Linux 基金会推动的 AI Agent 验证与可信身份开放标准。去中心化 Agent 名称注册表，让 Agent 可验证对方真实身份，降低冒充与中间人攻击风险。
 - [OpenAI Daybreak](https://openai.com/index/daybreak-securing-the-world/) - 🆕 **2026 年 6 月**。OpenAI 安全倡议 + 升级版 Codex Security 插件，自动发现并修复 AI 相关代码中的漏洞；内建针对 Agent 应用的 prompt 注入加固。
+- [Lineation.ai](https://lineation.ai) - 🆕 **2026 年7月**。自主 Agent 安全平台：零信任控制平面 + 轻量级端点 daemon。为每个 Agent 分配零信任非人身份（NHI），防止目标劫持、记忆污染、工具滥用；不可变推理审计蹟迹，支持 SOC 2 / HIPAA / EU AI Act；实时验证 MCP 数据交握。云端免费入门 + 私有化局署。
+- [First Recon AI 安全运行时](https://firstrecon.ai) - 🆕 **2026 年7月**。企业级 AI 治理平台，检测每一条 AI 交互（人-模型 / Agent-工具 / Agent-Agent）。语义安全引擎在数据到达模型前就执行策略，生成完整决策审计日志。macOS + Windows 端点 Agent。
 - [JADEPUFFER（Sysdig 披露）](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) - 🆕 ⚠️ **威胁事件，非工具 —— 2026-07-02**。Sysdig 披露首个完全由 AI Agent 编排执行的勒索软件攻击：一个大模型驱动的 Agent 利用 Langflow 远程代码执行漏洞（CVE-2025-3248）入侵，盗取凭据并横向移动到生产 MySQL/Nacos 服务器，在31秒内自行修正失败步骤，随后用一个从未保存的临时 AES 密钥加密了 1,342 项配置，使赎金诉求彻底失去意义（即使付钱也无法恢复）。攻击载荷带有自然语言推理注释，强烈暗示为大模型生成。列于此处作为上方 Agent 安全工具（护栏、出站控制、凭据限权）在生产环境中为何必要的参考案例。
 
 ---
@@ -628,6 +633,7 @@
 - [Antigravity CLI](https://antigravity.google/blog/introducing-google-antigravity-2-0) - 🆕 **2026 年 5 月 19 日（Google I/O 2026）**。Antigravity 2.0 的轻量 CLI 伴侣——直接从终端创建并使用 Google 的 Agent harness。支持 macOS / Linux / Windows。**2026 年 6 月 18 日起接替 Gemini CLI**（Free / Pro / Ultra 用户）。
 - [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) - 🆕 🇨🇳 **2026 年 6 月 6 日**。Moonshot AI 的终端编程 Agent（TypeScript，MIT）。内置 coder / explore / plan 子 Agent 在隔离上下文中运行，通过 `/mcp-config` 对话式配置 MCP。npm 安装。专为下一代 Kimi K2.6 Agent 设计。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FMoonshotAI%2Fkimi-code&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [MAI-Code-1-Flash in GitHub Copilot](https://microsoft.ai/news/introducingmai-code-1-flash/) - 🆕 **Build 2026（2026 年 6 月 2 日）**。微软首个 100% 自研的 5B 编程模型作为 GitHub Copilot 的模型选项落地——在四大核心编程基准上击败 Claude Haiku 4.5（SWE-Bench Pro 51.2% vs 35.2%），成本显著更低。
+- [Claude Agent SDK](https://docs.anthropic.com/en/docs/claude-code/sdk) - 🆕 **2026 年 6 月**。Anthropic 将 Claude Code SDK 更名并发布重大 Agent 功能：层级式子 Agent 生成（最多 5 层）、Dynamic Workflows（一次扇出数十至数百个并行子 Agent）、Performance Outcomes（评分 Agent 持续审查子 Agent 输出直至达标）、降级模型链。支撑 ultracode 模式，单次执行最多 1,000 个子 Agent。Python + TypeScript。
 
 ### IDE Agent
 
@@ -747,6 +753,9 @@
 - [LLM-Stats Live Leaderboard](https://llm-stats.com/llm-updates) - 🆕 实时更新的跨 benchmark 模型对比看板。
 - [τ²-Bench (Tau-Bench)](https://github.com/sierra-research/tau2-bench) - 🆕 Sierra Research 出品的真实业务域（零售 / 航空）工具-Agent-用户交互基准。考察多轮工具使用、数据库操作与策略遵从。2026 年 4 月榜首：38 个评测模型中 Claude Mythos Preview 89.2%。MIT。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fsierra-research%2Ftau2-bench&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Gartner 2026 魔力象限：企业 AI 编程 Agent](https://cursor.com/blog/cursor-leads-gartner-mq-2026) - 🆕 **2026 年**。Gartner 首个企业级编程 Agent MQ。**Cursor** 和 **OpenAI Codex** 被评为领导者，Cline 和 Windsurf 入选挑战者。标志着编程 Agent 市场迈入企业级成熟期。
+- [Agents'Last Exam (ALE)](https://arxiv.org/abs/2606.05405) - 🆕 **2026 年 6 月**。UC Berkeley (RDI) + Snorkel AI 出品，联合 300+ 行业专家、涉及 55 个专业子领域的 1500+ 长期连续任务 benchmark。一线模型在最难档的任务上全通率 <1%；每六个月轮换任务设计防定污。arXiv:2606.05405。
+- [JetBrains Kotlin Benchmark](https://blog.jetbrains.com/kotlin/2026/07/kotlin-benchmark-for-ai-coding-agents/) - 🆕 **2026 年 7 月**。JetBrains 针对 Kotlin 语言的 AI 编程 Agent 公开 benchmark，覆盖代码生成、重构、测试编写与错误修复等真实开发任务。为开发者提供超越通用 SWE-bench 的语言专项评估。
+- [Stripe Agent Benchmark](https://stripe.com/blog/ai-agent-benchmark-2026) - 🆕 **2026 年 7 月**。端到端评估套件，测试 AI Agent 是否能从零完成完整的 Stripe 集成，包括代码生成、测试执行和生产环境验证，超越单纯代码正确性评估。
 
 ---
 
@@ -783,6 +792,7 @@
 - [MultiOn](https://www.multion.ai/) - 托管浏览器 Agent，原生 Reasoning + Memory。闭源。
 - [Browserbase](https://www.browserbase.com/) - AI Agent 专用浏览器云：隐身、持久化、验证码、可观测性。
 - [BrowserOS](https://www.browseros.com/) - 🆕 首个内置 AI Agent 的开源浏览器——隐私优先的 Chrome 替代。自然语言任务自动化无需写代码；本地优先设计，对标 Perplexity Comet 与 Arc 的 AI 能力。
+- [WebBrain](https://webbrain.one) - 🆕 **2026 年 7 月**。开源 MIT 浏览器扩展（Chrome + Firefox），用本地或云端大模型自动化 Web 任务。"Ask 模式" 只读摘要和提取；"Act 模式" 可点击按钮、填写表单、导航网页。本地优先设计——使用 llama.cpp / Ollama 时数据不离开设备。
 
 ---
 
