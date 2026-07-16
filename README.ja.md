@@ -92,6 +92,9 @@
 *AI エコシステムを動かす最新の大規模言語モデル群、ベンダー別。20+ ベンダーから 65+ モデル。*
 
 ### OpenAI
+- [GPT-5.6 Sol](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**（GA；一部プレビュー 6月26日～）。GPT-5.6 ファミリーのフロンティアフラッグシップ — 高度な推論、コーディング、生物学、サイバーセキュリティ機能に加え、「最大（max）」推論と「ウルトラ（ultra）」サブエージェントモードを備える最高性能モデル。ChatGPT、Codex、OpenAI API で利用可能。米国政府による安全審査のため発表が遅れたが、段階的に展開中。
+- [GPT-5.6 Terra](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**。GPT-5.6 ファミリーの中間層 — GPT-5.5 と同等の性能を約 2 分の 1 のコストで提供。コスト効率の高い本番ワークロード向け。
+- [GPT-5.6 Luna](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**。GPT-5.6 の中で最も高速かつコスト効率の高いモデル — 大量で処理速度が求められるタスクに最適。
 - [Sites for ChatGPT](https://openai.com/index/sites) - 🆕 **2026-06**。ChatGPT 内での計画や分析結果を、インタラクティブで共有可能な Web サイト（Sites）に変換する新機能。
 - [Codex ビジネスプラグイン](https://openai.com) - 🆕 **2026-06**。セールス、データ分析、クリエイティブ制作などの業務特化プラグインを Codex に直接導入するエンタープライズ機能強化。
 - [GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) - 🆕 **2026年6月3日**。OpenAI のライフサイエンス向けフロンティアモデルの大型アップデート —— 創薬・ゲノミクス・定量生物学・ウェットラボのトラブルシュートを強化（長期的なゲノム解析で GPT-5.5 比約 31% 少ないトークン）。研究プレビューを世界中の対象組織に初公開し、Novo Nordisk が既存パートナーの Amgen・Moderna・Allen Institute・Thermo Fisher に加わる。
@@ -123,6 +126,7 @@
 
 ### Anthropic
 
+- [Claude Fable 5 グローバルアクセス復旧](https://www.anthropic.com/news/fable-mythos-access) - 🆕 **2026-07-01**。米国商務省による輸出管理が 6 月 30 日に解除されたことを受け、Anthropic は Claude.ai、Claude API、Claude Code、Claude Cowork で Fable 5 へのグローバルアクセスを復旧。Amazon が発見したジェイルブレイク手法をブロックする新しい安全フィルターを実装済み。Pro/Max/Team ユーザーにプロモーション提供され、AWS、Google Cloud、Microsoft Foundry でも順次提供。Mythos 5 は引き続き米国の審査済みエンティティに制限される。
 - [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) - 🆕 **2026年6月30日**。これまでで最もエージェント性能の高い Sonnet — プランニング、ブラウザ/ターミナルツール利用、以前は Opus クラスのモデルが必要だった水準の自律動作に対応。高エフォート設定ではエージェント検索（BrowseComp）とコンピュータ操作（OSWorld-Verified）で Opus 4.8 に迫る性能を発揮し、Sonnet 4.6 よりもコストパフォーマンスの幅が大きく広がった。Claude.ai の Free/Pro プランの新デフォルトモデルとなり、Max/Team/Enterprise、Claude Code、API（`claude-sonnet-5`）でも利用可能。2026年8月31日までの導入価格は入力/出力それぞれ 100 万トークンあたり $2/$10（以降 $3/$15）。Anthropic は Sonnet 4.6 より望ましくない挙動の発生率が低いと報告。
 - [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Anthropic 初の一般提供 **Mythos クラス**モデル — Opus の上位に位置する能力ティア。ソフトウェアエンジニアリング、ナレッジワーク、ビジョン、科学研究の各ベンチマークで Opus 4.8 を上回る。セーフガード内蔵（サイバー/バイオ系の機微なクエリは Opus 4.8 へ再ルーティングされる場合あり）。入力 $10 / 出力 $50（100 万 token あたり）。Anthropic API、Amazon Bedrock、Google Cloud Vertex AI で利用可。**⚠️ 2026年6月12日にアクセス停止** —— 米国政府の輸出管理指令（午後 5:21 ET 受領）により、Anthropic は全顧客向けに Fable 5 と Mythos 5 を無効化。指令に従いつつアクセス復旧に取り組んでいる（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
 - [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Fable 5 と同一基盤の Mythos クラスモデルを制限を緩めて提供。米国政府と連携した **Project Glasswing** を通じ、審査済みパートナー（サイバーセキュリティ企業、インフラ事業者）限定で展開。4 月の Claude Mythos Preview の正式後継。**⚠️ 2026年6月12日にアクセス停止**。Fable 5 とともに同一の輸出管理指令の対象（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
@@ -149,7 +153,7 @@
 - [Bristol Myers Squibb ↔ Anthropic Claude Enterprise](https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx) - 🆕 **2026-05-20**。BMS が Claude Enterprise を 30,000+ 名の社員の共通インテリジェンス基盤として採用し、創薬・開発・デリバリーの全工程にエージェント化 Claude を組み込む。世界トップ 5 製薬企業で初めての公社規模での Claude 全社展開。
 
 ### Google DeepMind
-- [Gemini 3.5 Pro](https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud) - 🆕 **2026-06**。**200 万トークンのコンテキストウィンドウ**と新しい「Deep Think」推論モードを備える Google のフラッグシップモデル。6 月に Gemini Pro / Advanced 層向けに提供開始（GPT-5.5、Claude Opus 4.8 に対抗）。
+- [Gemini 3.5 Pro](https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud) - 🆕 **2026-07（延期リリース；エンタープライズプレビュー中）**。**200 万トークンのコンテキストウィンドウ**と新しい **Deep Think** 推論モードを備える Google のフラッグシップモデル。コーディングとエージェント型ワークフロー機能が大幅に向上。当初 5 月の Google I/O で 6 月リリースと発表されたが、数学的推論の事前学習強化のため延期。7 月 17 日または 24 日の公開が予想される。GPT-5.6 Sol や Claude Fable 5 と直接競合。
 - [Gemma 4 12B](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/) - 🆕 **2026-06**。テキスト・画像・音声をシングルパスで処理する**統合エンコーダレスアーキテクチャ**を採用した新型マルチモーダルオープンモデル。16GB VRAM でのローカル動作を想定。
 - [DiffusionGemma](https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/) - 🆕 **2026-06**。**テキストディフュージョン（拡散）アーキテクチャ**により、自己回帰型モデルと比べて生成速度が最大 **4 倍**速い 26B の MoE オープンモデル。
 
@@ -170,6 +174,9 @@
 
 ### Meta
 
+- [Meta Muse Image](https://ai.meta.com/blog/) - 🆕 **2026-07-07**。Meta Superintelligence Labs の最も高度な画像生成モデル — Web 検索、コード実行、自己修正などの推論ステップを経てから画像を生成する「エージェント型」モデル。Meta AI アプリ、Instagram Stories（米国）、WhatsApp DM で展開。
+- [Muse Spark 1.1](https://ai.meta.com/blog/) - 🆕 **2026-07-09**。Meta の新しいパブリックプレビュー API を介して提供される、エージェントタスク向けマルチモーダル推論モデル。オープンソースの Llama ラインと並行した、独自の収益重視モデルへの戦略的シフトを示す。
+- [Meta Muse Video](https://ai.meta.com/blog/) - 🆕 **2026-07（プレビュー）**。Muse Image と同じ基盤技術で構築された動画生成モデル。Muse Image の発表と同時にプレビュー公開された。
 - [Llama 5](https://ai.meta.com/llama/) - 🆕 **2026-04-08**。Meta Superintelligence Labs 発の 600B 超パラメータ・オープンソース旗艦。"再帰的自己改善" を掲げる研究ライン。推論・コーディング・自律的なエージェント挙動で主要クローズドモデルを上回ると主張。
 - [Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/) - 🆕 **2026-04-09**。Meta Superintelligence Labs (MSL) の最初のモデル。ネイティブマルチモーダル推論で Meta AI アプリ・スマートグラス・Facebook / Instagram / WhatsApp / Messenger の機能を駆動。
 - [Llama 4 Scout](https://llama.meta.com/) - 109B 総 / 17B アクティブ、16 専門家 MoE、10M トークン、マルチモーダル。単一 H100 で動作。
@@ -230,6 +237,7 @@
 
 ### xAI (Grok)
 
+- [Grok 4.5](https://x.ai/) - 🆕 **2026-07-08**。xAI の最新フラッグシップ —— 実際の開発者インタラクションデータを利用して Cursor と共同訓練し、コーディングおよびエージェントタスクに最適化。500K トークンのコンテキストウィンドウ、関数呼び出し、構造化出力、Web/X 検索、コード実行、文書検索、コンテキスト圧縮を備える。xAI API、Grok Build、および Cursor のデフォルトモデルとして提供。100 万トークンあたり入力 $2 / 出力 $6。EU での提供は 7 月後半を予定。
 - [Grok 4.3 GA](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) - 🆕 **2026-05**。Grok 4.3 が Microsoft Foundry と OCI Generative AI で GA。xAI のエージェントワークロード向け旗艦で、ツール呼び出しと長期推論が強化。
 - [Grok 4.3 Beta](https://x.ai/) - 🆕 2026-04。推論・コーディングベンチマーク強化。[`2026.4` ベンチマークスナップショット](https://benchlm.ai/) 参照。
 - [Grok 4.20](https://x.ai/) - 2026-02。マルチエージェントシステム（Heavy モードで標準 4 + 専門 16）、2M コンテキスト。
@@ -282,6 +290,7 @@
 
 ### Moonshot AI (Kimi) 🇨🇳
 
+- [Kimi K3](https://kimi.ai/) - 🆕 **2026-07-16**。Moonshot AI の新フラッグシップ —— 約 2.5T パラメータ (MoE アーキテクチャ)、1M トークンのコンテキストウィンドウ (K2.7 の 4 倍)、最大 300 個のサブエージェントが並行して実行できるエージェントスウォームに対応。**K3·Max** と **K3 Cluster·Max** の 2 つのバリアントで提供。長期的なコーディングとエージェントタスク向けで、一部のベンチマークでは GPT-5.5 を上回ると主張。マルチモーダル入力、ネイティブ 4-bit 量化、新しい DSA/"Kimi residual attention" メカニズムを備える。Web、アプリ、API 経由で広く利用可能。
 - [Kimi K2.7 Code](https://kimi.ai/) - 🆕 **2026年6月12日**。K2.6 のコーディング優先後継 —— 1T MoE / 32B アクティブ（384 エキスパート）、256K コンテキスト、Modified MIT、Hugging Face + Kimi API で公開。長期的なエージェントコーディング向けで推論トークン消費を約 30% 削減。Moonshot 公表の Kimi Code Bench v2 で K2.6 比 +21.8%（ベンダーベンチマーク）。入出力 100 万トークンあたり $0.95 / $4.00。
 - [Kimi K2.6](https://kimi.ai/) - 🆕 **2026-04-20~21**。1T MoE / 32B アクティブ、256K コンテキスト。コーディング強化、長期マルチステップ実行、**最大 1,000 体協調エージェント群**。`thinking.keep="all"` 永続推論対応。OpenClaw v2026.4.20+ のデフォルト。
 - [Kimi K2.5](https://kimi.ai/) - 2026 年 1~2 月。1T 総 / 32B アクティブ MoE。ネイティブマルチモーダル、最大 100 並列子エージェント。オープンソース。⚠️ 2026-05-25 サポート終了 —— K2.6 へ移行を。
@@ -1667,6 +1676,13 @@
 | **2026-06-13** | [GLM-5.2](https://z.ai/blog/glm-5.2) を Zhipu AI がリリース — コーディング優先の 744B MoE、100万トークンコンテキスト、全 GLM Coding Plan ティアで提供 | モデル |
 | **2026-06-30** | [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) リリース — これまでで最もエージェント性能の高い Sonnet。低コストで Opus 4.8 に近い性能を発揮し、Claude.ai の Free/Pro の新デフォルトモデルに | モデル |
 | **2026-07-02** | [Sysdig が JADEPUFFER を開示](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) — 自律 AI エージェントが初期侵入から復旧不可能な暗号化・脆迫までを一貫してオーケストレーションした初のランサムウェア作戦 | 業界 |
+| **2026-07-01** | [Claude Fable 5 グローバルアクセス復旧](https://www.anthropic.com/news/fable-mythos-access) — 米国商務省が輸出管理を解除し、Anthropic が世界中のユーザーに対する Fable 5 のアクセスを復旧 | モデル |
+| **2026-07-07** | [Meta Muse Image](https://ai.meta.com/blog/) リリース — Instagram Stories や WhatsApp DM に統合された、Meta のエージェント型画像生成モデル | モデル |
+| **2026-07-08** | [Grok 4.5](https://x.ai/) リリース — xAI が Cursor と共同訓練したフラッグシップモデルで、Cursor のデフォルトモデルとなる | モデル |
+| **2026-07-09** | [GPT-5.6 Sol / Terra / Luna](https://openai.com/blog/gpt-5-6) GA — OpenAI が GPT-5.6 ファミリーを一般公開、Sol がフラッグシップ | モデル |
+| **2026-07-09** | [Muse Spark 1.1](https://ai.meta.com/blog/) リリース — 新しい Meta Model API のプレビューを通じて提供される、Meta のエージェントタスク向けマルチモーダル推論モデル | モデル |
+| **2026-07-14** | [Oracle AI Agent Studio (Fusion)](https://www.oracle.com/artificial-intelligence/ai-agent-studio/) 発表 — Fusion Cloud Applications 内のノーコード/ローコード/プロコード エージェント構築プラットフォーム | フレームワーク |
+| **2026-07-16** | [Kimi K3](https://kimi.ai/) リリース — Moonshot AI の約 2.5T パラメータ MoE、1M トークンコンテキスト、300 エージェントの並列スウォーム対応 | モデル |
 
 ---
 

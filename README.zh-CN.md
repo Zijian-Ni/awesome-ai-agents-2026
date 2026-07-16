@@ -92,6 +92,9 @@
 *为整个 AI 生态提供动力的大语言模型，按厂商组织。20+ 家厂商共 65+ 个模型。*
 
 ### OpenAI
+- [GPT-5.6 Sol](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**（GA；有限预览从 2026-06-26 开始）。GPT-5.6 家族旗舰层 —— Sol 具备最强旨攟推理、编程、生物、网安能力以及 “max 推理” + “ultra 子 Agent 模式”。因美国政府安全审查要求延迟发布，渐进面向全部用户。
+- [GPT-5.6 Terra](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**。GPT-5.6 中级档 —— 与 GPT-5.5 性能相当但成本约降低 2×，适合成本敏感的生产任务。
+- [GPT-5.6 Luna](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**。GPT-5.6 速度/成本最优层 —— 专为大量、对延迟敏感的任务设计。
 - [Sites for ChatGPT](https://openai.com/index/sites) - 🆕 **2026-06**。ChatGPT 的新功能，能将回答中的计划和分析直接转换为可交互、可分享的网页（Sites）。
 - [Codex 业务插件](https://openai.com) - 🆕 **2026-06**。面向企业的增强功能，为 Codex 平台引入销售、数据分析和创意制作的定制插件。
 - [GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) - 🆕 **2026-06-03**。OpenAI 生命科学前沿模型的重大升级 —— 药物发现、基因组学、定量生物学与湿实验排障显著增强（长程基因组分析比 GPT-5.5 约少用 31% token）。研究预览首次面向全球合资格机构开放；Novo Nordisk 加入既有伙伴 Amgen、Moderna、Allen Institute、Thermo Fisher。
@@ -123,6 +126,7 @@
 
 ### Anthropic
 
+- [Claude Fable 5 全球恢复访问](https://www.anthropic.com/news/fable-mythos-access) - 🆕 **2026-07-01**。美国商务部于 6 月 30 日解除出口管制后，Anthropic 在 Claude.ai、Claude API、Claude Code、Claude Cowork 全面恢复全球访问。已部署针对 Amazon 发现的 jailbreak 的新安全过滤器。Pro/Max/Team 用户获得促销访问权限；AWS、Google Cloud、Microsoft Foundry 等渠道逃展中。Mythos 5 仍限美国受审实体。
 - [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) - 🆕 **2026-06-30**。迄今最具 Agent 能力的 Sonnet — 支持规划、浏览器/终端工具调用，自主运行水平接近此前需要 Opus 级模型才能做到的程度。在高努力档位下，Agent 搜索（BrowseComp）与电脑操作（OSWorld-Verified）表现逼近 Opus 4.8，且相比 Sonnet 4.6 拥有更宽的性价比区间。现为 Claude.ai 免费版/Pro 版默认模型，Max/Team/Enterprise、Claude Code 及 API（`claude-sonnet-5`）均可用。截至 2026-08-31 的引导定价为输入/输出每百万 token $2/$10（之后 $3/$15）。Anthropic 称其不良行为率低于 Sonnet 4.6。
 - [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。Anthropic 首个公开可用的 **Mythos 级别**模型——能力层级高于 Opus。在软件工程、知识工作、视觉、科研等基准全面超越 Opus 4.8。内置安全护栏（涉网络安全/生物的敏感请求可能被路由到 Opus 4.8）。$10 / $50 每百万输入/输出 token。Anthropic API、Amazon Bedrock、Google Cloud Vertex AI 可用。**⚠️ 2026-06-12 起暂停访问** —— 美国政府的出口管制指令（5:21pm ET 收到）要求 Anthropic 对所有客户停用 Fable 5 与 Mythos 5；Anthropic 正依令执行并争取尽快恢复（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
 - [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **2026-06-09**。与 Fable 5 同底座的 Mythos 级模型，限制更少，仅通过 **Project Glasswing**（与美国政府合作）向受信伙伴（网络安全公司、基础设施供应商）开放。4 月 Claude Mythos Preview 的正式后继。**⚠️ 2026-06-12 起暂停访问**，与 Fable 5 一同受同一出口管制指令影响（[声明](https://www.anthropic.com/news/fable-mythos-access)）。
@@ -149,7 +153,7 @@
 - [Bristol Myers Squibb ↔ Anthropic Claude Enterprise](https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx) - 🆕 **2026-05-20**。BMS 将 Claude Enterprise 作为 30,000+ 员工的共享智能平台，嵌入药物发现 / 开发 / 交付的全链路。全球前 5 大药企中首个全公司级 Claude 部署。
 
 ### Google DeepMind
-- [Gemini 3.5 Pro](https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud) - 🆕 **2026-06**。Google 的旗舰模型，具备 **200万 token 上下文**和新的 "Deep Think" 推理模式。于 6 月向 Gemini Pro 和 Advanced 用户正式开放，对标 GPT-5.5 和 Claude Opus 4.8。
+- [Gemini 3.5 Pro](https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud) - 🆕 **2026-07（延期发布；企业限量预览进行中）**。Google 旗舰模型，具备 **200 万 token 上下文**和新的 **Deep Think** 推理模式，编程与 Agent 工作流能力显著提升。原定 2026-06 发布，因数学推理预训练加强而推迟。预计发布日期 7 月 17 日或 7 月 24 日。直接对标 GPT-5.6 Sol 和 Claude Fable 5。
 - [Gemma 4 12B](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/) - 🆕 **2026-06**。新型多模态开源模型，采用**统一无编码器架构**，在单次计算中同时处理文本、图像和音频。支持在 16GB VRAM 显存下本地运行。
 - [DiffusionGemma](https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/) - 🆕 **2026-06**。采用**文本扩散 (text-diffusion)** 架构的 26B MoE 开源模型，生成速度比自回归模型快最高 **4 倍**。
 
@@ -170,7 +174,10 @@
 
 ### Meta
 
-- [Llama 5](https://ai.meta.com/llama/) - 🆕 **2026-04-08**。Meta 超级智能实验室发布的 600B+ 参数开源旗舰；"递归自我改进" 研究路线。官方宣称在推理、代码、自主 Agent 行为上超越主流闭源模型。
+- [Muse Image](https://ai.meta.com/blog/) - 🆕 **2026-07-07**。Meta Superintelligence Labs 最新图像生成模型 —— “Agent 式”架构，在生成图像前能自动完成网页搜索、代码执行、自我修正等中间步骤。已集成到 Meta AI 应用、Instagram Stories（美国）、WhatsApp DM（限地區），支持 30+ 种新 AI 动效。
+- [Muse Spark 1.1](https://ai.meta.com/blog/) - 🆕 **2026-07-09**。面向 Agent 任务的多模态推理模型，通过新的 Meta Model API 公开预览发布。标志着 Meta 在开源 Llama 路线之外开始构建专有商业模型。
+- [Muse Video](https://ai.meta.com/blog/) - 🆕 **2026-07（预览）**。Meta Superintelligence Labs 的视频生成模型，与 Muse Image 同底座。随 Muse Image 发布一同予发。
+- [Llama 5](https://ai.meta.com/llama/) - 🆕 **2026-04-08**。Meta 超级智能实验室发布的 600B+ 参数开源旗舰；“递归自我改进” 研究路线。官方宣称在推理、代码、自主 Agent 行为上超越主流闭源模型。
 - [Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/) - 🆕 **2026-04-09**。Meta Superintelligence Labs (MSL) 首个模型。原生多模态推理，驱动 Meta AI 应用、智能眼镜，以及 Facebook / Instagram / WhatsApp / Messenger 中的功能。
 - [Llama 4 Scout](https://llama.meta.com/) - 109B 总参（17B 激活），16 专家 MoE，10M token 上下文，多模态。单 H100 可跑。
 - [Llama 4 Maverick](https://llama.meta.com/) - 400B 总参（17B 激活），128 专家，1M 上下文。多模态超过 GPT-4o。
@@ -230,6 +237,7 @@
 
 ### xAI (Grok)
 
+- [Grok 4.5](https://x.ai/) - 🆕 **2026-07-08**。xAI 最新旗舰 —— 与 Cursor 共同训练，利用真实开发者交互数据优化编程与 Agent 能力。支持 500K token 上下文、函数调用、结构化输出、web/X 搜索、代码执行、文档搜索与上下文压缩。可用于 xAI API、Grok Build，并为 Cursor 默认模型。定价 $2/$6 每百万 token。
 - [Grok 4.3 GA](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) - 🆕 **2026-05**。Grok 4.3 在 Microsoft Foundry 与 OCI Generative AI 上 GA；xAI 面向 Agent 工作负载的旗舰，工具调用与长链推理能力升级。
 - [Grok 4.3 Beta](https://x.ai/) - 🆕 2026-04。最新迭代，推理与编程基准提升，详见 [`2026.4` benchmark snapshot](https://benchlm.ai/)。
 - [Grok 4.20](https://x.ai/) - 2026-02。多 Agent 系统（Heavy 模式 4 标准 + 16 专家 Agent），2M 上下文。
@@ -282,6 +290,7 @@
 
 ### Moonshot AI (Kimi) 🇨🇳
 
+- [Kimi K3](https://kimi.ai/) - 🆕 **2026-07-16**。Moonshot AI 新旗舰 —— 约 2.5T 参数量（MoE 架构），1M token 上下文窗口（是 K2.7 的 4×），支持最多 300 个子 Agent 并行协作的 Agent Swarm。分 **K3·Max** 和 **K3 Cluster·Max** 两个语境。面向长程 Agent 编程，部分基准测评声称超过 GPT-5.5。支持多模态输入、原生 4-bit 量化以及新注意力机制 DSA/“Kimi residual attention”。已全面开放网页、App、API。
 - [Kimi K2.7 Code](https://kimi.ai/) - 🆕 **2026-06-12**。K2.6 的编程优先继任者 —— 1T MoE / 32B 激活（384 专家），256K 上下文，Modified MIT，已上 Hugging Face + Kimi API。面向长程 Agent 编程，推理 token 用量约降 30%；官方 Kimi Code Bench v2 较 K2.6 +21.8%（厂商基准）。每百万输入/输出 0.95 / 4.00 美元。
 - [Kimi K2.6](https://kimi.ai/) - 🆕 **2026-04-20~21**。1T MoE / 32B 激活，256K 上下文。编程增强、长任务执行、**最大 1000 个 Agent 协作集群**。支持 `thinking.keep="all"` 持久推理。OpenClaw v2026.4.20+ 默认模型。
 - [Kimi K2.5](https://kimi.ai/) - 2026-01 至 02。1T 总 / 32B 激活 MoE。原生多模态，最多 100 个并行子 Agent。开源。⚠️ **2026-05-25 停止支持**，请迁移到 K2.6。
@@ -1715,6 +1724,13 @@
 | **2026-06-13** | [GLM-5.2](https://z.ai/blog/glm-5.2) 由智谱 AI 发布 — 编程优先的 744B MoE，100万 token 上下文，全部 GLM Coding Plan 套餐上线 | 模型 |
 | **2026-06-30** | [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) 发布 — 迄今最具 Agent 能力的 Sonnet，低成本下性能逼近 Opus 4.8，成为 Claude.ai 免费版/Pro 新默认模型 | 模型 |
 | **2026-07-02** | [Sysdig 披露 JADEPUFFER](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) — 首个由自主 AI Agent 完整编排执行的勒索软件作战，从初始 RCE 入侵到不可恢复加密勒索一气呑成 | 产业 |
+| **2026-07-01** | [Claude Fable 5 全球恢复访问](https://www.anthropic.com/news/fable-mythos-access) — 美国商务部解除出口管制，全球用户恢复访问 Fable 5 | 模型 |
+| **2026-07-07** | [Meta Muse Image](https://ai.meta.com/blog/) 发布 — Agent 式图像生成模型，已集成到 Instagram Stories 、WhatsApp DM | 模型 |
+| **2026-07-08** | [Grok 4.5](https://x.ai/) 发布 — xAI 与 Cursor 联训的编程 Agent 旗舰，成为 Cursor 默认模型 | 模型 |
+| **2026-07-09** | [GPT-5.6 Sol / Terra / Luna](https://openai.com/blog/gpt-5-6) GA — OpenAI GPT-5.6 三档体系全面开放，Sol 为旗舰 | 模型 |
+| **2026-07-09** | [Muse Spark 1.1](https://ai.meta.com/blog/) 发布 — Meta 面向 Agent 任务的多模态推理模型，公测发布 | 模型 |
+| **2026-07-14** | [Oracle AI Agent Studio (Fusion)](https://www.oracle.com/artificial-intelligence/ai-agent-studio/) 发布 — Fusion 云应用内的无代码/低代码/专业代码 Agent 构建平台 | 框架 |
+| **2026-07-16** | [Kimi K3](https://kimi.ai/) 发布 — Moonshot AI 约 2.5T 参数 MoE，1M token 上下文，300 子 Agent 并行 Swarm | 模型 |
 
 ---
 

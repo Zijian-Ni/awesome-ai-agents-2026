@@ -128,6 +128,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 *The latest large language models powering the AI ecosystem, organized by company. 60+ models from 20+ providers.*
 
 ### OpenAI
+- [GPT-5.6 Sol](https://openai.com/blog/gpt-5-6) - 🆕 **July 9, 2026** (GA; limited preview from June 26). OpenAI's frontier flagship in the GPT-5.6 family — "Sol" is the most capable tier with advanced reasoning, coding, biology, and cybersecurity capabilities plus "max" reasoning and "ultra" sub-agent mode. Available on ChatGPT, Codex, and the OpenAI API. Launch was delayed briefly at US government request for a national-security review; rolled out to all users in stages following the trusted-partner preview.
+- [GPT-5.6 Terra](https://openai.com/blog/gpt-5-6) - 🆕 **July 9, 2026**. Mid-tier model in the GPT-5.6 family offering GPT-5.5-parity performance at approximately 2× lower cost. Designed for cost-efficient production workloads.
+- [GPT-5.6 Luna](https://openai.com/blog/gpt-5-6) - 🆕 **July 9, 2026**. The fastest and most cost-efficient tier of GPT-5.6 — optimised for high-volume, speed-critical tasks.
 - [Sites for ChatGPT](https://openai.com/index/sites) - 🆕 **June 2026**. A new ChatGPT feature that transforms plans and analyses into interactive, sharable websites.
 - [Codex Business Plugins](https://openai.com) - 🆕 **June 2026**. Enterprise enhancements bringing sales, data analytics, and creative production plugins directly to Codex.
 - [GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/) - 🆕 **June 3, 2026**. Major update to OpenAI's life-sciences frontier model — stronger drug discovery, genomics, quantitative biology, and wet-lab troubleshooting (≈31% fewer tokens than GPT-5.5 on long-horizon genomics analyses). Research preview opened to eligible organizations worldwide; Novo Nordisk joins earlier partners Amgen, Moderna, the Allen Institute, and Thermo Fisher.
@@ -159,6 +162,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Anthropic
 
+- [Claude Fable 5 (Global Reinstatement)](https://www.anthropic.com/news/fable-mythos-access) - 🆕 **July 1, 2026**. After US Commerce Department export controls were lifted on June 30, Anthropic reinstated global access to Fable 5 across Claude.ai, the Claude Platform, Claude Code, and Claude Cowork. A new safety filter blocking the Amazon-discovered jailbreak was implemented. Pro/Max/Team users received promotional access; broader partner access via AWS, Google Cloud, and Microsoft Foundry to follow. Mythos 5 remains restricted to vetted US entities.
 - [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) - 🆕 **June 30, 2026**. The most agentic Sonnet yet — planning, browser/terminal tool use, and autonomous operation at a level that recently required Opus-class models. Performance approaches Opus 4.8 on agentic search (BrowseComp) and computer use (OSWorld-Verified) at higher effort settings, with a much wider cost-performance range than Sonnet 4.6. Now the default model for Claude.ai Free/Pro; also on Max/Team/Enterprise, Claude Code, and the API as `claude-sonnet-5`. Introductory pricing $2/$10 per million input/output tokens through August 31, 2026 (then $3/$15). Anthropic reports a lower rate of undesirable behaviors than Sonnet 4.6.
 - [Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. Anthropic's first publicly available **Mythos-class** model — a capability tier above Opus. Surpasses Opus 4.8 across software engineering, knowledge work, vision, and scientific research benchmarks. Ships with built-in safeguards (sensitive cyber/bio queries may be rerouted to Opus 4.8). $10 / $50 per million in/out tokens. Available via Anthropic API, Amazon Bedrock, and Google Cloud Vertex AI. **⚠️ Access suspended June 12, 2026** — a US government export-control directive ordered Anthropic to disable Fable 5 and Mythos 5 for all customers pending security review. **⚠️ Still offline as of June 30, 2026** — Anthropic continues to work with the government toward reinstatement ([statement](https://www.anthropic.com/news/fable-mythos-access)).
 - [Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) - 🆕 **June 9, 2026**. The same underlying Mythos-class model as Fable 5 with fewer restrictions, deployed only to vetted partners (cybersecurity firms, infrastructure providers) through **Project Glasswing** in collaboration with the US government. Successor to the April Claude Mythos Preview. **⚠️ Suspended June 12, 2026** alongside Fable 5 under a US export-control directive. **✅ Partially reinstated June 26, 2026** — US Commerce Secretary Lutnick restored access to 100+ approved US companies and federal agencies; broader reinstatement ongoing ([statement](https://www.anthropic.com/news/fable-mythos-access)).
@@ -185,7 +189,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Bristol Myers Squibb ↔ Anthropic Claude Enterprise](https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx) - 🆕 **May 20, 2026**. BMS adopts Claude Enterprise as its shared intelligence platform for 30,000+ employees globally, embedding agentic Claude into drug-discovery / development / delivery workflows. First top-5 pharma enterprise-wide Claude deployment.
 
 ### Google DeepMind
-- [Gemini 3.5 Pro](https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud) - 🆕 **June 2026**. Google's flagship model with a **2-million-token context window** and a new "Deep Think" reasoning mode. Released in June 2026 for Gemini Pro and Advanced tiers; competes with GPT-5.5 and Claude Opus 4.8.
+- [Gemini 3.5 Pro](https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud) - 🆕 **July 2026** (delayed from June; limited enterprise preview ongoing). Google's flagship model with a **2-million-token context window** and a new **Deep Think** reasoning mode; substantially improved coding and agentic workflow capabilities. Originally announced at Google I/O in May 2026 for a June release; postponed for additional pre-training to enhance mathematical reasoning. Widely reported target dates: July 17 or July 24, 2026. Competes directly with GPT-5.6 Sol and Claude Fable 5.
 - [Gemma 4 12B](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/) - 🆕 **June 2026**. Novel multimodal open model with a **unified, encoder-free architecture** processing text, images, and audio in a single pass. Runs locally on 16 GB VRAM.
 - [DiffusionGemma](https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/) - 🆕 **June 2026**. 26B MoE open model using **text-diffusion** for up to **4× faster generation** than autoregressive models.
 
@@ -206,6 +210,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Meta
 
+- [Muse Image](https://ai.meta.com/blog/) - 🆕 **July 7, 2026**. Meta Superintelligence Labs' most advanced image generation model to date — an "agentic" image model that performs intermediate reasoning steps (web search, code execution, self-refinement) before producing high-quality visuals. Integrated into the Meta AI app, Instagram Stories (US), and WhatsApp DMs (limited countries). Powers 30+ new AI effects for Instagram Stories. Note: a controversial feature allowing images from other users' public Instagram profiles was added then removed on July 10 after feedback.
+- [Muse Spark 1.1](https://ai.meta.com/blog/) - 🆕 **July 9, 2026**. Multimodal reasoning model designed for agentic tasks from Meta Superintelligence Labs — available through a new public preview of the Meta Model API. Marks a strategic shift toward proprietary revenue-focused models alongside Meta's open-source Llama line.
+- [Muse Video](https://ai.meta.com/blog/) - 🆕 **July 2026 (preview)**. Video generation model from Meta Superintelligence Labs, built on the same foundational technology as Muse Image. Previewed alongside the Muse Image launch.
 - [Llama 5](https://ai.meta.com/llama/) - 🆕 **April 8, 2026**. 600B+ parameter open-source flagship from Meta Superintelligence Labs; "recursive self-improvement" research line. Marketed as exceeding leading proprietary models on reasoning, coding, autonomous agentic behaviour.
 - [Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/) - 🆕 **April 9, 2026**. First model from Meta Superintelligence Labs (MSL). Natively multimodal reasoning model powering Meta AI app, smart glasses, and features across Facebook / Instagram / WhatsApp / Messenger.
 - [Llama 4 Scout](https://llama.meta.com/) - 109B total params (17B active), MoE with 16 experts, 10M token context window, multimodal. Runs on single H100.
@@ -266,6 +273,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### xAI (Grok)
 
+- [Grok 4.5](https://x.ai/) - 🆕 **July 8, 2026**. xAI's latest flagship — optimised for coding and agentic tasks through joint training with Cursor using real developer interaction data. Features a 500K-token context window, function calling, structured outputs, web/X search, code execution, document search, and context compaction. Available in xAI API, Grok Build, and as the default model in Cursor. Priced at $2/$6 per million in/out tokens. EU availability expected later in July 2026.
 - [Grok 4.3 GA](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) - 🆕 **May 2026**. Grok 4.3 reached general availability on Microsoft Foundry and OCI Generative AI; xAI's flagship for agentic workloads with improved tool-calling and long-horizon reasoning.
 - [Grok 4.3 Beta](https://x.ai/) - 🆕 April 2026. Latest iteration with improved reasoning and coding benchmarks. See [`2026.4` benchmark snapshot](https://benchlm.ai/).
 - [Grok 4.20](https://x.ai/) - Feb 2026. Multi-agent system (4 standard + 16 specialized agents in Heavy mode), 2M token context.
@@ -318,6 +326,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Moonshot AI (Kimi)
 
+- [Kimi K3](https://kimi.ai/) - 🆕 **July 16, 2026**. Moonshot AI's new flagship — approximately 2.5 trillion parameters (MoE architecture), 1M-token context window (4× K2.7), multi-agent swarm of up to 300 sub-agents for parallel execution. Available in two variants: **K3·Max** and **K3 Cluster·Max**. Targets long-horizon coding and agentic workloads; benchmarks claim performance exceeding GPT-5.5 on certain coding tasks. Includes multimodal inputs, native 4-bit quantization, and a new DSA/"Kimi residual attention" mechanism. Available across web, app, and API. Detailed model card and pricing announced at launch week.
 - [Kimi K2.7 Code](https://kimi.ai/) - 🆕 **June 12, 2026**. Coding-first successor to K2.6 — 1T MoE / 32B active (384 experts), 256K context, Modified MIT, on Hugging Face + Kimi API. Targets long-horizon agentic coding with ~30% lower reasoning-token use; Moonshot reports +21.8% over K2.6 on its Kimi Code Bench v2 (vendor benchmarks). $0.95 / $4.00 per million in/out tokens.
 - [Kimi K2.6](https://kimi.ai/) - 🆕 **April 20-21, 2026**. 1T MoE / 32B active, 256K context. Enhanced coding, long multi-step execution, **agent swarm up to 1,000 collaborating agents**. Supports `thinking.keep="all"` persistent reasoning. Default in OpenClaw v2026.4.20+.
 - [Kimi K2.5](https://kimi.ai/) - Jan-Feb 2026. 1T total / 32B active MoE. Native multimodal, Agent Swarm (up to 100 parallel sub-agents). Open-source. ⚠️ Support ending May 25, 2026 — migrate to K2.6.
@@ -390,6 +399,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Image Generation
 
+- [Meta Muse Image](https://ai.meta.com/blog/) - 🆕 **July 7, 2026**. Meta's most advanced image generation model from MSL — agentic design that performs web search, code execution, and self-refinement before producing images. Rolled out in Instagram Stories (US) and WhatsApp DMs; powers 30+ new AI story effects. Also accessible in the Meta AI app and on meta.ai.
 - [Midjourney V8.1](https://en.wikipedia.org/wiki/Midjourney) - 🆕 **April 30, 2026**. HD 2K image support, new Raw mode options. V8 (3D model generation) reportedly later in 2026.
 - [Flux 2 Pro / Flex / Dev / Klein](https://ropewalk.ai/blog/flux-2-ai-image-generation-2026) - 🆕 **November 2025**. Black Forest Labs' next-generation family. SOTA image quality, multi-reference consistency, dramatically improved text rendering.
 - [Recraft V4](https://en.wikipedia.org/wiki/Recraft) - 🆕 **February 17, 2026**. Ground-up rebuild; major prompt-accuracy improvements; editable SVG vector output.
@@ -406,6 +416,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Video Generation
 
+- [Meta Muse Video](https://ai.meta.com/blog/) - 🆕 **July 2026 (preview)**. Video generation model from Meta Superintelligence Labs built on the same architecture as Muse Image. Previewed at the Muse Image launch; broader rollout anticipated across Meta apps.
 - [Runway Agent](https://chatlyai.app/news/runway-agent-launch-may-2026) - 🆕 **May 13, 2026**. Conversational agent that takes a written brief and ships a complete **multi-shot finished video**: storyboard → generation → cut → voiceover. Pipes through Gen-4 / Gen-4 Turbo / Aleph editing under the hood; first credible end-to-end "prompt-to-rough-cut" production agent.
 - [Veo 3.1](https://deepmind.google/technologies/veo/) - 🆕 **October 2025**. Google DeepMind's flagship video model. **Veo 4** rumoured for late-April / late-May 2026.
 - [Runway Gen-4](https://runwayml.com/) - 🆕 Professional video generation and editing with character and style consistency. Now exposes Kling 3.0 / Sora 2 Pro inside the platform (April 2026).
@@ -1923,6 +1934,13 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | **Jun 29, 2026** | [Accenture + ServiceNow AI-powered managed security services](https://www.accenture.com/us-en/services/intelligent-security) announced — joint agentic AI offering for cybersecurity risk management and legacy SIEM migration, built on the ServiceNow AI Platform | Industry |
 | **Jun 30, 2026** | [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) released — most agentic Sonnet yet, approaching Opus 4.8 performance on agentic tasks at lower cost; new default for Claude.ai Free/Pro | Models |
 | **Jul 2, 2026** | [Sysdig discloses JADEPUFFER](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) — first documented ransomware operation executed end-to-end by an autonomous AI agent, from initial RCE exploit to unrecoverable encryption and extortion | Industry |
+| **Jul 1, 2026** | [Claude Fable 5 global reinstatement](https://www.anthropic.com/news/fable-mythos-access) — US Commerce Department lifts export controls on June 30; Anthropic restores worldwide access to Fable 5 across Claude.ai, API, Claude Code, and Claude Cowork with new safety filter. Mythos 5 remains restricted | Models |
+| **Jul 7, 2026** | [Meta Muse Image](https://ai.meta.com/blog/) launched — agentic image generation model from Meta Superintelligence Labs, integrated into Instagram Stories (US) and WhatsApp DMs; also previews Muse Video | Models |
+| **Jul 8, 2026** | [Grok 4.5](https://x.ai/) released by xAI — coding and agentic flagship trained jointly with Cursor; 500K context window, $2/$6 per million in/out tokens; default model in Cursor | Models |
+| **Jul 9, 2026** | [GPT-5.6 Sol / Terra / Luna](https://openai.com/blog/gpt-5-6) GA — OpenAI makes the full GPT-5.6 family generally available on ChatGPT, Codex, and API following trusted-partner preview; Sol is the frontier flagship, Terra offers 2× lower cost, Luna is the speed tier | Models |
+| **Jul 9, 2026** | [Muse Spark 1.1](https://ai.meta.com/blog/) released by Meta — multimodal agentic model via new public Meta Model API preview; proprietary focus alongside open-source Llama line | Models |
+| **Jul 14, 2026** | [Oracle AI Agent Studio (Fusion)](https://www.oracle.com/artificial-intelligence/ai-agent-studio/) announced — no-code/low-code/pro-code builder for Fusion Agentic Applications, no additional cost for Fusion customers | Frameworks |
+| **Jul 16, 2026** | [Kimi K3](https://kimi.ai/) launched by Moonshot AI — ~2.5T parameter MoE, 1M-token context, 300-agent swarm, available as K3·Max and K3 Cluster·Max across web/app/API | Models |
 
 ---
 
@@ -1946,7 +1964,7 @@ This list is released under [MIT License](LICENSE).
 
 Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 
-*Last updated: July 2, 2026*
+*Last updated: July 16, 2026*
 
 </div>
 
