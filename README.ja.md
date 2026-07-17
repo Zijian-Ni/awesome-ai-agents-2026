@@ -6,8 +6,8 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%2016%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-510%2B-orange.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%2017%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-540%2B-orange.svg)](#)
 [![Audited](https://img.shields.io/badge/Spam_Audited-2026--07--02-success.svg)](#️-ステータス凡例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![中文](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
@@ -290,7 +290,7 @@
 
 ### Moonshot AI (Kimi) 🇨🇳
 
-- [Kimi K3](https://kimi.ai/) - 🆕 **2026-07-16**。Moonshot AI の新フラッグシップ —— 約 2.5T パラメータ (MoE アーキテクチャ)、1M トークンのコンテキストウィンドウ (K2.7 の 4 倍)、最大 300 個のサブエージェントが並行して実行できるエージェントスウォームに対応。**K3·Max** と **K3 Cluster·Max** の 2 つのバリアントで提供。長期的なコーディングとエージェントタスク向けで、一部のベンチマークでは GPT-5.5 を上回ると主張。マルチモーダル入力、ネイティブ 4-bit 量化、新しい DSA/"Kimi residual attention" メカニズムを備える。Web、アプリ、API 経由で広く利用可能。
+- [Kimi K3](https://kimi.ai/) - 🆕 **2026-07-16**。Moonshot AI 最大のフラッグシップ: **2.8T パラメータ**疎 MoE (896 エキスパート中 16 が有効)、**1M トークンコンテキスト**、ネイティブビジョン。2 つのアーキテクチャ革新: **KDA** (長文脈 6.3× 高速化) + **AttnRes** (学習効率 25% 向上)。API: $0.30/$3.00/$15.00 per million tokens。2026-07-27 にフルオープンウェイト公開予定。
 - [Kimi K2.7 Code](https://kimi.ai/) - 🆕 **2026年6月12日**。K2.6 のコーディング優先後継 —— 1T MoE / 32B アクティブ（384 エキスパート）、256K コンテキスト、Modified MIT、Hugging Face + Kimi API で公開。長期的なエージェントコーディング向けで推論トークン消費を約 30% 削減。Moonshot 公表の Kimi Code Bench v2 で K2.6 比 +21.8%（ベンダーベンチマーク）。入出力 100 万トークンあたり $0.95 / $4.00。
 - [Kimi K2.6](https://kimi.ai/) - 🆕 **2026-04-20~21**。1T MoE / 32B アクティブ、256K コンテキスト。コーディング強化、長期マルチステップ実行、**最大 1,000 体協調エージェント群**。`thinking.keep="all"` 永続推論対応。OpenClaw v2026.4.20+ のデフォルト。
 - [Kimi K2.5](https://kimi.ai/) - 2026 年 1~2 月。1T 総 / 32B アクティブ MoE。ネイティブマルチモーダル、最大 100 並列子エージェント。オープンソース。⚠️ 2026-05-25 サポート終了 —— K2.6 へ移行を。
@@ -450,6 +450,7 @@
 - [LangChain](https://github.com/langchain-ai/langchain) - LLM を使った文脈認識推論アプリの基盤。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Flangchain-ai%2Flangchain&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [LangGraph](https://github.com/langchain-ai/langgraph) - エージェントを状態を持つマルチアクターのグラフとしてモデル化。v0.3.19（2026-04-27）: プリビルトエージェントが `langgraph-prebuilt` に分離 —— Supervisor / Swarm / LangMem / Trustcall。エージェントワークフローのプロダクション標準。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Flangchain-ai%2Flanggraph&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [CrewAI](https://github.com/crewAIInc/crewAI) - ロールプレイ型自律エージェントチームのオーケストレーションフレームワーク。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FcrewAIInc%2FcrewAI&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [AG2](https://github.com/ag2ai/ag2) - 🆕 **2026-07-03 (v1.0.0b0)**。Microsoft AutoGen のコミュニティ主導 Fork — AutoGen がメンテナンスモードになった後も開発継続。Apache-2.0。既存 AutoGen プロジェクトから移行容易。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fag2ai%2Fag2&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - 🆕 AutoGen + Semantic Kernel を統合した新フレームワーク。マルチエージェント + エンタープライズ機能。2026 Q1 GA。
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft のマルチエージェント会話フレームワーク（Microsoft Agent Framework に統合）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmicrosoft%2Fautogen&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - 🆕 Gemini + Vertex AI と密接に統合したモジュラーフレームワーク。階層エージェント構成。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgoogle%2Fadk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -1682,7 +1683,15 @@
 | **2026-07-09** | [GPT-5.6 Sol / Terra / Luna](https://openai.com/blog/gpt-5-6) GA — OpenAI が GPT-5.6 ファミリーを一般公開、Sol がフラッグシップ | モデル |
 | **2026-07-09** | [Muse Spark 1.1](https://ai.meta.com/blog/) リリース — 新しい Meta Model API のプレビューを通じて提供される、Meta のエージェントタスク向けマルチモーダル推論モデル | モデル |
 | **2026-07-14** | [Oracle AI Agent Studio (Fusion)](https://www.oracle.com/artificial-intelligence/ai-agent-studio/) 発表 — Fusion Cloud Applications 内のノーコード/ローコード/プロコード エージェント構築プラットフォーム | フレームワーク |
-| **2026-07-16** | [Kimi K3](https://kimi.ai/) リリース — Moonshot AI の約 2.5T パラメータ MoE、1M トークンコンテキスト、300 エージェントの並列スウォーム対応 | モデル |
+| **2026-07-16** | [Kimi K3](https://kimi.ai/) リリース — 2.8T 疎 MoE、1M トークン、KDA+AttnRes、7/27 オープンウェイト予定 | モデル |
+| **2026-07-16** | CrewAI 1.15.3 — ステップインターセプト / Hook ディスパッチャ / ツール結果キャッシュ | フレームワーク |
+| **2026-07-10** | LangGraph 1.2.9 リリース | フレームワーク |
+| **2026-07-10** | Cursor 3.11 — サイドチャット・会話検索・Cloud Agent Hooks | ツール |
+| **2026-07-09** | GPT-5.6 (Sol/Terra/Luna) 全面 GA；Codex が ChatGPT デスクトップアプリに統合 | モデル |
+| **2026-07-08** | GPT-Live-1 / mini — フルデュプレックス音声モデル（高度な音声モードを置き換え） | モデル |
+| **2026-07-08** | Grok 4.5 リリース — Cursor のデフォルトモデル | モデル |
+| **2026-07-03** | AG2 v1.0.0b0 — AutoGen のコミュニティ Fork が正式始動 | フレームワーク |
+| **2026-07-01** | Claude Fable 5 グローバル復活 — 輸出規制解除 | モデル |
 
 ---
 

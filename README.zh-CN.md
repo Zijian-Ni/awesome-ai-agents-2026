@@ -6,8 +6,8 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%2016%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-510%2B-orange.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%2017%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-540%2B-orange.svg)](#)
 [![Audited](https://img.shields.io/badge/Spam_Audited-2026--07--02-success.svg)](#️-状态图例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![日本語](https://img.shields.io/badge/Lang-日本語-red.svg)](README.ja.md)
@@ -92,6 +92,7 @@
 *为整个 AI 生态提供动力的大语言模型，按厂商组织。20+ 家厂商共 65+ 个模型。*
 
 ### OpenAI
+- [GPT-Live-1 / GPT-Live-1 mini](https://openai.com/index/introducing-gpt-live/) - 🆕 **2026-07-08**。OpenAI 全双工会话语音模型，取代进阶语音模式。同步收听和说话（零切换延迟），处理打断，复杂查询在后台由 GPT-5.5 处理同时语音不中断。**GPT-Live-1** 为付费用户默认（Go/Plus/Pro）；**GPT-Live-1 mini** 为免费用户默认。支持实时语音翻译。
 - [GPT-5.6 Sol](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**（GA；有限预览从 2026-06-26 开始）。GPT-5.6 家族旗舰层 —— Sol 具备最强旨攟推理、编程、生物、网安能力以及 “max 推理” + “ultra 子 Agent 模式”。因美国政府安全审查要求延迟发布，渐进面向全部用户。
 - [GPT-5.6 Terra](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**。GPT-5.6 中级档 —— 与 GPT-5.5 性能相当但成本约降低 2×，适合成本敏感的生产任务。
 - [GPT-5.6 Luna](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**。GPT-5.6 速度/成本最优层 —— 专为大量、对延迟敏感的任务设计。
@@ -290,7 +291,7 @@
 
 ### Moonshot AI (Kimi) 🇨🇳
 
-- [Kimi K3](https://kimi.ai/) - 🆕 **2026-07-16**。Moonshot AI 新旗舰 —— 约 2.5T 参数量（MoE 架构），1M token 上下文窗口（是 K2.7 的 4×），支持最多 300 个子 Agent 并行协作的 Agent Swarm。分 **K3·Max** 和 **K3 Cluster·Max** 两个语境。面向长程 Agent 编程，部分基准测评声称超过 GPT-5.5。支持多模态输入、原生 4-bit 量化以及新注意力机制 DSA/“Kimi residual attention”。已全面开放网页、App、API。
+- [Kimi K3](https://kimi.ai/) - 🆕 **2026-07-16**。Moonshot AI 最大旗舰：**2.8T 参数**稀疏 MoE（16 of 896 专家每个 token 被激活），**1M token 上下文窗口**，原生视觉。两项架构创新：**Kimi Delta Attention (KDA)** — 混合线性注意力，长文本解码最快加速 6.3×；**AttnRes** — 训练效率提升 25%。Artificial Analysis Intelligence Index 得分 57（189 个模型中排第 4）。API：\$0.30 / \$3.00 / \$15.00 per million 缓存输入/输入/输出 tokens。**2026-07-27 承诺开源全量权重**。
 - [Kimi K2.7 Code](https://kimi.ai/) - 🆕 **2026-06-12**。K2.6 的编程优先继任者 —— 1T MoE / 32B 激活（384 专家），256K 上下文，Modified MIT，已上 Hugging Face + Kimi API。面向长程 Agent 编程，推理 token 用量约降 30%；官方 Kimi Code Bench v2 较 K2.6 +21.8%（厂商基准）。每百万输入/输出 0.95 / 4.00 美元。
 - [Kimi K2.6](https://kimi.ai/) - 🆕 **2026-04-20~21**。1T MoE / 32B 激活，256K 上下文。编程增强、长任务执行、**最大 1000 个 Agent 协作集群**。支持 `thinking.keep="all"` 持久推理。OpenClaw v2026.4.20+ 默认模型。
 - [Kimi K2.5](https://kimi.ai/) - 2026-01 至 02。1T 总 / 32B 激活 MoE。原生多模态，最多 100 个并行子 Agent。开源。⚠️ **2026-05-25 停止支持**，请迁移到 K2.6。
@@ -446,8 +447,9 @@
 
 - [Koog 1.0](https://github.com/JetBrains/koog) - 🆕 **2026-05-28 · KotlinConf 2026**。JetBrains 针对 **Kotlin + Java** 的开源 Agent 框架进入稳定 1.0，并带有一年的 API 稳定性保证。Kotlin Multiplatform 跨端部署（JVM / Android / iOS / JS / WASM）、Java 互操作无需包装模块、Android 本地 LiteRT、OpenTelemetry 跨端可观测、图状工作流、Spring Boot / Ktor 集成，提供商 OpenAI / Anthropic / Google / Bedrock 均原生支持。Apache-2.0。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FJetBrains%2Fkoog&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [LangChain](https://github.com/langchain-ai/langchain) - 上下文感知推理应用的基础框架。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Flangchain-ai%2Flangchain&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [LangGraph](https://github.com/langchain-ai/langgraph) - 把 Agent 建模为有状态、多 actor 协作的图。v0.3.19（2026-04-27）：预制 Agent 拆出 `langgraph-prebuilt` —— Supervisor / Swarm / LangMem / Trustcall。Agent 工作流的生产级标准。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Flangchain-ai%2Flanggraph&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [LangGraph](https://github.com/langchain-ai/langgraph) - 把 Agent 建模为有状态、多 actor 协作的图。v0.3.19（2026-04-27）：预制 Agent 拆出 `langgraph-prebuilt` —— Supervisor / Swarm / LangMem / Trustcall。Agent 工作流的生产级标准。**v1.2.9（2026-07-10）** 继续生产就绪强化。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Flangchain-ai%2Flanggraph&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [CrewAI](https://github.com/crewAIInc/crewAI) - 角色扮演式 Agent 团队编排。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FcrewAIInc%2FcrewAI&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [AG2](https://github.com/ag2ai/ag2) - 🆕 **2026-07-03（v1.0.0b0）**。Microsoft AutoGen 的社区驱动 Fork —— 在微软于 2026 Q1 将 AutoGen 转入维护模式后，这个 Fork 为希望继续使用可对话式 Agent 架构的开发者提供持续开发。Apache-2.0，可从现有 AutoGen 项目无缝迁移。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fag2ai%2Fag2&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - 🆕 AutoGen + Semantic Kernel 合并的统一框架。多 Agent + 企业能力。2026 Q1 GA。
 - [AutoGen](https://github.com/microsoft/autogen) - 微软多 Agent 对话框架（已并入 Microsoft Agent Framework）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmicrosoft%2Fautogen&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - 🆕 与 Gemini + Vertex AI 深度集成的模块化框架。层级 Agent 组合。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgoogle%2Fadk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -476,7 +478,7 @@
 - [Ontheia](https://github.com/Ontheia/ontheia) - 自托管开源 AI Agent 平台。多模型供应商（Claude / OpenAI / Gemini / Ollama），原生支持 MCP，Chain Engine 可视化工作流编排，长期记忆（pgvector），多用户 RBAC，架构层面合规 GDPR。AGPL-3.0。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FOntheia%2Fontheia&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Coze Studio](https://github.com/coze-dev/coze-studio) - 🆕 🇨🇳 字节跳动开源的 AI Agent 开发平台——一体化可视化工具，简化 Agent 的创建、调试、部署。Apache-2.0，20K+ stars；Coze.com 的开源对照版。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcoze-dev%2Fcoze-studio&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Strands Agents (AWS)](https://github.com/strands-agents/sdk-python) - 🆕 **2026 年4–6月**。AWS 开源模型驱动 Agent SDK（Python + TypeScript 1.0 GA 2026-04-30）。支持 Bedrock / Anthropic / OpenAI / Ollama，多种多智能体编排模式（图波/群舍/工作流），内置可观测性 hooks，A2A 协议支持。Apache-2.0，2500万+下载。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fstrands-agents%2Fsdk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [CrewAI 1.14](https://github.com/crewAIInc/crewAI) - 🆕 **2026 年6月**。大更新：内存 / 知识 / RAG 可插戢4后端，声明式 Flows + CLI/TUI 支持，Chat API 会话式流，原生 Snowflake Cortex LLM，移除 LangChain 依赖使核心更轻量。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FcrewAIInc%2FcrewAI&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [CrewAI 1.14+](https://github.com/crewAIInc/crewAI) - 🆕 **2026年6月**。大更新：内存 / 知识 / RAG 可插拔后端，声明式 Flows + CLI/TUI 支持，Chat API 会话式流，原生 Snowflake Cortex LLM，移除 LangChain 依赖。**1.15.2（2026-07-08）**：Flow Definitions、内联技能定义、动态 LLM 识别。**1.15.3（2026-07-16）**：控制面 版 — 步骤 / 执行边界拦截、通用 Hook 分发器、按需开启工具结果缓存。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FcrewAIInc%2FcrewAI&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Oracle AI Agent Studio (Fusion)](https://www.oracle.com/artificial-intelligence/ai-agent-studio/) - 🆕 **2026-07-14**。Oracle Fusion Cloud 应用内置的 AI 原生构建器，打造“Fusion Agentic Applications”——在 Fusion 业务对象、工作流和安全上下文中脚本与执行的多 Agent 团队。无代码/低代码/专业代码全支持；Fusion 客户免费使用。
 
 ---
@@ -542,6 +544,7 @@
 - [The Colony](https://thecolony.cc) - ⚠️ **Unverified**。自称 Agent 间社交网络 + REST API + Python / TS / Go SDK + MCP server。组织与 SDK 仓库均 <30 天，0~2 star，单维护者；同款 PR 投了 15+ 个 awesome 列表。**仅作可见性收录**，使用前请自行评估。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FTheColonyCC%2Fcolony-sdk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [dependency-freshness-mcp](https://github.com/Armigerous/dependency-freshness-mcp) - 🆕 ⚠️ **Unverified**。为 AI 编码 Agent 提供带引用的 npm 与 PyPI 依赖新鲜度信息：最新版本、发布日期、弃用状态、带日期的破坏性变更摘要 —— 弥补训练截止带来的盲区。远程（Apify Standby HTTP）+ 本地 stdio。新建单维护者仓库（建于 2026-06-08，收录时 0 star）—— 仅作可见性收录，使用前请自行评估。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FArmigerous%2Fdependency-freshness-mcp&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [NotFair](https://github.com/nowork-studio/NotFair) - 开源 Claude Code Agent 技能集，涵盖 [SEO](https://github.com/nowork-studio/NotFair/tree/main/seo)、[Google Ads](https://github.com/nowork-studio/NotFair/tree/main/google-ads) 与 [Meta Ads](https://github.com/nowork-studio/NotFair/tree/main/meta-ads)；通过 Google Ads MCP、Meta Ads MCP、Google Search Console MCP 和 GA4 MCP 接入实时广告与分析数据。MIT。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fnowork-studio%2FNotFair&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [AgentServices](https://agentservices.to) - 🆕 ⚠️ **未经验证**。面向 AI Agent 的 x402 链上付费数据 API — 54 种服务（加密市场数据/金融情报/链上分析/推理）；MCP 服务器含 37 个工具；HTTP 402 + USDC on Base 按次付费。早期单人维护项目，使用前请自行评估。
 - [AWS MCP Server](https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/) - 🆕 **2026 年 5 月 6 日 GA**。AWS 官方托管的 MCP 服务器，让编码 Agent 安全可审计地调用任意 AWS API；多步操作可在沙箱化 Python 环境中执行，用 agent skills 取代传统 "agent SOP"。AWS 第一方出品。
 - [Google Workspace MCP Server](https://workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html) - 🆕 **2026 年 5 月 1 日起逐步上线**。Workspace 原生 MCP 服务器，将 Gmail / Drive / Calendar / Docs / Sheets 暴露给 MCP 客户端，OAuth 范围由管理员控制并带审计日志。
 - [iManage MCP Server](https://imanage.com/resources/resource-center/news/mcp-server-available-broader-ai-ecosystem/) - 🆕 **2026 年 5 月 14 日**。iManage 知识工作平台的原生 MCP 入口，任何 AI 客户端无需定制即可安全读写 iManage 文档。首家面向公众的法律/专业服务 SaaS MCP server。
@@ -646,6 +649,7 @@
 
 ### IDE Agent
 
+- [Cursor 3.11](https://cursor.com/changelog) - 🆕 **2026-07-10**。侧边聊天（Side Chats，不干扰主工作流的并行 AI 对话）、对话历史搜索、项目/仓库选择器重设计、新 Cloud Agent Hooks（对 Agent 对话的提示词/响应/子 Agent 活动的精细控制与可观测性）；Grok 4.5 为默认模型。
 - [Cursor 3.4（Teams + PR 审查）](https://cursor.com/changelog) - 🆕 **2026-05-11~13**。Microsoft Teams 集成（在 Teams 中 `@Cursor` 即可委派云端 Agent）、并行 Agent 计划执行提速、多仓库 / 基于 Dockerfile 的 Agent 开发环境配置、`/multitask` 异步子 Agent、漏洞扫描器、按模型粒度的访问控制。
 - [Cursor 3.3](https://cursor.com/changelog) - 🆕 **2026-05**。PR 审查体验、并行 Agent、企业级模型管控；上一版 3.1 发布于 4 月。
 - [Cursor SDK](https://cursor.com/changelog) - 🆕 **2026-05-04**。TypeScript SDK 开放 Cursor 的运行时、harness 和模型，开发者可在 Cursor 栈上构建程序化 Agent；随附 v2.5 安全补丁，修复恶意 git 仓库导致任意代码执行的漏洞。
@@ -811,6 +815,7 @@
 - [ElevenLabs](https://elevenlabs.io/) - AI 语音合成 + 对话 Agent。
 - [Vapi](https://github.com/VapiAI/server-sdk-python) - 语音 AI Agent 平台。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FVapiAI%2Fserver-sdk-python&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Retell AI](https://www.retellai.com/) - 生产级对话语音 AI。
+- [Hermes](https://buildwithhermes.com/) - 🆕 ⚠️ **未经验证（Founders Beta）**。面向代理商的白标语音 Agent 平台：Agent 管理、原生 CRM、呼入/呼出活动编排、按客户用量计费，$149/月起。暂无第三方采用数据。
 - [Bland AI](https://www.bland.ai/) - 企业级 AI 电话平台。
 - [LiveKit Agents](https://github.com/livekit/agents) - 实时多模态 Agent（语音 + 视频 + 数据）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Flivekit%2Fagents&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Pipecat](https://github.com/pipecat-ai/pipecat) - 开源语音多模态对话框架。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fpipecat-ai%2Fpipecat&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -1730,7 +1735,16 @@
 | **2026-07-09** | [GPT-5.6 Sol / Terra / Luna](https://openai.com/blog/gpt-5-6) GA — OpenAI GPT-5.6 三档体系全面开放，Sol 为旗舰 | 模型 |
 | **2026-07-09** | [Muse Spark 1.1](https://ai.meta.com/blog/) 发布 — Meta 面向 Agent 任务的多模态推理模型，公测发布 | 模型 |
 | **2026-07-14** | [Oracle AI Agent Studio (Fusion)](https://www.oracle.com/artificial-intelligence/ai-agent-studio/) 发布 — Fusion 云应用内的无代码/低代码/专业代码 Agent 构建平台 | 框架 |
-| **2026-07-16** | [Kimi K3](https://kimi.ai/) 发布 — Moonshot AI 约 2.5T 参数 MoE，1M token 上下文，300 子 Agent 并行 Swarm | 模型 |
+| **2026-07-16** | [Kimi K3](https://kimi.ai/) 发布 — Moonshot AI 2.8T 稀疏 MoE，1M token 上下文，KDA+AttnRes 架构，7-27 开源权重 | 模型 |
+| **2026-07-16** | CrewAI 1.15.3 — 控制面 版：步骤拦截、Hook 分发器、按需工具结果缓存 | 框架 |
+| **2026-07-10** | LangGraph 1.2.9 发布 — 持续生产就绪加固 | 框架 |
+| **2026-07-10** | Cursor 3.11 — 侧边聊天、对话历史搜索、Cloud Agent Hooks | 工具 |
+| **2026-07-09** | GPT-5.6 家族（Sol/Terra/Luna）全面 GA；Codex 整合进 ChatGPT 桌面 App；Multi-Agent V2 发布 | 模型 |
+| **2026-07-08** | GPT-Live-1 / mini — 全双工实时语音模型，取代进阶语音模式 | 模型 |
+| **2026-07-08** | Grok 4.5 发布 — 与 Cursor 联合训练；500K 上下文；Cursor 默认模型 | 模型 |
+| **2026-07-08** | OpenAI 审计 SWE-bench Pro 发现约 30% 任务存在缺陷；OpenAI 撤回以其作为编程 Agent 主要评测指标的推荐 | 研究 |
+| **2026-07-03** | AG2 v1.0.0b0 — AutoGen 社区 Fork；Microsoft 已将 AutoGen 置于维护模式 | 框架 |
+| **2026-07-01** | Claude Fable 5 全球恢复访问 — 美商务部解除出口管制 | 模型 |
 
 ---
 
