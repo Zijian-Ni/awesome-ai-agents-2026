@@ -3,6 +3,33 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+## 2026-07-17 (second pass) — Full-list verification audit: 150+ corrections, drift elimination, en/zh/ja lockstep
+
+### Context
+- Every category was re-verified entry-by-entry against primary sources (vendor blogs, GitHub repos, release pages, leaderboards) by parallel research passes. This pass focused on **accuracy** — fixing fabricated/stale claims that had accumulated — plus verified mid-July additions.
+
+### ~ Corrected (major, all mirrored en/zh/ja)
+- **Fabrications removed**: CrewAI 1.15.2/1.15.3 and LangGraph v1.2.9 (versions don't exist), "Google ADK 2.0 GA" (only v2.0.0b1 beta exists), "Devin 3.0" (no such release), "Genie 4", "DeepSeek-R2" (marked 🧪 unreleased/rumored), "Hieroglyphic Benchmark" (leak blogspam, deleted), fake WebArena "Muse Spark 69% leaderboard" claim, MCP 2026-07-28 invented features (Triggers / Skills-over-MCP), "Gemini 2.5 Pro + Deep Think Jun 22, 2026" timeline row (2025 event), Samsung/Cursor/CodexCLI embellishments.
+- **Status fixes**: Claude Fable 5 — export controls lifted Jun 30, global access restored Jul 1 (entry previously still said "offline"); PyRIT is NOT archived (moved to microsoft/PyRIT, active); Void is paused, not archived; Roo Code discontinued → Roomote pivot; Rasa & AutoGen & FastAgency & Aider & Inflection & Yi-Lightning → 💤; AgentGPT archived 2026-01 (not 2025-04); GPT Engineer archived 2026-04; Vanna 2026-03; Rebuff 2025-05; Limitless acquired by Meta; Moveworks acquired by ServiceNow (closed Dec 15, 2025); Manus acquired by Meta (~$2B); MultiOn 📦 (redirects to AGI, Inc.); OpenAI Operator → ChatGPT Agent.
+- **Repo moves/renames**: A2A → a2aproject/A2A, Phidata → agno-agi/agno, Firecrawl → firecrawl/firecrawl (AGPL-3.0), Docling → docling-project, MetaGPT → FoundationAgents, SWE-bench → SWE-bench org, Codegen → codegen-sh/codegen, Vocode → vocode-core, AppAgent → TencentQQGYLab, Cozeloop → coze-loop, Lobe Chat → LobeHub, OpenCode → anomalyco (180K+ stars; archived namesake clarified, Crush successor added), Kilo Code → kilo.ai (old link was an unrelated Finnish boating site), Braintrust SDK split, NVIDIA Cosmos → cosmos-predict2, Hy3 badge/URLs.
+- **Numbers/dates**: GPT-5.6 pricing verified against OpenAI pricing page (Sol $5/$30, Terra $2.50/$15, Luna $1/$6; 1M context); Kimi K3 $3/$15; K2.6 $0.95; Suno V4 → v5.5; Midjourney V8.1 Apr 14; Recraft V4.1; Hailuo 02 → 2.3; ChatGPT Images 2.0 / gpt-image-2 Apr 21; Koog May 21; Grok Build May 25 (+ ⚠️ repo-upload reports); Cursor SDK Apr 29; 1X NEO pre-orders Oct 28, 2025; Prometheus $12B @ $41B; FSD v13 → v14; ERNIE 5.0 Nov 13, 2025 (+ ERNIE 5.1 May 8); Command A Mar 2025 (+ Command A+ May 20); Nova family Dec 2, 2025; benchmark leaderboards refreshed to July 2026 (BenchLM, ARC-AGI-2, OSWorld, Arena, Terminal-Bench 2.0/2.1, GDPval, τ²/τ³, Gartner MQ leaders incl. GitHub Copilot); compare tables refreshed (cost table now leads with GPT-5.6 / Sonnet 5 / Opus 4.8 / Fable 5 / Gemini 3.1 Pro; stamps → 2026-07-17).
+- **Tag hygiene**: all invalid 🆇 tags → 🇨🇳; ⚠️ Unverified applied consistently to early-stage/self-submitted entries (CorpusIQ, Agentage, mcp-gateway, agent-memory, prompt-firewall, AgentGate, WalletPrint, Ontheia, AI Growth Agents); Declaration of Intelligence downgraded to ⚠️ draft (v0.2, handful of signatories).
+- **Structure**: duplicate entries merged/removed (OpenAI Agents SDK ×2, E2B ×2, GAIA/GDPval/ALE dups, Perplexity Computer dup, Nokia/Alteryx strays above tables, misfiled Scout under A2A, 8 duplicate July timeline rows); section taglines restored under headings; CC0 button removed (license is MIT); category/resource badges reconciled (580+).
+
+### + Added (verified; mirrored en/zh/ja)
+- **Models**: ChatGPT Work (Jul 9), Leanstral 1.5 (Jul 2), Robostral Navigate (Jul 8), Hunyuan Hy3 official release (Jul 6, Apache 2.0), Step 3.7 Flash, ERNIE 5.1, Command A+, Nemotron-Labs-TwoTower, ZCode (Zhipu, Jul 2), Seedance 2.5 (Jun 23), HappyHorse 1.1 (Jun 23, replaces wrongly-named "Tianma").
+- **Standards/Frameworks**: AGENTS.md, goose (Block, AAIF), Crush, OpenCode (anomalyco).
+- **Coding/Benchmarks**: Devin Security Swarm (Jul 1), Harbor, ARC-AGI-3, Qwen Code.
+- **Browser/Voice**: Claude in Chrome, Perplexity Comet, Grok Voice Agent Builder (Jul 1).
+- **Physical AI**: Hyundai completes full Boston Dynamics buyout (~$3.4B valuation), Mitsubishi Motors × Highlanders MOU (Jul 9, corrected from fabricated "N" naming).
+- **Research/Learning parity**: Hugging Face Transformers + DeepLearning.AI Short Courses added to EN (were zh/ja-only).
+
+### en/zh/ja sync audit
+- Entry sets now **identical across all three languages (584 external-link entries each)** — 22 EN entries backfilled into zh, 24 into ja; stale zh/ja-only dupes (Midjourney V7, Recraft V3) removed; July timeline block rewritten identically (17 rows) in all three.
+
+### ✓ Verified
+- Every correction above traces to a primary source checked this run (vendor blog / GitHub repo / release page / leaderboard). Local link-checker unavailable in this environment (network-restricted); link liveness spot-verified via fetches during the audit; CI lychee will re-check on push.
+
 ## 2026-07-02 — PR/issue triage, badges-refresh workflow merge, archived-repo flags, Claude Sonnet 5 + JADEPUFFER additions (en/zh/ja sync)
 
 ### PR / issue triage
