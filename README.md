@@ -986,6 +986,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Cognizant Neuro AI + ServiceNow AI Agent](https://news.cognizant.com/2026-06-18-Cognizant-expands-cross-platform-agentic-AI-with-new-ServiceNow-AI-Agent-interoperability) - 🆕 **June 2026**. Cross-platform enterprise orchestration enabling ServiceNow agents to work natively within Cognizant's Multi-Agent Accelerator.
 - [Talkdesk Agent Builder](https://www.cmswire.com/contact-center/customer-contact-week-2026-capturing-the-ai-announcements-in-contact-center-technology/) - 🆕 **June 2026**. Low-code builder allowing business users to deploy production-grade AI agents in the contact center in hours instead of weeks.
 - [HelloTwin Digital Authority](https://siliconangle.com/2026/06/24/hellotwin-launches-digital-authority-bring-governed-ai-agents-enterprise/) - 🆕 **June 2026**. AI twin designed as a single, auditable source of truth to govern agentic workflows with clear boundaries.
+- [Hellomatik](https://hellomatik.com) - AI agent platform that turns a company's knowledge into agents that answer, sell and book across WhatsApp, email and web.
 
 ## 📊 Agent Evaluation & Observability
 
