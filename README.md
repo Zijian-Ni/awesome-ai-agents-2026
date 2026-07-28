@@ -1017,6 +1017,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 *Tools for testing, evaluating, and monitoring AI agents in production.*
 
 - [AgentBench](https://github.com/THUDM/AgentBench) - Multi-dimensional benchmark for evaluating LLMs as agents. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FTHUDM%2FAgentBench&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Live-web benchmark for browser and computer-use agents, covering 283 tasks across 163 websites with request interception, execution traces, and judge-assisted evaluation. [Paper](https://arxiv.org/abs/2604.08523) · [Project](https://claw-bench.com)
 - [LangSmith](https://www.langchain.com/langsmith) - Platform for debugging, testing, evaluating, and monitoring LLM applications.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability platform — logs, metrics, and traces. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FHelicone%2Fhelicone&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Braintrust](https://www.braintrust.dev/) - Enterprise-grade stack for building AI products — evals, prompt playground, logging. SDKs: [braintrust-sdk-javascript](https://github.com/braintrustdata/braintrust-sdk-javascript) and braintrust-sdk-python (repo split/renamed from braintrust-sdk).
@@ -2040,5 +2041,4 @@ Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 *Last updated: July 25, 2026*
 
 </div>
-
 
