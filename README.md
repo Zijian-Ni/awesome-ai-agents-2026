@@ -475,6 +475,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ---
 
+- [TranslateScan](https://translatescan.com) - AI translator for scanned PDFs, photos, and documents preserving original layout.
 ## 🔗 Agent Protocols & Standards
 
 *Open standards enabling agent interoperability, tool access, and cross-platform communication.*
