@@ -982,6 +982,7 @@
 
 *真实浏览器中工作的 Agent —— 导航、点击、抓取、跨页流程。*
 
+- [agent-qa](https://github.com/vostride/agent-qa) - 开源自我改进型 QA Agent，可执行自然语言描述的 Web 与移动端测试，自愈 UI 交互，并从历史运行中学习。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvostride%2Fagent-qa&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Cloudflare Kitesurf](https://blog.cloudflare.com/kitesurf/) - 🆕 ⚡ **2026-08-06（beta，Cloudflare Agents Week）**。Cloudflare 专为 AI Agent 打造的无服务器浏览器，运行于 Workers 上，每次会话独立隔离、无状态，优先优化 token 数与上下文窗口效率而非像素级渲染。支持 Puppeteer 和 Playwright；截图类负载 **CPU 消耗为 Chromium 的 1/3.1、内存为 1/4.7**，通过 215K+ 项 Web Platform Tests。beta 期间通过 Browser Rendering 免费使用。限制：不支持视频播放、WebGL 和持久登录。
 - [Browser Use](https://github.com/browser-use/browser-use) - **v0.13.7（2026-07-27）**。2026 年开源浏览器 Agent 事实标准。109K+ star。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbrowser-use%2Fbrowser-use&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Stagehand](https://github.com/browserbase/stagehand) - Browserbase 出品的"浏览器 Agent SDK"：类型化 `act / extract / observe`，跑在 Playwright 上。MIT。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbrowserbase%2Fstagehand&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)

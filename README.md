@@ -974,6 +974,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 *Frameworks and infrastructure for agents that interact with the web through real browsers — navigate, click, scrape, and complete multi-page workflows.*
 
+- [agent-qa](https://github.com/vostride/agent-qa) - Open-source self-improving QA agent that runs natural-language web and mobile tests, self-heals UI interactions, and learns from previous runs. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvostride%2Fagent-qa&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Cloudflare Kitesurf](https://blog.cloudflare.com/kitesurf/) - 🆕 ⚡ **August 6, 2026 (beta, Cloudflare Agents Week)**. Cloudflare's new serverless browser built specifically for AI agents — runs on Workers, stateless and isolated per session, optimized for token count and context-window efficiency over pixel-perfect rendering. Supports Puppeteer and Playwright; **3.1× less CPU and 4.7× less memory than Chromium** for screenshot workloads, 215K+ Web Platform Tests passing. Free during beta via Browser Rendering. Trade-offs: no video playback, no WebGL, limited persistent-auth support.
 - [Browser Use](https://github.com/browser-use/browser-use) - **v0.13.7 (July 27, 2026)**. Make websites accessible for AI agents with browser automation. The de-facto open-source choice in 2026, 109K+ stars. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbrowser-use%2Fbrowser-use&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Stagehand](https://github.com/browserbase/stagehand) - The SDK for browser agents — typed `act`/`extract`/`observe` primitives over Playwright by Browserbase. MIT. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbrowserbase%2Fstagehand&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -2191,5 +2192,3 @@ Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 *Last updated: August 15, 2026*
 
 </div>
-
-

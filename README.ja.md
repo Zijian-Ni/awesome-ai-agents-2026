@@ -982,6 +982,7 @@
 
 *実ブラウザを介して Web と対話するエージェント—— ナビゲーション、クリック、スクレイピング、マルチページワークフローをこなすフレームワークとインフラ。*
 
+- [agent-qa](https://github.com/vostride/agent-qa) - 自然言語で記述した Web・モバイルテストを実行し、UI 操作を自己修復しながら過去の実行から学習する、オープンソースの自己改善型 QA エージェント。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvostride%2Fagent-qa&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Cloudflare Kitesurf](https://blog.cloudflare.com/kitesurf/) - 🆕 ⚡ **2026年8月6日（ベータ、Cloudflare Agents Week）**。Cloudflare が AI エージェント専用に設計したサーバーレスブラウザ。Workers 上で動作し、セッションごとに独立・ステートレスで、ピクセル完璧なレンダリングよりもトークン効率と低リソース消費を優先。Puppeteer と Playwright をサポート；スクリーンショットワークロードで **Chromium 比 CPU 3.1 分の 1・メモリ 4.7 分の 1**、Web Platform Tests 21.5 万件超をパス。ベータ期間中は Browser Rendering 経由で無料。制限：動画再生・WebGL・永続認証は非対応。
 - [Browser Use](https://github.com/browser-use/browser-use) - **v0.13.7（2026年7月27日）**。Web サイトを AI エージェントから利用可能にするブラウザ自動化。2026 年にオープンソースブラウザエージェントの事実上の標準。109K+ star。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbrowser-use%2Fbrowser-use&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Stagehand](https://github.com/browserbase/stagehand) - Browserbase 製の「ブラウザエージェント用 SDK」—— 型付きの `act` / `extract` / `observe` プリミティブを Playwright の上に提供。MIT。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbrowserbase%2Fstagehand&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -2012,4 +2013,3 @@ MIT © [Zijian Ni](https://github.com/Zijian-Ni)
 ---
 
 *Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni) · 2026。日本語版は英語版と同期します。不一致がある場合は英語版を正とします。*
-
