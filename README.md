@@ -1224,6 +1224,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Coze (扣子)](https://www.coze.cn/) - ByteDance's no-code agent builder. Mainland-only consumer surface; international counterpart is coze.com.
 - [Qwen App (千问)](https://www.qwen.ai/) - Alibaba's mass-market consumer agent (rebranded from Tongyi Qianwen), integrated across Taobao / DingTalk / Quark.
 - [Doubao Agents](https://www.doubao.com/) - ByteDance's flagship consumer assistant on top of the Doubao model family.
+- [Resume Roaster](https://resume.roastlabai.com/) - AI-powered resume critique with ATS keyword gap analysis. Upload your resume and any job description to get specific AI feedback on what to improve before applying. Built for job seekers wanting edge in competitive markets.
 
 ### Developer Tools
 
