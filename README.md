@@ -1581,6 +1581,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | [Prompt Armor](https://promptarmor.com/) | ❌ | ⭐⭐⭐⭐☆ | ✅ | ❌ | Proprietary |
 | [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety) | ❌ | ✅ | ✅ | ❌ (Azure) | Proprietary |
 | [Rebuff](https://github.com/protectai/rebuff) | ❌ | ⭐⭐⭐⭐☆ | ❌ | ✅ | MIT |
+| [sofagent](https://github.com/KongFangXun/sofagent) | ❌ | ✅ | ✅ (HMAC-chained) | ✅ | MIT |
 
 ---
 
