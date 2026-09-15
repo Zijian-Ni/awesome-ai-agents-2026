@@ -2017,6 +2017,7 @@ Measure the complete agent workflow and document evaluator limitations.
 - [Meta Business Agent (WhatsApp + Instagram)](https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/) - **Reported June 3, 2026** expansion of Meta’s business agent across WhatsApp and Instagram customer conversations; announced reach and vendor adoption figures are not independently measured utilization.
 - [WWDC 2026 — Apple Intelligence / Siri AI](https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/) - **June 8, 2026 preview** of Apple Intelligence and Siri AI with screen context, cross-app actions and redesigned experiences; the announcement describes upcoming software, not simultaneous general release everywhere.
 - [Google Antigravity 2.0 + Microsoft RAMPART + xAI Grok Build](https://antigravity.google/blog/introducing-google-antigravity-2-0) - **May 14–22, 2026**. Three structural agent-stack shifts in one week: Google's standalone multi-agent desktop + SDK at I/O 2026, Microsoft open-sourcing agentic-AI safety testing (RAMPART + Clarity), and xAI entering the CLI-agent race with **Grok Build** on `grok-code-fast-1`. Major / Anthropic-Google-Microsoft / xAI all show up with agent platforms within the same 8-day window.
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 ---
 
