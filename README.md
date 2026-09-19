@@ -2256,3 +2256,7 @@ Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 *Last updated: September 13, 2026*
 
 </div>
+
+## 🌏 Southeast Asia Resources
+
+- [AI Agents in Southeast Asia: A Beginner's Guide for E-commerce Sellers](https://blog.akkhalin.tech/the-beginners-guide-to-ai-agents-for-e-commerce-sellers-in-southeast-asia/) - How SEA e-commerce sellers on Shopee, Lazada, and Facebook Shop are deploying AI agents for customer support and order automation
