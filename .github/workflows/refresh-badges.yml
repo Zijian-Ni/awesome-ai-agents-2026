@@ -1,0 +1,52 @@
+name: Refresh Repository Status
+
+# Archival metadata can be automated. A date badge must only advance after
+# a maintainer verifies content, never merely because the calendar changed.
+on:
+  schedule:
+    - cron: "0 5 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Flag confirmed archived catalogue entries in all languages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/refresh_repository_status.py --write --report artifacts/archived.md
+      - name: Recompute counts and validate translations
+        run: |
+          python3 scripts/refresh_counts.py --write
+          python3 scripts/sync_audit.py
+          python3 scripts/check_markdown.py
+          python3 scripts/freshness_audit.py
+      - name: Retain status evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: repository-status
+          path: artifacts/
+      - name: Open PR if content changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: chore/auto-refresh
+          commit-message: "chore: refresh repository archival status (en/zh/ja)"
+          title: "chore: refresh repository archival status (en/zh/ja)"
+          body-path: artifacts/archived.md
+          labels: |
+            automation
+            maintenance
+          add-paths: |
+            README.md
+            README.zh-CN.md
+            README.ja.md

@@ -1,0 +1,78 @@
+name: Link Check
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "README*.md"
+      - "scripts/check_links.py"
+      - ".github/workflows/link-check.yml"
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check all content URLs
+        id: links
+        # Definite 404/410 responses fail this step. Access blocks/transport
+        # errors remain visible in the report and must not be called verified.
+        run: python3 scripts/check_links.py --report artifacts/link-report.json
+      - name: Publish reachability summary
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          report = Path('artifacts/link-report.json')
+          if report.exists():
+              data = json.loads(report.read_text())
+              print('## HTTP reachability (not factual verification)\n')
+              print(' | '.join(f'{v} {k}' for k, v in data['summary'].items()))
+              print('\nBLOCKED and ERROR URLs remain unverified. Download the report for every URL, redirect and source location.')
+          else:
+              print('Link report unavailable; inspect the failed step.')
+          PY
+      - name: Retain full link evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: artifacts/link-report.json
+      - name: Open or update one issue for confirmed broken links
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+          report = Path('artifacts/link-report.json')
+          if not report.exists():
+              raise SystemExit(0)
+          data = json.loads(report.read_text())
+          dead = [row for row in data['results'] if row['status'] == 'DEAD']
+          if not dead:
+              raise SystemExit(0)
+          title = '🔗 Broken links detected (link-check job)'
+          body = ['Confirmed HTTP 404/410 responses after a GET request.', '',
+                  'Access blocks and connection errors remain unverified in the workflow artifact.', '']
+          body += [f"- [{row['code']}] {row['url']} ({row['locations'][0]['file']}:{row['locations'][0]['line']})" for row in dead]
+          path = Path('artifacts/broken-links.md')
+          path.write_text('\n'.join(body)+'\n', encoding='utf-8')
+          existing = json.loads(subprocess.check_output(['gh', 'issue', 'list', '--state', 'open', '--search', title, '--json', 'number,title'], text=True))
+          match = next((issue for issue in existing if issue['title'] == title), None)
+          command = ['gh', 'issue', 'edit', str(match['number'])] if match else ['gh', 'issue', 'create', '--title', title, '--label', 'maintenance']
+          subprocess.run(command + ['--body-file', str(path)], check=True)
+          PY

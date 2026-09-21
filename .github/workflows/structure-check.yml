@@ -1,0 +1,50 @@
+name: Structure Check
+
+# Structural parity, valid Markdown, computed counts and regression checks.
+# The freshness registry catches known stale recommendations; passing it does
+# not certify every model fact or current provider availability.
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "README.zh-CN.md"
+      - "README.ja.md"
+      - "scripts/**"
+      - ".github/workflows/structure-check.yml"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "README.zh-CN.md"
+      - "README.ja.md"
+      - "scripts/**"
+      - ".github/workflows/structure-check.yml"
+  workflow_dispatch:
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: en/zh/ja lockstep audit
+        run: python3 scripts/sync_audit.py
+
+      - name: Markdown structure check
+        run: python3 scripts/check_markdown.py
+
+      - name: Recommendation freshness audit
+        run: python3 scripts/freshness_audit.py
+
+      - name: Verify advertised counts
+        run: python3 scripts/refresh_counts.py
+
+      - name: Maintenance regression checks
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'

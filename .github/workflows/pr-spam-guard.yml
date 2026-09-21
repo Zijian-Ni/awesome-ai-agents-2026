@@ -1,0 +1,83 @@
+name: PR Spam Guard
+
+# Surfaces parallel-blast PR patterns to maintainers as a comment on every
+# incoming pull request. Does not auto-close — judgment stays with humans.
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Audit submitter
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const author = context.payload.pull_request.user.login;
+            const prTitle = context.payload.pull_request.title;
+            const prBody  = context.payload.pull_request.body || '';
+
+            // 1. Look up author profile age + activity
+            const { data: user } = await github.rest.users.getByUsername({ username: author });
+            const accountAgeDays = Math.floor((Date.now() - new Date(user.created_at)) / 86400000);
+
+            // 2. Search for the same author's open + closed PRs across GitHub
+            const { data: search } = await github.rest.search.issuesAndPullRequests({
+              q: `author:${author} type:pr`,
+              per_page: 100,
+              sort: 'created',
+              order: 'desc',
+            });
+            const recentPRs = search.items.filter(i => {
+              const ageDays = (Date.now() - new Date(i.created_at)) / 86400000;
+              return ageDays <= 14;
+            });
+            const awesomePRs = recentPRs.filter(i => /awesome/i.test(i.repository_url));
+
+            // 3. Check whether THIS PR's title was used elsewhere recently (blast pattern)
+            const titleWords = prTitle.replace(/[^\w\s]/g, ' ').split(/\s+/).filter(w => w.length >= 4);
+            const titleSig = titleWords.slice(0, 3).join(' ');
+            const titleHits = await github.rest.search.issuesAndPullRequests({
+              q: `${titleSig} author:${author} type:pr`,
+              per_page: 50,
+            }).catch(() => ({ data: { items: [] } }));
+
+            // 4. Build report
+            const flags = [];
+            if (accountAgeDays < 60)        flags.push(`🚨 Account is only **${accountAgeDays} days old**`);
+            if (user.followers === 0)       flags.push(`⚠️ Account has **0 followers**`);
+            if (recentPRs.length > 8)       flags.push(`⚠️ Submitter has **${recentPRs.length} PRs in the last 14 days**`);
+            if (awesomePRs.length > 3)      flags.push(`🚨 Same submitter opened **${awesomePRs.length} PRs to awesome-* lists in 14 days**`);
+            if (titleHits.data.items.length > 3)
+              flags.push(`🚨 Identical title submitted to **${titleHits.data.items.length} repos** by the same author`);
+
+            const blastList = awesomePRs.map(p => `- [${p.title}](${p.html_url}) — \`${p.state}\``).join('\n');
+
+            const body = [
+              `### 🛂 PR Spam Guard report`,
+              ``,
+              `**Submitter:** \`@${author}\` — account age **${accountAgeDays} days**, ${user.followers} followers, ${user.public_repos} public repos.`,
+              ``,
+              flags.length === 0
+                ? `✅ No automated red flags detected.`
+                : `**Automated red flags:**\n${flags.map(f => `- ${f}`).join('\n')}`,
+              ``,
+              awesomePRs.length > 0
+                ? `**Recent PRs to awesome-\\* lists by this submitter (last 14 days):**\n\n${blastList}`
+                : '',
+              ``,
+              `_This is an advisory. Maintainer judgement is required to merge or close._`,
+            ].filter(Boolean).join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body,
+            });

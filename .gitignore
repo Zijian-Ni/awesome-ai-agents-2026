@@ -1,0 +1,10 @@
+# Raw verification notes from maintenance runs.
+# These are working scratch files (fetched page excerpts, HF API dumps,
+# per-category research reports) used to check claims before they go into the
+# READMEs. They are intentionally not published: they contain long verbatim
+# quotes from third-party pages and go stale within days.
+.research/
+__pycache__/
+
+# Generated maintenance reports are uploaded as CI artifacts.
+artifacts/

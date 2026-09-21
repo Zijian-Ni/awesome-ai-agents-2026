@@ -1,0 +1,5 @@
+# Optional lychee runs: skip only non-content badge/analytics endpoints.
+# The active Link Check workflow uses scripts/check_links.py and reports
+# blocked or unreachable vendor pages as unverified instead of excluding them.
+^https?://(img\.)?shields\.io/
+^https?://api\.star-history\.com/
