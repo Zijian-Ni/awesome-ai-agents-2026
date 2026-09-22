@@ -721,6 +721,7 @@
 - [Nevermined + LangChain payment cookbook](https://www.langchain.com/blog/agents-that-pay-how-nevermined-empowers-langchain-agents-to-buy-and-sell-services) - 🆕 **2026-09-03**：支出ポリシー付き委任カード決済と LangSmith 決済トレースを示す公式連携例。
 - [x402](https://github.com/x402-foundation/x402) - 有料 API とエージェントサービス向けのオープン HTTP 決済プロトコルとリファレンス実装。 ![GitHub stars](https://img.shields.io/github/stars/x402-foundation/x402?style=flat-square)
 - [AP2 (Agent Payments Protocol)](https://github.com/google-agentic-commerce/AP2) - Google 主導のエージェント決済相互運用プロトコル。A2A 通信プロトコルとは別プロジェクト。
+- [x402nano / exact](https://github.com/x402nano/exact) - Nano（XNO）の固定額支払い向け x402 exact スキームの実装。有料エージェント API 向けの手数料ゼロのオンチェーン決済手段。
 - [minia2a](https://minia2a.uk) - ⚠️ **Unverified**（独立した採用実績は未確認）。x402 で呼び出しごとに Base 上の USDC を支払う Agent API 市場。ウォレット認証と設定可能な支出上限を備え、利用統計は運営者の自己申告。
 - [Cog Depot](https://cogdepot.com) - ⚠️ **Unverified**（初期の自己推薦で独立した採用実績は未確認）。REST と MIT の [MCP クライアント](https://github.com/cogdepot/mcp-server)で募集検索、交渉、相手紹介を行う市場。仲介手数料のエスクローと取引代金の保全は別。
 - [MCPize](https://mcpize.com) - 🆕 MCP サーバー収益化プラットフォーム —— 開発者へ **85% 収益分配**。
