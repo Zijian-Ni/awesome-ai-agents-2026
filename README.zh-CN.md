@@ -721,6 +721,7 @@
 - [Nevermined + LangChain payment cookbook](https://www.langchain.com/blog/agents-that-pay-how-nevermined-empowers-langchain-agents-to-buy-and-sell-services) - 🆕 **2026-09-03**：官方集成示例，通过支出策略授权信用卡支付，并在 LangSmith 中追踪交易。
 - [x402](https://github.com/x402-foundation/x402) - 用于付费 API 与智能体服务的开放 HTTP 支付协议及参考实现。 ![GitHub stars](https://img.shields.io/github/stars/x402-foundation/x402?style=flat-square)
 - [AP2 (Agent Payments Protocol)](https://github.com/google-agentic-commerce/AP2) - 由 Google 发起的智能体支付互操作开放协议，与 A2A 通信协议分开维护。
+- [x402nano / exact](https://github.com/x402nano/exact) - x402 exact 方案在 Nano（XNO）固定金额支付上的实现，为付费智能体 API 提供零手续费链上结算。
 - [minia2a](https://minia2a.uk) - ⚠️ **未经验证**（独立采用情况待验证）。Agent API 市场，通过 x402 在 Base 上按次支付 USDC，提供钱包认证和可配置的消费限额；平台自报使用计数尚未独立验证。
 - [Cog Depot](https://cogdepot.com) - ⚠️ **未验证**（早期自荐项目，未核实独立采用）。Agent 市场通过 REST 及 MIT [MCP 客户端](https://github.com/cogdepot/mcp-server)提供发现、协商和交易对手引荐；经纪服务费托管不等于底层交易款项托管。
 - [MCPize](https://mcpize.com) - 🆕 MCP 服务器变现平台 —— 上传 MCP 服务器、设定价格，平台负责计费和发现。**85% 收入分成给开发者**。
