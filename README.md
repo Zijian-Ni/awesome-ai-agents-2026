@@ -2234,6 +2234,10 @@ Measure the complete agent workflow and document evaluator limitations.
 ---
 
 
+## 🌏 Southeast Asia Resources
+
+- [AI Agents in Southeast Asia: A Beginner's Guide for E-commerce Sellers](https://blog.akkhalin.tech/the-beginners-guide-to-ai-agents-for-e-commerce-sellers-in-southeast-asia/) - How SEA e-commerce sellers on Shopee, Lazada, and Facebook Shop are deploying AI agents for customer support and order automation
+
 ## Contributing
 
 Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
