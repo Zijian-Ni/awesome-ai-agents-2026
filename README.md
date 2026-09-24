@@ -1464,6 +1464,7 @@ Budget additional space for quantization scales, unquantized tensors, runtime bu
 | --- | --- | --- | --- |
 | [Mem0](https://github.com/mem0ai/mem0) | Persistent memory with vector/graph integrations | Library / managed platform | Apache-2.0 |
 | [Basic Memory](https://github.com/basicmachines-co/basic-memory) | Markdown-based knowledge and MCP access | Local / self-host | AGPL-3.0 |
+| [Vestige](https://github.com/samvallad33/vestige) | Memory system for coding agents: backfill ranks earlier records as candidate causes of fresh failures, composed-graph reasoning events surface never-tried combinations, FSRS-6 decay, fail-closed receipts | Local / self-host; single Rust binary via npm, Homebrew, or MCPB | AGPL-3.0 |
 | [Graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graph | Self-host; backing databases required | Apache-2.0 |
 | [Zep](https://github.com/getzep/zep) | Managed agent context; repository contains SDKs/examples | Cloud; old Community Edition deprecated | Service and SDK terms differ |
 | [Memary](https://github.com/kingjulio8238/Memary) | Experimental agent memory | Stale; last repository push 2024-10 | MIT |
