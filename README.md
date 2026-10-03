@@ -1169,7 +1169,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [HelloTwin Digital Authority](https://siliconangle.com/2026/06/24/hellotwin-launches-digital-authority-bring-governed-ai-agents-enterprise/) - **June 2026**. AI twin designed as a single, auditable source of truth to govern agentic workflows with clear boundaries.
 - [Hellomatik](https://hellomatik.com) - 💰 ⚠️ **Freemium / Unverified**. AI agent platform that turns a company's knowledge base into agents that answer, sell, and book across WhatsApp, email, and web. Integrations: Shopify, Stripe, Sage. Claimed 25–30% chat-to-sale conversion.
 - [OpenAI Presence](https://openai.com/) - 🆕 **July 22, 2026**. OpenAI's enterprise agent deployment platform — enables businesses to deploy AI agents at scale for customer service and operations. Claimed 75% of phone support interactions handled without human escalation.
-- **[Hivemeld](https://hivemeld.ai?utm_source=zijian-awesome&utm_medium=awesome-list&utm_campaign=GRO-089)** 💰 — SaaS AI agent workforce platform. Deploy named agents across engineering, marketing, support, and finance. Built-in backlog, CRM, wiki, analytics, and Discord integration. 1,000+ tasks completed in production. $199/mo or $1,990/yr annual. ([buy →](https://hivemeld.ai/buy?plan=annual&utm_source=zijian-awesome&utm_medium=awesome-list&utm_campaign=GRO-089))
+- **[Hivemeld](https://hivemeld.ai)** 💰 — SaaS AI agent workforce platform. Deploy named agents across engineering, marketing, support, and finance. Built-in backlog, CRM, wiki, analytics, and Discord integration. 2,600+ tasks completed in production. $199/mo.
 
 ## 📊 Agent Evaluation & Observability
 
