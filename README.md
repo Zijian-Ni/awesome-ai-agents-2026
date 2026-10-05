@@ -1059,6 +1059,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 ## 🗣️ Voice & Multimodal Agents
 
 *Voice-enabled and multimodal AI agent platforms.*
+- [AI Group Call](https://aigroupcall.app) - An AI council you can talk to: a group voice call where agents riff with each other, answer when named, and yield when you speak.
 
 - [ByteDance Seedance 2.5](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) - 🆕 **July 31, 2026**. First large-scale AI video generation model supporting single-shot 30-second audio+video synthesis with multi-round extensions; up to **30 images + 10 video clips + 10 audio clips** as multi-modal reference input in a single pass; local video editing. Rolling out on Jimeng AI and Doubao Pro; API via BytePlus ModelArk pre-release.
 - [xAI Grok Voice Think Fast 2.0](https://x.ai/) - 🆕 **2026-07-29** (`grok-voice-latest` auto-upgraded from 2026-08-05). Next-gen speech-to-speech: first-byte audio latency **1.25s → 0.70s**; transcription accuracy +1.4× across 24 languages; reasoning token usage −60%; $0.08/min.
