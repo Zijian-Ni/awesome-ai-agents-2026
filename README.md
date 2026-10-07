@@ -1652,6 +1652,7 @@ Detection is a defense layer, not an isolation boundary or a guarantee that mali
 | [OSWorld](https://github.com/xlang-ai/OSWorld) | Computer-use benchmark and execution environment | Evaluation infrastructure; not a consumer desktop agent |
 | [NeMo Agent Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | Agent workflow profiling, evaluation, and integrations | General toolkit; not a desktop-control model |
 | [Screenpipe](https://github.com/screenpipe/screenpipe) | Local screen recording and context for agents | Recording/memory layer; configure downstream model access |
+| [OpenAmer](https://github.com/openamer/openamer) | Windows-native agent that drives the real desktop in the background — filesystem, terminal, GUI and browser via the Chrome DevTools Protocol — plus a local peer mesh (A2A) for multi-instance work | Windows; fully local, no hosted backend |
 
 ---
 
