@@ -73,34 +73,59 @@ ADVISORY_END_EMOJI = "🌟"     # Notable Agent Projects of 2026
 SUPERSEDED: dict[str, dict] = {
     # --- Anthropic -------------------------------------------------------
     "Claude Opus 4.7": {
-        "replacement": "Claude Opus 5 (Jul 24, 2026 — $5/$25, 1M ctx) "
-                       "or Claude Fable 5 for Mythos-class work",
+        "replacement": "Claude Opus 5.5 (Sep 22, 2026 — $4/$20, 1M ctx) "
+                       "or Claude Fable 5.1 for Mythos-class work",
         "since": "2026-07-24",
     },
     "Claude Opus 4.6": {
-        "replacement": "Claude Opus 5",
+        "replacement": "Claude Opus 5.5",
         "since": "2026-05-28",
     },
     "Claude Sonnet 4.6": {
-        "replacement": "Claude Sonnet 5; consult the current official pricing table",
+        "replacement": "Claude Sonnet 5.5; consult the current official pricing table",
         "since": "2026-06-30",
+    },
+    "Claude Opus 5": {
+        "replacement": "Claude Opus 5.5 (Sep 22, 2026 — $4/$20) or Claude Fable 5.1",
+        "since": "2026-09-22",
+        "allow_regex": r"legacy|previous|📦|旧|以前|レガシー",
+    },
+    "Claude Sonnet 5": {
+        "replacement": "Claude Sonnet 5.5 (Sep 28, 2026 — $2/$10)",
+        "since": "2026-09-28",
+        "allow_regex": r"legacy|previous|📦|旧|以前|レガシー",
+    },
+    "Claude Haiku 4.5": {
+        "replacement": "Claude Haiku 5.5 (Oct 7, 2026); migrate budget_tokens code",
+        "since": "2026-10-07",
+        "allow_regex": r"legacy|previous|📦|旧|以前|レガシー",
     },
     # --- OpenAI ----------------------------------------------------------
     "GPT-4o": {
-        "replacement": "GPT-5.6 Terra (balanced) or GPT-5.6 Luna (cheap/fast)",
+        "replacement": "GPT-6 Sol (balanced) or GPT-6 Luna (cheap/fast)",
         "since": "2026-02-01",
         # GPT-4o is legitimately named in Anti-Picks and as the retired-but-
         # still-on-API legacy tier.
         "allow_regex": r"legacy|retired|deprecat|Anti-Pick|❌|不推荐|非推奨",
     },
     "GPT-4o-mini": {
-        "replacement": "GPT-5.6 Luna",
+        "replacement": "GPT-6 Luna",
         "since": "2026-02-01",
         "allow_regex": r"legacy|retired|deprecat|❌|不推奨|遗留|レガシー",
     },
     "GPT-5.5": {
-        "replacement": "GPT-5.6 (Sol / Terra / Luna)",
+        "replacement": "GPT-6.1 Sol / GPT-6 Sol / GPT-6 Luna",
         "since": "2026-07-09",
+    },
+    "GPT-5.6 Sol": {
+        "replacement": "GPT-6.1 Sol (Sep 29, 2026) or GPT-6 Sol",
+        "since": "2026-09-22",
+        "allow_regex": r"legacy|previous|📦|旧|以前|レガシー",
+    },
+    "GPT-5.6 Luna": {
+        "replacement": "GPT-6 Luna (Sep 22, 2026 — $0.10/$0.50)",
+        "since": "2026-09-22",
+        "allow_regex": r"legacy|previous|📦|旧|以前|レガシー",
     },
     # --- Google ----------------------------------------------------------
     "Gemini 2.5 Pro": {
@@ -115,11 +140,23 @@ SUPERSEDED: dict[str, dict] = {
         "replacement": "Gemini 3.5 Flash-Lite; consult the official model catalogue",
         "since": "2026-05-08",
     },
+    # --- xAI -------------------------------------------------------------
+    "Grok 4.6": {
+        "replacement": "Grok 4.7 (Sep 21, 2026 — same $2/$6 base pricing)",
+        "since": "2026-09-21",
+        "allow_regex": r"legacy|previous|📦|旧|以前|レガシー",
+    },
     # --- DeepSeek --------------------------------------------------------
     "DeepSeek V3.2": {
-        "replacement": "DeepSeek V4-Flash or V4-Pro; consult current peak/off-peak pricing",
+        "replacement": "DeepSeek V4.1-Flash; consult current peak/off-peak pricing",
         "since": "2026-04-24",
         "allow_regex": r"deprecat|退役|廃止|superseded",
+    },
+    "DeepSeek V4-Flash": {
+        "replacement": "DeepSeek V4.1-Flash (`deepseek-flash`, Sep 10, 2026); "
+                       "the V4-Flash aliases are temporarily routed to it",
+        "since": "2026-09-10",
+        "allow_regex": r"retired|routed|退役|廃止|superseded|路由|ルーティング",
     },
 }
 
@@ -200,6 +237,16 @@ def antipick_recommendation_part(line: str) -> str:
     return cells[2] if len(cells) >= 3 else ""
 
 
+def mentions_model(model: str, text: str) -> bool:
+    """True if `text` names `model` itself, not a later point release.
+
+    "Claude Opus 5" must not match "Claude Opus 5.5", and "GPT-6 Sol" must not
+    match "GPT-6.1 Sol"; a plain substring test would flag every successor.
+    """
+    pattern = re.escape(model).replace(r"\ ", r"[ -]") + r"(?!\.?\d)"
+    return re.search(pattern, text) is not None
+
+
 def find_advisory_zone(lines: list[str]) -> tuple[int, int]:
     """Return (start, end) line indices of the advisory zone."""
     start = end = None
@@ -247,7 +294,7 @@ def audit_file(path: Path) -> list[str]:
             continue
 
         for model, meta in SUPERSEDED.items():
-            if model not in haystack:
+            if not mentions_model(model, haystack):
                 continue
             allow = meta.get("allow_regex")
             if allow and re.search(allow, line, re.IGNORECASE):

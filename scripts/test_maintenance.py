@@ -9,6 +9,7 @@ from unittest.mock import patch
 
 import check_links
 import check_markdown
+import freshness_audit
 import refresh_counts
 import refresh_repository_status
 import sync_audit
@@ -84,6 +85,22 @@ class CatalogueChecks(unittest.TestCase):
     def test_repository_scan_excludes_github_product_routes(self):
         text = '- [Copilot](https://github.com/features/copilot) - Product.\n- [Tool](https://github.com/org/tool) - Repository.\n'
         self.assertEqual(refresh_repository_status.listed_repos(text), {'org/tool'})
+
+
+class FreshnessChecks(unittest.TestCase):
+    def test_superseded_name_does_not_match_point_release(self):
+        self.assertTrue(freshness_audit.mentions_model('Claude Opus 5', 'use **Claude Opus 5** today'))
+        self.assertFalse(freshness_audit.mentions_model('Claude Opus 5', 'use **Claude Opus 5.5** today'))
+        self.assertFalse(freshness_audit.mentions_model('GPT-5.6 Sol', 'GPT-5.6.1 Sol preview'))
+        self.assertTrue(freshness_audit.mentions_model('Grok 4.6', 'Grok 4.6 Fast'))
+
+    def test_advisory_zone_flags_superseded_recommendation(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)/'README.md'
+            path.write_text('## 📝 Compare\n\n→ Use **Claude Sonnet 5** as a baseline.\n\n## 🌟 Notable\n')
+            self.assertTrue(any('Claude Sonnet 5' in p for p in freshness_audit.audit_file(path)))
+            path.write_text('## 📝 Compare\n\n→ Use **Claude Sonnet 5.5** as a baseline.\n\n## 🌟 Notable\n')
+            self.assertEqual(freshness_audit.audit_file(path), [])
 
 
 if __name__ == '__main__':
