@@ -6,10 +6,10 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-September%208%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-910%2B-orange.svg)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-October%208%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-940%2B-orange.svg)](#)
 [![Categories](https://img.shields.io/badge/Categories-25-purple.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--09--08-success.svg)](#️-status-legend)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--10--08-success.svg)](#️-status-legend)
 [![Chinese](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
 [![Japanese](https://img.shields.io/badge/Lang-日本語-purple.svg)](README.ja.md)
 
@@ -50,7 +50,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 > 5. ⚠️ **Avoid common mistakes** → [Anti-Picks](#️-anti-picks--what-not-to-use-for)
 >
 > **Already building?** Jump to:
-> - 🆕 [Latest additions (September 2026)](#-2026-ai-timeline) • 🛡️ [Security](#️-agent-security) • 💰 [Cost comparison](#-foundation-models--api-cost--context)
+> - 🆕 [Latest additions (October 2026)](#-2026-ai-timeline) • 🛡️ [Security](#️-agent-security) • 💰 [Cost comparison](#-foundation-models--api-cost--context)
 
 ---
 
@@ -60,7 +60,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 | Category | Description | Count |
 |----------|-------------|-------|
-| [🧠 Foundation Models](#-foundation-models-2026) | Latest LLMs from OpenAI, Anthropic, Google, Meta, and 22+ providers | 230+ |
+| [🧠 Foundation Models](#-foundation-models-2026) | Latest LLMs from OpenAI, Anthropic, Google, Meta, and 22+ providers | 245+ |
 | [🎨 Multimodal & Generative AI](#-multimodal--generative-ai) | Image, video, audio, and music generation | 60+ |
 | [🔗 Agent Protocols](#-agent-protocols--standards) | MCP, A2A, and interoperability standards | 20+ |
 | [🏗️ Agent Frameworks](#️-agent-frameworks) | Libraries for building autonomous AI agents | 55+ |
@@ -69,7 +69,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 | [🔌 Tool & API Integration](#-tool--api-integration) | Connecting agents to external services | 25+ |
 | [💱 Agent Economy & Marketplaces](#-agent-economy--marketplaces) | Where agents pay, get paid, and discover services | 10+ |
 | [🧪 Sandboxing & Compute Isolation](#-agent-sandboxing--compute-isolation) | Secure runtimes for agent-generated code | 10+ |
-| [🛡️ Agent Security](#️-agent-security) | Prompt injection defense and guardrails | 35+ |
+| [🛡️ Agent Security](#️-agent-security) | Prompt injection defense and guardrails | 40+ |
 | [🔍 RAG & Knowledge](#-rag--knowledge) | Retrieval-augmented generation systems | 20+ |
 | [💻 Coding Agents](#-coding-agents) | AI-powered software engineering | 55+ |
 | [🤖 Physical AI](#-physical-ai--embodied-agents) | Humanoid robots, embodied AI, industrial automation | 45+ |
@@ -133,8 +133,12 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 *Selected current and historical foundation models, organized by provider. Model cards, API availability and weight licenses can differ; dated entries preserve release history.*
 
 ### OpenAI
+- [GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/) - 🆕 **September 29, 2026 (DevDay)**. Upgrade to GPT-6 Sol for agentic coding, computer use and professional work; API model `gpt-6.1-sol` ($2/$10 per million input/output tokens, 1.05M context, 128K output) and ChatGPT Work/Codex on paid plans. OpenAI positions it near GPT-6 Astra at one-fifth of Astra's token prices; the benchmark comparisons are vendor-reported.
+- [GPT-6 Sol / GPT-6 Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna/) - 🆕 **September 22, 2026**. Mid and efficiency tiers of GPT-6; API IDs `gpt-6-sol` ($2/$10) and `gpt-6-luna` ($0.10/$0.50 per million input/output tokens), half the earlier GPT-5.6 Sol/Luna rates. They launched in ChatGPT Work and Codex first; [from October 7–8](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) Chat uses Sol on paid plans and Luna on Free/Go.
+- [OpenAI Agents API](https://openai.com/index/introducing-the-agents-api/) - 🆕 **September 10, 2026 (public beta)**. Hosted agent runtime built on the open-source Codex harness: one API call sets the task, model, tools and environment (OpenAI-hosted, self-managed or partner sandboxes such as E2B, Daytona, Modal and Vercel), with subagents, MCP tools and automatic context compaction. Computer use was added at DevDay; there is no separate fee beyond tokens and tools.
+- [OpenAI DevDay 2026 — Dots, ChatGPT Space, Ultrafast](https://openai.com/index/devday-2026-recap/) - 🆕 **September 29, 2026**. Dots are always-on agents with connected apps and a cloud computer, rolling out to eligible Pro and Business Premium users (Enterprise/Edu beta, off by default; Pro excludes the EEA, Switzerland and the UK at launch). OpenAI also announced ChatGPT Space and Pages, a limited-preview Decisions API, plugin extensions, MCP events for plugin automations (based on a proposed spec), Sign in with ChatGPT and a Pro 500 plan with GPT-6 Astra Ultrafast.
 - [GPT-Live-1 / GPT-Live-1 mini](https://openai.com/index/introducing-gpt-live/) - 🆕 **July 8, 2026**. OpenAI's full-duplex conversational voice model replacing Advanced Voice Mode. **ChatGPT-only — not exposed as an API model**; for programmatic realtime voice use `gpt-realtime-2.1`, and for streaming transcription `gpt-live-transcribe` ($0.017/min). Listens and speaks simultaneously, handles interruptions, delegates complex queries to GPT-5.5 in the background while keeping the conversation flowing. **GPT-Live-1** is default for paid users (Go/Plus/Pro); **GPT-Live-1 mini** is default for free users. Includes real-time live translation. Available on iOS, Android, and web.
-- [GPT-6 Astra / Astra Pro](https://openai.com/index/gpt-6-astra/) - 🆕 **September 3, 2026**. Introduced for demanding reasoning, coding and computer use; [limited organizational rollout, not yet generally available](https://help.openai.com/en/articles/6825453-chatgpt-release-notes), so verify account access separately from the published API model card.
+- [GPT-6 Astra / Astra Pro](https://openai.com/index/gpt-6-astra/) - 🆕 **September 3, 2026**. Introduced for demanding reasoning, coding and computer use; [limited organizational rollout, not yet generally available](https://help.openai.com/en/articles/6825453-chatgpt-release-notes), so verify account access separately from the published API model card. The [API model page](https://developers.openai.com/api/docs/models/gpt-6-astra) now lists rate limits for paid usage tiers (not Free), and an Astra Ultrafast tier arrived on **September 29** for Pro 500 and Enterprise.
 - [GPT-5.6 Sol](https://openai.com/blog/gpt-5-6) - GPT-5.6-family model for reasoning, coding and tool-based work. Standard API input/output pricing is $4/$20 per million tokens at this review; consult the [pricing table](https://developers.openai.com/api/docs/pricing) for long-context tiers, caching and service-tier differences.
 - [GPT-5.6 Terra](https://openai.com/blog/gpt-5-6) - 🆕 **July 9, 2026**. Mid-tier model in the GPT-5.6 family offering GPT-5.5-parity performance at approximately 2× lower cost. Designed for cost-efficient production workloads.
 - [GPT-5.6 Luna](https://openai.com/blog/gpt-5-6) - 🆕 **July 9, 2026**. The fastest and most cost-efficient tier of GPT-5.6 — optimised for high-volume, speed-critical tasks.
@@ -174,7 +178,11 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Anthropic
 
-- [Claude Haiku 4.5](https://platform.claude.com/docs/en/models/overview) - Low-latency Claude tier with a 200K context window and 64K maximum output; current alongside Sonnet 5, Opus 5 and Fable 5.1.
+- [Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) - 🆕 **October 7, 2026**. Small Claude tier (`claude-haiku-5-5`) with 1M context, 128K output and the effort parameter; $0.10/$0.50 per million input/output tokens for prompts up to 100K and $0.50/$2.50 above. Migration note: `budget_tokens` returns a 400 and adaptive thinking is on by default ([release notes](https://platform.claude.com/docs/en/release-notes/overview)).
+- [Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5) - 🆕 **September 28, 2026**. `claude-sonnet-5-5` at $2/$10 per million input/output tokens with 1M context; Anthropic reports over 30% faster output and up to 30% lower cost per task than Sonnet 5. Forced tool use (`tool_choice` `any`/`tool`) returns a 400, so test migrations from Sonnet 5.
+- [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) - 🆕 **September 22, 2026**. `claude-opus-5-5` at $4/$20 per million input/output tokens with 1M context and 128K output; Anthropic says it costs about 40% less than Opus 5 on typical workloads and approaches Fable 5.1 on most work, while GPT-6 Astra leads some of its published comparisons. Thinking cannot be disabled; Fast mode is a research preview.
+- [Claude — Cowork in any conversation](https://support.claude.com/en/articles/12138966-release-notes) - 🆕 **September 16, 2026**. Cowork tasks, projects, connectors and skills become available from any conversation (gradual rollout on Pro/Max), and designs, decks and docs can be created on every plan, including Free; on Enterprise these are off until an owner enables them.
+- [Claude Haiku 4.5](https://platform.claude.com/docs/en/models/overview) - Low-latency Claude tier with a 200K context window and 64K maximum output; superseded as the small tier by Haiku 5.5 on October 7, 2026.
 - [Claude Fable 5.1 / Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) - 🆕 **September 1, 2026**. Fable 5.1 is generally available (`claude-fable-5-1`); Mythos 5.1 uses the same model with different safeguards and remains limited to approved US organizations.
 - [Claude text watermarking + content credentials](https://www.anthropic.com/news/claude-text-watermark) - 🆕 **August 14, 2026**. Anthropic adds invisible **SynthID-Text-based watermarking** (Google DeepMind's method) to future Claude models globally at launch, plus C2PA content credentials on generated images/files (.png/.jpg/.svg); models released before August 2, 2026 get it "over the coming months", and a detection API is coming. Implemented to comply with the EU AI Act after Anthropic signed the EU transparency Code of Practice in July. Anthropic says watermarked text is indistinguishable to readers.
 - [Claude Opus 5](https://www.anthropic.com/news/claude-opus-5) - 🆕 **July 24, 2026**. Anthropic's fifth-generation flagship — nears Fable 5 performance at a significantly lower price ($5/$25 per million input/output tokens). 1M-token context window, 128K output tokens. Now the default model on Claude Max. API: `claude-opus-5`. Available on Anthropic API, Amazon Bedrock, and Google Cloud Vertex AI.
@@ -189,7 +197,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Claude Mythos Preview](https://www.anthropic.com/) - April 2026 gated research preview. BenchLM 99 (top of leaderboard), SWE-bench Verified 93.9%. Limited to Project Glasswing partners.
 - [Claude Opus 4](https://www.anthropic.com/news/claude-4) - Released May 2025. Advanced reasoning and complex task execution.
 - [Claude Sonnet 4](https://www.anthropic.com/news/claude-4) - Released May 2025. Balanced performance and cost for a wide range of tasks.
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic coding tool operating directly in your terminal. Powered by Opus 4.7 with `/think xhigh` support. **July 2026**: desktop app gains a **built-in browser** enabling live website interaction (scraping, debugging, live-page inspection); Fable 5 model available since July 1.
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic coding tool operating directly in your terminal. Model options follow the current Claude lineup (Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.1); earlier Opus 4.7 `/think xhigh` guidance is historical. **July 2026**: desktop app gains a **built-in browser** enabling live website interaction (scraping, debugging, live-page inspection); Fable 5 model available since July 1.
 - [Claude Security](https://www.anthropic.com/) - **May 1, 2026**. Public beta. Enterprise security tool powered by Opus 4.7 — scans entire codebases for vulnerabilities and generates targeted patches with confidence rating, severity, reproduction steps, and recommended fixes. Available to Enterprise customers via [claude.ai/security](https://claude.ai/security).
 - [Claude Finance Agents](https://www.anthropic.com/news/finance-agents) - **May 5, 2026**. Ten Opus-4.7-powered specialised agents for pitchbook authoring, KYC, month-end close, deal screening, etc. Deployable as Claude Cowork plugins, Claude Code skills, or Managed-Agents cookbooks.
 - [Claude Finance JV](https://www.anthropic.com/) - **May 4, 2026**. $1.5B Claude deployment joint venture with Goldman Sachs and Blackstone embedding Anthropic engineers in mid-market Wall Street firms.
@@ -207,6 +215,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Bristol Myers Squibb ↔ Anthropic Claude Enterprise](https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx) - **May 20, 2026**. BMS adopts Claude Enterprise as its shared intelligence platform for 30,000+ employees globally, embedding agentic Claude into drug-discovery / development / delivery workflows. First top-5 pharma enterprise-wide Claude deployment.
 
 ### Google DeepMind
+- [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) - 🆕 **September 30, 2026 (limited access)**. Google DeepMind's new frontier model with a 1M-token output limit; initially available only to trusted cyber defenders through the [Fairwind Program](https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/), with paid API customers and Google AI Ultra subscribers next but no date given. Announced introductory API pricing is $2/$10 per million input/output tokens, then $4/$20.
+- [Gemini 3.8 Live / Live Extended Thinking](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/) - 🆕 **September 15, 2026**. Speech-to-speech Live API models (`gemini-3.8-live`, `gemini-3.8-live-extended-thinking`), also used in Search Live, Gemini Live and Google Workspace.
+- [Gemini 3.8 Flash TTS / Flash-Lite TTS](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/) - 🆕 **September 22, 2026**. Generally available text-to-speech models with a Voices endpoint, voice design and consent-verified voice replication; Flash-Lite TTS replaces `gemini-3.1-flash-tts-preview`.
 - [Gemini 3.8 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash) - 🆕 **September 2026**. Stable `gemini-3.8-flash` supports text, image, audio, video and PDF input, 1,048,576 input tokens, 65,536 output tokens and function calling.
 - [Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) - 🆕 **August 13, 2026**. Google's new "most intelligent workhorse model" for coding and agents, shipped just three weeks after 3.6 Flash — and before the still-missing 3.5 Pro. FrontierCode 1.1 43.6% (vs 34.4% for 3.6 Flash), DeepSWE v1.1 65.3% (vs 49.0%). Introductory pricing **$0.75/$3.75 per million in/out through Dec 31, 2026** (then $1.50/$7.50). Available in AI Studio, Android Studio, Antigravity, and the Gemini Enterprise Agent Platform; powers Gemini Spark for AI Pro/Ultra subscribers.
 - [Gemini 3.6 Flash](https://github.com/google-gemini/cookbook) - 🆕 **July 21, 2026**. Google's Flash tier — stronger on complex agentic and multimodal tasks **while using fewer tokens, at a lower price point than 3.5 Flash**. API id `gemini-3.6-flash`. Documented in the official Gemini API cookbook alongside thinking-mode guides. Superseded as the top Flash tier by 3.7 Flash on August 13, 2026.
@@ -264,6 +275,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Mistral AI
 
+- [Mistral Large 4](https://mistral.ai/news/mistral-large-4) - 🆕 **October 6, 2026 (public preview)**. Natively multimodal MoE (about 1T total / 52B active parameters) combining instruct and reasoning modes, available in Mistral Studio's preview API at $1.36/$4.18 per million input/output tokens; Mistral says open weights follow at the end of October, and the licence has not yet been published.
 - [Voxtral Mini Transcribe Realtime](https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602) - Apache-2.0 open-weight model for streaming speech recognition, distinct from the Voxtral TTS generation model.
 - [Shieldstral 1.0](https://docs.mistral.ai/models/shieldstral-1-0) - 🆕 **August 4, 2026**. Apache-2.0 text/image moderation model in public preview; classifies policy questions, prompt-response pairs and refusals.
 - [Mistral OCR 4.1](https://docs.mistral.ai/models/ocr-4-1) - Document OCR service returning paragraph bounding boxes, structural block labels and confidence scores.
@@ -283,9 +295,10 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### DeepSeek
 
+- [DeepSeek-V4.1-Flash](https://api-docs.deepseek.com/news/news260910) - 🆕 **September 10, 2026**. API model `deepseek-flash`: MoE with a 552B-parameter backbone, 8B active parameters for prefill and 16B for decode, native image input, 1M context and [MIT-licensed weights](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash). Peak/off-peak cache-miss input is $0.30/$0.15 and output $1.20/$0.60 per million tokens; the retired V4-Flash names route to it. The announcement also scheduled temporary `deepseek-v4-pro` routing, but the current pricing page still maps that name to V4-Pro-0813 — verify before migrating.
 - [DeepSeek-V4-Pro-0813 (GA)](https://api-docs.deepseek.com/news/news260813) - **August 13, 2026**. Production checkpoint behind `deepseek-v4-pro`, with configurable reasoning effort and Responses API support; peak/off-peak pricing has applied since August 16.
 - [DeepSeek-V4-Pro](https://api-docs.deepseek.com/news/news260424) - **April 24, 2026 (preview); production launch mid-July 2026**. 1.6T total / 49B active MoE, 1M-token context. MIT license. Leadership in agent capabilities, world knowledge, reasoning; tops open-source benchmarks. 384K max output, 500-request concurrency. `deepseek-v4-pro` / `deepseek-v4-flash` are the production API models (V4-Pro serves the 0813 checkpoint since August 13 — see above; tiered peak/off-peak pricing from August 16, 2026).
-- [DeepSeek-V4-Flash](https://api-docs.deepseek.com/news/news260424) - April 24, 2026. 284B total / 13B active MoE, 1M context. MIT. Cost-efficient tier — from August 16, 2026: peak **$0.014 cache-hit / $0.44 cache-miss input, $1.32 output**, off-peak **$0.007 / $0.22 / $0.66** per 1M tokens; 384K max output, 2,500-request concurrency ([pricing](https://api-docs.deepseek.com/quick_start/pricing)).
+- [DeepSeek-V4-Flash](https://api-docs.deepseek.com/news/news260424) - 📦 API model retired on September 10, 2026; its names now route to V4.1-Flash. April 24, 2026. 284B total / 13B active MoE, 1M context. MIT. Cost-efficient tier — from August 16, 2026: peak **$0.014 cache-hit / $0.44 cache-miss input, $1.32 output**, off-peak **$0.007 / $0.22 / $0.66** per 1M tokens; 384K max output, 2,500-request concurrency ([pricing](https://api-docs.deepseek.com/quick_start/pricing)).
 - [DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) - 🆕 **July 31, 2026**. Updated Flash checkpoint with enhanced agentic capabilities — same 284B/13B-active MoE architecture, same pricing/API model ID, but outperforms V4-Pro (Preview) on agent task benchmarks. Open weights on Hugging Face under MIT license. Drop-in replacement for `deepseek-v4-flash` API users.
 - [DeepSeek-V4-Flash-Vision-Exp](https://api-docs.deepseek.com/news/news260821) - 🆕 **August 21, 2026**. Experimental multimodal API model (`deepseek-v4-flash-vision-exp`) that matches V4-Flash on text/agents/reasoning while jumping multimodal-agent benchmarks to near Opus-4.8. Images billed at V4-Flash rates (up to 384 tokens each); Chat Completions / Messages / Responses; base64, URL, or Files API. **Files API** launched the same day (free upload, reuse by `file_id`). DeepSeek Harness 0.1.1 shipped with day-one support.
 - [DeepSeek Agent Harness team](https://www.scmp.com/tech/big-tech/article/3354113/deepseek-recruits-former-jane-street-engineer-catch-ai-agents-revenue-race) - **May 19, 2026**. DeepSeek hires a former Jane Street engineer to lead a new "AI harness" team building the deterministic scaffolding that turns DeepSeek V4 into autonomous, revenue-generating agents — first major signal DeepSeek is moving past raw-model R&D into agentic productisation.
@@ -316,6 +329,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### xAI / SpaceXAI (Grok)
 
+- [Grok 4.7](https://docs.x.ai/docs/release-notes) - 🆕 **September 21, 2026**. `grok-4.7` on the xAI API for coding, agentic tasks and knowledge work: 500K context, text and image input, reasoning effort low–xhigh; $2/$0.50/$6 per million input/cached/output tokens below 200K prompt tokens and $4/$1/$12 above. Grok 4.7 Fast (2× rates) is offered only in Cursor and Grok Build.
 - [Grok 4.6](https://x.ai/news/grok-4-6) - **August 12, 2026**. Coding and agentic model offered through the API, Cursor and Grok Build, starting at $2 input / $6 output per million tokens; Fast costs twice as much.
 - [Grok Bot](https://docs.x.ai/docs/release-notes) - 🆕 **August 11, 2026 (early beta)**. Durable AI teammates that work on a **persistent cloud computer**, with messaging, approvals, connectors, and routines — xAI's entry into always-on autonomous agents. Available via SuperGrok Heavy, Cursor Ultra, and Cursor Teams Premium.
 - [Grok 4.5](https://x.ai/) - 🆕 **July 8, 2026**. Optimised for coding and agentic tasks through joint training with Cursor using real developer interaction data. Features a 500K-token context window, function calling, structured outputs, web/X search, code execution, document search, and context compaction. Priced at $2/$6 per million in/out tokens. EU API-console availability arrived July 17, 2026. Superseded as flagship by Grok 4.6 on August 12, 2026.
@@ -327,11 +341,12 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ### Microsoft (MAI)
 
+- [MAI-Transcribe-2-Streaming](https://microsoft.ai/news/our-first-streaming-transcription-model/) - 🆕 **October 1, 2026**. Microsoft's first streaming speech-recognition model: 60 languages with continuous language detection and first partial transcripts in about 100 ms; offered in Microsoft Foundry, MAI Playground, Vercel and Azure Voice Live at an introductory $0.54 per audio hour through year-end.
 - [MAI-Transcribe-2](https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/) - 🆕 **September 3, 2026**. Speech recognition with diarization, word timestamps, vocabulary biasing and 60-language support; promotional pricing is $0.10/audio-hour through year-end.
 - [Microsoft MAI-Code-1-Flash](https://microsoft.ai/news/introducingmai-code-1-flash/) - **Build 2026 (June 2, 2026)**. Microsoft's first major in-house foundation model built entirely without OpenAI technology. 5B-parameter coding model with adaptive thinking, rolling out in GitHub Copilot. Outperforms Claude Haiku 4.5 across four core coding benchmarks (16-point lead on SWE-Bench Pro: 51.2% vs 35.2%); solves harder tasks with up to 60% fewer tokens on SWE-Bench Verified.
 - [Microsoft MAI-Thinking-1](https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/) - **Build 2026 (June 2, 2026)**. Microsoft's first in-house reasoning model, trained from scratch without OpenAI data. Companion to MAI-Code-1-Flash; signals Microsoft's foundation-model independence push.
 - [MAI-Code-1.1-Flash](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/) - 🆕 **August 11, 2026**. Production Copilot workhorse vs the June 1.0 baseline: higher-quality code, **25% greater token efficiency**, **a quarter of the cost**; +22% Terminal-Bench 2.1, +15% on .NET tasks.
-- [MAI-Image-2.6](https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/) - 🆕 **August 10, 2026** (Arena editing update **August 18**). Microsoft's image model launched at Arena T2I #2; by Aug 18 it was Arena **image-editing #3**, ahead of Nano Banana and Muse Image (+79 Elo vs 2.5). MAI Playground + Microsoft Foundry private preview.
+- [MAI-Image-2.6](https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/) - 🆕 **August 10, 2026** (Arena editing update **August 18**). Microsoft's image model launched at Arena T2I #2; by Aug 18 it was Arena **image-editing #3**, ahead of Nano Banana and Muse Image (+79 Elo vs 2.5). MAI Playground + Microsoft Foundry private preview. **September 4, 2026**: [MAI-Image-2.6-Flash](https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/) was added and both models entered public preview in Microsoft Foundry.
 - [MAI-Cyber-1-Flash](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/) - 🆕 **August 13, 2026**. Cyber model inside MDASH; Microsoft says world-class performance at **50% of the cost** of leading models.
 
 ### Microsoft (Phi)
@@ -476,6 +491,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [MAI-Image-2.6](https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/) - 🆕 **August 10, 2026** (editing leaderboard **August 18**). Microsoft's in-house image model — Arena T2I #2 at launch, Arena image-editing #3 by Aug 18. See Foundation → Microsoft (MAI).
 - [DALL·E 3](https://developers.openai.com/api/docs/deprecations) - 📦 Historical text-to-image model; the `dall-e-3` API was retired on **May 12, 2026** and the documented replacement is the GPT Image family.
 - [Gemini 3 Pro Image (Nano Banana Pro)](https://deepmind.google/models/gemini-image/pro/) - Google's native image generation within Gemini.
+- [Nano Banana 2.1](https://ai.google.dev/gemini-api/docs/changelog) - 🆕 **October 6, 2026**. Generally available update to Nano Banana 2 (`gemini-nano-banana-2.1`) for image generation and conversational editing; `gemini-3.1-flash-image` is deprecated with no shutdown date announced yet.
 - [Nano Banana 2 (Gemini 3.1 Flash Image)](https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/) - 🆕 **February 26, 2026**. Nano Banana Pro-level quality and world knowledge at Flash speed; up to 5-character consistency, 512px–4K output, text rendering/translation in images.
 - [Kling Image 3.0 / 3.0 Omni](https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be/) - 🇨🇳 🆕 **February 5, 2026**. Kuaishou's native 2K/4K image generation, launched alongside Video 3.0 in the Kling 3.0 suite.
 - [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale** (last update 2025-07). Black Forest Labs' original open-source repo — superseded by Flux 2 family. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblack-forest-labs%2Fflux&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -788,7 +804,10 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Claude Code symlink exfiltration (Tego AI)](https://hackread.com/tego-ai-discloses-second-claude-flaw-in-a-week-hidden-link-silently-sends-files-to-attackers/) - 🆕 ⚠️ **July 24, 2026**. A repo-committed `CLAUDE.md` with an `@import` pointing at a symlink can make Claude Code read files *outside* the project and fold their contents into its very first request — no tool call, no approval prompt, no warning, because the out-of-project read check validated the in-repo link path rather than what it resolved to. Reported via HackerOne; Anthropic closed it "Informative" on the grounds that the trust boundary is the initial folder-trust dialog. Worth reading before you let an agent loose on an untrusted repo.
 - [CrowdStrike 2026 Threat Hunting Report](https://www.crowdstrike.com/en-us/resources/reports/threat-hunting-report/) - 🆕 **2026-08-03**. AI-agent-triggered detections are **2.5× higher** than human-initiated leads; Chinese APTs exploit PoC vulnerabilities within 24 hours of disclosure; STARDUST CHOLLIMA poisoned 300+ AI framework dependencies in a single day; a single LLMJacking campaign sent 200,000 API requests in 2 minutes.
 - [Straiker AI Runtime Security](https://www.straiker.ai/) - 🆕 **2026-08** (BH2026 showcase). AI-native agentic security platform — asset discovery (Discover AI), adversarial red-teaming (Ascend AI), runtime blocking (Defend AI). Blocks prompt injection, memory poisoning, identity abuse. Raised $85M total ($64M Series A, 2026-06).
+- [PkgDiet](https://github.com/om-tajne/pkgdiet) - 🆕 ⚠️ **Unverified** (single-maintainer project; independent adoption not established). MIT local MCP server and dependency policy that checks npm packages before AI coding agents install them, with `check_dependency` and `suggest_alternative` tools. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fom-tajne%2Fpkgdiet&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Cloudflare Clef / Clef-flash](https://huggingface.co/Cloudflare/clef) - 🆕 **October 1, 2026**. Apache-2.0 open-weight 27B and 9B decision models with 64K context, served on Workers AI as `@cf/cloudflare/clef` and `@cf/cloudflare/clef-flash`; Cloudflare cites agent guardrails, such as checking an action before a tool call, as a use case.
 - [EU AI Act Article 50 — transparency obligations](https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations) - **Applicable from August 2, 2026**. Article 50 sets transparency obligations for covered providers and deployers, including AI interaction notices and content marking/disclosure; consult the Commission guidance for scope, role-specific duties and exceptions.
+- [EU AI Omnibus — Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj) - **In force July 27, 2026**. Amends the AI Act: stand-alone (Annex III) high-risk obligations move to **December 2, 2027** and product-embedded (Annex I) ones to **August 2, 2028**; GPAI duties and most transparency obligations keep the August 2, 2026 date, with a four-month grace period only for certain machine-readable marking by generative systems already on the market. Read the official text for scope and exceptions.
 
 ## 🔍 RAG & Knowledge
 
@@ -901,6 +920,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 - [Google Gemini Robotics-ER 1.6 (legacy)](https://ai.google.dev/gemini-api/docs/robotics-overview) - 💤 Superseded by ER 2: Google documents an end-of-August 2026 shutdown for `gemini-robotics-er-1.6-preview`; migrate to the ER 2 standard or streaming preview endpoint.
 - [Google Gemini Robotics 2 / ER 2 / On-Device 2](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/) - 🆕 **July 30, 2026**. Whole-body VLA, embodied-reasoning VLM and on-device control family; ER 2 has [standard and streaming Gemini API previews](https://ai.google.dev/gemini-api/docs/robotics-overview), while robot-control model access is through partnerships/tester programs.
+- [Figure Helix 2.5](https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization) - 🆕 **September 17, 2026**. Figure's policy pretrained on its Index human-behavior dataset; the company reports zero-shot tidying, towel folding and bed making in 30 unseen homes (56% success with Index pretraining versus 9% without). Company-reported research results, not a released model.
 - [Project Prometheus (Bezos)](https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/) - 🆕 💰 **June 11, 2026**. Jeff Bezos co-led Physical AI venture raised $12B at a $41B valuation to build an "artificial general engineer" for the physical world.
 - [NVIDIA Isaac GR00T N1.7](https://github.com/NVIDIA/Isaac-GR00T) - Open humanoid VLA with released weights, fine-tuning and inference code; N1.7 uses a Cosmos-Reason2/Qwen3-VL backbone and relative end-effector actions, with Apache-2.0 licensing. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FNVIDIA%2FIsaac-GR00T&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Physical Intelligence openpi (π0 / π0-FAST / π0.5)](https://github.com/Physical-Intelligence/openpi) - Official open robotics policies and training/inference code: flow-matching π0, autoregressive π0-FAST and π0.5; released checkpoints support adaptation to new robot datasets, with model-specific terms. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FPhysical-Intelligence%2Fopenpi&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -973,7 +993,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 
 ## 📊 Benchmarks & Leaderboards
 
-*Evaluation suites and live leaderboards; reviewed September 8, 2026.*
+*Evaluation suites and live leaderboards; reviewed October 8, 2026.*
 
 > **Read scores with their experimental setup.** Model version, agent harness, dataset revision, tool access and retry/compute budget all affect results. Old leader snapshots have been removed where their original evaluation configuration could not be established. Prefer a reproducible primary run and an evaluation on your own workload.
 >
@@ -992,6 +1012,9 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Humanity’s Last Exam (HLE)](https://agi.safe.ai/) - Expert-level multidisciplinary benchmark, with a finalized 2,500-question set and a separately maintained HLE-Rolling fork; it is distinct from AIME competition mathematics.
 - [Terminal-Bench 4.0](https://www.tbench.ai/news/terminal-bench-4-0) - 🆕 ⚡ **August 28, 2026**. Current terminal benchmark recalibrates task resources, fixes tasks and removes saturated/problematic cases; changed tasks and environment budgets require fresh runs rather than direct comparison with 2.x/3.0.
 - [Terminal-Bench-Science 0.1](https://www.tbench.ai/news/terminal-bench-science-0-1) - 🆕 ⚡ **August 27, 2026**. 70 expert-reviewed research workflows across life, physical, Earth, mathematical and engineering sciences, evaluated through reproducible task-specific tests.
+- [AutomationBench](https://zapier.com/benchmarks) - Zapier's business-workflow benchmark across sales, marketing, operations, support, finance and HR, graded deterministically on the final environment state with a public/private task split; September 2026 frontier-model launches cite it, with scores reported by the vendors.
+- [OSWorld 2.0](https://github.com/xlang-ai/OSWorld-V2) - Successor desktop-agent benchmark; release v2026.08.08 revised tasks to block reward hacking and pinned assets and mocked websites. Vendors also report variants such as offline/partial-credit subsets, so compare only matching task sets and scoring.
+- [DeepSWE v1.1](https://deepswe.datacurve.ai/blog/deepswe-v1-1) - Datacurve's 113 original long-horizon software-engineering tasks; v1.1 grades only committed code in a fresh verifier container, so its scores are not comparable with v1.0.
 - [Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/) - Wolfram’s continuing evaluation of code generation from English specifications into Wolfram Language.
 - [Terminal-Bench 2.0 (legacy)](https://www.tbench.ai/news/announcement-2-0) - Historical release of 89 terminal tasks; retained for interpreting older papers, with newer revisions correcting task and environment issues.
 - [GDPval](https://openai.com/index/gdpval/) - OpenAI’s evaluation of economically valuable work across 44 occupations and nine industries; distinguish the original tasks and grading from third-party GDPval-based leaderboards.
@@ -1168,6 +1191,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Talkdesk Agent Builder](https://www.cmswire.com/contact-center/customer-contact-week-2026-capturing-the-ai-announcements-in-contact-center-technology/) - **June 2026**. Low-code builder allowing business users to deploy production-grade AI agents in the contact center in hours instead of weeks.
 - [HelloTwin Digital Authority](https://siliconangle.com/2026/06/24/hellotwin-launches-digital-authority-bring-governed-ai-agents-enterprise/) - **June 2026**. AI twin designed as a single, auditable source of truth to govern agentic workflows with clear boundaries.
 - [Hellomatik](https://hellomatik.com) - 💰 ⚠️ **Freemium / Unverified**. AI agent platform that turns a company's knowledge base into agents that answer, sell, and book across WhatsApp, email, and web. Integrations: Shopify, Stripe, Sage. Claimed 25–30% chat-to-sale conversion.
+- [Viktor](https://viktor.com/) - AI coworker for Slack and Microsoft Teams that connects to 3,200+ tools and runs code on its own cloud computer; customer names and adoption figures are vendor-published.
 - [OpenAI Presence](https://openai.com/) - 🆕 **July 22, 2026**. OpenAI's enterprise agent deployment platform — enables businesses to deploy AI agents at scale for customer service and operations. Claimed 75% of phone support interactions handled without human escalation.
 
 ## 📊 Agent Evaluation & Observability
@@ -1261,7 +1285,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) - Official notebooks for tool use, computer use, agent patterns, prompt engineering, and Claude Code recipes. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fanthropics%2Fclaude-cookbooks&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Google Gemini Cookbook](https://github.com/google-gemini/cookbook) - Official Gemini API examples covering grounding, function calling, multimodal, and live audio. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgoogle-gemini%2Fcookbook&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [LLM Course (Maxime Labonne)](https://github.com/mlabonne/llm-course) - End-to-end LLM curriculum from fundamentals to fine-tuning, with Colab notebooks. 79K stars. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmlabonne%2Fllm-course&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [Anthropic Courses](https://github.com/anthropics/courses) - Anthropic's official educational courses on prompt engineering, real-world prompts, evals, and tool use. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fanthropics%2Fcourses&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Anthropic Courses](https://github.com/anthropics/courses) - 📦 Archived; Anthropic's official educational courses on prompt engineering, real-world prompts, evals, and tool use. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fanthropics%2Fcourses&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course/unit0/1) - Free course connecting classical robotics and learned policies with LeRobot, real robot datasets and practical implementation exercises.
 
 ### Curated Lists
@@ -1405,23 +1429,22 @@ Benchmark results require a named model, harness, dataset version, and evaluatio
 
 ### 💰 Foundation Models — API Cost & Context
 
-*Official standard API rates checked 2026-09-08; USD per million tokens, excluding tools, tax and cache writes. Context is not the maximum input allowance.*
+*Official standard API rates checked 2026-10-08; USD per million tokens, excluding tools, tax and cache writes. Context is not the maximum input allowance.*
 
 | Model | Provider | Context | Max output | Input $/1M | Output $/1M | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) | OpenAI | 1.05M | 128K | $10.00 | $50.00 | Limited organizational rollout; not GA |
-| [GPT-5.6 Sol](https://developers.openai.com/api/docs/pricing) | OpenAI | 1.05M | 128K | $4.00 | $20.00 | General agentic work |
-| [GPT-5.6 Terra](https://developers.openai.com/api/docs/pricing) | OpenAI | 1.05M | 128K | $2.00 | $12.00 | Balanced production tier |
-| [GPT-5.6 Luna](https://developers.openai.com/api/docs/pricing) | OpenAI | 1.05M | 128K | $0.20 | $1.20 | Throughput and cost |
+| [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) | OpenAI | 1.05M | 128K | $10.00 | $50.00 | Paid API tiers; Ultrafast tier on Pro 500/Enterprise |
+| [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol) | OpenAI | 1.05M | 128K | $2.00 | $10.00 | General agentic work; cached input $0.10 |
+| [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna) | OpenAI | 1.05M | 128K | $0.10 | $0.50 | Throughput and cost |
 | [Claude Fable 5.1](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $10.00 | $50.00 | Cache reads $0.25/M |
-| [Claude Opus 5](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $5.00 | $25.00 | Opus tier |
-| [Claude Sonnet 5](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $2.00 | $10.00 | Standard pricing; no September increase |
-| [Claude Haiku 4.5](https://platform.claude.com/docs/en/models/overview) | Anthropic | 200K | 64K | $1.00 | $5.00 | Latency-sensitive tasks |
+| [Claude Opus 5.5](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $4.00 | $20.00 | Thinking always on; Fast mode preview |
+| [Claude Sonnet 5.5](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $2.00 | $10.00 | Cache reads $0.10/M from Oct 7 |
+| [Claude Haiku 5.5](https://platform.claude.com/docs/en/models/overview) | Anthropic | 1M | 128K | $0.10 | $0.50 | Prompts ≤100K; $0.50/$2.50 above |
 | [Gemini 3.8 Flash](https://ai.google.dev/gemini-api/docs/pricing) | Google | 1,048,576 | 65,536 | $0.75 | $3.75 | Intro price through 2026-12-31 |
 | [Gemini 3.1 Pro Preview](https://ai.google.dev/gemini-api/docs/pricing) | Google | 1M | 65,536 | $2.00 | $12.00 | Base rates for prompts ≤200K |
 | [DeepSeek V4-Pro](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | 1M | 384K | $1.32 / $0.66 | $3.96 / $1.98 | Peak / off-peak; cache miss |
-| [DeepSeek V4-Flash](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | 1M | 384K | $0.44 / $0.22 | $1.32 / $0.66 | Peak / off-peak; cache miss |
-| [Grok 4.6](https://x.ai/news/grok-4-6) | SpaceXAI | 500K | — | $2.00 | $6.00 | Fast tier costs 2× |
+| [DeepSeek V4.1-Flash](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | 1M | 384K | $0.30 / $0.15 | $1.20 / $0.60 | Peak / off-peak; cache miss; `deepseek-flash` |
+| [Grok 4.7](https://docs.x.ai/docs/release-notes) | SpaceXAI | 500K | — | $2.00 | $6.00 | >200K prompts $4/$12; Fast only via Cursor/Grok Build |
 
 For the listed OpenAI models, prompts above 272K use 2× input/cache and 1.5× output rates; Astra allows up to 922K input tokens. Gemini Pro long-context pricing differs above 200K. Gemini 3.8 Flash becomes $1.50/$7.50 on 2027-01-01. DeepSeek peak hours: 01:00–04:00 and 06:00–10:00 UTC. Recheck the linked provider rates for caching, batch, region and service-tier modifiers.
 
@@ -1446,10 +1469,11 @@ For the listed OpenAI models, prompts above 272K use 2× input/cache and 1.5× o
 | Qwen3.8-Flash-Next | 125B + 51B tables + 4B MTP | ~90 GB | [Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) | Qwen Community 1.0 |
 | Qwen3 235B A22B | 235B / 22B active | ~117.5 GB | [Qwen/Qwen3-235B-A22B](https://huggingface.co/Qwen/Qwen3-235B-A22B) | Apache-2.0 |
 | Inkling-Small | 276B / 12B active | ~138 GB | [thinkingmachines/Inkling-Small](https://huggingface.co/thinkingmachines/Inkling-Small) | Apache-2.0 |
-| DeepSeek V4-Flash | 284B / 13B active | ~142 GB | [deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | MIT |
+| DeepSeek V4-Flash (superseded by V4.1-Flash) | 284B / 13B active | ~142 GB | [deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | MIT |
 | GLM-5.3-Flash | 320B / 18B active | ~160 GB | [zai-org/GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) | MIT |
 | MiniMax-M3 | MoE | — | [MiniMaxAI/MiniMax-M3](https://huggingface.co/MiniMaxAI/MiniMax-M3) | MiniMax Community |
 | GLM-5.3 | MoE | — | [zai-org/GLM-5.3](https://huggingface.co/zai-org/GLM-5.3) | GLM-5.3 License |
+| DeepSeek V4.1-Flash | 552B backbone (763B in published tensors) / 8B prefill, 16B decode active | ~382 GB (763B basis) | [deepseek-ai/DeepSeek-V4.1-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) | MIT |
 | Inkling | 975B / 41B active | ~487.5 GB | [thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) | Apache-2.0 |
 | DeepSeek V4-Pro | 1.6T / 49B active | ~800 GB | [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | MIT |
 | Kimi K3 | 2.8T / 104B active | ~1,400 GB | [moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) | Kimi K3 License |
@@ -1505,6 +1529,7 @@ Budget additional space for quantization scales, unquantized tensors, runtime bu
 | [Stable Diffusion 3.5](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) | Open weights | Self-hosted image generation | Stability AI Community License |
 | [Seedream 5.0 Pro](https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro) | Hosted | Layouts and image/text design | ByteDance image family |
 | [Nano Banana Pro](https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image) | Hosted | Image generation/editing | gemini-3-pro-image |
+| [Nano Banana 2.1](https://ai.google.dev/gemini-api/docs/changelog) | Hosted | Image generation/editing | gemini-nano-banana-2.1 |
 | [Nano Banana 2](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image) | Hosted | Image generation/editing | gemini-3.1-flash-image |
 | [Nano Banana 2 Lite](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image) | Hosted | Efficient image generation | gemini-3.1-flash-lite-image |
 | [Ideogram 4.0](https://ideogram.ai/models/4.0/) | Hosted / open quantized weights | Typography and layout editing | Noncommercial weights; commercial license separate |
@@ -1678,7 +1703,7 @@ Detection is a defense layer, not an isolation boundary or a guarantee that mali
 | --- | --- | --- | --- | --- |
 | [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) | Alibaba | Multimodal | ✅ | Apache-2.0 |
 | [Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) | Alibaba | Multimodal | ✅ | Qwen Community 1.0 |
-| [DeepSeek V4-Flash / Pro](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | Text reasoning / coding | ✅ | MIT |
+| [DeepSeek V4.1-Flash / V4-Pro](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | Text reasoning / coding | ✅ | MIT |
 | [Kimi K3](https://huggingface.co/moonshotai/Kimi-K3) | Moonshot AI | Multimodal | ✅ | Kimi K3 License |
 | [GLM-5.3](https://huggingface.co/zai-org/GLM-5.3) | Z.ai | Text reasoning / coding | ✅ | GLM-5.3 License |
 | [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) | Z.ai | Multimodal | ✅ | MIT |
@@ -1821,10 +1846,10 @@ These are implementation starting points, not benchmark rankings or fixed-price 
 ### 🧠 Model Selection
 
 **I need a model for complex multi-step reasoning**
-→ Compare **GPT-6 Astra** and **Claude Fable 5.1** on your own tasks; **Claude Opus 5**, **GPT-5.6 Sol** and **Gemini 3.8 Flash** offer different cost/capability tradeoffs. Check access and the API table before committing a workload.
+→ Compare **GPT-6 Astra** and **Claude Fable 5.1** on your own tasks; **Claude Opus 5.5**, **GPT-6.1 Sol** and **Gemini 3.8 Flash** offer different cost/capability tradeoffs. Check access and the API table before committing a workload.
 
 **I need inexpensive high-volume inference**
-→ Evaluate **GPT-5.6 Luna**, **Gemini 3.8 Flash** and **DeepSeek V4-Flash** with realistic output lengths, cache-hit rates and retries. DeepSeek's **peak**, not off-peak, hours are 01:00–04:00 and 06:00–10:00 UTC.
+→ Evaluate **GPT-6 Luna**, **Gemini 3.8 Flash** and **DeepSeek V4.1-Flash** with realistic output lengths, cache-hit rates and retries. DeepSeek's **peak**, not off-peak, hours are 01:00–04:00 and 06:00–10:00 UTC.
 
 **I need Chinese-language agents**
 → Shortlist **Qwen3.8**, **Kimi K3**, **DeepSeek V4**, **GLM-5.3 / GLM-5.3-Flash** and **Seed 2.1**. Test domain terminology and tool schemas; the Chinese comparison table separates hosted access, downloadable weights and custom licenses.
@@ -1836,13 +1861,13 @@ These are implementation starting points, not benchmark rankings or fixed-price 
 → **Qwen3.8-27B**, **Gemma 4 31B** and **Muse Glimmer 30B** are workstation candidates after quantization. Large MoEs such as **DeepSeek V4**, **GLM-5.3-Flash** and **Inkling** require substantially more aggregate memory or offloading; use the storage table, not active-parameter counts.
 
 **I need a coding model**
-→ Use **Claude Sonnet 5** or **GPT-5.6 Sol** as a baseline, then evaluate **GPT-6 Astra**, **Claude Fable 5.1** or **Muse Spark 1.3** on harder tasks. For self-hosting, compare **GLM-5.3**, **GLM-5.3-Flash**, **DeepSeek V4** and smaller **Qwen3.8-27B** under their respective licenses.
+→ Use **Claude Sonnet 5.5** or **GPT-6.1 Sol** as a baseline, then evaluate **GPT-6 Astra**, **Claude Fable 5.1** or **Muse Spark 1.3** on harder tasks. For self-hosting, compare **GLM-5.3**, **GLM-5.3-Flash**, **DeepSeek V4** and smaller **Qwen3.8-27B** under their respective licenses.
 
 **I need multimodal understanding**
 → **Gemini 3.8 Flash** accepts text, images, audio, video and PDFs but outputs text. **Qwen3.8-27B** and **Gemma 4** offer local options; **Inkling** accepts text, images and audio. Confirm the exact model supports your input and output modalities.
 
 **I need at least 500K tokens of context**
-→ Compare **GPT-6 Astra**, **Claude Fable 5.1 / Sonnet 5**, **Gemini 3.8 Flash**, **DeepSeek V4** and **Kimi K3**. Context windows include more than user input; account for output, thinking, modality tokens, service limits and long-context surcharges.
+→ Compare **GPT-6 Astra**, **Claude Fable 5.1 / Sonnet 5.5**, **Gemini 3.8 Flash**, **DeepSeek V4** and **Kimi K3**. Context windows include more than user input; account for output, thinking, modality tokens, service limits and long-context surcharges.
 
 **I need real-time voice**
 → For native voice interaction, evaluate **GPT-Realtime-2.1** or **Gemini 3.1 Flash Live**. For a pipeline, choose STT (**Qwen3-ASR**, **Voxtral Realtime**, **Muse Voice Transcribe**) separately from TTS (**Qwen3-TTS**, **Kokoro**, **Eleven v3**).
@@ -1918,10 +1943,10 @@ Measure the complete agent workflow and document evaluator limitations.
 ### 🌍 Ecosystem Choices
 
 **I want to build within the OpenAI ecosystem**
-→ **OpenAI Agents SDK** with **GPT-5.6 Terra** for balanced workloads, **GPT-5.6 Luna** for throughput, or **GPT-6 Astra** for demanding tasks; add a sandbox and evaluation appropriate to the application.
+→ **OpenAI Agents SDK** with **GPT-6.1 Sol** for balanced workloads, **GPT-6 Luna** for throughput, or **GPT-6 Astra** for demanding tasks; add a sandbox and evaluation appropriate to the application.
 
 **I want to build within the Anthropic Claude ecosystem**
-→ **Claude Code** with **Claude Sonnet 5 / Opus 5 / Fable 5.1**, **MCP** for tool connections, and **Langfuse** for observability; evaluate the model and harness together.
+→ **Claude Code** with **Claude Sonnet 5.5 / Opus 5.5 / Fable 5.1**, **MCP** for tool connections, and **Langfuse** for observability; evaluate the model and harness together.
 
 **I want to build within the Google Gemini ecosystem**
 → **Google ADK** with **Gemini 3.8 Flash** or **Gemini 3.1 Pro Preview**, plus Google Cloud deployment and evaluation services; verify the selected endpoint's region and preview status.
@@ -1945,9 +1970,9 @@ Measure the complete agent workflow and document evaluator limitations.
 |---|------------|-------|----------|
 | 1 | **Lean Coding Agent** | Claude Code + E2B + Langfuse | Coding workflow with separate sandbox and tracing |
 | 2 | **Local-Model SWE Agent** | OpenHands + Ollama + Qwen3.8-27B + Qdrant | Local-model coding after configuring every service endpoint |
-| 3 | **Enterprise RAG** | LlamaIndex + Qdrant + Qwen3-Embedding-8B + Langfuse + Claude Sonnet 5 | Retrieval and evaluation for internal documents |
-| 4 | **Voice Assistant Pipeline** | LiveKit + Whisper (STT) + Claude Sonnet 5 + ElevenLabs v3 (TTS) | Custom voice pipeline; measure end-to-end latency |
-| 5 | **Browser Automation** | Browser Use + Stagehand + Claude Sonnet 5 + Langfuse | Browser tasks with explicit retry and validation |
+| 3 | **Enterprise RAG** | LlamaIndex + Qdrant + Qwen3-Embedding-8B + Langfuse + Claude Sonnet 5.5 | Retrieval and evaluation for internal documents |
+| 4 | **Voice Assistant Pipeline** | LiveKit + Whisper (STT) + Claude Sonnet 5.5 + ElevenLabs v3 (TTS) | Custom voice pipeline; measure end-to-end latency |
+| 5 | **Browser Automation** | Browser Use + Stagehand + Claude Sonnet 5.5 + Langfuse | Browser tasks with explicit retry and validation |
 | 6 | **Local-Only Privacy Stack** | Ollama + Qwen3.8-27B + Open WebUI + Qdrant + n8n | Local services after disabling remote connectors and telemetry |
 | 7 | **TypeScript Agent** | Mastra + Vercel AI SDK + Gemini 3.8 Flash + Qdrant + Langfuse | TypeScript application starting point |
 | 8 | **Chinese Market Stack** | Qwen3.8 API + RAGFlow + Milvus + Langfuse | China-region endpoints subject to provider terms and data-flow review |
@@ -2223,6 +2248,23 @@ Measure the complete agent workflow and document evaluator limitations.
 | **2026-09-07** | [Hermes Agent v2026.9.7](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.7) — Published release; consult the versioned notes for runtime changes. | Release / update |
 | **2026-09-08** | [OpenAI Agents SDK v0.22.1](https://github.com/openai/openai-agents-python/releases/tag/v0.22.1) — Published Python SDK release. | Release / update |
 | **2026-09-08** | [OpenClaw v2026.9.3](https://github.com/openclaw/openclaw/releases/tag/v2026.9.3) — Release publication date differs from the date embedded in the tag. | Release / update |
+| **2026-09-10** | [OpenAI Agents API](https://openai.com/index/introducing-the-agents-api/) — Public beta of OpenAI's hosted agent runtime on the Codex harness. | Release / update |
+| **2026-09-10** | [DeepSeek-V4.1-Flash](https://api-docs.deepseek.com/news/news260910) — `deepseek-flash` with MIT weights; V4-Flash API names retired and routed to it. | Release / update |
+| **2026-09-10** | [Cursor Projects (beta)](https://cursor.com/changelog) — A coordinator agent plans larger efforts and delegates them to other agents with shared project context. | Release / update |
+| **2026-09-15** | [Gemini 3.8 Live](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/) — Speech-to-speech Live API models, including an extended-thinking variant. | Release / update |
+| **2026-09-16** | [Cowork in any Claude conversation](https://support.claude.com/en/articles/12138966-release-notes) — Cowork tasks, connectors and skills available from any conversation; designs, decks and docs on every plan. | Release / update |
+| **2026-09-17** | [Figure Helix 2.5](https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization) — Company-reported zero-shot household tasks in 30 unseen homes. | Release / update |
+| **2026-09-21** | [Grok 4.7](https://docs.x.ai/docs/release-notes) — xAI API model with 500K context at $2/$6 below 200K prompt tokens. | Release / update |
+| **2026-09-22** | [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) — `claude-opus-5-5` at $4/$20 per million input/output tokens. | Release / update |
+| **2026-09-22** | [GPT-6 Sol / Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna/) — `gpt-6-sol` ($2/$10) and `gpt-6-luna` ($0.10/$0.50) in the API, ChatGPT Work and Codex. | Release / update |
+| **2026-09-28** | [Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5) — `claude-sonnet-5-5` at $2/$10; forced tool use returns a 400. | Release / update |
+| **2026-09-29** | [OpenAI DevDay 2026](https://openai.com/index/devday-2026-recap/) — GPT-6.1 Sol, Dots, ChatGPT Space, Astra Ultrafast and plugin/MCP-event updates. | Release / update |
+| **2026-09-30** | [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) — Announced with initial access limited to Fairwind Program cyber defenders; wider release undated. | Release / update |
+| **2026-10-01** | [GitHub Copilot computer use](https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps) — Copilot can interact with desktop apps; local sandboxing reached GA on October 7. | Release / update |
+| **2026-10-01** | [Cloudflare Clef](https://huggingface.co/Cloudflare/clef) — Apache-2.0 27B/9B decision models for guardrail-style checks on Workers AI. | Release / update |
+| **2026-10-06** | [Mistral Large 4](https://mistral.ai/news/mistral-large-4) — Public preview; Mistral says open weights follow at the end of October. | Release / update |
+| **2026-10-07** | [Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) — Small Claude tier with 1M context and the effort parameter. | Release / update |
+| **2026-10-07** | [Codex CLI v0.161.0](https://github.com/openai/codex/releases/tag/rust-v0.161.0) — Stable release making GPT-6.1 Sol the bundled default; later alpha builds are previews. | Release / update |
 | **2026-05** | [LangGraph v1.2](https://docs.langchain.com/oss/python/releases/changelog) — LangGraph records runtime and checkpointing improvements in its release history. | History |
 | **2026-05** | [Grok 4.3 on Microsoft Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) — Microsoft publishes its Grok 4.3 availability announcement for Foundry. | History |
 | **2026 (ongoing)** | A2A Protocol grows to 150+ partner organizations | Protocols |
@@ -2249,10 +2291,10 @@ This list is released under [MIT License](LICENSE).
 
 **⭐ If you find this list useful, please give it a star! ⭐**
 
-*910+ resources across 25 categories — from foundation models to agent protocols, agent economy, and generative AI.*
+*940+ resources across 25 categories — from foundation models to agent protocols, agent economy, and generative AI.*
 
 Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 
-*Last updated: September 13, 2026*
+*Last updated: October 8, 2026*
 
 </div>

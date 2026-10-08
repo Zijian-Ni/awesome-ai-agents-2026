@@ -3,6 +3,78 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+### 2026-10-08 — September 8 – October 8 refresh, PR backlog review (en/zh/ja)
+
+Maintained by **Zijian Ni**. Incremental refresh covering releases since the
+September 8 pass, plus review of every open PR. The three catalogues now contain
+**941 / 941 / 941 list entries** (917 before), **116 matching headings**, and
+**221 timeline rows** (17 new). Counts are catalogue appearances, not unique products.
+
+**+Added — models (primary sources: vendor posts, model pages, API release notes):**
+
+- **OpenAI:** GPT-6 Sol / GPT-6 Luna (Sep 22; `gpt-6-sol` $2/$10, `gpt-6-luna` $0.10/$0.50),
+  GPT-6.1 Sol (Sep 29; `gpt-6.1-sol`, 1.05M context, 128K output), Agents API public beta
+  (Sep 10), DevDay 2026 (Dots, ChatGPT Space, Decisions API preview, MCP events for plugins,
+  Pro 500 / Astra Ultrafast). GPT-6 Astra entry now notes paid-tier API rate limits and the
+  Ultrafast tier; it still says to verify account access.
+- **Anthropic:** Claude Opus 5.5 (Sep 22, $4/$20), Sonnet 5.5 (Sep 28, $2/$10), Haiku 5.5
+  (Oct 7, $0.10/$0.50 up to 100K prompt tokens), Cowork-in-any-conversation (Sep 16).
+  Haiku 4.5 marked superseded; stale "Powered by Opus 4.7" Claude Code text replaced.
+- **Google:** Gemini 4 Argon (Sep 30) recorded as **limited access via the Fairwind Program**,
+  not a public release; Gemini 3.8 Live, Gemini 3.8 Flash / Flash-Lite TTS, Nano Banana 2.1.
+- **Others:** Grok 4.7 (Sep 21), Mistral Large 4 public preview (Oct 6; weights promised, licence
+  unpublished), DeepSeek-V4.1-Flash (Sep 10, MIT weights; V4-Flash API names retired),
+  MAI-Transcribe-2-Streaming (Oct 1), MAI-Image-2.6-Flash / Foundry public preview (Sep 4).
+
+**+Added — agents, tools, safety, robotics, benchmarks:**
+
+- Benchmarks: AutomationBench (Zapier), OSWorld 2.0, DeepSWE v1.1 — with the caveat that
+  launch-post scores are vendor-reported and variant subsets are not interchangeable.
+- Security/policy: Cloudflare Clef / Clef-flash (Apache-2.0 decision models), EU AI Omnibus
+  (Regulation (EU) 2026/1744: Annex III high-risk → 2027-12-02, Annex I → 2028-08-02).
+  EUR-Lex could not be read during this pass (HTTP 429/202); the summary relies on law-firm
+  analyses and should be checked against the official text.
+- Physical AI: Figure Helix 2.5 (company-reported research results).
+- Timeline: 17 dated rows for Sep 10 – Oct 7 (Agents API, DeepSeek V4.1-Flash, Cursor Projects,
+  Gemini 3.8 Live, Cowork, Helix 2.5, Grok 4.7, Opus 5.5, GPT-6 Sol/Luna, Sonnet 5.5, DevDay,
+  Gemini 4 Argon, Copilot computer use, Clef, Mistral Large 4, Haiku 5.5, Codex CLI v0.161.0).
+
+**~Changed — advisory sections and tables:**
+
+- API cost table: replaced GPT-5.6 Sol/Terra/Luna with GPT-6.1 Sol / GPT-6 Luna (GPT-5.6 Terra
+  and Luna no longer appear on the pricing page), Claude Opus/Sonnet/Haiku 5.5, DeepSeek
+  V4.1-Flash and Grok 4.7. Local-deployment and Chinese head-to-head tables gained V4.1-Flash.
+- Model Selection, Ecosystem Choices and Stack Recipes now recommend Opus 5.5 / Sonnet 5.5 /
+  GPT-6.1 Sol / GPT-6 Luna / DeepSeek V4.1-Flash instead of superseded models.
+- `freshness_audit.py`: registered Claude Opus 5, Sonnet 5, Haiku 4.5, GPT-5.6 Sol/Luna,
+  Grok 4.6 and DeepSeek V4-Flash as superseded, and fixed model matching so "Claude Opus 5"
+  no longer matches "Claude Opus 5.5". Two regression tests added (12 total).
+
+**PR review decisions:**
+
+| PR | Contributor | Disposition and reason |
+|---|---|---|
+| [#107](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/107) | @om-tajne | PkgDiet incorporated in en/zh/ja under Agent Security with `⚠️ Unverified` (MIT, single maintainer, 5 stars at review; Spam Guard showed one other list). |
+| [#110](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/110) | @av | Viktor incorporated in en/zh/ja under Enterprise; four lists (below the five-list threshold, per submitter's explanation of replaced PRs); adoption figures marked vendor-published. |
+| [#115](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/115) | github-actions | Archival flag for `anthropics/courses` incorporated with localized zh/ja wording. |
+| [#104](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/104) | @OlyaTi | Kept open: Spam Guard could not run (GitHub search 422) and the submitter discloses parallel submissions without naming them; asked for the list before deciding. |
+| [#101](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/101), [#102](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/102), [#112](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/112), [#114](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/114), [#116](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/116), [#118](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/118), [#120](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/120), [#121](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/121), [#122](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/122) | various | Declined under the five-or-more-list parallel-submission rule (Spam Guard: 8–100 awesome-list PRs in 14 days). Real projects acknowledged where applicable; other-list merges do not waive the rule. |
+| [#117](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/117) | @jipsa-ai | Hivemeld declined under the quality gate: no repository, no independent adoption evidence and no public company information. |
+| [#105](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/105), [#108](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/108) | @apakkhalin-sudo | Declined: personal blog post appended outside the list structure (duplicate PRs). |
+
+Issues [#103](https://github.com/Zijian-Ni/awesome-ai-agents-2026/issues/103) (CareClinic MCP)
+and [#113](https://github.com/Zijian-Ni/awesome-ai-agents-2026/issues/113) (CosVoice) were
+closed under the quality gate: vendor self-suggestions with no independent adoption evidence.
+
+**Verification:** sync, Markdown, freshness, counts and 12 regression tests pass; `git diff
+--check` clean. All 45 URLs added in this pass were fetched: 35 returned HTTP 200/202 from the
+workspace and the 10 OpenAI/GitHub pages that block automated clients (403) were read through
+an independent fetcher during research. A full local `check_links.py` run covered 1,241 URLs:
+552 OK, 259 badge exclusions, **0 confirmed dead**, 418 blocked and 12 transport errors — the
+workspace egress proxy blocks far more sites than CI does, so the weekly Link Check workflow
+remains the reference run. HTTP success is not factual verification; vendor benchmark claims
+were not reproduced.
+
 ### 2026-09-13 — PR review: ContextStream incorporated, Taskade Genesis declined (en/zh/ja)
 
 Reviewed the two open inbound PRs against CONTRIBUTING (quality gate + five-or-more-list parallel-submission rule). Catalogue count after this pass is **917 / 917 / 917** list entries (was 916). Footer date on the English README is 2026-09-13; this is a PR-review commit, not a full 25-category refresh.

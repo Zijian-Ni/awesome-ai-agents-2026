@@ -6,9 +6,9 @@
 [![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fawesome-ai-agents-2026&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)](https://github.com/Zijian-Ni/awesome-ai-agents-2026)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-September%208%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-910%2B-orange.svg)](#)
-[![Audited](https://img.shields.io/badge/Spam_Audited-2026--09--08-success.svg)](#️-状态图例)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-October%208%2C%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-940%2B-orange.svg)](#)
+[![Audited](https://img.shields.io/badge/Spam_Audited-2026--10--08-success.svg)](#️-状态图例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![日本語](https://img.shields.io/badge/Lang-日本語-red.svg)](README.ja.md)
 
@@ -49,7 +49,7 @@
 > 5. ⚠️ **避开常见陷阱** → [反推荐清单](#️-反推荐--不应该用在哪里)
 >
 > **已在开发？** 快速跳转：
-> - 🆕 [最新添加（2026 年 9 月）](#-2026-ai-时间线) • 🛡️ [安全](#️-agent-安全) • 💰 [费用对比](#-基础大模型--api-价格与上下文窗口)
+> - 🆕 [最新添加（2026 年 10 月）](#-2026-ai-时间线) • 🛡️ [安全](#️-agent-安全) • 💰 [费用对比](#-基础大模型--api-价格与上下文窗口)
 
 ---
 
@@ -59,7 +59,7 @@
 
 | 分类 | 说明 | 数量 |
 |----------|-------------|-------|
-| [🧠 基础大模型 2026](#-基础大模型-2026) | 来自 OpenAI、Anthropic、Google、Meta 等 22+ 家厂商的最新大模型 | 230+ |
+| [🧠 基础大模型 2026](#-基础大模型-2026) | 来自 OpenAI、Anthropic、Google、Meta 等 22+ 家厂商的最新大模型 | 245+ |
 | [🎨 多模态与生成式 AI](#-多模态与生成式-ai) | 图像、视频、音频与音乐生成 | 60+ |
 | [🔗 Agent 协议与标准](#-agent-协议与标准) | MCP、A2A 与互操作标准 | 20+ |
 | [🏗️ Agent 框架](#️-agent-框架) | 构建自主 AI Agent 的开发库 | 55+ |
@@ -68,7 +68,7 @@
 | [🔌 工具与 API 集成](#-工具与-api-集成) | 把 Agent 接到外部服务 | 25+ |
 | [💱 Agent 经济与市场](#-agent-经济与市场) | Agent 付费、变现与服务发现 | 10+ |
 | [🧪 Agent 沙箱与计算隔离](#-agent-沙箱与计算隔离) | 运行 Agent 生成代码的安全沙箱 | 10+ |
-| [🛡️ Agent 安全](#️-agent-安全) | Prompt 注入防御与护栏 | 35+ |
+| [🛡️ Agent 安全](#️-agent-安全) | Prompt 注入防御与护栏 | 40+ |
 | [🔍 RAG 与知识库](#-rag-与知识库) | 检索增强生成系统 | 20+ |
 | [💻 编程 Agent](#-编程-agent) | AI 驱动的软件工程 | 55+ |
 | [🤖 Physical AI / 具身智能](#-physical-ai--具身智能) | 人形机器人、具身智能、工业自动化 | 45+ |
@@ -132,8 +132,12 @@
 *按厂商整理的现役与历史基础模型精选。模型卡、API 可用性和权重许可证可能不同；带日期的条目保留发布历史。*
 
 ### OpenAI
+- [GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/) - 🆕 **2026年9月29日（DevDay）**。GPT-6 Sol 的升级版，面向 Agent 编程、计算机操作与专业工作；API 模型 `gpt-6.1-sol`（每百万输入/输出 token $2/$10，1.05M 上下文、128K 输出），并在付费方案的 ChatGPT Work/Codex 中提供。OpenAI 称其接近 GPT-6 Astra，价格为 Astra 的五分之一；基准对比为厂商自报。
+- [GPT-6 Sol / GPT-6 Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna/) - 🆕 **2026年9月22日**。GPT-6 的中端与高效层级；API ID 为 `gpt-6-sol`（$2/$10）和 `gpt-6-luna`（每百万输入/输出 token $0.10/$0.50），为此前 GPT-5.6 Sol/Luna 价格的一半。先在 ChatGPT Work 与 Codex 上线；[10月7–8日起](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) Chat 中付费方案使用 Sol，Free/Go 使用 Luna。
+- [OpenAI Agents API](https://openai.com/index/introducing-the-agents-api/) - 🆕 **2026年9月10日（公开测试版）**。基于开源 Codex 执行框架的托管 Agent 运行时：一次 API 调用即可设定任务、模型、工具与环境（OpenAI 托管、自管或 E2B、Daytona、Modal、Vercel 等合作沙箱），支持子 Agent、MCP 工具和自动上下文压缩。DevDay 上新增计算机操作；除 token 与工具费用外不另收费。
+- [OpenAI DevDay 2026 — Dots、ChatGPT Space、Ultrafast](https://openai.com/index/devday-2026-recap/) - 🆕 **2026年9月29日**。Dots 是带有已连接应用和云端电脑的常驻 Agent，逐步向符合条件的 Pro 与 Business Premium 用户开放（Enterprise/Edu 为默认关闭的测试版；Pro 首发不含欧洲经济区、瑞士和英国）。同时发布 ChatGPT Space 与 Pages、有限预览的 Decisions API、插件扩展、基于提案规范的插件自动化 MCP events、Sign in with ChatGPT，以及含 GPT-6 Astra Ultrafast 的 Pro 500 方案。
 - [GPT-Live-1 / GPT-Live-1 mini](https://openai.com/index/introducing-gpt-live/) - 🆕 **2026-07-08**。OpenAI 全双工会话语音模型，取代进阶语音模式。同步收听和说话（零切换延迟），处理打断，复杂查询在后台由 GPT-5.5 处理同时语音不中断。**GPT-Live-1** 为付费用户默认（Go/Plus/Pro）；**GPT-Live-1 mini** 为免费用户默认。支持实时语音翻译。
-- [GPT-6 Astra / Astra Pro](https://openai.com/index/gpt-6-astra/) - 🆕 **2026年9月3日**。面向复杂推理、编程与计算机操作；[仅向部分组织逐步开放，尚未普遍可用](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)，公开 API 模型卡不代表当前账户已有访问权限。
+- [GPT-6 Astra / Astra Pro](https://openai.com/index/gpt-6-astra/) - 🆕 **2026年9月3日**。面向复杂推理、编程与计算机操作；[仅向部分组织逐步开放，尚未普遍可用](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)，公开 API 模型卡不代表当前账户已有访问权限；[API 模型页](https://developers.openai.com/api/docs/models/gpt-6-astra)现已列出付费用量层级（不含 Free）的速率限制，**9月29日**起 Pro 500 与 Enterprise 可用 Astra Ultrafast 层级。
 - [GPT-5.6 Sol](https://openai.com/blog/gpt-5-6) - GPT-5.6 系列中面向推理、编程与工具工作流的模型。本次复核时标准 API 输入/输出价格为每百万 token $4/$20；长上下文、缓存与服务层级差异见[价格表](https://developers.openai.com/api/docs/pricing)。
 - [GPT-5.6 Terra](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**。GPT-5.6 中级档 —— 与 GPT-5.5 性能相当但成本约降低 2×，适合成本敏感的生产任务。
 - [GPT-5.6 Luna](https://openai.com/blog/gpt-5-6) - 🆕 **2026-07-09**。GPT-5.6 速度/成本最优层 —— 专为大量、对延迟敏感的任务设计。
@@ -173,7 +177,11 @@
 
 ### Anthropic
 
-- [Claude Haiku 4.5](https://platform.claude.com/docs/en/models/overview) - 低延迟 Claude 层级，200K 上下文、最高 64K 输出；与 Sonnet 5、Opus 5、Fable 5.1 并列于当前产品目录。
+- [Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) - 🆕 **2026年10月7日**。Claude 小模型层级（`claude-haiku-5-5`），1M 上下文、128K 输出并支持 effort 参数；提示词不超过 100K 时每百万输入/输出 token $0.10/$0.50，超过后 $0.50/$2.50。迁移提示：`budget_tokens` 会返回 400，且默认启用自适应思考（[发布说明](https://platform.claude.com/docs/en/release-notes/overview)）。
+- [Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5) - 🆕 **2026年9月28日**。`claude-sonnet-5-5`，每百万输入/输出 token $2/$10，1M 上下文；Anthropic 称相比 Sonnet 5 输出速度提升 30% 以上、单任务成本最多降低 30%。强制工具调用（`tool_choice` 为 `any`/`tool`）会返回 400，从 Sonnet 5 迁移前需测试。
+- [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) - 🆕 **2026年9月22日**。`claude-opus-5-5`，每百万输入/输出 token $4/$20，1M 上下文、128K 输出；Anthropic 称典型负载下运行成本比 Opus 5 低约 40%，多数工作接近 Fable 5.1，但其公布的部分对比中 GPT-6 Astra 领先。思考无法关闭；Fast 模式为研究预览。
+- [Claude — 任意对话中使用 Cowork](https://support.claude.com/en/articles/12138966-release-notes) - 🆕 **2026年9月16日**。Cowork 任务、项目、连接器和技能可在任意对话中使用（Pro/Max 逐步推出）；所有方案（含 Free）都可创建设计、演示文稿和文档，Enterprise 需所有者启用。
+- [Claude Haiku 4.5](https://platform.claude.com/docs/en/models/overview) - 低延迟 Claude 层级，200K 上下文、最高 64K 输出；2026年10月7日起小模型层级由 Haiku 5.5 接替。
 - [Claude Fable 5.1 / Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) - 🆕 **2026年9月1日**。Fable 5.1 已正式开放（`claude-fable-5-1`）；Mythos 5.1 使用相同模型、不同防护措施，目前仅向获批的美国机构开放。
 - [Claude 文本水印 + 内容凭证](https://www.anthropic.com/news/claude-text-watermark) - 🆕 **2026-08-14**。Anthropic 为未来的 Claude 模型在全球范围发布时内置基于 **SynthID-Text 的隐形水印**（Google DeepMind 的方法），并为生成的图像/文件（.png/.jpg/.svg）加入 C2PA 内容凭证；2026 年 8 月 2 日之前发布的模型将「在未来几个月内」跟进，检测 API 也即将推出。此举是为遵守欧盟 AI 法案 —— Anthropic 已于 7 月签署欧盟透明度行为准则。Anthropic 称带水印文本对读者完全无感。
 - [Claude Opus 5](https://www.anthropic.com/news/claude-opus-5) - 🆕 **2026-07-24**。Anthropic 第五代旗舰模型，性能近似 Fable 5，定价维持较低（输入 / 输出 $5 / $25 每百万 token）。支持 1M token 上下文窗口和最多 128K 输出 token。现为 Claude Max 默认模型。API: `claude-opus-5`。可通过 Anthropic API、Amazon Bedrock 和 Google Cloud Vertex AI 使用。
@@ -188,7 +196,7 @@
 - [Claude Mythos Preview](https://www.anthropic.com/) - 2026-04 受邀研究预览。BenchLM 99（榜首），SWE-bench Verified 93.9%。Project Glasswing 合作伙伴专属。
 - [Claude Opus 4](https://www.anthropic.com/news/claude-4) - 2025-05 发布。
 - [Claude Sonnet 4](https://www.anthropic.com/news/claude-4) - 2025-05 发布。
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic 出品、运行在终端里的 Agent 化编程工具。Opus 4.7 + `/think xhigh`。
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic 出品、运行在终端里的 Agent 化编程工具。可选模型随当前 Claude 产品线（Opus 5.5、Sonnet 5.5、Haiku 5.5、Fable 5.1）更新；早期 Opus 4.7 `/think xhigh` 说明仅作历史参考。
 - [Claude Security](https://www.anthropic.com/) - **2026-05-01** 公测。Opus 4.7 驱动的企业级代码漏洞扫描器：扫整个代码库，生成有置信度评分、严重程度、复现步骤、修复建议的补丁。Enterprise 用户在 [claude.ai/security](https://claude.ai/security) 使用。
 - [Claude Finance Agents](https://www.anthropic.com/news/finance-agents) - **2026-05-05**。基于 Opus 4.7 的 10 个金融领域专业 Agent，覆盖 pitchbook 撰写、KYC、月结、交易筛查等。可作为 Claude Cowork 插件、Claude Code skill 或 Managed-Agents cookbook 部署。
 - [Claude Finance JV](https://www.anthropic.com/) - **2026-05-04**。与高盛、黑石的 15 亿美元 Claude 部署合资公司，把 Anthropic 工程师派驻到中型华尔街机构。
@@ -206,6 +214,9 @@
 - [Bristol Myers Squibb ↔ Anthropic Claude Enterprise](https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx) - **2026-05-20**。BMS 将 Claude Enterprise 作为 30,000+ 员工的共享智能平台，嵌入药物发现 / 开发 / 交付的全链路。全球前 5 大药企中首个全公司级 Claude 部署。
 
 ### Google DeepMind
+- [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) - 🆕 **2026年9月30日（有限访问）**。Google DeepMind 新一代前沿模型，输出上限 1M token；首批仅通过 [Fairwind 计划](https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/)向受信任的网络防御方开放，之后面向付费 API 客户与 Google AI Ultra 订阅者，尚未公布日期。公布的 API 引导价为每百万输入/输出 token $2/$10，之后为 $4/$20。
+- [Gemini 3.8 Live / Live Extended Thinking](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/) - 🆕 **2026年9月15日**。Live API 语音到语音模型（`gemini-3.8-live`、`gemini-3.8-live-extended-thinking`），也用于 Search Live、Gemini Live 和 Google Workspace。
+- [Gemini 3.8 Flash TTS / Flash-Lite TTS](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/) - 🆕 **2026年9月22日**。正式可用的文本转语音模型，提供 Voices 端点、声音设计和经同意验证的声音复刻；Flash-Lite TTS 取代 `gemini-3.1-flash-tts-preview`。
 - [Gemini 3.8 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash) - 🆕 **2026年9月**。稳定版 `gemini-3.8-flash` 支持文本、图像、音频、视频和 PDF 输入，1,048,576 输入 token、65,536 输出 token，以及函数调用。
 - [Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) - 🆕 **2026-08-13**。Google 新的「最智能主力模型」，面向编程与 Agent —— 距 3.6 Flash 仅三周即发布，且抢在仍未露面的 3.5 Pro 之前。FrontierCode 1.1 43.6%（3.6 Flash 为 34.4%），DeepSWE v1.1 65.3%（3.6 Flash 为 49.0%）。引导定价**输入/输出每百万 token $0.75/$3.75，至 2026 年 12 月 31 日**（之后 $1.50/$7.50）。已上线 AI Studio、Android Studio、Antigravity 与 Gemini Enterprise Agent Platform；为 AI Pro/Ultra 订阅用户的 Gemini Spark 提供动力。
 - [Gemini 3.6 Flash](https://github.com/google-gemini/cookbook) - 🆕 **2026-07-21**。Google 的 Flash 档 —— 在复杂 agentic 与多模态任务上更强，**同时 token 用量更少、价格低于 3.5 Flash**。API id `gemini-3.6-flash`。已写入官方 Gemini API cookbook（含 thinking 模式指南）。2026-08-13 起顶级 Flash 档地位被 3.7 Flash 取代。
@@ -263,6 +274,7 @@
 
 ### Mistral AI
 
+- [Mistral Large 4](https://mistral.ai/news/mistral-large-4) - 🆕 **2026年10月6日（公开预览）**。原生多模态 MoE（约 1T 总参数 / 52B 激活），兼具指令与推理模式，通过 Mistral Studio 预览 API 提供，每百万输入/输出 token $1.36/$4.18；Mistral 称开放权重将于 10 月底发布，许可证尚未公布。
 - [Voxtral Mini Transcribe Realtime](https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602) - Apache-2.0 开放权重流式语音识别模型，与语音生成用途的 Voxtral TTS 不同。
 - [Shieldstral 1.0](https://docs.mistral.ai/models/shieldstral-1-0) - 🆕 **2026年8月4日**。Apache-2.0 文本/图像内容审核模型，处于公开预览；支持策略问题、提示词与回复对及拒答分类。
 - [Mistral OCR 4.1](https://docs.mistral.ai/models/ocr-4-1) - 文档 OCR 服务，输出段落边界框、结构块标签及置信度分数。
@@ -282,9 +294,10 @@
 
 ### DeepSeek 🇨🇳
 
+- [DeepSeek-V4.1-Flash](https://api-docs.deepseek.com/news/news260910) - 🆕 **2026年9月10日**。API 模型 `deepseek-flash`：552B 参数主干的 MoE，预填充激活 8B、解码激活 16B，原生图像输入，1M 上下文，[MIT 许可权重](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash)。高峰/低谷未命中缓存输入每百万 token $0.30/$0.15、输出 $1.20/$0.60；已退役的 V4-Flash 名称路由至该模型。公告还安排了 `deepseek-v4-pro` 的临时路由，但当前价格页仍将该名称对应 V4-Pro-0813，迁移前请核实。
 - [DeepSeek-V4-Pro-0813 (GA)](https://api-docs.deepseek.com/news/news260813) - **2026年8月13日**。`deepseek-v4-pro` 对应的生产检查点，支持推理强度配置和 Responses API；峰谷计价已于8月16日生效。
 - [DeepSeek-V4-Pro](https://api-docs.deepseek.com/news/news260424) - **2026-04-24（预览）；2026 年 7 月中旬正式上线**。1.6T 总 / 49B 激活 MoE，1M 上下文。MIT。Agent、世界知识、推理领域开源标杆。最大输出 384K，并发上限 500。`deepseek-v4-pro` / `deepseek-v4-flash` 为生产 API 模型（V4-Pro 自 8 月 13 日起服务 0813 检查点 —— 见上；2026-08-16 起实行高峰/低谷分层计价）。
-- [DeepSeek-V4-Flash](https://api-docs.deepseek.com/news/news260424) - 2026-04-24。284B 总 / 13B 激活 MoE，1M 上下文。MIT。性价比层 —— 2026-08-16 起：高峰每 100 万 token **命中缓存输入 $0.014 / 未命中 $0.44，输出 $1.32**，低谷 **$0.007 / $0.22 / $0.66**；最大输出 384K，并发上限 2500（[定价](https://api-docs.deepseek.com/quick_start/pricing)）。
+- [DeepSeek-V4-Flash](https://api-docs.deepseek.com/news/news260424) - 📦 API 模型已于2026年9月10日退役，旧名称路由至 V4.1-Flash。2026-04-24。284B 总 / 13B 激活 MoE，1M 上下文。MIT。性价比层 —— 2026-08-16 起：高峰每 100 万 token **命中缓存输入 $0.014 / 未命中 $0.44，输出 $1.32**，低谷 **$0.007 / $0.22 / $0.66**；最大输出 384K，并发上限 2500（[定价](https://api-docs.deepseek.com/quick_start/pricing)）。
 - [DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) - 🆕 **2026-07-31**。DeepSeek 发布的更新 Flash 检查点 —— 相同 284B/13B 激活 MoE 架构，相同 API/定价，但在 Agent 任务基准上表现优于 V4-Pro（预览版）。MIT 协议开源至 Hugging Face，直接替换 `deepseek-v4-flash` API 用户即可使用。
 - [DeepSeek-V4-Flash-Vision-Exp](https://api-docs.deepseek.com/news/news260821) - 🆕 **2026-08-21**。实验性多模态 API 模型（`deepseek-v4-flash-vision-exp`）：文本 / Agent / 推理对齐 V4-Flash，多模态 Agent 基准接近 Opus-4.8。图像按 V4-Flash 计价（每张最多 384 token）；支持 Chat Completions / Messages / Responses；可用 base64、URL 或 Files API。同日上线免费 **Files API**（上传一次后用 `file_id` 复用）。DeepSeek Harness 0.1.1 当天支持。
 - [DeepSeek Agent Harness 团队](https://www.scmp.com/tech/big-tech/article/3354113/deepseek-recruits-former-jane-street-engineer-catch-ai-agents-revenue-race) - **2026-05-19**。DeepSeek 从 Jane Street 挨角一名资深工程师，为新设的 "AI harness" 团队搭建把 DeepSeek V4 所能生产化为 **能收费的自主 Agent** 的硬调度 / 程序化套件 —— 首个明确信号：DeepSeek 开始从原生模型 R&D 跳到 Agent 产品化。
@@ -315,6 +328,7 @@
 
 ### xAI / SpaceXAI (Grok)
 
+- [Grok 4.7](https://docs.x.ai/docs/release-notes) - 🆕 **2026年9月21日**。xAI API 上的 `grok-4.7`，面向编程、Agent 任务与知识工作：500K 上下文，文本与图像输入，推理强度 low–xhigh；提示词低于 200K token 时每百万输入/缓存/输出 $2/$0.50/$6，超过后 $4/$1/$12。Grok 4.7 Fast（2 倍价格）仅在 Cursor 和 Grok Build 中提供。
 - [Grok 4.6](https://x.ai/news/grok-4-6) - **2026年8月12日**。通过 API、Cursor、Grok Build 提供的编程与 Agent 模型，每百万 token 输入/输出起价 $2/$6；Fast 价格翻倍。
 - [Grok Bot](https://docs.x.ai/docs/release-notes) - 🆕 **2026-08-11（早期 beta）**。可长期存续的 AI 队友，运行在**持久化云端计算机**上，支持消息、审批、连接器与例行任务 —— xAI 进军常驻自主 Agent 领域之作。可通过 SuperGrok Heavy、Cursor Ultra 与 Cursor Teams Premium 使用。
 - [Grok 4.5](https://x.ai/) - 🆕 **2026-07-08**。与 Cursor 共同训练，利用真实开发者交互数据优化编程与 Agent 能力。支持 500K token 上下文、函数调用、结构化输出、web/X 搜索、代码执行、文档搜索与上下文压缩。定价 $2/$6 每百万 token。EU API 控制台于 2026-07-17 上线。2026-08-12 起旗舰地位被 Grok 4.6 取代。
@@ -326,11 +340,12 @@
 
 ### Microsoft (MAI)
 
+- [MAI-Transcribe-2-Streaming](https://microsoft.ai/news/our-first-streaming-transcription-model/) - 🆕 **2026年10月1日**。微软首个流式语音识别模型：支持 60 种语言及连续语言检测，首个部分转写约 100 毫秒；在 Microsoft Foundry、MAI Playground、Vercel 和 Azure Voice Live 提供，年底前引导价每音频小时 $0.54。
 - [MAI-Transcribe-2](https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/) - 🆕 **2026年9月3日**。语音识别模型，支持说话人区分、词级时间戳、词汇偏置与60种语言；促销价为每小时音频 $0.10，持续至年底。
 - [Microsoft MAI-Code-1-Flash](https://microsoft.ai/news/introducingmai-code-1-flash/) - **Build 2026（2026 年 6 月 2 日）**。微软首个完全脱离 OpenAI 技术、从零自研的编程基础模型。5B 参数，自适应思考长度，已上线 GitHub Copilot。在四大核心编程基准上击败 Claude Haiku 4.5（SWE-Bench Pro 51.2% vs 35.2%，领先 16 分），SWE-Bench Verified 任务最多省 60% token。
 - [Microsoft MAI-Thinking-1](https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/) - **Build 2026（2026 年 6 月 2 日）**。微软首个完全脱离 OpenAI 数据、从零自训的推理模型；与 MAI-Code-1-Flash 同发，标志微软的基础模型独立进程。
 - [MAI-Code-1.1-Flash](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/) - 🆕 **2026-08-11**。相对 6 月 1.0 的生产 Copilot 主力：代码质量更高、**token 效率 +25%**、**成本约 1/4**；Terminal-Bench 2.1 +22%，.NET 任务 +15%。
-- [MAI-Image-2.6](https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/) - 🆕 **2026-08-10**（Arena 编辑榜更新 **08-18**）。发布时 Arena 文生图第 2；到 8 月 18 日图像编辑第 3，高于 Nano Banana 与 Muse Image（相对 2.5 +79 Elo）。MAI Playground + Foundry 私有预览。
+- [MAI-Image-2.6](https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/) - 🆕 **2026-08-10**（Arena 编辑榜更新 **08-18**）。发布时 Arena 文生图第 2；到 8 月 18 日图像编辑第 3，高于 Nano Banana 与 Muse Image（相对 2.5 +79 Elo）。MAI Playground + Foundry 私有预览。**2026年9月4日**：新增 [MAI-Image-2.6-Flash](https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/)，两款模型在 Microsoft Foundry 进入公开预览。
 - [MAI-Cyber-1-Flash](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/) - 🆕 **2026-08-13**。MDASH 内的网络安全模型；微软称以领先模型约 **50% 成本**达到世界级表现。
 
 ### Microsoft (Phi)
@@ -475,6 +490,7 @@
 - [MAI-Image-2.6](https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/) - 🆕 **2026-08-10**（编辑榜 **08-18**）。微软自研图像模型 —— 发布时 Arena 文生图第 2，8 月 18 日图像编辑第 3。详见 Foundation → Microsoft (MAI)。
 - [DALL·E 3](https://developers.openai.com/api/docs/deprecations) - 📦 历史文生图模型；`dall-e-3` API 已于 **2026年5月12日**退役，官方推荐迁移到 GPT Image 系列。
 - [Gemini 3 Pro Image (Nano Banana Pro)](https://deepmind.google/models/gemini-image/pro/) - Gemini 内原生图像生成。
+- [Nano Banana 2.1](https://ai.google.dev/gemini-api/docs/changelog) - 🆕 **2026年10月6日**。Nano Banana 2 的正式版更新（`gemini-nano-banana-2.1`），用于图像生成和对话式编辑；`gemini-3.1-flash-image` 已弃用，尚未公布停用日期。
 - [Nano Banana 2 (Gemini 3.1 Flash Image)](https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/) - 🆕 **2026-02-26**。以 Flash 速度提供 Nano Banana Pro 级画质与世界知识；最多 5 个角色一致性，512px–4K 输出，支持图内文字渲染/翻译。
 - [Kling Image 3.0 / 3.0 Omni](https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be/) - 🇨🇳 🆕 **2026-02-05**。快手原生 2K/4K 图像生成，与 Video 3.0 一同随 Kling 3.0 套件发布。
 - [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale**（2025-07 起无更新）。Black Forest Labs 开源模型。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblack-forest-labs%2Fflux&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -794,7 +810,10 @@
 
 - [CrowdStrike 2026 威胁狩猎报告](https://www.crowdstrike.com/en-us/resources/reports/threat-hunting-report/) - 🆕 **2026-08-03**。AI Agent 触发的检测数量是人工发起线索的 **2.5 倍**；中国 APT 组织在漏洞披露后 24 小时内即完成 PoC 利用；STARDUST CHOLLIMA 单日污染 300+ 个 AI 框架依赖；一次 LLMJacking 攻击 2 分钟内发出 20 万次 API 请求。
 - [Straiker AI 运行时安全](https://www.straiker.ai/) - 🆕 **2026-08**（BH2026 展示）。AI 原生 Agent 安全平台 —— 资产发现（Discover AI）、对抗性红队（Ascend AI）、运行时拦截（Defend AI）。拦截提示注入、记忆投毒、身份滥用。累计融资 8500 万美元（其中 A 轮 6400 万，2026-06）。
+- [PkgDiet](https://github.com/om-tajne/pkgdiet) - 🆕 ⚠️ **未验证**（单人维护项目，尚无独立采用证据）。MIT 许可的本地 MCP 服务器与依赖策略，在 AI 编程 Agent 安装 npm 包前进行检查，提供 `check_dependency` 与 `suggest_alternative` 工具。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fom-tajne%2Fpkgdiet&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Cloudflare Clef / Clef-flash](https://huggingface.co/Cloudflare/clef) - 🆕 **2026年10月1日**。Apache-2.0 开放权重的 27B 与 9B 决策模型，64K 上下文，在 Workers AI 上以 `@cf/cloudflare/clef` 和 `@cf/cloudflare/clef-flash` 提供；Cloudflare 将 Agent 护栏（如在调用工具前检查动作）列为用例。
 - [EU AI Act Article 50 — transparency obligations](https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations) - **2026-08-02 起适用**。第 50 条规定相关提供者和部署者的透明度义务，包括 AI 交互告知与内容标记/披露；适用范围、角色对应义务及例外以欧盟委员会指南为准。
+- [EU AI Omnibus — Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj) - **2026年7月27日生效**。修订《AI 法案》：独立（附件 III）高风险义务推迟至 **2027年12月2日**，嵌入产品（附件 I）的推迟至 **2028年8月2日**；通用 AI 模型义务和多数透明度义务仍自 2026年8月2日起适用，仅对已上市生成式系统的部分机器可读标记给予四个月宽限期。范围和例外以官方文本为准。
 
 ## 🔍 RAG 与知识库
 
@@ -909,6 +928,7 @@
 
 - [Google Gemini Robotics-ER 1.6 (legacy)](https://ai.google.dev/gemini-api/docs/robotics-overview) - 💤 已由 ER 2 接替：Google 文档指定 `gemini-robotics-er-1.6-preview` 于 2026 年 8 月底下线，应迁移至 ER 2 标准或流式预览端点。
 - [Google Gemini Robotics 2 / ER 2 / On-Device 2](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/) - 🆕 **2026-07-30**。包含全身控制 VLA、具身推理 VLM 及端侧控制模型；ER 2 提供 [Gemini API 标准与流式预览](https://ai.google.dev/gemini-api/docs/robotics-overview)，机器人控制模型通过合作伙伴/测试者计划提供。
+- [Figure Helix 2.5](https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization) - 🆕 **2026年9月17日**。Figure 基于自有 Index 人类行为数据集预训练的策略；公司称在 30 个未见过的家庭中零样本完成整理、叠毛巾与铺床（使用 Index 预训练成功率 56%，未使用为 9%）。为公司自报研究结果，并非已发布模型。
 - [Project Prometheus (Bezos)](https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/) - 🆕 💰 **2026-06-11**。贝佐斯联合主导的 Physical AI 项目，以 $41B 估值融资 $12B，目标打造面向物理世界的「通用人工工程师」。
 - [NVIDIA Isaac GR00T N1.7](https://github.com/NVIDIA/Isaac-GR00T) - 开放的人形机器人 VLA，提供权重、微调和推理代码；N1.7 使用 Cosmos-Reason2/Qwen3-VL 骨干及相对末端执行器动作，采用 Apache-2.0 许可证。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FNVIDIA%2FIsaac-GR00T&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Physical Intelligence openpi (π0 / π0-FAST / π0.5)](https://github.com/Physical-Intelligence/openpi) - Physical Intelligence 官方机器人策略及训练/推理代码，含流匹配 π0、自回归 π0-FAST 和 π0.5；已发布检查点可适配新机器人数据，模型需分别核对条款。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FPhysical-Intelligence%2Fopenpi&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -980,7 +1000,7 @@
 
 ## 📊 评测与 Leaderboard
 
-*评测套件及动态排行榜；2026-09-08 核对。*
+*评测套件及动态排行榜；2026-10-08 核对。*
 
 > **结合实验设置解读分数。** 模型版本、Agent 框架、数据集修订、工具权限和重试/算力预算都会影响结果。无法确定原始评测设置的旧领先者快照已移除。优先使用可复现的原始评测，并评估自己的实际任务。
 >
@@ -999,6 +1019,9 @@
 - [Humanity’s Last Exam (HLE)](https://agi.safe.ai/) - 专家级跨学科基准，定稿题集含 2,500 题，另有持续维护的 HLE-Rolling；它与 AIME 数学竞赛基准不同。
 - [Terminal-Bench 4.0](https://www.tbench.ai/news/terminal-bench-4-0) - 🆕 ⚡ **2026-08-28**。当前终端基准重新校准资源、修复任务并移除饱和/有问题样本；任务集和环境预算变化，需要重新运行，不能直接比较 2.x/3.0 分数。
 - [Terminal-Bench-Science 0.1](https://www.tbench.ai/news/terminal-bench-science-0-1) - 🆕 ⚡ **2026-08-27**。70 个经专家审阅的科研工作流，覆盖生命、物理、地球、数学及工程科学，以可复现的任务专用测试评测。
+- [AutomationBench](https://zapier.com/benchmarks) - Zapier 的业务工作流基准，覆盖销售、市场、运营、客服、财务和人力资源，按最终环境状态确定性评分，并区分公开/私有任务集；2026年9月的前沿模型发布引用了该基准，分数由厂商自报。
+- [OSWorld 2.0](https://github.com/xlang-ai/OSWorld-V2) - 新一代桌面 Agent 基准；v2026.08.08 版修订任务以防止奖励投机，并固定资源与模拟网站。厂商还会报告离线/部分得分等子集变体，只能在相同任务集和评分方式下比较。
+- [DeepSWE v1.1](https://deepswe.datacurve.ai/blog/deepswe-v1-1) - Datacurve 的 113 个原创长周期软件工程任务；v1.1 只在全新验证容器中评测已提交代码，分数不能与 v1.0 直接比较。
 - [Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/) - Wolfram 持续评测从英文需求生成 Wolfram Language 代码的能力。
 - [Terminal-Bench 2.0 (legacy)](https://www.tbench.ai/news/announcement-2-0) - 含 89 道终端任务的历史版本，保留用于理解旧论文；后续版本修正了任务及环境问题。
 - [GDPval](https://openai.com/index/gdpval/) - OpenAI 对 44 种职业、九个行业中经济价值任务的评测；原始任务/评分与第三方基于 GDPval 的排行榜应分别看待。
@@ -1171,6 +1194,7 @@
 - [Talkdesk Agent Builder](https://www.cmswire.com/contact-center/customer-contact-week-2026-capturing-the-ai-announcements-in-contact-center-technology/) - **2026 年 6 月**。低代码构建器，让业务人员在数小时内（而非数周）将生产级 AI Agent 部署到联络中心。
 - [HelloTwin Digital Authority](https://siliconangle.com/2026/06/24/hellotwin-launches-digital-authority-bring-governed-ai-agents-enterprise/) - **2026 年 6 月**。作为单一可审计事实来源的 AI 数字分身，以清晰边界治理 Agentic 工作流。
 - [Hellomatik](https://hellomatik.com) - 💰 ⚠️ **Freemium / 未验证**。将企业知识库转化为能够在 WhatsApp、邮件和网页全渠道解答、销售和预订的 AI Agent 平台。支持集成 Shopify、Stripe、Sage。对话转化率自称达 25–30%。
+- [Viktor](https://viktor.com/) - 面向 Slack 与 Microsoft Teams 的 AI 同事，可连接 3,200+ 工具，并在自己的云端电脑上运行代码；客户名单与采用数据由厂商发布。
 - [OpenAI Presence](https://openai.com/) - 🆕 **2026-07-22**。OpenAI 为企业推出的 Agent 部署平台——支持企业大规模部署 AI Agent，面向客服和运营场景。自称 75% 的电话客服交互无需人工升级。
 
 ---
@@ -1262,7 +1286,7 @@
 - [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) - 官方调工具、Computer Use、Agent 模式、Claude Code 示例本。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fanthropics%2Fclaude-cookbooks&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Google Gemini Cookbook](https://github.com/google-gemini/cookbook) - Gemini API 示例：grounding / function calling / 多模态 / live audio。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgoogle-gemini%2Fcookbook&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [LLM Course (Maxime Labonne)](https://github.com/mlabonne/llm-course) - LLM 从入门到微调的完整课程 + Colab。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmlabonne%2Fllm-course&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [Anthropic Courses](https://github.com/anthropics/courses) - Anthropic 官方 prompt engineering / 评测 / 工具调用课程。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fanthropics%2Fcourses&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Anthropic Courses](https://github.com/anthropics/courses) - 📦 已归档；Anthropic 官方 prompt engineering / 评测 / 工具调用课程。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fanthropics%2Fcourses&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course/unit0/1) - 免费课程，结合经典机器人学、学习型策略、LeRobot、真实机器人数据集和实践练习。
 
 ### 精选列表
@@ -1406,23 +1430,22 @@
 
 ### 💰 基础大模型 — API 价格与上下文窗口
 
-*2026-09-08核验官方标准 API 价格；单位为美元/百万 token，不含工具、税费及缓存写入。上下文不等于最大输入额度。*
+*2026-10-08核验官方标准 API 价格；单位为美元/百万 token，不含工具、税费及缓存写入。上下文不等于最大输入额度。*
 
 | 模型 | 供应商 | 上下文 | 最大输出 | 输入 $/1M | 输出 $/1M | 说明 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) | OpenAI | 1.05M | 128K | $10.00 | $50.00 | 仅部分组织开放；尚未 GA |
-| [GPT-5.6 Sol](https://developers.openai.com/api/docs/pricing) | OpenAI | 1.05M | 128K | $4.00 | $20.00 | 通用 Agent 任务 |
-| [GPT-5.6 Terra](https://developers.openai.com/api/docs/pricing) | OpenAI | 1.05M | 128K | $2.00 | $12.00 | 均衡生产层级 |
-| [GPT-5.6 Luna](https://developers.openai.com/api/docs/pricing) | OpenAI | 1.05M | 128K | $0.20 | $1.20 | 吞吐与成本 |
+| [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) | OpenAI | 1.05M | 128K | $10.00 | $50.00 | 付费 API 层级；Ultrafast 限 Pro 500/Enterprise |
+| [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol) | OpenAI | 1.05M | 128K | $2.00 | $10.00 | 通用 Agent 任务；缓存输入 $0.10 |
+| [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna) | OpenAI | 1.05M | 128K | $0.10 | $0.50 | 吞吐与成本 |
 | [Claude Fable 5.1](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $10.00 | $50.00 | 缓存读取 $0.25/M |
-| [Claude Opus 5](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $5.00 | $25.00 | Opus 层级 |
-| [Claude Sonnet 5](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $2.00 | $10.00 | 标准价；9月不涨价 |
-| [Claude Haiku 4.5](https://platform.claude.com/docs/en/models/overview) | Anthropic | 200K | 64K | $1.00 | $5.00 | 延迟敏感任务 |
+| [Claude Opus 5.5](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $4.00 | $20.00 | 思考始终开启；Fast 模式预览 |
+| [Claude Sonnet 5.5](https://platform.claude.com/docs/en/about-claude/pricing) | Anthropic | 1M | 128K | $2.00 | $10.00 | 10月7日起缓存读取 $0.10/M |
+| [Claude Haiku 5.5](https://platform.claude.com/docs/en/models/overview) | Anthropic | 1M | 128K | $0.10 | $0.50 | 提示词≤100K；超过后 $0.50/$2.50 |
 | [Gemini 3.8 Flash](https://ai.google.dev/gemini-api/docs/pricing) | Google | 1,048,576 | 65,536 | $0.75 | $3.75 | 优惠价至2026-12-31 |
 | [Gemini 3.1 Pro Preview](https://ai.google.dev/gemini-api/docs/pricing) | Google | 1M | 65,536 | $2.00 | $12.00 | 提示词≤200K的基础价格 |
 | [DeepSeek V4-Pro](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | 1M | 384K | $1.32 / $0.66 | $3.96 / $1.98 | 高峰/低谷；未命中缓存 |
-| [DeepSeek V4-Flash](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | 1M | 384K | $0.44 / $0.22 | $1.32 / $0.66 | 高峰/低谷；未命中缓存 |
-| [Grok 4.6](https://x.ai/news/grok-4-6) | SpaceXAI | 500K | — | $2.00 | $6.00 | Fast 层级价格2倍 |
+| [DeepSeek V4.1-Flash](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | 1M | 384K | $0.30 / $0.15 | $1.20 / $0.60 | 高峰/低谷；未命中缓存；`deepseek-flash` |
+| [Grok 4.7](https://docs.x.ai/docs/release-notes) | SpaceXAI | 500K | — | $2.00 | $6.00 | 提示词>200K为$4/$12；Fast 仅限 Cursor/Grok Build |
 
 表中 OpenAI 模型的提示词超过272K时，输入/缓存按2倍、输出按1.5倍计费；Astra输入上限922K。Gemini Pro超过200K采用不同长上下文价格。Gemini 3.8 Flash于2027-01-01调整为$1.50/$7.50。DeepSeek高峰时段为UTC 01:00–04:00及06:00–10:00。缓存、批处理、区域与服务层级附加规则请查看链接中的官方定价。
 
@@ -1447,10 +1470,11 @@
 | Qwen3.8-Flash-Next | 125B + 51B tables + 4B MTP | ~90 GB | [Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) | Qwen Community 1.0 |
 | Qwen3 235B A22B | 235B / 22B active | ~117.5 GB | [Qwen/Qwen3-235B-A22B](https://huggingface.co/Qwen/Qwen3-235B-A22B) | Apache-2.0 |
 | Inkling-Small | 276B / 12B active | ~138 GB | [thinkingmachines/Inkling-Small](https://huggingface.co/thinkingmachines/Inkling-Small) | Apache-2.0 |
-| DeepSeek V4-Flash | 284B / 13B active | ~142 GB | [deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | MIT |
+| DeepSeek V4-Flash (superseded by V4.1-Flash) | 284B / 13B active | ~142 GB | [deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | MIT |
 | GLM-5.3-Flash | 320B / 18B active | ~160 GB | [zai-org/GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) | MIT |
 | MiniMax-M3 | MoE | — | [MiniMaxAI/MiniMax-M3](https://huggingface.co/MiniMaxAI/MiniMax-M3) | MiniMax Community |
 | GLM-5.3 | MoE | — | [zai-org/GLM-5.3](https://huggingface.co/zai-org/GLM-5.3) | GLM-5.3 License |
+| DeepSeek V4.1-Flash | 552B backbone (763B in published tensors) / 8B prefill, 16B decode active | ~382 GB (763B basis) | [deepseek-ai/DeepSeek-V4.1-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) | MIT |
 | Inkling | 975B / 41B active | ~487.5 GB | [thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) | Apache-2.0 |
 | DeepSeek V4-Pro | 1.6T / 49B active | ~800 GB | [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | MIT |
 | Kimi K3 | 2.8T / 104B active | ~1,400 GB | [moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) | Kimi K3 License |
@@ -1506,6 +1530,7 @@
 | [Stable Diffusion 3.5](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) | 开放权重 | 自托管图像生成 | Stability AI Community License |
 | [Seedream 5.0 Pro](https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro) | 云服务 | 布局与图文设计 | 字节跳动图像系列 |
 | [Nano Banana Pro](https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image) | 云服务 | 图像生成/编辑 | gemini-3-pro-image |
+| [Nano Banana 2.1](https://ai.google.dev/gemini-api/docs/changelog) | 云服务 | 图像生成/编辑 | gemini-nano-banana-2.1 |
 | [Nano Banana 2](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image) | 云服务 | 图像生成/编辑 | gemini-3.1-flash-image |
 | [Nano Banana 2 Lite](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image) | 云服务 | 高效图像生成 | gemini-3.1-flash-lite-image |
 | [Ideogram 4.0](https://ideogram.ai/models/4.0/) | 云服务 / 开放量化权重 | 排版与布局编辑 | 权重非商用；商用另行许可 |
@@ -1679,7 +1704,7 @@
 | --- | --- | --- | --- | --- |
 | [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) | Alibaba | 多模态 | ✅ | Apache-2.0 |
 | [Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) | Alibaba | 多模态 | ✅ | Qwen Community 1.0 |
-| [DeepSeek V4-Flash / Pro](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | 文本推理/编程 | ✅ | MIT |
+| [DeepSeek V4.1-Flash / V4-Pro](https://api-docs.deepseek.com/quick_start/pricing/) | DeepSeek | 文本推理/编程 | ✅ | MIT |
 | [Kimi K3](https://huggingface.co/moonshotai/Kimi-K3) | Moonshot AI | 多模态 | ✅ | Kimi K3 License |
 | [GLM-5.3](https://huggingface.co/zai-org/GLM-5.3) | Z.ai | 文本推理/编程 | ✅ | GLM-5.3 License |
 | [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) | Z.ai | 多模态 | ✅ | MIT |
@@ -1822,10 +1847,10 @@
 ### 🧠 模型选择类
 
 **我需要处理复杂多步推理的模型**
-→ 在自己的任务上比较 **GPT-6 Astra** 与 **Claude Fable 5.1**；**Claude Opus 5**、**GPT-5.6 Sol**、**Gemini 3.8 Flash**提供不同的成本与能力取舍。部署前核对访问权限及 API 表。
+→ 在自己的任务上比较 **GPT-6 Astra** 与 **Claude Fable 5.1**；**Claude Opus 5.5**、**GPT-6.1 Sol**、**Gemini 3.8 Flash**提供不同的成本与能力取舍。部署前核对访问权限及 API 表。
 
 **我需要低成本高吞吐推理**
-→ 按实际输出长度、缓存命中率和重试量评测 **GPT-5.6 Luna**、**Gemini 3.8 Flash**、**DeepSeek V4-Flash**。DeepSeek 的 **高峰**时段为UTC 01:00–04:00及06:00–10:00。
+→ 按实际输出长度、缓存命中率和重试量评测 **GPT-6 Luna**、**Gemini 3.8 Flash**、**DeepSeek V4.1-Flash**。DeepSeek 的 **高峰**时段为UTC 01:00–04:00及06:00–10:00。
 
 **我需要中文 Agent**
 → 可评测 **Qwen3.8**、**Kimi K3**、**DeepSeek V4**、**GLM-5.3 / GLM-5.3-Flash**、**Seed 2.1**，重点检查领域术语与工具schema。中文对比表已区分云服务、开放权重和自定义许可。
@@ -1837,13 +1862,13 @@
 → 量化后的 **Qwen3.8-27B**、**Gemma 4 31B**、**Muse Glimmer 30B**可作为工作站候选。**DeepSeek V4**、**GLM-5.3-Flash**、**Inkling**等大型MoE需要更多总内存或卸载，应参考存储表而非激活参数。
 
 **我需要编程模型**
-→ 可以 **Claude Sonnet 5** 或 **GPT-5.6 Sol**作基线，再用难题评测 **GPT-6 Astra**、**Claude Fable 5.1**、**Muse Spark 1.3**。自托管可比较 **GLM-5.3**、**GLM-5.3-Flash**、**DeepSeek V4**及较小的 **Qwen3.8-27B**，分别核对许可。
+→ 可以 **Claude Sonnet 5.5** 或 **GPT-6.1 Sol**作基线，再用难题评测 **GPT-6 Astra**、**Claude Fable 5.1**、**Muse Spark 1.3**。自托管可比较 **GLM-5.3**、**GLM-5.3-Flash**、**DeepSeek V4**及较小的 **Qwen3.8-27B**，分别核对许可。
 
 **我需要多模态理解**
 → **Gemini 3.8 Flash**接受文本、图像、音频、视频与PDF，但输出文本。**Qwen3.8-27B**和 **Gemma 4**提供本地选择；**Inkling**接受文本、图像与音频。须核对具体型号的输入与输出模态。
 
 **我需要至少500K token上下文**
-→ 可比较 **GPT-6 Astra**、**Claude Fable 5.1 / Sonnet 5**、**Gemini 3.8 Flash**、**DeepSeek V4**、**Kimi K3**。上下文不只包含用户输入，还需计入输出、推理、模态token、服务上限及长上下文加价。
+→ 可比较 **GPT-6 Astra**、**Claude Fable 5.1 / Sonnet 5.5**、**Gemini 3.8 Flash**、**DeepSeek V4**、**Kimi K3**。上下文不只包含用户输入，还需计入输出、推理、模态token、服务上限及长上下文加价。
 
 **我需要实时语音**
 → 原生语音交互可评测 **GPT-Realtime-2.1**或 **Gemini 3.1 Flash Live**。搭建流水线时，须分别选择STT（**Qwen3-ASR**、**Voxtral Realtime**、**Muse Voice Transcribe**）与TTS（**Qwen3-TTS**、**Kokoro**、**Eleven v3**）。
@@ -1919,10 +1944,10 @@
 ### 🌍 生态选择类
 
 **我想在OpenAI生态构建**
-→ **OpenAI Agents SDK**搭配 **GPT-5.6 Terra**处理均衡任务、**GPT-5.6 Luna**处理高吞吐任务，或 **GPT-6 Astra**处理复杂任务；按应用需要配置沙箱与评测。
+→ **OpenAI Agents SDK**搭配 **GPT-6.1 Sol**处理均衡任务、**GPT-6 Luna**处理高吞吐任务，或 **GPT-6 Astra**处理复杂任务；按应用需要配置沙箱与评测。
 
 **我想在Anthropic Claude生态构建**
-→ **Claude Code**搭配 **Claude Sonnet 5 / Opus 5 / Fable 5.1**，用 **MCP**连接工具、**Langfuse**观测运行；模型与执行框架应一起评测。
+→ **Claude Code**搭配 **Claude Sonnet 5.5 / Opus 5.5 / Fable 5.1**，用 **MCP**连接工具、**Langfuse**观测运行；模型与执行框架应一起评测。
 
 **我想在Google Gemini生态构建**
 → **Google ADK**搭配 **Gemini 3.8 Flash**或 **Gemini 3.1 Pro Preview**，结合Google Cloud部署与评测服务；须核对所选端点的区域和预览状态。
@@ -1946,9 +1971,9 @@
 |---|------------|-------|----------|
 | 1 | **轻量编程 Agent** | Claude Code + E2B + Langfuse | 编程工作流，独立配置沙箱与追踪 |
 | 2 | **本地模型 SWE Agent** | OpenHands + Ollama + Qwen3.8-27B + Qdrant | 配置各服务端点后的本地模型编程 |
-| 3 | **企业级 RAG** | LlamaIndex + Qdrant + Qwen3-Embedding-8B + Langfuse + Claude Sonnet 5 | 内部文档检索与评估 |
-| 4 | **语音助手流水线** | LiveKit + Whisper (STT) + Claude Sonnet 5 + ElevenLabs v3 (TTS) | 自定义语音流水线，需测量端到端延迟 |
-| 5 | **浏览器自动化** | Browser Use + Stagehand + Claude Sonnet 5 + Langfuse | 配置重试与结果校验的浏览器任务 |
+| 3 | **企业级 RAG** | LlamaIndex + Qdrant + Qwen3-Embedding-8B + Langfuse + Claude Sonnet 5.5 | 内部文档检索与评估 |
+| 4 | **语音助手流水线** | LiveKit + Whisper (STT) + Claude Sonnet 5.5 + ElevenLabs v3 (TTS) | 自定义语音流水线，需测量端到端延迟 |
+| 5 | **浏览器自动化** | Browser Use + Stagehand + Claude Sonnet 5.5 + Langfuse | 配置重试与结果校验的浏览器任务 |
 | 6 | **本地隐私栈** | Ollama + Qwen3.8-27B + Open WebUI + Qdrant + n8n | 关闭远程连接器与遥测后的本地服务 |
 | 7 | **TypeScript Agent** | Mastra + Vercel AI SDK + Gemini 3.8 Flash + Qdrant + Langfuse | TypeScript 应用起点 |
 | 8 | **国内市场栈** | Qwen3.8 API + RAGFlow + Milvus + Langfuse | 中国区端点，需核查服务条款与数据流 |
@@ -2224,6 +2249,23 @@
 | **2026-09-07** | [Hermes Agent v2026.9.7](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.7) — 发布此版本；运行时变更以版本说明为准。 | 发布 / 更新 |
 | **2026-09-08** | [OpenAI Agents SDK v0.22.1](https://github.com/openai/openai-agents-python/releases/tag/v0.22.1) — Python SDK 发布此版本。 | 发布 / 更新 |
 | **2026-09-08** | [OpenClaw v2026.9.3](https://github.com/openclaw/openclaw/releases/tag/v2026.9.3) — 此为版本发布日，与标签中的日期不同。 | 发布 / 更新 |
+| **2026-09-10** | [OpenAI Agents API](https://openai.com/index/introducing-the-agents-api/) — OpenAI 基于 Codex 执行框架的托管 Agent 运行时进入公开测试。 | 发布 / 更新 |
+| **2026-09-10** | [DeepSeek-V4.1-Flash](https://api-docs.deepseek.com/news/news260910) — `deepseek-flash` 发布，权重为 MIT 许可；V4-Flash API 名称退役并路由至该模型。 | 发布 / 更新 |
+| **2026-09-10** | [Cursor Projects (beta)](https://cursor.com/changelog) — 协调 Agent 规划较大工作并委派给其他 Agent，项目上下文在各 Agent 间保留。 | 发布 / 更新 |
+| **2026-09-15** | [Gemini 3.8 Live](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/) — Live API 语音到语音模型发布，含扩展思考版本。 | 发布 / 更新 |
+| **2026-09-16** | [Cowork in any Claude conversation](https://support.claude.com/en/articles/12138966-release-notes) — Cowork 任务、连接器和技能可在任意对话中使用；所有方案均可创建设计、演示文稿与文档。 | 发布 / 更新 |
+| **2026-09-17** | [Figure Helix 2.5](https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization) — 公司自报在 30 个未见家庭中零样本完成家务任务。 | 发布 / 更新 |
+| **2026-09-21** | [Grok 4.7](https://docs.x.ai/docs/release-notes) — xAI API 模型，500K 上下文，提示词低于 200K 时 $2/$6。 | 发布 / 更新 |
+| **2026-09-22** | [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) — `claude-opus-5-5` 发布，每百万输入/输出 token $4/$20。 | 发布 / 更新 |
+| **2026-09-22** | [GPT-6 Sol / Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna/) — `gpt-6-sol`（$2/$10）与 `gpt-6-luna`（$0.10/$0.50）在 API、ChatGPT Work 和 Codex 上线。 | 发布 / 更新 |
+| **2026-09-28** | [Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5) — `claude-sonnet-5-5` 发布，$2/$10；强制工具调用返回 400。 | 发布 / 更新 |
+| **2026-09-29** | [OpenAI DevDay 2026](https://openai.com/index/devday-2026-recap/) — 发布 GPT-6.1 Sol、Dots、ChatGPT Space、Astra Ultrafast 以及插件/MCP events 更新。 | 发布 / 更新 |
+| **2026-09-30** | [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) — 发布时仅向 Fairwind 计划的网络防御方开放；更大范围开放尚无日期。 | 发布 / 更新 |
+| **2026-10-01** | [GitHub Copilot computer use](https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps) — Copilot 可操作桌面应用；本地沙箱于 10 月 7 日正式可用。 | 发布 / 更新 |
+| **2026-10-01** | [Cloudflare Clef](https://huggingface.co/Cloudflare/clef) — Workers AI 上用于护栏式检查的 Apache-2.0 27B/9B 决策模型。 | 发布 / 更新 |
+| **2026-10-06** | [Mistral Large 4](https://mistral.ai/news/mistral-large-4) — 公开预览；Mistral 称开放权重将于 10 月底发布。 | 发布 / 更新 |
+| **2026-10-07** | [Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) — 支持 1M 上下文和 effort 参数的 Claude 小模型层级。 | 发布 / 更新 |
+| **2026-10-07** | [Codex CLI v0.161.0](https://github.com/openai/codex/releases/tag/rust-v0.161.0) — 稳定版，将 GPT-6.1 Sol 设为内置默认模型；之后的 alpha 构建属于预览。 | 发布 / 更新 |
 | **2026-05** | [LangGraph v1.2](https://docs.langchain.com/oss/python/releases/changelog) — LangGraph 在发布历史中记录运行时和检查点改进。 | 历史 |
 | **2026-05** | [Grok 4.3 on Microsoft Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) — Microsoft 发布 Grok 4.3 在 Foundry 上的提供公告。 | 历史 |
 | **2026 持续** | A2A Protocol 合作伙伴增至 150+ | 协议 |
