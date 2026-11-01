@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%201%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-940%2B-orange.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-950%2B-orange.svg)](#)
 [![Audited](https://img.shields.io/badge/Spam_Audited-2026--11--01-success.svg)](#️-状态图例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![日本語](https://img.shields.io/badge/Lang-日本語-red.svg)](README.ja.md)
@@ -70,7 +70,7 @@
 | [🧪 Agent 沙箱与计算隔离](#-agent-沙箱与计算隔离) | 运行 Agent 生成代码的安全沙箱 | 10+ |
 | [🛡️ Agent 安全](#️-agent-安全) | Prompt 注入防御与护栏 | 40+ |
 | [🔍 RAG 与知识库](#-rag-与知识库) | 检索增强生成系统 | 20+ |
-| [💻 编程 Agent](#-编程-agent) | AI 驱动的软件工程 | 55+ |
+| [💻 编程 Agent](#-编程-agent) | AI 驱动的软件工程 | 60+ |
 | [🤖 Physical AI / 具身智能](#-physical-ai--具身智能) | 人形机器人、具身智能、工业自动化 | 45+ |
 | [🎮 Agent 仿真与世界模型](#-agent-仿真与世界模型) | 训练与压力测试 Agent 的仿真环境 | 10+ |
 | [📊 评测与 Leaderboard](#-评测与-leaderboard) | 追踪前沿能力的排行榜 | 25+ |
@@ -866,7 +866,7 @@
 - [Antigravity CLI](https://antigravity.google/blog/introducing-google-antigravity-2-0) - **2026 年 5 月 19 日（Google I/O 2026）**。Antigravity 2.0 的轻量 CLI 伴侣——直接从终端创建并使用 Google 的 Agent harness。支持 macOS / Linux / Windows。据报道自 2026 年 6 月 18 日起面向托管套餐用户接替 Gemini CLI（开源 gemini-cli 仓库仍活跃，105K+ stars）。
 - [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) - Moonshot 的终端编程智能体，支持代码编辑、Shell 命令与文件/网页访问；官方安装器不要求 Node.js；[0.41.0](https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.41.0)（2026-09-04）。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FMoonshotAI%2Fkimi-code&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [MAI-Code-1-Flash in GitHub Copilot](https://microsoft.ai/news/introducingmai-code-1-flash/) - **Build 2026（2026 年 6 月 2 日）**。微软首个 100% 自研的 5B 编程模型作为 GitHub Copilot 的模型选项落地——在四大核心编程基准上击败 Claude Haiku 4.5（SWE-Bench Pro 51.2% vs 35.2%），成本显著更低。
-- [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview) - 向应用提供 Claude Code 智能体循环、工具、权限和会话处理的 Python 与 TypeScript SDK。
+- [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview) - 向应用提供 Claude Code 智能体循环、工具、权限和会话处理的 Python 与 TypeScript SDK。Python [v0.2.176](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.176)（2026-10-31）捆绑 Claude CLI 2.1.316。
 - [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) - ⚠️ **未验证。** 面向与 AI 编程 Agent（Claude Code、OpenClaw、Codex、Cursor、Copilot）协作的 PM 的规格驱动交付框架。4 档交付层级、0D 分诊路由、原型可测性规则、AI 运行时治理、5 个领域模块。SKILL.md 规范；托管于 ClawHub。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Ffranklinxkk%2Fai-delivery-spec&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Ralph Harness](https://github.com/rxdt/loopgate_harness) - ⚠️ **未验证。** 极简 Python 脚手架，用于带护栏的 Claude Code/Codex/Gemini 循环：仓库内规格、全新上下文迭代、git hook 关卡、CI 验证与覆盖率门槛。可通过 `uvx ralph-harness demo` 安装。MIT。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Frxdt%2Floopgate_harness&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Amp](https://ampcode.com) - 🆕 ⚡ Sourcegraph 的前沿编程 Agent（VS Code 插件 + CLI）。不用自带 key —— 模型访问已内置，并由模型无关的 "Dial" 路由层自动选模型。**2026 年 7 月连环更新**：7-18 上线订阅制 beta（Megawatt $20/月、Gigawatt $200/月，可挂自己的 ChatGPT 或 X Premium+/SuperGrok 订阅）、7-21 自排程 Agent、7-22 "Multiplayer" 共享会话协作、7-23 [事件驱动 Orbs](https://ampcode.com/news/event-driven-orbs) —— Agent 可由外部事件唤醒（GitHub CI 失败、Linear 新 issue、监控告警、Discord 消息，只要能发 HTTP 请求就行）。**8 月延续节奏**："Attach Anything" 上传（视频/日志/PDF/数据集，8-04）、"Portals into Orbs" 实时刷新预览（8-06）、Dial 可跑在关联的 ChatGPT 订阅上（8-10）、Global Plugins and Skills（8-11）。闭源。
@@ -879,6 +879,7 @@
 - [Cursor 3.4（Teams + PR 审查）](https://cursor.com/changelog) - **2026-05-11~13**。Microsoft Teams 集成（在 Teams 中 `@Cursor` 即可委派云端 Agent）、并行 Agent 计划执行提速、多仓库 / 基于 Dockerfile 的 Agent 开发环境配置、`/multitask` 异步子 Agent、漏洞扫描器、按模型粒度的访问控制。
 - [Cursor 3.3](https://cursor.com/changelog) - **2026-05**。PR 审查体验、并行 Agent、企业级模型管控；上一版 3.1 发布于 4 月。
 - [Cursor SDK](https://cursor.com/blog/typescript-sdk) - 🆕 **2026-04-29**（公开 beta）。TypeScript SDK 开放 Cursor 的运行时、harness 和模型，开发者可在 Cursor 栈上构建程序化 Agent —— 沙箱化云 VM、子 Agent、hooks、按 token 计费。
+- [Cursor Agent SDK](https://cursor.com/changelog/agent-sdk) - 🆕 **2026-10-20（GA）**。把智能体定义成一个文件夹，用评测测试，再部署到 Cursor 或自有基础设施。
 - [Kilo Code](https://kilo.ai/) - 开源 AI 编程扩展（VS Code / JetBrains），Auto Model 路由覆盖 500+ 模型；已被 Anaconda 收购（2026）。重点采用 MiniMax 系列模型。
 - [Cursor](https://www.cursor.com/) - 2026-02 更新支持 8 个并行 Agent。
 - [Windsurf → Devin Desktop](https://devin.ai/blog/windsurf-is-now-devin-desktop/) - **2026-06-02 更名**。Cognition 将 Windsurf IDE 更名为 **Devin Desktop**（windsurf.com 跳转至 devin.ai）：**Devin Local**（Rust 重写，token 效率提升约 30%，支持子 Agent）取代 Cascade，**Agent Command Center** 看板成为默认界面，并内置开放的 **Agent Client Protocol (ACP)**。Cascade 于 2026-07-01 停止支持。
@@ -887,6 +888,11 @@
 - [Void](https://github.com/voideditor/void) - 📦 **已归档**（2026 年8 月 GitHub 仓库已归档；维护者探索新方向；不再更新）。VS Code 的开源 fork，定位为开源版 Cursor；数据留在本地，自带模型。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Continue](https://github.com/continuedev/continue) - 开源 AI 编程助手（VS Code + JetBrains）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcontinuedev%2Fcontinue&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [GitHub Copilot](https://github.com/features/copilot) - 2026 初支持 Agent 模式，`gh copilot` 终端集成。**2026-08-21**：在 [Slack](https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack/) 或 [Teams](https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams/) 里 `@GitHub` 可开共享云端 Agent 会话（规划、沙箱改代码、开 PR）。
+- [GitHub Agent Merge](https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud) - 🆕 **2026-10-28**。Copilot 盯着拉取请求，在云端环境修复失败的 Actions 工作流和合并冲突；已在 Copilot 应用和 VS Code 中提供，现已接入 GitHub 拉取请求。
+- [GitHub Agentic Workflows](https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available) - 🆕 **2026-10-28**。GitHub Next 的开源项目现已正式发布：在 GitHub Actions 里用编程智能体处理推理型任务，由 Markdown 编译成 Actions YAML。
+- [Microsoft Copilot SDK](https://github.blog/changelog/2026-10-28-github-copilot-sdk-is-becoming-microsoft-copilot-sdk) - 🆕 **2026-10-28**。GitHub Copilot SDK 正在成为共享 Microsoft Copilot harness 的可编程接口；包迁移分阶段进行。
+- [GitHub Copilot local sandboxing](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available) - 🆕 **2026-10-07（GA）**。Copilot CLI、Copilot 应用和 VS Code Agent Host 会话中的本地沙箱，由 Microsoft eXecution Container 提供。
+- [Visual Studio Code 1.144](https://code.visualstudio.com/updates/v1_144) - 🆕 **2026-10-28**。智能体默认使用 Copilot harness，与 Copilot Code Review、CLI、App 和 Cloud 会话相同。[发布](https://github.com/microsoft/vscode/releases/tag/1.144.0)。
 - [Kiro](https://kiro.dev/) - AWS 自主 Agent。Spec-driven，最多 10 个并发任务。
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AWS 生态深度集成。
 - [Visual Studio 2026 Agent Mode + Skills](https://devblogs.microsoft.com/visualstudio/agent-skills-in-visual-studio/) - **VS 2026 Insiders 2026-05-12 – 15**。Copilot Chat "Agent Mode" 现在能在 Visual Studio 2026 里发现、管理、创建可复用的 Copilot Skill，能看到整个解决方案的上下文，还能执行终端命令与调用外部工具。
@@ -2276,9 +2282,11 @@
 | **2026-10-09** | [Qwen-Image-2.1-Turbo](https://github.com/QwenLM/Qwen-Image-2.1) — README 将 Turbo 权重和 Pro/Turbo API 标为这一天；基础权重于 2026-09-20 开放。 | 发布 / 更新 |
 | **2026-10-07** | [Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) — 支持 1M 上下文和 effort 参数的 Claude 小模型层级。 | 发布 / 更新 |
 | **2026-10-07** | [Codex CLI v0.161.0](https://github.com/openai/codex/releases/tag/rust-v0.161.0) — 稳定版，将 GPT-6.1 Sol 设为内置默认模型；之后的 alpha 构建属于预览。 | 发布 / 更新 |
+| **2026-10-07** | [GitHub Copilot 本地沙箱](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available) — 在 Copilot CLI、Copilot 应用和 VS Code Agent Host 会话中正式发布。 | 发布 / 更新 |
 | **2026-10-15** | [Timestral](https://mistral.ai/news/timestral/) — 四个尺寸的时间序列模型，5M–209M 参数。 | 发布 / 更新 |
 | **2026-10-17** | [DeepSeek-V4.1-Flash-1017](https://api-docs.deepseek.com/news/news261017) — 官网、App 和 API 上线的检查点；权重发布于 Hugging Face。 | 发布 / 更新 |
 | **2026-10-20** | [Voxtral Mini Transcribe 3](https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0) — 公开预览；文档标价每分钟 $0.0035。 | 发布 / 更新 |
+| **2026-10-20** | [Cursor Agent SDK](https://cursor.com/changelog/agent-sdk) — 正式发布：智能体是一个文件夹，可评测并部署到 Cursor 或自有基础设施。 | 发布 / 更新 |
 | **2026-10-22** | [Agent Skills 捐赠给 AAIF](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation) — Anthropic 把技能文件夹标准捐给 Agentic AI Foundation。 | 协议 |
 | **2026-10-23** | [Google ADK v2.13.0](https://github.com/google/adk-python/releases/tag/v2.13.0) — 新增 `TypesafeClassifier` 和 `ClassifierNode`。 | 发布 / 更新 |
 | **2026-10-26** | [GPT-6.1 Terra](https://developers.openai.com/api/docs/changelog) — 快速视觉推理和计算机操作模型，272K 输入以内 $1/$5。 | 发布 / 更新 |
@@ -2286,11 +2294,13 @@
 | **2026-10-27** | [OpenViking v0.5.2.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.2.1) — hotfix 暂时关闭 Session 消息中新敏感值的自动识别。 | 发布 / 更新 |
 | **2026-10-27** | [Gemini CLI v0.66.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0) — 稳定版。 | 发布 / 更新 |
 | **2026-10-29** | [OpenClaw v2026.10.9](https://github.com/openclaw/openclaw/releases/tag/v2026.10.9) 与 [Codex rust-v0.166.0](https://github.com/openai/codex/releases/tag/rust-v0.166.0)。 | 发布 / 更新 |
+| **2026-10-28** | [GitHub Agent Merge](https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud)、[Agentic Workflows](https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available) 与 [VS Code 1.144](https://code.visualstudio.com/updates/v1_144)。 | 发布 / 更新 |
 | **2026-10-29** | [Mistral Large 4 权重](https://mistral.ai/news/mistral-large-4-oss/) — 以 Mistral Ecosystem Open Weight License 开放权重。 | 发布 / 更新 |
 | **2026-10-30** | [GPT-6 Rosalind](https://developers.openai.com/api/docs/changelog) — 受信访问的生物推理模型，不是通用 API。 | 发布 / 更新 |
 | **2026-10-30** | [LangGraph 1.2.19](https://github.com/langchain-ai/langgraph/releases/tag/1.2.19) — 稳定版；避免 `trace_policy` 改写流式节点输出。 | 发布 / 更新 |
 | **2026-10-30** | [OpenCode v2.2.5](https://github.com/anomalyco/opencode/releases/tag/v2.2.5) — `compaction.buffer` 可写成上下文窗口的百分比。 | 发布 / 更新 |
 | **2026-10-31** | [Claude Code v2.1.316](https://github.com/anthropics/claude-code/releases/tag/v2.1.316) — 稳定版。 | 发布 / 更新 |
+| **2026-10-31** | [Claude Agent SDK Python v0.2.176](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.176) — 捆绑 Claude CLI 2.1.316。 | 发布 / 更新 |
 | **2026-05** | [LangGraph v1.2](https://docs.langchain.com/oss/python/releases/changelog) — LangGraph 在发布历史中记录运行时和检查点改进。 | 历史 |
 | **2026-05** | [Grok 4.3 on Microsoft Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) — Microsoft 发布 Grok 4.3 在 Foundry 上的提供公告。 | 历史 |
 | **2026 持续** | A2A Protocol 合作伙伴增至 150+ | 协议 |

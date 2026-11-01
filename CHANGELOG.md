@@ -41,6 +41,15 @@ The first November commit left a few dated facts unwritten. This follow-up only 
 - Closed #133, #132, #130 and #124 as five-or-more-list campaigns, and #126 after incorporating Browser Harness only.
 - Left #128, #125, #123 and #104 open, with a comment stating the missing evidence.
 
+
+### 2026-11-01 — dated product updates from vendor changelogs
+
+**+Added:**
+- GitHub Copilot local sandboxing GA (2026-10-07), Cursor Agent SDK GA (2026-10-20), GitHub Agent Merge, GitHub Agentic Workflows, the Microsoft Copilot SDK transition, and VS Code 1.144 (all 2026-10-28).
+- Claude Agent SDK Python v0.2.176 (2026-10-31), which bundles Claude CLI 2.1.316.
+
+Sources are the linked GitHub Changelog posts, the Cursor changelog, and the VS Code 1.144 release notes. Copilot Fusion was visible on an index but its post body was not used.
+
 ### 2026-10-08 — September 8 – October 8 refresh, PR backlog review (en/zh/ja)
 
 Maintained by **Zijian Ni**. Incremental refresh covering releases since the

@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%201%2C%202026-blue.svg)](#)
-[![Resources](https://img.shields.io/badge/Resources-940%2B-orange.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-950%2B-orange.svg)](#)
 [![Audited](https://img.shields.io/badge/Spam_Audited-2026--11--01-success.svg)](#️-ステータス凡例)
 [![English](https://img.shields.io/badge/Lang-English-informational.svg)](README.md)
 [![中文](https://img.shields.io/badge/Lang-中文-red.svg)](README.zh-CN.md)
@@ -70,7 +70,7 @@
 | [🧪 エージェントサンドボックスと計算分離](#-エージェントサンドボックスと計算分離) | エージェント生成コードの安全な実行環境 | 10+ |
 | [🛡️ エージェントセキュリティ](#️-エージェントセキュリティ) | プロンプトインジェクション対策とガードレール | 40+ |
 | [🔍 RAG とナレッジ](#-rag-とナレッジ) | 検索拡張生成システム | 20+ |
-| [💻 コーディングエージェント](#-コーディングエージェント) | AI によるソフトウェアエンジニアリング | 55+ |
+| [💻 コーディングエージェント](#-コーディングエージェント) | AI によるソフトウェアエンジニアリング | 60+ |
 | [🤖 Physical AI / 身体性エージェント](#-physical-ai--身体性エージェント) | ヒューマノイドロボット、身体性 AI、産業自動化 | 45+ |
 | [🎮 エージェントシミュレーションと世界モデル](#-エージェントシミュレーションと世界モデル) | エージェント訓練とストレステスト用シミュレーション環境 | 10+ |
 | [📊 ベンチマークとリーダーボード](#-ベンチマークとリーダーボード) | フロンティア能力を追跡するリーダーボード | 25+ |
@@ -866,7 +866,7 @@
 - [Antigravity CLI](https://antigravity.google/blog/introducing-google-antigravity-2-0) - **2026 年 5 月 19 日（Google I/O 2026）**。Antigravity 2.0 の軽量 CLI コンパニオン。ターミナルから直接 Google のエージェント harness を起動・操作できる。macOS / Linux / Windows。ホステッドプランのユーザーには 2026 年 6 月 18 日から Gemini CLI を置き換えると報じられる（オープンソースの gemini-cli リポジトリは 105K+ stars で活発なまま）。
 - [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) - コード編集、シェル、ファイル・Web 操作を行う Moonshot のターミナル型エージェント。公式インストーラーは Node.js 不要。[0.41.0](https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.41.0)（2026-09-04）。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FMoonshotAI%2Fkimi-code&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [MAI-Code-1-Flash in GitHub Copilot](https://microsoft.ai/news/introducingmai-code-1-flash/) - **Build 2026（2026 年 6 月 2 日）**。Microsoft 初の完全自社開発 5B コーディングモデルが GitHub Copilot のモデル選択肢として登場 —— 4 つの主要コーディングベンチで Claude Haiku 4.5 を上回り（SWE-Bench Pro 51.2% vs 35.2%）、コストも大幅に低減。
-- [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview) - Claude Code のエージェントループ、ツール、権限、セッション処理をアプリに提供する Python・TypeScript SDK。
+- [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview) - Claude Code のエージェントループ、ツール、権限、セッション処理をアプリに提供する Python・TypeScript SDK。Python [v0.2.176](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.176)（2026-10-31）は Claude CLI 2.1.316 を同梱。
 - [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) - ⚠️ **未検証。** AI コーディングエージェント（Claude Code、OpenClaw、Codex、Cursor、Copilot）と協働する PM 向けのスペック駆動デリバリーフレームワーク。4 段階の納品ティア、0D トリアージ、プロトタイプ検証ルール、AI ランタイムガバナンス、5 つのドメインモジュール。SKILL.md 規約；ClawHub でホスト。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Ffranklinxkk%2Fai-delivery-spec&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Ralph Harness](https://github.com/rxdt/loopgate_harness) - ⚠️ **未検証。** ガード付き Claude Code/Codex/Gemini ループ用の小さな Python スキャフォールド：リポジトリ内スペック、フレッシュコンテキスト反復、git フックゲート、CI 検証、カバレッジゲート。`uvx ralph-harness demo` で導入可。MIT。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Frxdt%2Floopgate_harness&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Amp](https://ampcode.com) - 🆕 ⚡ Sourcegraph のフロンティアコーディングエージェント（VS Code 拡張 + CLI）。BYOK 不要 — モデルアクセスはバンドルされ、モデル非依存の「Dial」ルータが自動でモデルを選ぶ。**2026 年 7 月は更新ラッシュ**：7-18 にサブスクリプションベータ開始（Megawatt $20/月、Gigawatt $200/月、自分の ChatGPT や X Premium+/SuperGrok サブを紐づけ可能）、7-21 に自己スケジューリングエージェント、7-22 に「Multiplayer」共有スレッド協働、7-23 に [イベント駆動 Orbs](https://ampcode.com/news/event-driven-orbs)（GitHub の CI 失敗、Linear の新規 issue、監視アラート、Discord メッセージなど HTTP リクエストを送れるものなら何でもエージェントを起こせる）。**8 月もペースを維持**：「Attach Anything」アップロード（動画 / ログ / PDF / データセット、8-4）、「Portals into Orbs」ライブリロードプレビュー（8-6）、紐づけた ChatGPT サブスクリプションで動く Dial（8-10）、Global Plugins and Skills（8-11）。クローズドソース。
@@ -879,6 +879,7 @@
 - [Cursor 3.4（Teams + PR レビュー）](https://cursor.com/changelog) - **2026-05-11~13**。Microsoft Teams 統合（Teams 内で `@Cursor` するとクラウドエージェントに委任）、並列エージェントのプラン実行高速化、マルチリポジトリ / Dockerfile ベースのエージェント開発環境設定、`/multitask` 非同期サブエージェント、脆弱性スキャナー、モデル単位のきめ細かなアクセス制御。
 - [Cursor 3.3](https://cursor.com/changelog) - **2026-05**。PR レビュー体験、並列エージェント、エンタープライズ向けモデル管理。前バージョン 3.1 は 4 月リリース。
 - [Cursor SDK](https://cursor.com/blog/typescript-sdk) - 🆕 **2026-04-29**（パブリックベータ）。Cursor のランタイム・ハーネス・モデルを公開する TypeScript SDK で、Cursor スタック上にプログラマブルなエージェントを構築可能 — サンドボックス化されたクラウド VM、サブエージェント、hooks、トークンベース課金。
+- [Cursor Agent SDK](https://cursor.com/changelog/agent-sdk) - 🆕 **2026-10-20（GA）**。エージェントをフォルダとして定義し、評価で試し、Cursor または自前のインフラへデプロイする。
 - [Kilo Code](https://kilo.ai/) - オープンソースの AI コーディング拡張（VS Code / JetBrains）。500+ モデルを横断する Auto Model ルーティング搭載；Anaconda が買収（2026 年）。MiniMax モデルを広く採用。
 - [Cursor](https://www.cursor.com/) - 2026-02 アップデートで 8 並列エージェント対応。
 - [Windsurf → Devin Desktop](https://devin.ai/blog/windsurf-is-now-devin-desktop/) - **2026年6月2日に改称**。Cognition が Windsurf IDE を **Devin Desktop** に改称（windsurf.com は devin.ai にリダイレクト）：**Devin Local**（Rust で書き直し、トークン効率を約 30% 改善、サブエージェント対応）が Cascade を置き換え、**Agent Command Center** のカンバンがデフォルト画面となり、オープンな **Agent Client Protocol (ACP)** に対応。Cascade は 2026年7月1日にサポート終了。
@@ -887,6 +888,11 @@
 - [Void](https://github.com/voideditor/void) - 📦 **アーカイブ済み**（2026年8月に GitHub リポジトリがアーカイブされた；メンテナは新方向を模索中；以後の更新は見込まれない）。VS Code のオープンソース fork。"オープンソース版 Cursor" として位置付けられていた。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Continue](https://github.com/continuedev/continue) - VS Code・JetBrains 対応のオープンソース AI コードアシスタント。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcontinuedev%2Fcontinue&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [GitHub Copilot](https://github.com/features/copilot) - 2026 年初頭よりエージェントモードと `gh copilot` シェル統合。
+- [GitHub Agent Merge](https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud) - 🆕 **2026-10-28**。Copilot がプルリクエストを監視し、失敗した Actions ワークフローとマージ競合をクラウド環境で修正。Copilot アプリと VS Code に続き、GitHub のプルリクエストでも使える。
+- [GitHub Agentic Workflows](https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available) - 🆕 **2026-10-28**。GitHub Next のオープンソースプロジェクトが一般提供。GitHub Actions 内のコーディングエージェントで推論作業を自動化し、Markdown から Actions YAML へコンパイルする。
+- [Microsoft Copilot SDK](https://github.blog/changelog/2026-10-28-github-copilot-sdk-is-becoming-microsoft-copilot-sdk) - 🆕 **2026-10-28**。GitHub Copilot SDK は、共有の Microsoft Copilot ハーネス向けプログラマブルインターフェースへ移行中。パッケージ移行は段階的。
+- [GitHub Copilot local sandboxing](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available) - 🆕 **2026-10-07（GA）**。Copilot CLI、Copilot アプリ、VS Code の Agent Host セッション向けローカルサンドボックス。Microsoft eXecution Container が基盤。
+- [Visual Studio Code 1.144](https://code.visualstudio.com/updates/v1_144) - 🆕 **2026-10-28**。エージェントは既定で Copilot ハーネスを使う。Copilot Code Review、CLI、App、Cloud セッションと同じハーネス。[リリース](https://github.com/microsoft/vscode/releases/tag/1.144.0)。
   **2026-07-31 更新**：Gemini 2.5 Pro・Gemini 3 Flash が全 Copilot 体験で非推奨化（Gemini 3 Flash Exp 等へ移行を推奨）；Visual Studio .NET/Azure 専用エージェント（Copilot SDK）追加；エンタープライズ管理者へのユーザーレベルモデルポリシー制御（パブリックプレビュー）。⚡ **2026年8月21日**：[Slack](https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack/) または [Teams](https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams/) で `@GitHub` すると共有クラウドエージェントセッションが始まる（計画・サンドボックス実装・PR）。
 - [Kiro](https://kiro.dev/) - AWS の自律エージェント。スペック駆動開発、最大 10 タスクを同時管理。
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AWS エコシステムと深く統合された AI コーディングコンパニオン。
@@ -2279,9 +2285,11 @@
 | **2026-10-09** | [Qwen-Image-2.1-Turbo](https://github.com/QwenLM/Qwen-Image-2.1) — README は Turbo の重みと Pro/Turbo API をこの日としている。基礎重みは 2026-09-20 に公開。 | 公開 / 更新 |
 | **2026-10-07** | [Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) — 1M コンテキストと effort パラメーターに対応する Claude 小型モデル。 | 公開 / 更新 |
 | **2026-10-07** | [Codex CLI v0.161.0](https://github.com/openai/codex/releases/tag/rust-v0.161.0) — GPT-6.1 Sol を同梱の既定モデルにした安定版；以降の alpha ビルドはプレビュー。 | 公開 / 更新 |
+| **2026-10-07** | [GitHub Copilot ローカルサンドボックス](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available) — Copilot CLI、Copilot アプリ、VS Code Agent Host セッションで一般提供。 | 公開 / 更新 |
 | **2026-10-15** | [Timestral](https://mistral.ai/news/timestral/) — 4 サイズの時系列モデル。パラメーターは 5M–209M。 | 公開 / 更新 |
 | **2026-10-17** | [DeepSeek-V4.1-Flash-1017](https://api-docs.deepseek.com/news/news261017) — サイト、アプリ、API で公開されたチェックポイント。重みは Hugging Face。 | 公開 / 更新 |
 | **2026-10-20** | [Voxtral Mini Transcribe 3](https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0) — 公開プレビュー。文書は 1 分当たり $0.0035。 | 公開 / 更新 |
+| **2026-10-20** | [Cursor Agent SDK](https://cursor.com/changelog/agent-sdk) — 一般提供。エージェントはフォルダで、評価後に Cursor または自前のインフラへデプロイできる。 | 公開 / 更新 |
 | **2026-10-22** | [Agent Skills を AAIF へ寄贈](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation) — Anthropic がスキルフォルダ標準を Agentic AI Foundation に寄贈。 | プロトコル |
 | **2026-10-23** | [Google ADK v2.13.0](https://github.com/google/adk-python/releases/tag/v2.13.0) — `TypesafeClassifier` と `ClassifierNode` を追加。 | 公開 / 更新 |
 | **2026-10-26** | [GPT-6.1 Terra](https://developers.openai.com/api/docs/changelog) — 高速な視覚推論とコンピューター操作モデル。272K 入力まで $1/$5。 | 公開 / 更新 |
@@ -2289,11 +2297,13 @@
 | **2026-10-27** | [OpenViking v0.5.2.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.2.1) — hotfix は Session メッセージ内の新しい機密値の自動検出を一時的に無効化する。 | 公開 / 更新 |
 | **2026-10-27** | [Gemini CLI v0.66.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0) — 安定版。 | 公開 / 更新 |
 | **2026-10-29** | [OpenClaw v2026.10.9](https://github.com/openclaw/openclaw/releases/tag/v2026.10.9) と [Codex rust-v0.166.0](https://github.com/openai/codex/releases/tag/rust-v0.166.0)。 | 公開 / 更新 |
+| **2026-10-28** | [GitHub Agent Merge](https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud)、[Agentic Workflows](https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available)、[VS Code 1.144](https://code.visualstudio.com/updates/v1_144)。 | 公開 / 更新 |
 | **2026-10-29** | [Mistral Large 4 の重み](https://mistral.ai/news/mistral-large-4-oss/) — Mistral Ecosystem Open Weight License で公開。 | 公開 / 更新 |
 | **2026-10-30** | [GPT-6 Rosalind](https://developers.openai.com/api/docs/changelog) — 信頼された組織向けの生物推論モデル。一般 API ではない。 | 公開 / 更新 |
 | **2026-10-30** | [LangGraph 1.2.19](https://github.com/langchain-ai/langgraph/releases/tag/1.2.19) — 安定版。`trace_policy` がストリーム中のノード出力を書き換えない。 | 公開 / 更新 |
 | **2026-10-30** | [OpenCode v2.2.5](https://github.com/anomalyco/opencode/releases/tag/v2.2.5) — `compaction.buffer` はコンテキスト窓の割合を受け付ける。 | 公開 / 更新 |
 | **2026-10-31** | [Claude Code v2.1.316](https://github.com/anthropics/claude-code/releases/tag/v2.1.316) — 安定版。 | 公開 / 更新 |
+| **2026-10-31** | [Claude Agent SDK Python v0.2.176](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.176) — Claude CLI 2.1.316 を同梱。 | 公開 / 更新 |
 | **2026-05** | [LangGraph v1.2](https://docs.langchain.com/oss/python/releases/changelog) — LangGraph の公開履歴でランタイムとチェックポイントの改善を記録。 | 履歴 |
 | **2026-05** | [Grok 4.3 on Microsoft Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) — Microsoft が Foundry での Grok 4.3 提供を発表。 | 履歴 |
 | **2026 進行中** | A2A Protocol のパートナー組織が 150+ に増加 | プロトコル |
