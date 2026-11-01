@@ -1,6 +1,6 @@
 # awesome-ai-agents-2026 — Maintenance Guide
 
-Maintainer: **[Zijian Ni](https://github.com/Zijian-Ni)**. Last workflow revision: **2026-09-08**.
+Maintainer: **[Zijian Ni](https://github.com/Zijian-Ni)**. Last workflow revision: **2026-11-01**.
 Repository: `Zijian-Ni/awesome-ai-agents-2026`; default branch: `main`.
 
 This guide describes the full maintenance cycle. Query GitHub for current PRs,

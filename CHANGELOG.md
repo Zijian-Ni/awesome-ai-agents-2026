@@ -3,6 +3,24 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+### 2026-11-01 — post-October-8 additions (en/zh/ja)
+
+Maintained by **Zijian Ni**. This pass starts from the 2026-10-08 refresh already on `main` and adds only items verified after that date. It does not replace the October PR-review record.
+
+**+Added:**
+- **GPT-6.1 Terra** (2026-10-26) and trusted-access **GPT-6 Rosalind** (2026-10-30). Source: [OpenAI API changelog](https://developers.openai.com/api/docs/changelog).
+- **DeepSeek-V4.1-Flash-1017** (2026-10-17), listed as live on the site, app and API. Source: [DeepSeek news](https://api-docs.deepseek.com/news/news261017).
+- Timeline rows for the Agent Skills donation to AAIF (2026-10-22), OpenViking v0.5.2.1 (2026-10-27), OpenClaw v2026.10.9 and Codex rust-v0.166.0 (2026-10-29), and LangGraph 1.2.19 (2026-10-30).
+
+**~Changed:**
+- Stable pins moved to releases verified on 2026-11-01, including LangGraph 1.2.19, OpenViking v0.5.2.1, Microsoft Agent Framework Python 1.24.0 / .NET 1.27.0, and CrewAI 1.15.34.
+
+**Left open:**
+- PRs #104, #123, #124, #125, #126, #128, #130, #132 and #133 were still open on 2026-11-01. #133, #132, #130 and #124 match the five-or-more-list pattern and should be declined. They were not closed in this commit.
+
+**Not overwritten:**
+- The October 8 entries for Claude 5.5, Gemini 4 Argon (Fairwind limited access on September 30), Grok 4.7 (September 21) and DeepSeek-V4.1-Flash stay as written there. A later Gemini changelog line says Argon GA on October 13; that access change is not folded in until the Fairwind page and the changelog are reconciled.
+
 ### 2026-10-08 — September 8 – October 8 refresh, PR backlog review (en/zh/ja)
 
 Maintained by **Zijian Ni**. Incremental refresh covering releases since the
