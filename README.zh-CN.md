@@ -62,7 +62,7 @@
 | [🧠 基础大模型 2026](#-基础大模型-2026) | 来自 OpenAI、Anthropic、Google、Meta 等 22+ 家厂商的最新大模型 | 250+ |
 | [🎨 多模态与生成式 AI](#-多模态与生成式-ai) | 图像、视频、音频与音乐生成 | 60+ |
 | [🔗 Agent 协议与标准](#-agent-协议与标准) | MCP、A2A 与互操作标准 | 20+ |
-| [🏗️ Agent 框架](#️-agent-框架) | 构建自主 AI Agent 的开发库 | 55+ |
+| [🏗️ Agent 框架](#️-agent-框架) | 构建自主 AI Agent 的开发库 | 60+ |
 | [🛠️ Agent IDE 与可视化构建器](#️-agent-ide-与可视化构建器) | 设计 Agent 流程的可视化 / 低代码环境 | 10+ |
 | [🧠 Agent 记忆](#-agent-记忆) | 持久化记忆与上下文管理 | 25+ |
 | [🔌 工具与 API 集成](#-工具与-api-集成) | 把 Agent 接到外部服务 | 25+ |
@@ -652,6 +652,7 @@
 - [Google ADK releases](https://github.com/google/adk-python/releases) - 官方发布说明；稳定版于 2026-10-23 核验; [v2.13.0](https://github.com/google/adk-python/releases/tag/v2.13.0) (2026-10-23).
 - [ServiceNow AI Agents](https://www.servicenow.com/products/ai-agents.html) - 与 ServiceNow 工作流集成的智能体；AI Agent Studio 用于构建，Agent Fabric 用于连接，AI Control Tower 用于治理部署。
 - [Embabel Agent](https://github.com/embabel/embabel-agent) - 🆕 **最新标记版本：v1.5.1（2026-08-24）**，此前 v1.5.0（8 月 11 日）。面向生产的 **JVM** 生态 AI Agent 框架 —— 由 Spring Framework 创始人 Rod Johnson 主导。通过有类型的领域对象定义 Agent 行为；Spring AI 2 / Jackson 3；基于图的多 Agent 编排；原生 MCP 客户端；1.5.x 增加 embedding 驱动 skills 与按角色的 LLM SPI。**Apache-2.0**。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fembabel%2Fembabel-agent&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [LumiBot](https://github.com/Lumiwealth/lumibot) - GPL-3.0 Python 交易框架：研究智能体把结果交给交易智能体，同一套策略代码用于回测和实盘。稳定版 [v4.6.39](https://github.com/Lumiwealth/lumibot/releases/tag/v4.6.39)（2026-11-01）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FLumiwealth%2Flumibot&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 ---
 
 ## 🛠️ Agent IDE 与可视化构建器

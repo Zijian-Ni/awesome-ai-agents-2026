@@ -62,7 +62,7 @@
 | [🧠 基盤モデル 2026](#-基盤モデル-2026) | OpenAI・Anthropic・Google・Meta ほか 22+ プロバイダーの最新 LLM | 250+ |
 | [🎨 マルチモーダルと生成 AI](#-マルチモーダルと生成-ai) | 画像・動画・音声・音楽生成 | 60+ |
 | [🔗 エージェントプロトコルと標準](#-エージェントプロトコルと標準) | MCP、A2A、相互運用標準 | 20+ |
-| [🏗️ エージェントフレームワーク](#️-エージェントフレームワーク) | 自律 AI エージェント構築ライブラリ | 55+ |
+| [🏗️ エージェントフレームワーク](#️-エージェントフレームワーク) | 自律 AI エージェント構築ライブラリ | 60+ |
 | [🛠️ エージェント IDE とビジュアルビルダー](#️-エージェント-ide-とビジュアルビルダー) | エージェントフロー設計のビジュアル / ローコード環境 | 10+ |
 | [🧠 エージェントメモリ](#-エージェントメモリ) | 永続メモリとコンテキスト管理 | 25+ |
 | [🔌 ツールと API 連携](#-ツールと-api-連携) | エージェントと外部サービスの接続 | 25+ |
@@ -652,6 +652,7 @@
 - [Google ADK releases](https://github.com/google/adk-python/releases) - 公式リリースノート。安定版を 2026-10-23 に確認; [v2.13.0](https://github.com/google/adk-python/releases/tag/v2.13.0) (2026-10-23).
 - [ServiceNow AI Agents](https://www.servicenow.com/products/ai-agents.html) - ServiceNow ワークフロー統合エージェント。AI Agent Studio は構築、Agent Fabric は連携、AI Control Tower は導入管理を担当。
 - [Embabel Agent](https://github.com/embabel/embabel-agent) - 🆕 **最新タグ：v1.5.1（2026年8月24日）**、その前が v1.5.0（8 月 11 日）。**JVM** エコシステム向けの本番志向 AI エージェントフレームワーク —— Spring Framework の創設者 Rod Johnson が主導。型付きドメインオブジェクトでエージェント動作を定義；Spring AI 2 / Jackson 3；グラフベースのマルチエージェント編成；ネイティブ MCP クライアント；1.5.x で embedding 駆動スキルとロールベース LLM SPI を追加。**Apache-2.0**。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fembabel%2Fembabel-agent&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [LumiBot](https://github.com/Lumiwealth/lumibot) - GPL-3.0 の Python 取引フレームワーク。リサーチエージェントが取引エージェントへ渡し、同じ戦略コードをバックテストと本番で使う。安定版 [v4.6.39](https://github.com/Lumiwealth/lumibot/releases/tag/v4.6.39)（2026-11-01）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FLumiwealth%2Flumibot&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 ---
 
 ## 🛠️ エージェント IDE とビジュアルビルダー

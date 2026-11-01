@@ -42,6 +42,20 @@ The first November commit left a few dated facts unwritten. This follow-up only 
 - Left #128, #125, #123 and #104 open, with a comment stating the missing evidence.
 
 
+### 2026-11-01 — clear the remaining submission backlog
+
+The owner asked for every open PR and issue to be resolved. One met the quality gate; the rest did not.
+
+**+Added:**
+- **LumiBot** (`Lumiwealth/lumibot`) in Agent Frameworks, en/zh/ja. GPL-3.0, 2,194 stars on 2026-11-01, stable [v4.6.39](https://github.com/Lumiwealth/lumibot/releases/tag/v4.6.39). Credit: @grzesir in [#128](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/128). The PR text called it a general agent framework; the catalogue sentence matches the repository: a trading framework whose agents place trades.
+
+**Closed without incorporation:**
+- [#125](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/125) Healify: only a marketing site, no repository or licence.
+- [#123](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/123) DAiL: only a Render URL; no licensed repository in the diff.
+- [#104](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/104) Mnemoverse: real MIT server, 27 stars, self-marked Unverified, below the 100-star bar and without independent adoption.
+- [#127](https://github.com/Zijian-Ni/awesome-ai-agents-2026/issues/127) TecAdRise Bot: MIT repository exists, 0 stars, no adoption evidence.
+- [#86](https://github.com/Zijian-Ni/awesome-ai-agents-2026/issues/86) CorpusIQ: already listed as unverified; the docs repository has 29 stars and the README is promotional.
+
 ### 2026-11-01 — dated product updates from vendor changelogs
 
 **+Added:**
