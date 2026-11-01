@@ -21,6 +21,26 @@ Maintained by **Zijian Ni**. This pass starts from the 2026-10-08 refresh alread
 **Not overwritten:**
 - The October 8 entries for Claude 5.5, Gemini 4 Argon (Fairwind limited access on September 30), Grok 4.7 (September 21) and DeepSeek-V4.1-Flash stay as written there. A later Gemini changelog line says Argon GA on October 13; that access change is not folded in until the Fairwind page and the changelog are reconciled.
 
+
+### 2026-11-01 — same-day corrections after the primary-source sweep
+
+The first November commit left a few dated facts unwritten. This follow-up only adds items whose primary page states the date.
+
+**~Changed:**
+- **Mistral Large 4** no longer says the licence is unpublished. Weights opened on 2026-10-29 under the Mistral Ecosystem Open Weight License. [Announcement](https://mistral.ai/news/mistral-large-4-oss/).
+
+**+Added:**
+- Voxtral Mini Transcribe 3 (2026-10-20, public preview, $0.0035/min), Timestral (2026-10-15, 5M–209M), and Qwen-Image-2.1 (weights 2026-09-20; Turbo and Pro/Turbo APIs 2026-10-09).
+- Stable pins: Google ADK v2.13.0, Claude Code v2.1.316, Gemini CLI v0.66.0, OpenCode v2.2.5, Cline v4.1.26.
+
+**Not written, because the primary page did not state a clean date or price:**
+- Gemini 4 Argon remains the September 30 Fairwind limited-access entry. A changelog line says GA on October 13; those two pages still disagree.
+- Cohere Embed 5 / Rerank 5 dates, GLM-5.3 launch day, Grok Voice 3.0 calendar day, and Kimi K3.1 Pro price.
+
+**PR state after the first push:**
+- Closed #133, #132, #130 and #124 as five-or-more-list campaigns, and #126 after incorporating Browser Harness only.
+- Left #128, #125, #123 and #104 open, with a comment stating the missing evidence.
+
 ### 2026-10-08 — September 8 – October 8 refresh, PR backlog review (en/zh/ja)
 
 Maintained by **Zijian Ni**. Incremental refresh covering releases since the

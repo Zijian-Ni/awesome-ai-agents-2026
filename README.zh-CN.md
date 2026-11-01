@@ -276,8 +276,9 @@
 
 ### Mistral AI
 
-- [Mistral Large 4](https://mistral.ai/news/mistral-large-4) - 🆕 **2026年10月6日（公开预览）**。原生多模态 MoE（约 1T 总参数 / 52B 激活），兼具指令与推理模式，通过 Mistral Studio 预览 API 提供，每百万输入/输出 token $1.36/$4.18；Mistral 称开放权重将于 10 月底发布，许可证尚未公布。
+- [Mistral Large 4](https://mistral.ai/news/mistral-large-4) - 🆕 **2026年10月6日（公开预览）**。原生多模态 MoE（约 1T 总参数 / 52B 激活），兼具指令与推理模式，通过 Mistral Studio 预览 API 提供，每百万输入/输出 token $1.36/$4.18；权重已于 2026-10-29 开放，许可为 Mistral Ecosystem Open Weight License。[开放权重公告](https://mistral.ai/news/mistral-large-4-oss/)。
 - [Voxtral Mini Transcribe Realtime](https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602) - Apache-2.0 开放权重流式语音识别模型，与语音生成用途的 Voxtral TTS 不同。
+- [Voxtral Mini Transcribe 3](https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0) - 🆕 **2026-10-20（公开预览）**。转写与说话人分离；文档标价每分钟 $0.0035。[模型卡](https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0)。
 - [Shieldstral 1.0](https://docs.mistral.ai/models/shieldstral-1-0) - 🆕 **2026年8月4日**。Apache-2.0 文本/图像内容审核模型，处于公开预览；支持策略问题、提示词与回复对及拒答分类。
 - [Mistral OCR 4.1](https://docs.mistral.ai/models/ocr-4-1) - 文档 OCR 服务，输出段落边界框、结构块标签及置信度分数。
 - [Mistral Large 4](https://docs.mistral.ai/models/mistral-large-4-0) - 🆕 **2026-10-06（公开预览）**。开源权重多模态 MoE；文档写明 1.05T 总参数 / 52B 激活、1M 上下文、输入/输出 $0.7/$2.1 每百万 token。 [模型卡](https://docs.mistral.ai/models/mistral-large-4-0)。
@@ -499,6 +500,7 @@
 - [Kling Image 3.0 / 3.0 Omni](https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be/) - 🇨🇳 🆕 **2026-02-05**。快手原生 2K/4K 图像生成，与 Video 3.0 一同随 Kling 3.0 套件发布。
 - [Flux](https://github.com/black-forest-labs/flux) - 💤 **Stale**（2025-07 起无更新）。Black Forest Labs 开源模型。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fblack-forest-labs%2Fflux&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Seedream 5.0 Pro](https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro) - **2026年7月8日**。字节跳动图像创作模型，面向布局、文字渲染与多模态设计；图像系列名为 Seedream，视频系列为 Seedance。
+- [Qwen-Image-2.1](https://github.com/QwenLM/Qwen-Image-2.1) - 🆕 **2026-09-20**。开源文生图与图像编辑模型；README 将 Turbo 权重和 Pro/Turbo API 标为 2026-10-09。GitHub 仓库对象不是 Apache-2.0。
 - [Qwen-Image-3.0](https://qwenlm.github.io/) - 🆕 🇨🇳 **2026-07-20**。阿里巴巴第三代图像生成模型，于世界人工智能大会上发布。真实感、文字渲染、多主主一致性均显著提升。可通过阿里云百炼与 Qwen Cloud 使用。
 - [FLUX 3](https://bfl.ai/blog/flux-3) - 🆕 **2026-07-23（Early Access）**。Black Forest Labs 从纯图像家族转向统一的多模态基础模型 —— 在同一个架构里联合学习图像、视频和音频。可一次生成**长达 20 秒、自带同步音频**的视频（文生视频、图生视频、视频转视频、关键帧转视频、多语言对白、Agent 式多镜头串联）。BFL 自家早期评测中，FLUX 3 相对 Runway Gen-4.5 的胜率 77%、Luma Ray 3.2 为 93%、Kling v3 Pro 为 60%、Seedance 2.0 / Gemini Omni Flash 为 52% —— 厂商数据且官方明确标注为初步结果。其世界理解还延伸到面向机器人的**动作预测**。截至 2026 年 8 月中旬，FLUX 3 Image 的 early access 仍未开放。
 - [Reve](https://reve.com/) - 🆕 「布局优先」的图像模型 —— 先规划出结构化、可编辑的版面再渲染像素，因此单个元素可以移动、缩放、改色并局部重渲染，而不必整张重来。原生 4K，支持草图 / 标注输入与直接对象编辑。
@@ -610,7 +612,7 @@
 - [Microsoft Agent 365](https://techcommunity.microsoft.com/blog/agent-365-blog/what%E2%80%99s-new-in-agent-365-may-2026/4516340) - **2026 年 5 月 GA**。面向 AI Agent 的企业级可观测、治理与安全平台；2026 年 5 月更新加入面向 Agent 的 SASE、威胁检测/阻断与 Agent 威胁狩猎工作流。KPMG 宣布覆盖 276,000 名专业人员的全球部署（2026-06-09）。
 - [Microsoft Scout](https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/) - **2026-06-02（Build 2026）**。微软面向 Microsoft 365 的常驻个人工作 Agent，构建在开源 OpenClaw 运行时之上。
 - [AutoGen](https://github.com/microsoft/autogen) - 💤 **维护模式**（最后版本 2025-09；由 Microsoft Agent Framework 接替，后续交由社区管理）。微软多 Agent 对话框架。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmicrosoft%2Fautogen&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - 用于智能体、工具和工作流的 Python 框架；2.x 功能版本线与持续维护的 1.x 版本线并行; [v2.8.0](https://github.com/google/adk-python/releases/tag/v2.8.0) (2026-08-26).
+- [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - 用于智能体、工具和工作流的 Python 框架；2.x 功能版本线与持续维护的 1.x 版本线并行; [v2.13.0](https://github.com/google/adk-python/releases/tag/v2.13.0) (2026-10-23).
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 提供交接、护栏、追踪、MCP 和沙箱集成的 Python 智能体 SDK；0.22.1 新增 MCP 服务级工具护栏; [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) (2026-10-15).
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT) - 🇨🇳 给 LLM 分配 SOP 软件团队角色（PM / 架构师 / 工程师）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FFoundationAgents%2FMetaGPT&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) - 提供结构化输出校验和模型集成的类型化 Python 智能体框架；2.41.0 新增直接图像生成 API; [v2.64.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.64.0) (2026-10-30). ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fpydantic%2Fpydantic-ai&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -647,7 +649,7 @@
 - [Microsoft Agent Framework releases](https://github.com/microsoft/agent-framework/releases) - 官方发布说明；稳定版于 2026-10-30 核验; [python-1.24.0](https://github.com/microsoft/agent-framework/releases/tag/python-1.24.0) (2026-10-30).
 - [OpenAI Agents SDK releases](https://github.com/openai/openai-agents-python/releases) - 官方发布说明；稳定版于 2026-10-15 核验; [v0.24.0](https://github.com/openai/openai-agents-python/releases/tag/v0.24.0) (2026-10-15).
 - [CrewAI releases](https://github.com/crewAIInc/crewAI/releases) - 官方发布说明；稳定版于 2026-11-01 核验; [1.15.34](https://github.com/crewAIInc/crewAI/releases/tag/1.15.34) (2026-11-01).
-- [Google ADK releases](https://github.com/google/adk-python/releases) - 官方发布说明；稳定版于 2026-09-08 核验; [v2.8.0](https://github.com/google/adk-python/releases/tag/v2.8.0) (2026-08-26).
+- [Google ADK releases](https://github.com/google/adk-python/releases) - 官方发布说明；稳定版于 2026-10-23 核验; [v2.13.0](https://github.com/google/adk-python/releases/tag/v2.13.0) (2026-10-23).
 - [ServiceNow AI Agents](https://www.servicenow.com/products/ai-agents.html) - 与 ServiceNow 工作流集成的智能体；AI Agent Studio 用于构建，Agent Fabric 用于连接，AI Control Tower 用于治理部署。
 - [Embabel Agent](https://github.com/embabel/embabel-agent) - 🆕 **最新标记版本：v1.5.1（2026-08-24）**，此前 v1.5.0（8 月 11 日）。面向生产的 **JVM** 生态 AI Agent 框架 —— 由 Spring Framework 创始人 Rod Johnson 主导。通过有类型的领域对象定义 Agent 行为；Spring AI 2 / Jackson 3；基于图的多 Agent 编排；原生 MCP 客户端；1.5.x 增加 embedding 驱动 skills 与按角色的 LLM SPI。**Apache-2.0**。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fembabel%2Fembabel-agent&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 ---
@@ -852,13 +854,13 @@
 
 ### 终端 / CLI Agent
 
-- [Claude Code](https://code.claude.com/docs/en/overview) - Anthropic 面向终端、IDE 和仓库工作流的编程智能体；[v2.1.263](https://github.com/anthropics/claude-code/releases/tag/v2.1.263)（2026-09-06）包含可靠性修复。
+- [Claude Code](https://code.claude.com/docs/en/overview) - Anthropic 面向终端、IDE 和仓库工作流的编程智能体；[v2.1.316](https://github.com/anthropics/claude-code/releases/tag/v2.1.316)（2026-10-31）。
 - [Codex CLI](https://github.com/openai/codex) - OpenAI 的 Apache-2.0 终端编程智能体；稳定版 [rust-v0.153.4](https://github.com/openai/codex/releases/tag/rust-v0.153.4)（2026-09-04）修复 Astra 显示与内置默认模型，0.154 alpha 仍为预发布版。
 - [Codex Security](https://developers.openai.com/codex/changelog) - **2026 年 3 月**。应用安全 Agent，负责发现并修复软件漏洞；OSS 维护者可通过 Codex-for-OSS 计划使用。
 - [Aider](https://github.com/Aider-AI/aider) - 集成仓库上下文与 Git 的终端结对编程工具；Apache-2.0。
 - [goose](https://github.com/aaif-goose/goose) - 源自 Block、现由 AAIF 托管的可扩展桌面与 CLI 智能体；Apache-2.0; [v1.57.0](https://github.com/aaif-goose/goose/releases/tag/v1.57.0) (2026-10-28).
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google 的终端优先编码 Agent，擅长大上下文重构。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgoogle-gemini%2Fgemini-cli&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [OpenCode](https://github.com/anomalyco/opencode) - 开源终端 AI 编码 Agent（opencode.ai，180K+ stars）—— build/plan 双 Agent、LSP、MCP，桌面 App 处于 beta；与已归档的 opencode-ai/opencode 无关。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fanomalyco%2Fopencode&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google 的终端优先编码 Agent，擅长大上下文重构；稳定版 [v0.66.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0)（2026-10-27）。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgoogle-gemini%2Fgemini-cli&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [OpenCode](https://github.com/anomalyco/opencode) - 开源终端 AI 编码 Agent（opencode.ai，180K+ stars）—— build/plan 双 Agent、LSP、MCP，桌面 App 处于 beta；与已归档的 opencode-ai/opencode 无关；稳定版 [v2.2.5](https://github.com/anomalyco/opencode/releases/tag/v2.2.5)（2026-10-30），`compaction.buffer` 可写成上下文窗口的百分比。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fanomalyco%2Fopencode&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Crush](https://github.com/charmbracelet/crush) - Charm 出品的终端 AI 编码 Agent —— 已归档 opencode-ai/opencode 的继任者；多模型，支持 LSP + MCP。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcharmbracelet%2Fcrush&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Grok Build](https://x.ai/news/grok-build-cli) - **2026 年 5 月 25 日（早期 beta）**。xAI 的 Agent 化 CLI 编码工具，由 **grok-code-fast-1** 驱动。子 Agent 并行运行于隔离环境，每日发布 release notes；SuperGrok 与 X Premium Plus 订阅用户可用。xAI 对 Claude Code / Codex CLI 的正面回应。⚠️ 2026 年 7 月有报道发现 Grok Build 会把整个 git 仓库上传到 xAI 存储 —— 在私有代码上使用前请先审查。
 - [Antigravity CLI](https://antigravity.google/blog/introducing-google-antigravity-2-0) - **2026 年 5 月 19 日（Google I/O 2026）**。Antigravity 2.0 的轻量 CLI 伴侣——直接从终端创建并使用 Google 的 Agent harness。支持 macOS / Linux / Windows。据报道自 2026 年 6 月 18 日起面向托管套餐用户接替 Gemini CLI（开源 gemini-cli 仓库仍活跃，105K+ stars）。
@@ -880,7 +882,7 @@
 - [Kilo Code](https://kilo.ai/) - 开源 AI 编程扩展（VS Code / JetBrains），Auto Model 路由覆盖 500+ 模型；已被 Anaconda 收购（2026）。重点采用 MiniMax 系列模型。
 - [Cursor](https://www.cursor.com/) - 2026-02 更新支持 8 个并行 Agent。
 - [Windsurf → Devin Desktop](https://devin.ai/blog/windsurf-is-now-devin-desktop/) - **2026-06-02 更名**。Cognition 将 Windsurf IDE 更名为 **Devin Desktop**（windsurf.com 跳转至 devin.ai）：**Devin Local**（Rust 重写，token 效率提升约 30%，支持子 Agent）取代 Cascade，**Agent Command Center** 看板成为默认界面，并内置开放的 **Agent Client Protocol (ACP)**。Cascade 于 2026-07-01 停止支持。
-- [Cline](https://github.com/cline/cline) - VS Code 自主编程 Agent。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcline%2Fcline&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Cline](https://github.com/cline/cline) - VS Code 自主编程 Agent；稳定版 [v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26)（2026-10-26），云端任务可选与本地模型分开的 Cline 模型。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcline%2Fcline&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Roo Code → Roomote](https://roomote.dev/) - ⚠️ **已停止 IDE 扩展形态。** Roo Code 于 2026-04-22 宣布 5 月 15 日关停其 VS Code 扩展、Cloud 与 Router，转向云端编码 Agent **Roomote**（Slack/GitHub/Linear → PR）；roocode.com 现跳转至 roomote.dev。
 - [Void](https://github.com/voideditor/void) - 📦 **已归档**（2026 年8 月 GitHub 仓库已归档；维护者探索新方向；不再更新）。VS Code 的开源 fork，定位为开源版 Cursor；数据留在本地，自带模型。 ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvoideditor%2Fvoid&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Continue](https://github.com/continuedev/continue) - 开源 AI 编程助手（VS Code + JetBrains）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcontinuedev%2Fcontinue&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -1082,7 +1084,7 @@
 - [Browserbase](https://www.browserbase.com/) - AI Agent 专用浏览器云：隐身、持久化、验证码、可观测性。
 - [BrowserOS](https://www.browseros.com/) - 首个内置 AI Agent 的开源浏览器——隐私优先的 Chrome 替代。自然语言任务自动化无需写代码；本地优先设计，对标 Perplexity Comet 与 Arc 的 AI 能力。
 - [Vercel Agent Browser](https://github.com/vercel-labs/agent-browser) - 面向 AI Agent 的无头浏览器自动化 CLI。2026 年 6 月版本新增 Core Web Vitals 的 `vitals` 命令（LCP/CLS/TTFB/FCP）、SPA 导航的 `pushstate`、进程外插件系统、MCP server 模式，以及托管环境用的 `@agent-browser/sandbox`。Apache-2.0，37K+ stars。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvercel-labs%2Fagent-browser&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
-- [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - 用于智能体、工具和工作流的 Python 框架；2.x 功能版本线与持续维护的 1.x 版本线并行; [v2.8.0](https://github.com/google/adk-python/releases/tag/v2.8.0) (2026-08-26).
+- [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - 用于智能体、工具和工作流的 Python 框架；2.x 功能版本线与持续维护的 1.x 版本线并行; [v2.13.0](https://github.com/google/adk-python/releases/tag/v2.13.0) (2026-10-23).
 - [WebBrain](https://webbrain.one) - 🆕 **2026 年 7 月**。开源 MIT 浏览器扩展（Chrome + Firefox），用本地或云端大模型自动化 Web 任务。"Ask 模式" 只读摘要和提取；"Act 模式" 可点击按钮、填写表单、导航网页。本地优先设计——使用 llama.cpp / Ollama 时数据不离开设备。
 - [Muse Spark 1.1（Web Agent）](https://artificialanalysis.ai/models/muse-spark) - 🆕 💰 **2026-07-09**。Meta Superintelligence Labs 首个付费 Agent 模型，经 Meta Model API 公开预览提供 —— WebArena-Verified 得分 69.0（落后于领先的 Claude Opus 4.8 的 71.2）。
 - [Firecrawl v2](https://github.com/firecrawl/firecrawl) - 🆕 **v2.11.0，2026-06**。Agent 化网页抓取平台的大版本更新：JavaScript 渲染改进、实时抓取 webhook、批量 URL 处理。150K+ stars。AGPL-3.0（SDK 为 MIT）。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Ffirecrawl%2Ffirecrawl&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
@@ -2270,16 +2272,25 @@
 | **2026-09-30** | [Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) — 发布时仅向 Fairwind 计划的网络防御方开放；更大范围开放尚无日期。 | 发布 / 更新 |
 | **2026-10-01** | [GitHub Copilot computer use](https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps) — Copilot 可操作桌面应用；本地沙箱于 10 月 7 日正式可用。 | 发布 / 更新 |
 | **2026-10-01** | [Cloudflare Clef](https://huggingface.co/Cloudflare/clef) — Workers AI 上用于护栏式检查的 Apache-2.0 27B/9B 决策模型。 | 发布 / 更新 |
-| **2026-10-06** | [Mistral Large 4](https://mistral.ai/news/mistral-large-4) — 公开预览；Mistral 称开放权重将于 10 月底发布。 | 发布 / 更新 |
+| **2026-10-06** | [Mistral Large 4](https://mistral.ai/news/mistral-large-4) — 多模态 MoE 公开预览。 | 发布 / 更新 |
+| **2026-10-09** | [Qwen-Image-2.1-Turbo](https://github.com/QwenLM/Qwen-Image-2.1) — README 将 Turbo 权重和 Pro/Turbo API 标为这一天；基础权重于 2026-09-20 开放。 | 发布 / 更新 |
 | **2026-10-07** | [Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) — 支持 1M 上下文和 effort 参数的 Claude 小模型层级。 | 发布 / 更新 |
 | **2026-10-07** | [Codex CLI v0.161.0](https://github.com/openai/codex/releases/tag/rust-v0.161.0) — 稳定版，将 GPT-6.1 Sol 设为内置默认模型；之后的 alpha 构建属于预览。 | 发布 / 更新 |
+| **2026-10-15** | [Timestral](https://mistral.ai/news/timestral/) — 四个尺寸的时间序列模型，5M–209M 参数。 | 发布 / 更新 |
 | **2026-10-17** | [DeepSeek-V4.1-Flash-1017](https://api-docs.deepseek.com/news/news261017) — 官网、App 和 API 上线的检查点；权重发布于 Hugging Face。 | 发布 / 更新 |
+| **2026-10-20** | [Voxtral Mini Transcribe 3](https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0) — 公开预览；文档标价每分钟 $0.0035。 | 发布 / 更新 |
 | **2026-10-22** | [Agent Skills 捐赠给 AAIF](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation) — Anthropic 把技能文件夹标准捐给 Agentic AI Foundation。 | 协议 |
+| **2026-10-23** | [Google ADK v2.13.0](https://github.com/google/adk-python/releases/tag/v2.13.0) — 新增 `TypesafeClassifier` 和 `ClassifierNode`。 | 发布 / 更新 |
 | **2026-10-26** | [GPT-6.1 Terra](https://developers.openai.com/api/docs/changelog) — 快速视觉推理和计算机操作模型，272K 输入以内 $1/$5。 | 发布 / 更新 |
+| **2026-10-26** | [Cline v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26) — 云端任务可选与本地模型分开的 Cline 模型。 | 发布 / 更新 |
 | **2026-10-27** | [OpenViking v0.5.2.1](https://github.com/volcengine/OpenViking/releases/tag/v0.5.2.1) — hotfix 暂时关闭 Session 消息中新敏感值的自动识别。 | 发布 / 更新 |
+| **2026-10-27** | [Gemini CLI v0.66.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0) — 稳定版。 | 发布 / 更新 |
 | **2026-10-29** | [OpenClaw v2026.10.9](https://github.com/openclaw/openclaw/releases/tag/v2026.10.9) 与 [Codex rust-v0.166.0](https://github.com/openai/codex/releases/tag/rust-v0.166.0)。 | 发布 / 更新 |
+| **2026-10-29** | [Mistral Large 4 权重](https://mistral.ai/news/mistral-large-4-oss/) — 以 Mistral Ecosystem Open Weight License 开放权重。 | 发布 / 更新 |
 | **2026-10-30** | [GPT-6 Rosalind](https://developers.openai.com/api/docs/changelog) — 受信访问的生物推理模型，不是通用 API。 | 发布 / 更新 |
 | **2026-10-30** | [LangGraph 1.2.19](https://github.com/langchain-ai/langgraph/releases/tag/1.2.19) — 稳定版；避免 `trace_policy` 改写流式节点输出。 | 发布 / 更新 |
+| **2026-10-30** | [OpenCode v2.2.5](https://github.com/anomalyco/opencode/releases/tag/v2.2.5) — `compaction.buffer` 可写成上下文窗口的百分比。 | 发布 / 更新 |
+| **2026-10-31** | [Claude Code v2.1.316](https://github.com/anthropics/claude-code/releases/tag/v2.1.316) — 稳定版。 | 发布 / 更新 |
 | **2026-05** | [LangGraph v1.2](https://docs.langchain.com/oss/python/releases/changelog) — LangGraph 在发布历史中记录运行时和检查点改进。 | 历史 |
 | **2026-05** | [Grok 4.3 on Microsoft Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) — Microsoft 发布 Grok 4.3 在 Foundry 上的提供公告。 | 历史 |
 | **2026 持续** | A2A Protocol 合作伙伴增至 150+ | 协议 |
