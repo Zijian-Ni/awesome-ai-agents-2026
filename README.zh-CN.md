@@ -764,6 +764,7 @@
 - [E2B](https://github.com/e2b-dev/E2B) - AI 生成代码的开源云沙箱。OpenAI Agents SDK 默认执行层。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fe2b-dev%2FE2B&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Daytona](https://github.com/daytonaio/daytona) - 💤 **公开仓库停止维护**：核心开发于 2026 年 6 月迁入私有代码库，公开 v0.190.0 快照不再接收修复或发布，托管服务仍继续。
 - [Modal](https://modal.com/) - 流行的 Agent 计算 + GPU 任务 + Python 沙箱 Serverless 平台。`modal-client` 是官方 SDK。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmodal-labs%2Fmodal-client&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Buddy Sandboxes](https://buddy.works/docs/sandboxes) - 面向编程 Agent 的托管云端 Linux 沙箱，可通过 CLI、TypeScript SDK、REST API 或 MCP 操控，支持快照，并可为运行中的应用提供 HTTP 端点；商业服务。
 - [Microsandbox](https://github.com/superradcompany/microsandbox) - 本地、可编程的 microVM 沙箱。隐私优先，本机执行，不依赖云。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fsuperradcompany%2Fmicrosandbox&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [SandboxFusion](https://github.com/bytedance/SandboxFusion) - 🇨🇳 字节多语言代码执行沙箱，面向 Agent / 模型评测流水线。Apache 2.0。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbytedance%2FSandboxFusion&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Northflank](https://northflank.com/) - 通用容器 PaaS，常被用作 Agent 运行时（每任务临时环境 + GPU 池）。
@@ -1391,6 +1392,7 @@
 | [E2B](https://github.com/e2b-dev/E2B) | 沙箱代码执行 | 托管云；基础设施另有代码库 | Apache-2.0 |
 | [Daytona](https://github.com/daytonaio/daytona) | 智能体开发与执行环境 | 托管服务；公开核心代码停止维护 | 历史快照有独立许可；当前核心私有 |
 | [Modal](https://modal.com/) | 无服务器函数、GPU、沙箱 | 托管云 | 商业服务 |
+| [Buddy Sandboxes](https://buddy.works/docs/sandboxes) | Agent 沙箱，支持快照、端点、CLI/SDK/MCP | 托管云 | 商业服务 |
 | [Microsandbox](https://github.com/superradcompany/microsandbox) | 可编程本地 microVM | 自行托管 | Apache-2.0 |
 | [SandboxFusion](https://github.com/bytedance/SandboxFusion) | 多语言代码评估 | 自行托管；显式配置隔离 | Apache-2.0 |
 | [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | 沙箱 API、SDK、网络控制 | Docker / Kubernetes；可选隔离运行时 | Apache-2.0 |
