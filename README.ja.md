@@ -764,6 +764,7 @@
 - [E2B](https://github.com/e2b-dev/E2B) - AI 生成コード用のオープンソースセキュアクラウドサンドボックス。OpenAI Agents SDK の実行層に採用。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fe2b-dev%2FE2B&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Daytona](https://github.com/daytonaio/daytona) - 💤 **公開リポジトリは保守終了**：2026 年 6 月にコア開発が非公開コードベースへ移行し、公開 v0.190.0 には更新や修正が提供されない。マネージドサービスは継続。
 - [Modal](https://modal.com/) - エージェント計算・GPU ジョブ・サンドボックス Python に人気のサーバーレスクラウド。`modal-client` が公式 SDK。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmodal-labs%2Fmodal-client&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Buddy Sandboxes](https://buddy.works/docs/sandboxes) - コーディングエージェント向けのマネージドクラウド Linux サンドボックス。CLI、TypeScript SDK、REST API、MCP から操作でき、スナップショットと実行中アプリ用の HTTP エンドポイントを提供。商用サービス。
 - [Microsandbox](https://github.com/superradcompany/microsandbox) - AI エージェント向けローカル・プログラマブル microVM サンドボックス —— クラウド非依存でローカル機にセキュアなコード実行。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fsuperradcompany%2Fmicrosandbox&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [SandboxFusion](https://github.com/bytedance/SandboxFusion) - 🇨🇳 ByteDance のエージェント・モデル評価パイプライン用多言語コード実行サンドボックス。Apache-2.0。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbytedance%2FSandboxFusion&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Northflank](https://northflank.com/) - エージェントランタイムバックエンドとして使われる汎用コンテナ PaaS（タスク毎エフェメラル環境 + GPU プール）。
@@ -1394,6 +1395,7 @@
 | [E2B](https://github.com/e2b-dev/E2B) | サンドボックス内コード実行 | マネージドクラウド。基盤コードは別途提供 | Apache-2.0 |
 | [Daytona](https://github.com/daytonaio/daytona) | エージェント開発・実行環境 | マネージドサービス。公開コアは保守終了 | 過去スナップショットの利用条件を確認。現行コアは非公開 |
 | [Modal](https://modal.com/) | サーバーレス関数、GPU、サンドボックス | マネージドクラウド | 商用サービス |
+| [Buddy Sandboxes](https://buddy.works/docs/sandboxes) | スナップショット、エンドポイント、CLI/SDK/MCP 対応のエージェントサンドボックス | マネージドクラウド | 商用サービス |
 | [Microsandbox](https://github.com/superradcompany/microsandbox) | プログラム可能なローカル microVM | セルフホスト | Apache-2.0 |
 | [SandboxFusion](https://github.com/bytedance/SandboxFusion) | 多言語コード評価 | セルフホスト。隔離を明示設定 | Apache-2.0 |
 | [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | サンドボックス API、SDK、ネットワーク制御 | Docker / Kubernetes。隔離ランタイムを選択 | Apache-2.0 |
