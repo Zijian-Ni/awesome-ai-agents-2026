@@ -571,6 +571,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Agents Launchpad](https://launchpad.smartbizcalc.com) - 🆕 Community launchpad for discovering and showcasing AI agents, MCPs, and indie agent products — submit your launch, get on the weekly leaderboard, and let the right builders find you. ⚠️ **Unverified** (early-stage).
 - [CorpusIQ](https://www.corpusiq.io/) - ⚠️ **Unverified adoption**: hosted business-data connector for AI assistants; the official site documents its MCP integration.
 - [Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live) - ⚠️ **Unverified adoption**: shared memory service accessed by MCP clients, with browser sign-in; link points to human-readable connection documentation.
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Public remote Streamable HTTP MCP server for searching 1,700+ independent and under-400-capacity live-music venues, booking contacts, touring routes, and performers across all 50 US states, DC, and British Columbia ([Server Card](https://nostairsplease.com/.well-known/mcp/server-card.json)).
 - [mcp-gateway](https://github.com/Zijian-Ni/mcp-gateway) - ⚠️ **Unverified** (early-stage). Gateway server for routing and managing MCP connections. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fmcp-gateway&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 
 ### Agent-to-Agent Protocol (A2A)
