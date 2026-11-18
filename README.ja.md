@@ -721,6 +721,7 @@
 - [Browser Use](https://github.com/browser-use/browser-use) - AI エージェント向け Python ブラウザー自動化ライブラリ。MIT; [0.13.14](https://github.com/browser-use/browser-use/releases/tag/0.13.14) (2026-10-26).
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - ウェブサイトを LLM-ready なデータに変換。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Ffirecrawl%2Ffirecrawl&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) - LLM フレンドリーなオープンソースクローラ。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Funclecode%2Fcrawl4ai&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [SpecStream](https://api.specstream.ai/) - エージェント向けリアルタイムWebデータエンジン。検索および抽出APIを提供し、Tavily、Exa、Brave、Serper、SearXNGに対応するドロップインMCPサーバー。
 - [Stagehand](https://github.com/browserbase/stagehand) - Browserbase 製の AI 駆動ブラウザ自動化フレームワーク。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbrowserbase%2Fstagehand&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [AgentQL](https://www.agentql.com/) - AI エージェントが意味的にウェブページと対話するためのクエリ言語。
 - [StackOne](https://www.stackone.com/) - HR・CRM・ATS プラットフォーム横断の統一 API。

@@ -721,6 +721,7 @@
 - [Browser Use](https://github.com/browser-use/browser-use) - 面向 AI 智能体的 Python 浏览器自动化库；MIT; [0.13.14](https://github.com/browser-use/browser-use/releases/tag/0.13.14) (2026-10-26).
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - 把网站变成 LLM-ready 数据。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Ffirecrawl%2Ffirecrawl&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) - LLM 友好的开源爬虫。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Funclecode%2Fcrawl4ai&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [SpecStream](https://api.specstream.ai/) - 面向 Agent 的实时网页数据引擎，提供搜索和提取 API，并为 Tavily、Exa、Brave、Serper 和 SearXNG 提供直接接入的 MCP 服务器。
 - [Stagehand](https://github.com/browserbase/stagehand) - Browserbase 出品的 AI 浏览器自动化。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbrowserbase%2Fstagehand&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [AgentQL](https://www.agentql.com/) - 用语义化查询语言操控网页。
 - [StackOne](https://www.stackone.com/) - HR / CRM / ATS 统一 API。
