@@ -27,6 +27,7 @@ Maintained by **Zijian Ni**. Covers changes verified from primary sources betwee
 **~Link repairs:**
 - github.com/microsoft/agent-framework and its release tags now return 404. The framework entry and its release mirror point to the official documentation plus PyPI (Python 1.26.0, 2026-11-12) and NuGet (1.28.0); the two comparison-table rows use the documentation URL.
 - openai.com/chatgpt/work/ returns 404; the ChatGPT Work entry now links to the live announcement page.
+- The Tencent Hunyuan Hy3 timeline source (tencent.com/en-us/articles/2202386.html) returns 404; it now points to the live Hy3 release post.
 
 These repairs close the remaining confirmed 404s from the link-check issue.
 
