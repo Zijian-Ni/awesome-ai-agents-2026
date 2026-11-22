@@ -2232,7 +2232,7 @@
 | **2026-07-02** | [Sysdig が JADEPUFFER を開示](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) — 自律 AI エージェントが初期 RCE から復旧不可能な暗号化・恐喝までを一貫して実行した初のランサムウェア作戦 | 業界 |
 | **2026-07-02** | [Leanstral 1.5](https://mistral.ai/news/leanstral-1-5/) を Mistral がリリース — オープンウェイトの Lean 4 形式検証モデル（miniF2F 100%）；同日 Zhipu が GLM-5.2 用エージェントハーネス [ZCode](https://www.scmp.com/tech/tech-trends/article/3359170/zhipu-ai-releases-harness-glm-52-model-chinese-firm-takes-aim-anthropic) を公開 | モデル |
 | **2026-07-03** | AG2 v1.0.0b0 リリース — AutoGen のコミュニティ主導 Fork；Microsoft は 2026 年 Q1 に AutoGen をメンテナンスモードに移行 | フレームワーク |
-| **2026-07-06** | [Tencent Hunyuan Hy3](https://www.tencent.com/en-us/articles/2202386.html) が正式にオープンソース公開（Apache 2.0）— 4 月プレビューに続く 295B/21B アクティブ MoE；同日 OpenAI API に gpt-realtime-2.1 / 2.1-mini も登場 | モデル |
+| **2026-07-06** | [Tencent Hunyuan Hy3](https://www.tencent.com/tencent-hunyuan-officially-releases-hy3-advancing-agent-capabilities-and-deeper-product-integration/) が正式にオープンソース公開（Apache 2.0）— 4 月プレビューに続く 295B/21B アクティブ MoE；同日 OpenAI API に gpt-realtime-2.1 / 2.1-mini も登場 | モデル |
 | **2026-07-07** | [Meta Muse Image](https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/) ローンチ — Meta Superintelligence Labs のエージェント型画像生成モデル。Instagram Stories（米国）と一部の国の WhatsApp に統合；Muse Video もプレビュー | モデル |
 | **2026-07-07** | Arize Phoenix 7 月 7 日リリース：Metric Charts、Trace Search、REST API 拡充 | ツール |
 | **2026-07-08** | [Grok 4.5](https://x.ai/news/grok-4-5) を xAI がリリース — Cursor と共同訓練したコーディング / エージェントのフラッグシップ；500K コンテキスト、入出力 100 万トークンあたり $2/$6；Cursor のデフォルトモデル | モデル |

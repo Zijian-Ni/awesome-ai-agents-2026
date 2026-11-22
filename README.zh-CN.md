@@ -2229,7 +2229,7 @@
 | **2026-07-02** | [Sysdig 披露 JADEPUFFER](https://hackread.com/sysdig-jadepuffer-first-agentic-ransomware-operation/) — 首个由自主 AI Agent 端到端执行的勒索软件作战，从初始 RCE 入侵到不可恢复的加密勒索 | 产业 |
 | **2026-07-02** | [Leanstral 1.5](https://mistral.ai/news/leanstral-1-5/) 由 Mistral 发布 — 开源权重的 Lean 4 形式化验证模型（miniF2F 100%）；智谱同日发布面向 GLM-5.2 的 Agent harness [ZCode](https://www.scmp.com/tech/tech-trends/article/3359170/zhipu-ai-releases-harness-glm-52-model-chinese-firm-takes-aim-anthropic) | 模型 |
 | **2026-07-03** | AG2 v1.0.0b0 发布 — AutoGen 的社区驱动 Fork；微软已于 2026 Q1 将 AutoGen 转入维护模式 | 框架 |
-| **2026-07-06** | [腾讯混元 Hy3](https://www.tencent.com/en-us/articles/2202386.html) 正式开源发布（Apache 2.0）— 295B 总 / 21B 激活 MoE，接续 4 月预览版；gpt-realtime-2.1 / 2.1-mini 同日登陆 OpenAI API | 模型 |
+| **2026-07-06** | [腾讯混元 Hy3](https://www.tencent.com/tencent-hunyuan-officially-releases-hy3-advancing-agent-capabilities-and-deeper-product-integration/) 正式开源发布（Apache 2.0）— 295B 总 / 21B 激活 MoE，接续 4 月预览版；gpt-realtime-2.1 / 2.1-mini 同日登陆 OpenAI API | 模型 |
 | **2026-07-07** | [Meta Muse Image](https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/) 发布 — Meta Superintelligence Labs 的 Agent 式图像生成模型，集成到 Instagram Stories（美国）与限定国家的 WhatsApp；同时预览 Muse Video | 模型 |
 | **2026-07-07** | Arize Phoenix 7 月 7 日版本：Metric Charts、Trace Search、扩展 REST API | 工具 |
 | **2026-07-08** | [Grok 4.5](https://x.ai/news/grok-4-5) 由 xAI 发布 — 与 Cursor 联合训练的编程 + Agent 旗舰；500K 上下文，每百万输入/输出 token $2/$6；Cursor 默认模型 | 模型 |
