@@ -3,6 +3,42 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+### 2026-11-22 — November refresh (en/zh/ja)
+
+Maintained by **Zijian Ni**. Covers changes verified from primary sources between 2026-11-02 and 2026-11-22, plus three items dated late October that the previous pass missed. README.md stays the source of truth; zh-CN and ja carry the same entries in the same order.
+
+**+Added:**
+- **GPT-6.2 Astra / GPT-6.2 Sol** (2026-11-17, API changelog) at $8/$40 and $2/$10 per million input/output; **GPT-6 Cyber** (2026-11-05, Daybreak-restricted); **GPT-Live-1.1** (2026-11-19); **GPT-Image-2.6 Sunburst / Flare** (2026-11-04).
+- **Claude Fable 5.2 / Mythos 5.2** (2026-11-09, $8/$40, 1M context), **self-hosted Claude Managed Agents** (2026-11-12) and **Claude message threads beta** (2026-11-02).
+- **Gemini 4 Neon** (2026-11-18, $3/$15), **Gemini 4 Hydrogen** (2026-11-12, $1.50/$7.50) and **Gemini 4 Carbon GA** (2026-11-10).
+- **Qwen4-Max** (2026-11-16, 2.4T total / 71B active), **Kimi K3.1 Pro** (2026-10-24), **Voxtral 3** (2026-10-22) and the **DeepSeek application APIs** (2026-11-13).
+- **Microsoft Agent Framework for Go** (2026-11-13, public preview), **Devin Bots** (2026-11-19), **Microsoft Foundry Agent Service Ignite updates** (2026-11-18), **Browserbase Navigation Policies** (2026-11-04), **Stagehand 4.4** (2026-11-05), and the **MKA** (2026-11-17) and **Decision Index v2** (2026-11-09) benchmarks.
+
+**~Changed:**
+- Stable pins moved to releases verified on 2026-11-22: LangGraph 1.2.24, CrewAI 1.15.44, AG2 v1.3.3, Google ADK v2.15.0, Pydantic AI 2.71.0, Mastra 1.84.0, Agno v3.2.1, OpenClaw v2026.11.6, FastMCP v4.2.4, Codex CLI rust-v0.171.0, Claude Code v2.1.330, OpenCode 2.3, Claude Agent SDK Python v0.2.187 / TypeScript v0.3.330. OpenAI Agents SDK v1.0.0-alpha.1 is listed as a prerelease while v0.24.0 remains the last stable 0.x.
+- **AutoGen archived on 2026-11-20**; the entry now points to Microsoft Agent Framework and the AG2 fork.
+- API cost table re-checked 2026-11-22 and extended with GPT-6.2 Astra/Sol, Claude Fable 5.2, and Gemini 4 Neon/Hydrogen/Carbon.
+- Timeline extended with 13 dated rows for 2026-11-02 through 2026-11-21.
+
+**-Removed:**
+- **Clickyy** (Computer Use section, all three languages) — the linked repository returns 404, the author has no renamed successor, and no replacement project under that name matches the description.
+- **BenchClaw** — the linked repository (Agnuxo1/benchclaw) returns 404, and the same-name repositories found on GitHub are unrelated projects.
+
+**~Link repairs:**
+- github.com/microsoft/agent-framework and its release tags now return 404. The framework entry and its release mirror point to the official documentation plus PyPI (Python 1.26.0, 2026-11-12) and NuGet (1.28.0); the two comparison-table rows use the documentation URL.
+- openai.com/chatgpt/work/ returns 404; the ChatGPT Work entry now links to the live announcement page.
+
+These repairs close the remaining confirmed 404s from the link-check issue.
+
+**PR state:**
+- #138 SpecStream, #136 No Stairs Please MCP and #134 Buddy Sandboxes were closed without incorporation: Spam Guard showed 16–28 PRs to awesome-* lists in 14 days (and 50 identical titles for #138), which meets the parallel-submission rule. Their content was not added here.
+
+**Not written, because the primary page did not state a clean date or price:**
+- The OpenAI news index dates the GPT-6.2 post 2026-11-18 while the API changelog says 2026-11-17; the entry uses the changelog date.
+- Gemini 4 output-token ceilings were not stated on the launch posts, so the comparison table leaves Max output as "—".
+- Cursor's November changelog renders without dates, so no Cursor entry was added.
+
+
 ### 2026-11-01 — post-October-8 additions (en/zh/ja)
 
 Maintained by **Zijian Ni**. This pass starts from the 2026-10-08 refresh already on `main` and adds only items verified after that date. It does not replace the October PR-review record.
