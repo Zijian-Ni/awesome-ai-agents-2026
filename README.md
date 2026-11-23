@@ -2312,7 +2312,6 @@ Measure the complete agent workflow and document evaluator limitations.
 | **2026-10-17** | [DeepSeek-V4.1-Flash-1017](https://api-docs.deepseek.com/news/news261017) — Checkpoint listed as live on the site, app and API; weights published on Hugging Face. | Release / update |
 | **2026-10-20** | [Voxtral Mini Transcribe 3](https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0) — Public preview; docs list $0.0035 per minute. | Release / update |
 | **2026-10-20** | [Cursor Agent SDK](https://cursor.com/changelog/agent-sdk) — Generally available: an agent is a folder, with evals and deployment to Cursor or your own infrastructure. | Release / update |
-
 | **2026-10-22** | [Agent Skills donated to AAIF](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation) — Anthropic donates the skill-folder standard to the Agentic AI Foundation. | Protocols |
 | **2026-10-23** | [Google ADK v2.13.0](https://github.com/google/adk-python/releases/tag/v2.13.0) — Adds `TypesafeClassifier` and `ClassifierNode`. | Release / update |
 | **2026-10-26** | [GPT-6.1 Terra](https://developers.openai.com/api/docs/changelog) — Fast visual-reasoning and computer-use model, $1/$5 per million up to 272K input. | Release / update |
