@@ -93,6 +93,7 @@ def check(path: Path) -> int:
     fence = False
     table: list[tuple[int, int]] = []
     bad_tables = []
+    split_tables = []
 
     def flush(tbl):
         if len(tbl) < 2:
@@ -108,18 +109,32 @@ def check(path: Path) -> int:
                 for ln in lns:
                     bad_tables.append((ln, c, majority))
 
+    prev_nonblank = ""
     for i, l in enumerate(lines, 1):
         if l.lstrip().startswith("```"):
             fence = not fence
+            prev_nonblank = l
             continue
         if fence:
+            prev_nonblank = l
             continue
         if l.startswith("|") and l.rstrip().endswith("|"):
+            if not table and prev_nonblank.startswith("|") and prev_nonblank.rstrip().endswith("|"):
+                # A table restarted after a blank line has no header/separator,
+                # so GitHub renders the remaining rows as paragraph text.
+                split_tables.append(i)
             table.append((i, l.count("|")))
         else:
             flush(table)
             table = []
+        if l.strip():
+            prev_nonblank = l
     flush(table)
+    if split_tables:
+        print(f"  [TABLE] {len(split_tables)} table block(s) split by a blank line")
+        for ln in split_tables[:12]:
+            print(f"    L{ln}: table continues after a blank line")
+        problems += len(split_tables)
     if bad_tables:
         print(f"  [TABLE] {len(bad_tables)} row(s) with off column counts")
         for ln, c, exp in bad_tables[:12]:
