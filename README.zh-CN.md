@@ -1147,6 +1147,7 @@
 - [OpenYabby](https://github.com/OpenYabby/OpenYabby) - 开源 macOS 语音驱动多 Agent 编排器 — Realtime API + CLI 子进程 + 多通道协调。主 Agent 规划任务并委派给子 Agent 进行评审和 QA。MIT。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FOpenYabby%2FOpenYabby&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Grok Voice Agent Builder](https://x.ai/news/grok-voice-agent-builder) - 🆕 **2026-07-01**。xAI 基于 Grok Voice 的无代码生产级语音 Agent 平台 —— 免费号码的电话接入、知识集合、工具/MCP 连接器、护栏、80+ 音色以及约 2 分钟的声音克隆；beta 期 $0.05/分钟。
 - [GPT Voice](https://openai.com/) - 🆕 **2026-07-23**。OpenAI 面向 ChatGPT Work 的语音界面——基于 GPT-Live 技术，支持用户通过自然语言语音命令指导多步骤 Agent 工作流。
+- [EchoOS](https://github.com/justDance-everybody/EchoOS) - 🆕 **v2.0.1（2026-11-24，MIT）**。不到 1,000 行核心 Python 的开源语音原生执行系统，将实时语音大模型（Qwen-Omni-Realtime / OpenAI Realtime）接通远程 Streamable HTTP MCP；只读工具直出，写操作在服务端锁定参数并按用户发言轮次强制口头确认，支持约 1 秒自然打断与在途旧音频丢弃。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FjustDance-everybody%2FEchoOS&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 
 ---
 

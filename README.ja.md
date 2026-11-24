@@ -1150,6 +1150,7 @@
 - [OpenYabby](https://github.com/OpenYabby/OpenYabby) - macOS 向けオープンソースの音声駆動型マルチエージェントオーケストレーター — Realtime API + CLI ランナー + マルチチャネル連携。リードエージェントが計画を立て、レビューと QA をサブエージェントに委任します。MIT。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FOpenYabby%2FOpenYabby&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 - [Grok Voice Agent Builder](https://x.ai/news/grok-voice-agent-builder) - 🆕 **2026-07-01**。Grok Voice 上で本番音声エージェントを構築する xAI のノーコードプラットフォーム — 無料の電話番号プロビジョニング付きテレフォニー、ナレッジコレクション、ツール / MCP コネクタ、ガードレール、80+ の音声と約 2 分のボイスクローン；ベータ期間中 $0.05/分。
 - [GPT Voice](https://openai.com/) - 🆕 **2026-07-23**。ChatGPT Work 向けの OpenAI 音声インターフェース——GPT-Live 技術で動作し、自然言語の音声コマンドでマルチステップエージェントワークフローを指示できる。
+- [EchoOS](https://github.com/justDance-everybody/EchoOS) - 🆕 **v2.0.1（2026-11-24、MIT）**。1,000 行未満の Python コアでリアルタイム音声モデル（Qwen-Omni-Realtime / OpenAI Realtime）とリモート Streamable HTTP MCP サーバーを接続する音声ネイティブ実行ランタイム。読み取りツールは即時実行、書き込み操作はサーバー側で引数をロックしユーザーの次発話ターン後にのみ実行、約 1 秒の割り込み停止に対応。![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FjustDance-everybody%2FEchoOS&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
 
 ---
 
