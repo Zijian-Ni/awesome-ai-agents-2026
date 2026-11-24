@@ -587,6 +587,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [CorpusIQ](https://www.corpusiq.io/) - ⚠️ **Unverified adoption**: hosted business-data connector for AI assistants; the official site documents its MCP integration.
 - [Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live) - ⚠️ **Unverified adoption**: shared memory service accessed by MCP clients, with browser sign-in; link points to human-readable connection documentation.
 - [mcp-gateway](https://github.com/Zijian-Ni/mcp-gateway) - ⚠️ **Unverified** (early-stage). Gateway server for routing and managing MCP connections. ![GitHub stars](https://img.shields.io/badge/dynamic/json?label=Stars&query=%24.stargazers_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FZijian-Ni%2Fmcp-gateway&color=yellow&logo=github&logoColor=white&style=flat&cacheSeconds=300)
+- [Public Records MCP](https://github.com/GeminiGeorge22/publicrecords-mcp) - 18 Apify-hosted MCP servers for public data: SAM.gov, Grants.gov, USAspending, EU TED and UK tenders, city council meetings, Ashby/Greenhouse/Lever/SmartRecruiters jobs, company social links, Google Ads Transparency, Etsy sales, sports odds, Spotify play counts.
 
 ### Agent-to-Agent Protocol (A2A)
 
