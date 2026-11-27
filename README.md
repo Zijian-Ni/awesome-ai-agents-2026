@@ -1157,6 +1157,7 @@ Entries may carry one or more status tags so readers can judge maturity at a gla
 - [Humane AI Pin](https://humane.com/) - ⚠️ **Discontinued Feb 28, 2025** (acquired by HP, device shut down). Originally a wearable AI device with a screenless, ambient computing experience.
 - [Arahi AI](https://arahi.ai/) - Personal productivity and business automation assistant.
 - [Lindy AI](https://www.lindy.ai/) - No-code AI agent for email, calendar, and workflow automation.
+- [Dooza Crew](https://www.dooza.ai/crew) - Hosted AI employee team in a shared workspace for browser tasks, research, and recurring business workflows.
 - [MuleRun](https://mulerun.com/) - 🆕 Always-on agents for recurring tasks and background automation.
 - [Gemini Intelligence](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/) - 🆕 **May 12, 2026** (Android Show: I/O Edition). Proactive agentic AI features integrated into Googlebooks laptops, Wear OS, Android Auto, Android XR, and starting on the latest Samsung Galaxy + Pixel devices. Auto-creates shopping carts from grocery lists, books spin classes, filler-word removal via the Rambler speech-to-text.
 - [Gemini Spark](https://gemini.google/overview/agent/spark/) - 🆕 **I/O 2026 (May 19, 2026)**. Google's 24/7 autonomous agent in the Gemini app — runs multi-step processes proactively with Gmail/Workspace integration; expanded to a native Mac app July 1, 2026. **July 2026**: expanded from Gemini Ultra to Pro tier; handles scheduling, drafting, and inbox triage autonomously.
