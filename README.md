@@ -2339,6 +2339,10 @@ Measure the complete agent workflow and document evaluator limitations.
 | **2026-11-19** | [GPT-Live-1.1](https://developers.openai.com/api/docs/changelog), [Devin Bots](https://docs.devin.ai/release-notes), [OpenClaw v2026.11.6](https://github.com/openclaw/openclaw/releases/tag/v2026.11.6) and the [end of `grok-build-0.1`](https://docs.x.ai/docs/release-notes). | Release / update |
 | **2026-11-20** | [OpenAI Agents SDK v1.0.0-alpha.1](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1), [Codex CLI rust-v0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0) and the [archival of Microsoft AutoGen](https://github.com/microsoft/autogen). | Release / update |
 | **2026-11-21** | [FastMCP v4.2.4](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.4) — Fixes an OAuth-proxy race that could redeem one authorization code or refresh token twice (GHSA-78c8-3jhx-5mg7). | Release / update |
+| **2026-11-23** | [OpenAI Agents SDK v1.0.0-alpha.2](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2) — Agent runs can resume conversations and pending approvals across workers on Responses or Codex; adds tool execution hooks and optional Runner text redaction. | Release / update |
+| **2026-11-24** | [OpenAI healthcare model configurations](https://developers.openai.com/api/docs/changelog) — The Responses API adds clinical harness configurations for GPT-6.2 Astra/Sol and GPT-6 Astra/6.1 Sol, with web search restricted to a dedicated medical-source index; the chat-latest snapshot was also refreshed. | Release / update |
+| **2026-11-25** | [FastMCP v4.2.6](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.6) — An experimental CodeModeClient runs CodeMode on the client side, giving agents search, schema and execute meta-tools over servers that do not implement CodeMode themselves. | Release / update |
+| **2026-11-26** | [browser-use 1.0.9](https://github.com/browser-use/browser-use/releases/tag/1.0.9) — rotate_proxy() gives the cloud browser a new exit IP while keeping tabs, cookies and logins, and retries a single-country site through an exit in that country. | Release / update |
 | **2026-05** | [LangGraph v1.2](https://docs.langchain.com/oss/python/releases/changelog) — LangGraph records runtime and checkpointing improvements in its release history. | History |
 | **2026-05** | [Grok 4.3 on Microsoft Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) — Microsoft publishes its Grok 4.3 availability announcement for Foundry. | History |
 | **2026 (ongoing)** | A2A Protocol grows to 150+ partner organizations | Protocols |
@@ -2369,6 +2373,6 @@ This list is released under [MIT License](LICENSE).
 
 Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
 
-*Last updated: November 22, 2026*
+*Last updated: November 27, 2026*
 
 </div>

@@ -2343,6 +2343,10 @@
 | **2026-11-19** | [GPT-Live-1.1](https://developers.openai.com/api/docs/changelog)、[Devin Bots](https://docs.devin.ai/release-notes)、[OpenClaw v2026.11.6](https://github.com/openclaw/openclaw/releases/tag/v2026.11.6)、[grok-build-0.1 の提供終了](https://docs.x.ai/docs/release-notes)。 | 公開 / 更新 |
 | **2026-11-20** | [OpenAI Agents SDK v1.0.0-alpha.1](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1)、[Codex CLI rust-v0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0)、[Microsoft AutoGen のアーカイブ](https://github.com/microsoft/autogen)。 | 公開 / 更新 |
 | **2026-11-21** | [FastMCP v4.2.4](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.4) — OAuth プロキシの競合状態を修正。同じ認可コードやリフレッシュトークンが二重に交換され得た（GHSA-78c8-3jhx-5mg7）。 | 公開 / 更新 |
+| **2026-11-23** | [OpenAI Agents SDK v1.0.0-alpha.2](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2) — Responses または Codex 上で、ワーカーをまたいで会話と承認待ちを再開可能。ツール実行フックと任意の Runner テキスト秘匿化を追加。 | 公開 / 更新 |
+| **2026-11-24** | [OpenAI 医療モデル構成](https://developers.openai.com/api/docs/changelog) — Responses API に GPT-6.2 Astra/Sol と GPT-6 Astra/6.1 Sol 向けの臨床ハーネス構成を追加。Web 検索は専用の医学ソース索引に限定。chat-latest スナップショットも更新。 | 公開 / 更新 |
+| **2026-11-25** | [FastMCP v4.2.6](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.6) — 実験的な CodeModeClient がクライアント側で CodeMode を実行し、CodeMode 非対応サーバーでも search / schema / execute のメタツールを提供。 | 公開 / 更新 |
+| **2026-11-26** | [browser-use 1.0.9](https://github.com/browser-use/browser-use/releases/tag/1.0.9) — rotate_proxy() でクラウドブラウザの出口 IP を変更しつつ、タブ・Cookie・ログインを維持。単一国向けサイトではその国の出口で再試行。 | 公開 / 更新 |
 | **2026-05** | [LangGraph v1.2](https://docs.langchain.com/oss/python/releases/changelog) — LangGraph の公開履歴でランタイムとチェックポイントの改善を記録。 | 履歴 |
 | **2026-05** | [Grok 4.3 on Microsoft Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) — Microsoft が Foundry での Grok 4.3 提供を発表。 | 履歴 |
 | **2026 進行中** | A2A Protocol のパートナー組織が 150+ に増加 | プロトコル |
@@ -2364,4 +2368,4 @@ MIT © [Zijian Ni](https://github.com/Zijian-Ni)
 
 ---
 
-*最終更新：2026年11月22日。Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)。日本語版は英語版と同期します。不一致がある場合は英語版を正とします。*
+*最終更新：2026年11月27日。Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)。日本語版は英語版と同期します。不一致がある場合は英語版を正とします。*

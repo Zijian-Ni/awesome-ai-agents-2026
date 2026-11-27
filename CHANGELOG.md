@@ -3,6 +3,23 @@
 All notable changes to **Awesome AI Agents 2026** are recorded here.
 Format: `YYYY-MM-DD  +Added  -Removed  ~Changed`.
 
+### 2026-11-27 — weekly timeline refresh and inbound PR review (en/zh/ja)
+
+Timeline rows added for 2026-11-23 through 2026-11-26, each traced to a vendor changelog or GitHub release. No category counts changed; catalogue entries remain 975 in all three languages. This is a timeline and PR-review pass, not a full 25-category refresh.
+
+**Timeline additions:**
+- **2026-11-23** — OpenAI Agents SDK v1.0.0-alpha.2: conversations and pending approvals resume across workers on Responses or Codex; tool execution hooks and optional Runner text redaction.
+- **2026-11-24** — OpenAI healthcare model configurations: clinical harness for GPT-6.2 Astra/Sol and GPT-6 Astra/6.1 Sol, with web search restricted to a dedicated medical-source index; `chat-latest` snapshot refreshed.
+- **2026-11-25** — FastMCP v4.2.6: experimental client-side `CodeModeClient` exposing search/schema/execute meta-tools over servers without native CodeMode.
+- **2026-11-26** — browser-use 1.0.9: `rotate_proxy()` rotates the cloud browser exit IP while keeping tabs, cookies and logins.
+
+**PR review decisions:**
+
+| PR | Contributor | Disposition and reason |
+|---|---|---|
+| [#141](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/141) | @justDance-everybody | EchoOS verified as a real MIT project (v2.0.1, published 2026-11-24), and the tri-lingual edit was correct. Declined under the five-or-more-list parallel-submission rule: the same project was opened against seven awesome-* lists within one day, and CONTRIBUTING states that an Unverified caveat does not waive that rule. 0 stars at review, so the 100-star / adoption gate was not met independently. |
+| [#142](https://github.com/Zijian-Ni/awesome-ai-agents-2026/pull/142) | @GeminiGeorge22 | Repository verified as real and MIT-licensed. Declined under the same rule: Spam Guard reported 100 PRs in 14 days, 62 to awesome-* lists, with the same title submitted to 22 repositories. The entry was also English-only, while this repository requires en/zh/ja sync. |
+
 ### 2026-11-22 — November refresh (en/zh/ja)
 
 Maintained by **Zijian Ni**. Covers changes verified from primary sources between 2026-11-02 and 2026-11-22, plus three items dated late October that the previous pass missed. README.md stays the source of truth; zh-CN and ja carry the same entries in the same order.

@@ -2340,6 +2340,10 @@
 | **2026-11-19** | [GPT-Live-1.1](https://developers.openai.com/api/docs/changelog)、[Devin Bots](https://docs.devin.ai/release-notes)、[OpenClaw v2026.11.6](https://github.com/openclaw/openclaw/releases/tag/v2026.11.6)，以及 [grok-build-0.1 停止服务](https://docs.x.ai/docs/release-notes)。 | 发布 / 更新 |
 | **2026-11-20** | [OpenAI Agents SDK v1.0.0-alpha.1](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1)、[Codex CLI rust-v0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0)，以及 [微软归档 AutoGen](https://github.com/microsoft/autogen)。 | 发布 / 更新 |
 | **2026-11-21** | [FastMCP v4.2.4](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.4) — 修复 OAuth 代理竞态：同一授权码或刷新令牌可能被并发兑换两次（GHSA-78c8-3jhx-5mg7）。 | 发布 / 更新 |
+| **2026-11-23** | [OpenAI Agents SDK v1.0.0-alpha.2](https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2) — Agent 运行可在 Responses 或 Codex 上跨 worker 恢复会话与待批审批；新增工具执行钩子与可选的 Runner 文本脱敏。 | 发布 / 更新 |
+| **2026-11-24** | [OpenAI 医疗模型配置](https://developers.openai.com/api/docs/changelog) — Responses API 新增面向 GPT-6.2 Astra/Sol 与 GPT-6 Astra/6.1 Sol 的临床任务配置，网页搜索限定在专用医学来源索引；chat-latest 快照同步更新。 | 发布 / 更新 |
+| **2026-11-25** | [FastMCP v4.2.6](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.6) — 实验性 CodeModeClient 在客户端侧运行 CodeMode，为不支持 CodeMode 的服务端提供 search / schema / execute 元工具。 | 发布 / 更新 |
+| **2026-11-26** | [browser-use 1.0.9](https://github.com/browser-use/browser-use/releases/tag/1.0.9) — rotate_proxy() 可为云浏览器更换出口 IP 并保留标签页、Cookie 与登录状态；单国站点改用该国出口重试。 | 发布 / 更新 |
 | **2026-05** | [LangGraph v1.2](https://docs.langchain.com/oss/python/releases/changelog) — LangGraph 在发布历史中记录运行时和检查点改进。 | 历史 |
 | **2026-05** | [Grok 4.3 on Microsoft Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096) — Microsoft 发布 Grok 4.3 在 Foundry 上的提供公告。 | 历史 |
 | **2026 持续** | A2A Protocol 合作伙伴增至 150+ | 协议 |
@@ -2361,4 +2365,4 @@ MIT © [Zijian Ni](https://github.com/Zijian-Ni)
 
 ---
 
-*最后更新：2026年11月22日。Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)。中文版本与英文版保持同步，发现不一致以英文为准。*
+*最后更新：2026年11月27日。Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)。中文版本与英文版保持同步，发现不一致以英文为准。*
